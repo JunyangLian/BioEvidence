@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.gguf
+*.safetensors
+runs/
+cache/
+logs/
+data/
+models/
+.env

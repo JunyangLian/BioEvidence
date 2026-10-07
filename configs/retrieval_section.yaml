@@ -1,0 +1,68 @@
+# P7 检索配置：section-aware 重排与硬性 Results quota
+#
+# 纪律：
+#   * BM25 v1（configs/retrieval.yaml）**一行不改**，作为冻结基线参与全部对照。
+#   * 本文件的所有参数**只在 dev 上决定**；test 500 条继续冻结。
+#   * 软性重排（alpha）与硬性配额（quota）**分开开关**，便于把两者贡献拆开测量。
+#   * 参数扫描的完整曲线都要留档（见 runs/P7-retrieval-20260921/），
+#     不能只报选中的那个点——否则无法判断该点是否落在稳定平台上。
+
+base:
+  retriever_version: bm25_v1_20260920      # 冻结基线，不改
+  retrieval_config: configs/retrieval.yaml
+  k_retrieve: 10
+  m_evidence: 3
+
+section_aware:
+  candidate_pool: 50
+  # 守卫：只有 BM25 分数 > 该值的片段才有资格获得章节加分/被配额提拔。
+  # 0.0 = 要求至少命中一个查询词，避免把零词面重合的证据推上来。
+  min_bm25_score: 0.0
+  # 配额作用的位置：只保证前 3 条（= 实际送模型的证据预算 m）里有 quota 条结果性章节。
+  # 踩过的坑：把配额加在 k=10 上会让它空转——结果段既然已在 top-10 内，
+  # 配额就无事可做，消融实验会得出「配额无效」的假结论（见 ERR-010）。
+  quota_top_m: 3
+
+# 扫描网格（全部在 dev 上评，只用于选参数与展示曲线）
+sweep:
+  alpha: [0.0, 0.15, 0.3, 0.5, 0.75, 1.0, 1.5, 2.0, 3.0]
+  quota: [0, 1, 2]
+
+# 端到端对照的四个条件（冻结 adapter，只换检索结果）
+conditions:
+  - name: A0_bm25_baseline
+    alpha: 0.0
+    quota: 0
+    top_doc_bonus: 0.0
+    description: 原 BM25 v1（冻结基线，不做任何重排包装）
+  - name: A1_rerank
+    alpha: 0.3
+    quota: 0
+    top_doc_bonus: 0.0
+    description: 仅软性章节重排（alpha 由 dev 曲线选定：results@3 0.603->0.940，doc recall 不变）
+  - name: A2_quota
+    alpha: 0.0
+    quota: 1
+    top_doc_bonus: 0.0
+    description: 仅硬性 Results quota（独立 ablation，隔离配额贡献：results@3 -> 1.000）
+  - name: A3_rerank_quota
+    alpha: 0.3
+    quota: 1
+    top_doc_bonus: 0.0
+    description: 重排 + 配额
+  - name: A4_rerank_docconsistency
+    alpha: 0.3
+    quota: 0
+    top_doc_bonus: 0.3
+    description: >
+      重排 + 文档一致性加分。**这是超出原始两项机制之外的一臂**，加入理由：
+      实测发现 A1/A2 单独使用时，「top-3 里的结果性章节」虽然升到 94~100%，
+      但其中相当部分来自**别的论文**——「来自正确文献的结果片段」只从 47.7% 升到 58%，
+      相当于往证据里塞噪声。加上文档一致性后该指标升到 70.2%，而 results@3 仍保持 94%。
+      不使用 gold：只看「与 BM25 排名第一的片段是否同文献」这一弱信号。
+
+selection_rule: >
+  alpha 按 dev 曲线选取（results@3 明显上升且 document recall@1 不下降的最保守点，取 0.3）；
+  quota 取最小有效值 1；top_doc_bonus 取 0.3（在 dev 上 results@3 与正确文献覆盖率之间较平衡）。
+  所有选择**均基于 dev**，因此 dev 上对应数字是 dev-selected，不是无偏估计；
+  结论以曲线形状与端到端一致性为准，不以单点最优为准。test 集全程冻结。
