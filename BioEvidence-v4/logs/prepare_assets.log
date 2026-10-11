@@ -1,0 +1,9 @@
+request model.safetensors.index.json offset 0 attempt 1
+response 206 length 32819 range bytes 0-32818/32819
+model.safetensors.index.json checkpoint 32819 / 32819
+model.safetensors.index.json 32819 verified
+request tokenizer_config.json offset 0 attempt 1
+response 206 length 9377 range bytes 0-9376/9377
+tokenizer_config.json checkpoint 9377 / 9377
+tokenizer_config.json 9377 verified
+4B asset identities and 604 actual input templates passed, no model calls

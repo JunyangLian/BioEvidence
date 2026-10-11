@@ -1,0 +1,68 @@
+{
+  "n": 10,
+  "historical_raw_exact": 10,
+  "same_environment_direct_hf_exact": 10,
+  "details": [
+    {
+      "question_id": "10411439",
+      "raw_equal_frozen": true,
+      "direct_hf_equal": true,
+      "tokenization_equal": true
+    },
+    {
+      "question_id": "10593212",
+      "raw_equal_frozen": true,
+      "direct_hf_equal": true,
+      "tokenization_equal": true
+    },
+    {
+      "question_id": "10605400",
+      "raw_equal_frozen": true,
+      "direct_hf_equal": true,
+      "tokenization_equal": true
+    },
+    {
+      "question_id": "10811329",
+      "raw_equal_frozen": true,
+      "direct_hf_equal": true,
+      "tokenization_equal": true
+    },
+    {
+      "question_id": "11053064",
+      "raw_equal_frozen": true,
+      "direct_hf_equal": true,
+      "tokenization_equal": true
+    },
+    {
+      "question_id": "11413427",
+      "raw_equal_frozen": true,
+      "direct_hf_equal": true,
+      "tokenization_equal": true
+    },
+    {
+      "question_id": "11500608",
+      "raw_equal_frozen": true,
+      "direct_hf_equal": true,
+      "tokenization_equal": true
+    },
+    {
+      "question_id": "11713724",
+      "raw_equal_frozen": true,
+      "direct_hf_equal": true,
+      "tokenization_equal": true
+    },
+    {
+      "question_id": "11729377",
+      "raw_equal_frozen": true,
+      "direct_hf_equal": true,
+      "tokenization_equal": true
+    },
+    {
+      "question_id": "11776681",
+      "raw_equal_frozen": true,
+      "direct_hf_equal": true,
+      "tokenization_equal": true
+    }
+  ],
+  "scope": "frozen E7 adapter migration only; excluded from main comparison"
+}

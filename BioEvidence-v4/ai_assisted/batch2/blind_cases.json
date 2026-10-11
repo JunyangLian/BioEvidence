@@ -1,0 +1,202 @@
+[
+  {
+    "audit_id": "AI101",
+    "question": "Lloyd-Davies position with Trendelenburg--a disaster waiting to happen?",
+    "evidence": [
+      {
+        "display": "E1",
+        "anonymous_chunk": "e4a69906e1b1",
+        "section": "METHODS",
+        "text": "A retrospective study of HMCIs was recorded in the Israeli Defense Force (IDF) home front command and the Israeli National Trauma Registry (ITR) between November 2000 and June 2003. An HMCI is defined by the Emergency and Disaster Medicine Division in the Israeli Ministry of Health as>or=10 casualties or>or=4 suffering from injuries with an ISS>or=16 arriving to a single hospital."
+      },
+      {
+        "display": "E2",
+        "anonymous_chunk": "9bcefcdde536",
+        "section": "RESULTS",
+        "text": "No significant differences in intraocular pressure or axial length between the prone and supine positions were found in either eye. Anterior chamber depth in eyes with pseudoexfoliation decreased from a mean of 3.08 mm in the supine position to a mean of 2.95 mm in the prone position, whereas mean anterior chamber depth in the fellow eyes decreased from 3.01 mm to 2.97 mm. The decrease in anterior chamber depth when facing down in the eyes with pseudoexfoliation was significantly greater than in the fellow eyes."
+      },
+      {
+        "display": "E3",
+        "anonymous_chunk": "672b3a0502c8",
+        "section": "METHODS",
+        "text": "The subjects were seven healthy humans. The right ear was stimulated using ice-water. Each subject was kept in a left-ear-down position for 20 s and then repositioned to a prone position, a right-ear-down position and a supine position with 20 s intervals. Nystagmus was analysed using three-dimensional video-oculography."
+      }
+    ],
+    "output": "Label: no  \nReason: The evidence does not address the safety or risks of the Lloyd-Davies position with Trendelenburg in any clinical or physiological context.  \nCitations: None  \nAnswerable: no"
+  },
+  {
+    "audit_id": "AI102",
+    "question": "Does loss of consciousness predict neuropsychological decrements after concussion?",
+    "evidence": [
+      {
+        "display": "E1",
+        "anonymous_chunk": "4601594f61eb",
+        "section": "DESIGN",
+        "text": "A prospective study of patients assessed with a neuropsychological test battery."
+      },
+      {
+        "display": "E2",
+        "anonymous_chunk": "afb3ef2846a4",
+        "section": "RESULTS",
+        "text": "No significant differences were found between the LOC, no LOC, or uncertain LOC groups for any of the neuropsychological measures used. Patients who had experienced traumatic LOC did not perform more poorly on neuropsychological testing than those with no LOC or uncertain LOC. All three groups demonstrated mildly decreased performance on formal tests of speed of information processing, attentional process, and memory."
+      },
+      {
+        "display": "E3",
+        "anonymous_chunk": "93195438f528",
+        "section": "OBJECTIVE",
+        "text": "To investigate the importance of loss of consciousness (LOC) in predicting neuropsychological test performance in a large sample of patients with head injury."
+      }
+    ],
+    "output": "Label: no  \nReason: Patients with loss of consciousness did not perform worse on neuropsychological tests compared to those without loss of consciousness.  \nCitations: E1, E2, E3  \nAnswerable: yes"
+  },
+  {
+    "audit_id": "AI103",
+    "question": "Lloyd-Davies position with Trendelenburg--a disaster waiting to happen?",
+    "evidence": [
+      {
+        "display": "E1",
+        "anonymous_chunk": "9bcefcdde536",
+        "section": "RESULTS",
+        "text": "No significant differences in intraocular pressure or axial length between the prone and supine positions were found in either eye. Anterior chamber depth in eyes with pseudoexfoliation decreased from a mean of 3.08 mm in the supine position to a mean of 2.95 mm in the prone position, whereas mean anterior chamber depth in the fellow eyes decreased from 3.01 mm to 2.97 mm. The decrease in anterior chamber depth when facing down in the eyes with pseudoexfoliation was significantly greater than in the fellow eyes."
+      },
+      {
+        "display": "E2",
+        "anonymous_chunk": "672b3a0502c8",
+        "section": "METHODS",
+        "text": "The subjects were seven healthy humans. The right ear was stimulated using ice-water. Each subject was kept in a left-ear-down position for 20 s and then repositioned to a prone position, a right-ear-down position and a supine position with 20 s intervals. Nystagmus was analysed using three-dimensional video-oculography."
+      },
+      {
+        "display": "E3",
+        "anonymous_chunk": "e4a69906e1b1",
+        "section": "METHODS",
+        "text": "A retrospective study of HMCIs was recorded in the Israeli Defense Force (IDF) home front command and the Israeli National Trauma Registry (ITR) between November 2000 and June 2003. An HMCI is defined by the Emergency and Disaster Medicine Division in the Israeli Ministry of Health as>or=10 casualties or>or=4 suffering from injuries with an ISS>or=16 arriving to a single hospital."
+      }
+    ],
+    "output": "Label: no  \nReason: The evidence does not support the Lloyd-Davies position with Trendelenburg as a disaster; it only describes physiological changes in anterior chamber depth, not adverse outcomes.  \nCitations: E1  \nAnswerable: yes"
+  },
+  {
+    "audit_id": "AI104",
+    "question": "Lloyd-Davies position with Trendelenburg--a disaster waiting to happen?",
+    "evidence": [
+      {
+        "display": "E1",
+        "anonymous_chunk": "9bcefcdde536",
+        "section": "RESULTS",
+        "text": "No significant differences in intraocular pressure or axial length between the prone and supine positions were found in either eye. Anterior chamber depth in eyes with pseudoexfoliation decreased from a mean of 3.08 mm in the supine position to a mean of 2.95 mm in the prone position, whereas mean anterior chamber depth in the fellow eyes decreased from 3.01 mm to 2.97 mm. The decrease in anterior chamber depth when facing down in the eyes with pseudoexfoliation was significantly greater than in the fellow eyes."
+      },
+      {
+        "display": "E2",
+        "anonymous_chunk": "e4a69906e1b1",
+        "section": "METHODS",
+        "text": "A retrospective study of HMCIs was recorded in the Israeli Defense Force (IDF) home front command and the Israeli National Trauma Registry (ITR) between November 2000 and June 2003. An HMCI is defined by the Emergency and Disaster Medicine Division in the Israeli Ministry of Health as>or=10 casualties or>or=4 suffering from injuries with an ISS>or=16 arriving to a single hospital."
+      },
+      {
+        "display": "E3",
+        "anonymous_chunk": "672b3a0502c8",
+        "section": "METHODS",
+        "text": "The subjects were seven healthy humans. The right ear was stimulated using ice-water. Each subject was kept in a left-ear-down position for 20 s and then repositioned to a prone position, a right-ear-down position and a supine position with 20 s intervals. Nystagmus was analysed using three-dimensional video-oculography."
+      }
+    ],
+    "output": "Label: no  \nReason: The evidence does not support the Lloyd-Davies position with Trendelenburg as a disaster; it shows no significant changes in intraocular pressure or axial length and only a minor, non-significant change in anterior chamber depth.  \nCitations: E1  \nAnswerable: yes"
+  },
+  {
+    "audit_id": "AI105",
+    "question": "Does loss of consciousness predict neuropsychological decrements after concussion?",
+    "evidence": [
+      {
+        "display": "E1",
+        "anonymous_chunk": "93195438f528",
+        "section": "OBJECTIVE",
+        "text": "To investigate the importance of loss of consciousness (LOC) in predicting neuropsychological test performance in a large sample of patients with head injury."
+      },
+      {
+        "display": "E2",
+        "anonymous_chunk": "4601594f61eb",
+        "section": "DESIGN",
+        "text": "A prospective study of patients assessed with a neuropsychological test battery."
+      },
+      {
+        "display": "E3",
+        "anonymous_chunk": "afb3ef2846a4",
+        "section": "RESULTS",
+        "text": "No significant differences were found between the LOC, no LOC, or uncertain LOC groups for any of the neuropsychological measures used. Patients who had experienced traumatic LOC did not perform more poorly on neuropsychological testing than those with no LOC or uncertain LOC. All three groups demonstrated mildly decreased performance on formal tests of speed of information processing, attentional process, and memory."
+      }
+    ],
+    "output": "Label: no  \nReason: Loss of consciousness was not associated with worse neuropsychological test performance, as all groups showed similar performance across measures.  \nCitations: E1, E3  \nAnswerable: yes"
+  },
+  {
+    "audit_id": "AI106",
+    "question": "Does loss of consciousness predict neuropsychological decrements after concussion?",
+    "evidence": [
+      {
+        "display": "E1",
+        "anonymous_chunk": "afb3ef2846a4",
+        "section": "RESULTS",
+        "text": "No significant differences were found between the LOC, no LOC, or uncertain LOC groups for any of the neuropsychological measures used. Patients who had experienced traumatic LOC did not perform more poorly on neuropsychological testing than those with no LOC or uncertain LOC. All three groups demonstrated mildly decreased performance on formal tests of speed of information processing, attentional process, and memory."
+      },
+      {
+        "display": "E2",
+        "anonymous_chunk": "93195438f528",
+        "section": "OBJECTIVE",
+        "text": "To investigate the importance of loss of consciousness (LOC) in predicting neuropsychological test performance in a large sample of patients with head injury."
+      },
+      {
+        "display": "E3",
+        "anonymous_chunk": "4601594f61eb",
+        "section": "DESIGN",
+        "text": "A prospective study of patients assessed with a neuropsychological test battery."
+      }
+    ],
+    "output": "Label: no  \nReason: Patients with loss of consciousness did not perform worse on neuropsychological tests compared to those without loss of consciousness.  \nCitations: E1  \nAnswerable: yes"
+  },
+  {
+    "audit_id": "AI107",
+    "question": "Does loss of consciousness predict neuropsychological decrements after concussion?",
+    "evidence": [
+      {
+        "display": "E1",
+        "anonymous_chunk": "afb3ef2846a4",
+        "section": "RESULTS",
+        "text": "No significant differences were found between the LOC, no LOC, or uncertain LOC groups for any of the neuropsychological measures used. Patients who had experienced traumatic LOC did not perform more poorly on neuropsychological testing than those with no LOC or uncertain LOC. All three groups demonstrated mildly decreased performance on formal tests of speed of information processing, attentional process, and memory."
+      },
+      {
+        "display": "E2",
+        "anonymous_chunk": "4601594f61eb",
+        "section": "DESIGN",
+        "text": "A prospective study of patients assessed with a neuropsychological test battery."
+      },
+      {
+        "display": "E3",
+        "anonymous_chunk": "93195438f528",
+        "section": "OBJECTIVE",
+        "text": "To investigate the importance of loss of consciousness (LOC) in predicting neuropsychological test performance in a large sample of patients with head injury."
+      }
+    ],
+    "output": "Label: no  \nReason: Patients with loss of consciousness did not perform worse on neuropsychological tests compared to those without loss of consciousness.  \nCitations: E1, E3  \nAnswerable: yes"
+  },
+  {
+    "audit_id": "AI108",
+    "question": "Lloyd-Davies position with Trendelenburg--a disaster waiting to happen?",
+    "evidence": [
+      {
+        "display": "E1",
+        "anonymous_chunk": "e4a69906e1b1",
+        "section": "METHODS",
+        "text": "A retrospective study of HMCIs was recorded in the Israeli Defense Force (IDF) home front command and the Israeli National Trauma Registry (ITR) between November 2000 and June 2003. An HMCI is defined by the Emergency and Disaster Medicine Division in the Israeli Ministry of Health as>or=10 casualties or>or=4 suffering from injuries with an ISS>or=16 arriving to a single hospital."
+      },
+      {
+        "display": "E2",
+        "anonymous_chunk": "672b3a0502c8",
+        "section": "METHODS",
+        "text": "The subjects were seven healthy humans. The right ear was stimulated using ice-water. Each subject was kept in a left-ear-down position for 20 s and then repositioned to a prone position, a right-ear-down position and a supine position with 20 s intervals. Nystagmus was analysed using three-dimensional video-oculography."
+      },
+      {
+        "display": "E3",
+        "anonymous_chunk": "9bcefcdde536",
+        "section": "RESULTS",
+        "text": "No significant differences in intraocular pressure or axial length between the prone and supine positions were found in either eye. Anterior chamber depth in eyes with pseudoexfoliation decreased from a mean of 3.08 mm in the supine position to a mean of 2.95 mm in the prone position, whereas mean anterior chamber depth in the fellow eyes decreased from 3.01 mm to 2.97 mm. The decrease in anterior chamber depth when facing down in the eyes with pseudoexfoliation was significantly greater than in the fellow eyes."
+      }
+    ],
+    "output": "Label: no  \nReason: The evidence discusses positional effects on intraocular pressure and anterior chamber depth but does not mention the Lloyd-Davies position or Trendelenburg position, nor any associated risks.  \nCitations: E2, E3  \nAnswerable: no"
+  }
+]

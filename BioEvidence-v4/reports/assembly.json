@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "samples": 151,
+  "conditions": 4,
+  "rows": 604,
+  "B0_frozen_used_ids_exact": 151,
+  "B0_v3_block_exact": 151,
+  "all_plan_hashes_exact": 604,
+  "permutation_matches_historical_rules": 604,
+  "no_new_retrieval_or_truncation": true,
+  "input_changed_pairs": 430,
+  "intervention": "order plus renumbering; repeatedly used development data"
+}

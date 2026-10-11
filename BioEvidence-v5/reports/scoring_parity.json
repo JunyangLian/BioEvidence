@@ -1,0 +1,636 @@
+{
+  "passed": true,
+  "real_development_raw_outputs": 604,
+  "model_calls": 0,
+  "reference_A": "independent historical frozen v2 predictions + stageb_dev_analysis.json; v1 P7 predictions + metrics",
+  "route_B": "lm_eval evaluator -> generate_until replay -> Task.process_results -> custom aggregation",
+  "parse_fields_compared": [
+    "status",
+    "label",
+    "reason",
+    "answerable",
+    "citations",
+    "parse_note",
+    "citation_issues"
+  ],
+  "differences": [],
+  "per_condition": {
+    "B0_original": {
+      "A_frozen_v2": {
+        "n": 151,
+        "n_ok": 151,
+        "n_invalid": 0,
+        "accuracy": 0.4901,
+        "n_correct": 74,
+        "macro_f1": 0.3617,
+        "per_class": {
+          "yes": {
+            "support": 83,
+            "tp": 60,
+            "fp": 38,
+            "fn": 23,
+            "precision": 0.6122,
+            "recall": 0.7229,
+            "f1": 0.663
+          },
+          "no": {
+            "support": 51,
+            "tp": 11,
+            "fp": 15,
+            "fn": 40,
+            "precision": 0.4231,
+            "recall": 0.2157,
+            "f1": 0.2857
+          },
+          "maybe": {
+            "support": 17,
+            "tp": 3,
+            "fp": 24,
+            "fn": 14,
+            "precision": 0.1111,
+            "recall": 0.1765,
+            "f1": 0.1364
+          }
+        }
+      },
+      "B_harness_adapted": {
+        "n": 151,
+        "n_ok": 151,
+        "n_invalid": 0,
+        "accuracy": 0.4901,
+        "n_correct": 74,
+        "macro_f1": 0.3617,
+        "per_class": {
+          "yes": {
+            "support": 83,
+            "tp": 60,
+            "fp": 38,
+            "fn": 23,
+            "precision": 0.6122,
+            "recall": 0.7229,
+            "f1": 0.663
+          },
+          "no": {
+            "support": 51,
+            "tp": 11,
+            "fp": 15,
+            "fn": 40,
+            "precision": 0.4231,
+            "recall": 0.2157,
+            "f1": 0.2857
+          },
+          "maybe": {
+            "support": 17,
+            "tp": 3,
+            "fp": 24,
+            "fn": 14,
+            "precision": 0.1111,
+            "recall": 0.1765,
+            "f1": 0.1364
+          }
+        }
+      },
+      "exact_equal": true
+    },
+    "B1_result_first": {
+      "A_frozen_v2": {
+        "n": 151,
+        "n_ok": 151,
+        "n_invalid": 0,
+        "accuracy": 0.3444,
+        "n_correct": 52,
+        "macro_f1": 0.2876,
+        "per_class": {
+          "yes": {
+            "support": 83,
+            "tp": 26,
+            "fp": 25,
+            "fn": 57,
+            "precision": 0.5098,
+            "recall": 0.3133,
+            "f1": 0.3881
+          },
+          "no": {
+            "support": 51,
+            "tp": 24,
+            "fp": 57,
+            "fn": 27,
+            "precision": 0.2963,
+            "recall": 0.4706,
+            "f1": 0.3636
+          },
+          "maybe": {
+            "support": 17,
+            "tp": 2,
+            "fp": 17,
+            "fn": 15,
+            "precision": 0.1053,
+            "recall": 0.1176,
+            "f1": 0.1111
+          }
+        }
+      },
+      "B_harness_adapted": {
+        "n": 151,
+        "n_ok": 151,
+        "n_invalid": 0,
+        "accuracy": 0.3444,
+        "n_correct": 52,
+        "macro_f1": 0.2876,
+        "per_class": {
+          "yes": {
+            "support": 83,
+            "tp": 26,
+            "fp": 25,
+            "fn": 57,
+            "precision": 0.5098,
+            "recall": 0.3133,
+            "f1": 0.3881
+          },
+          "no": {
+            "support": 51,
+            "tp": 24,
+            "fp": 57,
+            "fn": 27,
+            "precision": 0.2963,
+            "recall": 0.4706,
+            "f1": 0.3636
+          },
+          "maybe": {
+            "support": 17,
+            "tp": 2,
+            "fp": 17,
+            "fn": 15,
+            "precision": 0.1053,
+            "recall": 0.1176,
+            "f1": 0.1111
+          }
+        }
+      },
+      "exact_equal": true
+    },
+    "B2_reversed": {
+      "A_frozen_v2": {
+        "n": 151,
+        "n_ok": 151,
+        "n_invalid": 0,
+        "accuracy": 0.3841,
+        "n_correct": 58,
+        "macro_f1": 0.3435,
+        "per_class": {
+          "yes": {
+            "support": 83,
+            "tp": 33,
+            "fp": 25,
+            "fn": 50,
+            "precision": 0.569,
+            "recall": 0.3976,
+            "f1": 0.4681
+          },
+          "no": {
+            "support": 51,
+            "tp": 20,
+            "fp": 42,
+            "fn": 31,
+            "precision": 0.3226,
+            "recall": 0.3922,
+            "f1": 0.354
+          },
+          "maybe": {
+            "support": 17,
+            "tp": 5,
+            "fp": 26,
+            "fn": 12,
+            "precision": 0.1613,
+            "recall": 0.2941,
+            "f1": 0.2083
+          }
+        }
+      },
+      "B_harness_adapted": {
+        "n": 151,
+        "n_ok": 151,
+        "n_invalid": 0,
+        "accuracy": 0.3841,
+        "n_correct": 58,
+        "macro_f1": 0.3435,
+        "per_class": {
+          "yes": {
+            "support": 83,
+            "tp": 33,
+            "fp": 25,
+            "fn": 50,
+            "precision": 0.569,
+            "recall": 0.3976,
+            "f1": 0.4681
+          },
+          "no": {
+            "support": 51,
+            "tp": 20,
+            "fp": 42,
+            "fn": 31,
+            "precision": 0.3226,
+            "recall": 0.3922,
+            "f1": 0.354
+          },
+          "maybe": {
+            "support": 17,
+            "tp": 5,
+            "fp": 26,
+            "fn": 12,
+            "precision": 0.1613,
+            "recall": 0.2941,
+            "f1": 0.2083
+          }
+        }
+      },
+      "exact_equal": true
+    },
+    "B3_shuffled": {
+      "A_frozen_v2": {
+        "n": 151,
+        "n_ok": 151,
+        "n_invalid": 0,
+        "accuracy": 0.457,
+        "n_correct": 69,
+        "macro_f1": 0.3888,
+        "per_class": {
+          "yes": {
+            "support": 83,
+            "tp": 46,
+            "fp": 26,
+            "fn": 37,
+            "precision": 0.6389,
+            "recall": 0.5542,
+            "f1": 0.5935
+          },
+          "no": {
+            "support": 51,
+            "tp": 18,
+            "fp": 31,
+            "fn": 33,
+            "precision": 0.3673,
+            "recall": 0.3529,
+            "f1": 0.36
+          },
+          "maybe": {
+            "support": 17,
+            "tp": 5,
+            "fp": 25,
+            "fn": 12,
+            "precision": 0.1667,
+            "recall": 0.2941,
+            "f1": 0.2128
+          }
+        }
+      },
+      "B_harness_adapted": {
+        "n": 151,
+        "n_ok": 151,
+        "n_invalid": 0,
+        "accuracy": 0.457,
+        "n_correct": 69,
+        "macro_f1": 0.3888,
+        "per_class": {
+          "yes": {
+            "support": 83,
+            "tp": 46,
+            "fp": 26,
+            "fn": 37,
+            "precision": 0.6389,
+            "recall": 0.5542,
+            "f1": 0.5935
+          },
+          "no": {
+            "support": 51,
+            "tp": 18,
+            "fp": 31,
+            "fn": 33,
+            "precision": 0.3673,
+            "recall": 0.3529,
+            "f1": 0.36
+          },
+          "maybe": {
+            "support": 17,
+            "tp": 5,
+            "fp": 25,
+            "fn": 12,
+            "precision": 0.1667,
+            "recall": 0.2941,
+            "f1": 0.2128
+          }
+        }
+      },
+      "exact_equal": true
+    }
+  },
+  "error_code_comparison": "604 exact; historical status + citation_issues mapped losslessly (parse_note also compared); no separate historical error_codes field",
+  "v1_frozen_checks": {
+    "n_total": true,
+    "n_applicable": true,
+    "n_failure": true,
+    "n_invalid": true,
+    "n_correct": true,
+    "accuracy": true,
+    "accuracy_including_failures": true,
+    "macro_f1": true,
+    "per_class": true,
+    "confusion": true,
+    "parse_ok_rate": true,
+    "invalid_rate": true,
+    "failure_rate": true,
+    "counts": true,
+    "denominator_policy": true
+  },
+  "v1_score": {
+    "n_total": 151,
+    "n_applicable": 151,
+    "n_failure": 0,
+    "n_invalid": 0,
+    "n_correct": 74,
+    "accuracy": 0.4901,
+    "accuracy_including_failures": 0.4901,
+    "macro_f1": 0.3617,
+    "per_class": {
+      "yes": {
+        "tp": 60,
+        "fp": 38,
+        "fn": 23,
+        "support": 83,
+        "precision": 0.6122,
+        "recall": 0.7229,
+        "f1": 0.663,
+        "excluded_from_macro": false,
+        "note": "support>0 但 tp=0 时 f1 记为 0（该类必须参与 macro 平均，不得被跳过）；recall 的 fn 包含 invalid/failure 输出，因此 recall 会低于只看 ok 的口径。"
+      },
+      "no": {
+        "tp": 11,
+        "fp": 15,
+        "fn": 40,
+        "support": 51,
+        "precision": 0.4231,
+        "recall": 0.2157,
+        "f1": 0.2857,
+        "excluded_from_macro": false,
+        "note": "support>0 但 tp=0 时 f1 记为 0（该类必须参与 macro 平均，不得被跳过）；recall 的 fn 包含 invalid/failure 输出，因此 recall 会低于只看 ok 的口径。"
+      },
+      "maybe": {
+        "tp": 3,
+        "fp": 24,
+        "fn": 14,
+        "support": 17,
+        "precision": 0.1111,
+        "recall": 0.1765,
+        "f1": 0.1364,
+        "excluded_from_macro": false,
+        "note": "support>0 但 tp=0 时 f1 记为 0（该类必须参与 macro 平均，不得被跳过）；recall 的 fn 包含 invalid/failure 输出，因此 recall 会低于只看 ok 的口径。"
+      }
+    },
+    "confusion": {
+      "yes": {
+        "yes": 60,
+        "no": 11,
+        "maybe": 12
+      },
+      "no": {
+        "yes": 28,
+        "no": 11,
+        "maybe": 12
+      },
+      "maybe": {
+        "yes": 10,
+        "no": 4,
+        "maybe": 3
+      },
+      "__invalid__": {
+        "yes": 0,
+        "no": 0,
+        "maybe": 0
+      },
+      "__failure__": {
+        "yes": 0,
+        "no": 0,
+        "maybe": 0
+      }
+    },
+    "parse_ok_rate": 1.0,
+    "invalid_rate": 0.0,
+    "failure_rate": 0.0,
+    "counts": {
+      "n_ok": 151,
+      "gold_distribution": {
+        "yes": 83,
+        "no": 51,
+        "maybe": 17
+      },
+      "pred_distribution": {
+        "yes": 98,
+        "no": 26,
+        "maybe": 27
+      }
+    },
+    "denominator_policy": "accuracy 的分母是 n_applicable（= n_total - n_failure），invalid 输出计为错误；n_failure 单列，不进入 accuracy 分母，但通过 accuracy_including_failures 一并报出。"
+  },
+  "v1_parse_differences": [],
+  "v1_structural_checks": {
+    "note": "以下只能检查引用的**合法性**；引用是否**支持**结论属于语义判断，必须人工审核（见 review_packet）。",
+    "parsed_outputs": 151,
+    "invalid_format": 0,
+    "invalid_citation_out_of_range": 0,
+    "cited_rate_when_answerable_yes": 1.0,
+    "no_citation_when_answerable_yes": 0,
+    "citation_points_to_gold_document_rate": 0.9708,
+    "answerable_distribution": {
+      "predicted_yes": 137,
+      "predicted_no": 14
+    },
+    "answerable_accuracy": 0.9007,
+    "gold_answerable_distribution": {
+      "yes": 146,
+      "no": 5,
+      "definition": "gold answerable = 检索到的 m 条证据里是否包含问题所属文献"
+    }
+  },
+  "v1_structural_route": "exact AST statements from frozen eval_taskb.main; compared to independent P7 frozen summary",
+  "mechanical_reference": {
+    "B0_original": {
+      "n": 151,
+      "parse_status": {
+        "ok": 151,
+        "invalid": 0,
+        "invalid_citation": 0
+      },
+      "answerable": {
+        "yes": 137,
+        "no": 14,
+        "null": 0
+      },
+      "cited_rows": 137,
+      "citation_issues": 0,
+      "citations_total": 137
+    },
+    "B1_result_first": {
+      "n": 151,
+      "parse_status": {
+        "ok": 151,
+        "invalid": 0,
+        "invalid_citation": 0
+      },
+      "answerable": {
+        "yes": 139,
+        "no": 12,
+        "null": 0
+      },
+      "cited_rows": 139,
+      "citation_issues": 0,
+      "citations_total": 139
+    },
+    "B2_reversed": {
+      "n": 151,
+      "parse_status": {
+        "ok": 151,
+        "invalid": 0,
+        "invalid_citation": 0
+      },
+      "answerable": {
+        "yes": 139,
+        "no": 12,
+        "null": 0
+      },
+      "cited_rows": 139,
+      "citation_issues": 0,
+      "citations_total": 139
+    },
+    "B3_shuffled": {
+      "n": 151,
+      "parse_status": {
+        "ok": 151,
+        "invalid": 0,
+        "invalid_citation": 0
+      },
+      "answerable": {
+        "yes": 134,
+        "no": 17,
+        "null": 0
+      },
+      "cited_rows": 134,
+      "citation_issues": 0,
+      "citations_total": 134
+    }
+  },
+  "mechanical_adapted": {
+    "B0_original": {
+      "n": 151,
+      "parse_status": {
+        "ok": 151,
+        "invalid": 0,
+        "invalid_citation": 0
+      },
+      "answerable": {
+        "yes": 137,
+        "no": 14,
+        "null": 0
+      },
+      "cited_rows": 137,
+      "citation_issues": 0,
+      "citations_total": 137
+    },
+    "B1_result_first": {
+      "n": 151,
+      "parse_status": {
+        "ok": 151,
+        "invalid": 0,
+        "invalid_citation": 0
+      },
+      "answerable": {
+        "yes": 139,
+        "no": 12,
+        "null": 0
+      },
+      "cited_rows": 139,
+      "citation_issues": 0,
+      "citations_total": 139
+    },
+    "B2_reversed": {
+      "n": 151,
+      "parse_status": {
+        "ok": 151,
+        "invalid": 0,
+        "invalid_citation": 0
+      },
+      "answerable": {
+        "yes": 139,
+        "no": 12,
+        "null": 0
+      },
+      "cited_rows": 139,
+      "citation_issues": 0,
+      "citations_total": 139
+    },
+    "B3_shuffled": {
+      "n": 151,
+      "parse_status": {
+        "ok": 151,
+        "invalid": 0,
+        "invalid_citation": 0
+      },
+      "answerable": {
+        "yes": 134,
+        "no": 17,
+        "null": 0
+      },
+      "cited_rows": 134,
+      "citation_issues": 0,
+      "citations_total": 134
+    }
+  },
+  "aggregate": {
+    "n": 604,
+    "n_ok": 604,
+    "n_invalid": 0,
+    "accuracy": 0.4189,
+    "n_correct": 253,
+    "macro_f1": 0.3525,
+    "per_class": {
+      "yes": {
+        "support": 332,
+        "tp": 165,
+        "fp": 114,
+        "fn": 167,
+        "precision": 0.5914,
+        "recall": 0.497,
+        "f1": 0.5401
+      },
+      "no": {
+        "support": 204,
+        "tp": 73,
+        "fp": 145,
+        "fn": 131,
+        "precision": 0.3349,
+        "recall": 0.3578,
+        "f1": 0.346
+      },
+      "maybe": {
+        "support": 68,
+        "tp": 15,
+        "fp": 92,
+        "fn": 53,
+        "precision": 0.1402,
+        "recall": 0.2206,
+        "f1": 0.1714
+      }
+    }
+  },
+  "harness_metrics": {
+    "name": "bioevidence_offline_replay",
+    "alias": "bioevidence_offline_replay",
+    "sample_len": 604,
+    "bio_accuracy,none": 0.4189,
+    "bio_accuracy_stderr,none": "N/A",
+    "bio_macro_f1,none": 0.3525,
+    "bio_macro_f1_stderr,none": "N/A",
+    "bio_invalid_rate,none": 0.0,
+    "bio_invalid_rate_stderr,none": "N/A"
+  },
+  "note": "Replay is actual historical-output scoring, not new model generation; synthetic risks are separate."
+}

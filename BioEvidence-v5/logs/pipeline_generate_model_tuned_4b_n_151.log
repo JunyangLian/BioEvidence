@@ -1,0 +1,462 @@
+W1011 13:15:24.817000 20476 .venv\Lib\site-packages\torch\utils\flop_counter.py:113] triton not found; flop counting will not work for triton kernels
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights:   0%|          | 1/398 [00:00<05:59,  1.10it/s]Loading weights:   1%|          | 3/398 [00:01<01:50,  3.57it/s]Loading weights:   1%|▏         | 5/398 [00:01<01:03,  6.17it/s]Loading weights:   4%|▎         | 14/398 [00:01<00:17, 21.55it/s]Loading weights:   5%|▍         | 19/398 [00:01<00:13, 27.28it/s]Loading weights:   7%|▋         | 26/398 [00:01<00:11, 33.28it/s]Loading weights:   9%|▊         | 34/398 [00:01<00:08, 43.49it/s]Loading weights:  10%|█         | 40/398 [00:01<00:08, 42.34it/s]Loading weights:  12%|█▏        | 47/398 [00:01<00:07, 48.59it/s]Loading weights:  13%|█▎        | 53/398 [00:01<00:07, 48.18it/s]Loading weights:  15%|█▍        | 59/398 [00:02<00:06, 49.79it/s]Loading weights:  17%|█▋        | 69/398 [00:02<00:05, 60.25it/s]Loading weights:  19%|█▉        | 77/398 [00:02<00:05, 63.63it/s]Loading weights:  21%|██        | 84/398 [00:02<00:05, 62.17it/s]Loading weights:  23%|██▎       | 92/398 [00:02<00:04, 63.84it/s]Loading weights:  26%|██▌       | 102/398 [00:02<00:04, 69.44it/s]Loading weights:  28%|██▊       | 110/398 [00:02<00:04, 67.40it/s]Loading weights:  29%|██▉       | 117/398 [00:02<00:04, 58.69it/s]Loading weights:  31%|███▏      | 125/398 [00:03<00:04, 57.11it/s]Loading weights:  33%|███▎      | 133/398 [00:03<00:04, 62.31it/s]Loading weights:  35%|███▌      | 140/398 [00:03<00:04, 56.16it/s]Loading weights:  37%|███▋      | 147/398 [00:03<00:04, 53.63it/s]Loading weights:  39%|███▉      | 157/398 [00:03<00:04, 57.53it/s]Loading weights:  41%|████      | 163/398 [00:03<00:04, 55.40it/s]Loading weights:  42%|████▏     | 169/398 [00:03<00:04, 53.15it/s]Loading weights:  45%|████▍     | 179/398 [00:04<00:03, 57.19it/s]Loading weights:  46%|████▋     | 185/398 [00:04<00:04, 50.42it/s]Loading weights:  48%|████▊     | 191/398 [00:04<00:04, 49.60it/s]Loading weights:  51%|█████     | 201/398 [00:04<00:03, 54.90it/s]Loading weights:  52%|█████▏    | 207/398 [00:04<00:03, 53.47it/s]Loading weights:  54%|█████▎    | 213/398 [00:04<00:03, 52.11it/s]Loading weights:  56%|█████▌    | 223/398 [00:04<00:03, 56.96it/s]Loading weights:  58%|█████▊    | 229/398 [00:05<00:03, 55.52it/s]Loading weights:  59%|█████▉    | 235/398 [00:05<00:03, 52.94it/s]Loading weights:  62%|██████▏   | 245/398 [00:05<00:02, 57.19it/s]Loading weights:  63%|██████▎   | 251/398 [00:05<00:02, 55.25it/s]Loading weights:  65%|██████▍   | 257/398 [00:05<00:02, 53.49it/s]Loading weights:  67%|██████▋   | 267/398 [00:05<00:02, 57.65it/s]Loading weights:  69%|██████▊   | 273/398 [00:05<00:02, 55.39it/s]Loading weights:  70%|███████   | 279/398 [00:05<00:02, 53.54it/s]Loading weights:  73%|███████▎  | 289/398 [00:06<00:01, 57.74it/s]Loading weights:  74%|███████▍  | 295/398 [00:06<00:01, 55.05it/s]Loading weights:  76%|███████▌  | 301/398 [00:06<00:01, 53.05it/s]Loading weights:  78%|███████▊  | 311/398 [00:06<00:01, 57.54it/s]Loading weights:  80%|███████▉  | 317/398 [00:06<00:01, 55.35it/s]Loading weights:  81%|████████  | 323/398 [00:06<00:01, 53.17it/s]Loading weights:  84%|████████▎ | 333/398 [00:06<00:01, 57.86it/s]Loading weights:  85%|████████▌ | 339/398 [00:06<00:01, 55.39it/s]Loading weights:  87%|████████▋ | 345/398 [00:07<00:00, 53.43it/s]Loading weights:  89%|████████▉ | 355/398 [00:07<00:00, 57.76it/s]Loading weights:  91%|█████████ | 361/398 [00:07<00:00, 55.34it/s]Loading weights:  92%|█████████▏| 367/398 [00:07<00:00, 52.59it/s]Loading weights:  95%|█████████▍| 377/398 [00:07<00:00, 57.21it/s]Loading weights:  96%|█████████▌| 383/398 [00:07<00:00, 54.66it/s]Loading weights:  98%|█████████▊| 389/398 [00:07<00:00, 53.23it/s]Loading weights: 100%|██████████| 398/398 [00:08<00:00, 49.70it/s]
+`pretrained` model kwarg is not of type `str`. Many other model arguments may be ignored. Please do not launch via accelerate or use `parallelize=True` if passing an existing model this way.
+Passed an already-initialized model through `pretrained`, assuming single-process call to evaluate() or custom distributed integration
+bioevidence_taskb: Custom kwargs can be passed to `--metadata` in console (as json string) or to the TaskManager.
+For example --metadata='{"max_seq_lengths":[4096, 8192]}'. For details see task Readme.
+  0%|          | 0/604 [00:00<?, ?it/s]100%|██████████| 604/604 [00:00<00:00, 126270.23it/s]
+tuned_4b 2 / 604 10411439 B1_result_first ok 25 2.98 s
+tuned_4b 3 / 604 10411439 B2_reversed ok 25 2.61 s
+tuned_4b 4 / 604 10411439 B3_shuffled ok 25 2.64 s
+tuned_4b 6 / 604 10593212 B1_result_first ok 43 4.25 s
+tuned_4b 7 / 604 10593212 B2_reversed ok 43 4.25 s
+tuned_4b 8 / 604 10593212 B3_shuffled ok 43 4.32 s
+tuned_4b 10 / 604 10605400 B1_result_first ok 63 6.33 s
+tuned_4b 11 / 604 10605400 B2_reversed ok 63 6.26 s
+tuned_4b 12 / 604 10605400 B3_shuffled ok 63 6.27 s
+tuned_4b 14 / 604 10811329 B1_result_first ok 72 7.27 s
+tuned_4b 15 / 604 10811329 B2_reversed ok 72 7.19 s
+tuned_4b 16 / 604 10811329 B3_shuffled ok 53 5.29 s
+tuned_4b 18 / 604 11053064 B1_result_first ok 49 5.03 s
+tuned_4b 19 / 604 11053064 B2_reversed ok 49 4.92 s
+tuned_4b 20 / 604 11053064 B3_shuffled ok 49 4.89 s
+tuned_4b 22 / 604 11413427 B1_result_first ok 85 8.41 s
+tuned_4b 23 / 604 11413427 B2_reversed ok 85 8.36 s
+tuned_4b 24 / 604 11413427 B3_shuffled ok 85 8.26 s
+tuned_4b 26 / 604 11500608 B1_result_first ok 32 3.38 s
+tuned_4b 27 / 604 11500608 B2_reversed ok 32 3.32 s
+tuned_4b 28 / 604 11500608 B3_shuffled ok 32 3.32 s
+tuned_4b 30 / 604 11713724 B1_result_first ok 38 3.93 s
+tuned_4b 31 / 604 11713724 B2_reversed ok 38 3.83 s
+tuned_4b 32 / 604 11713724 B3_shuffled ok 38 3.91 s
+tuned_4b 34 / 604 11729377 B1_result_first ok 31 3.25 s
+tuned_4b 35 / 604 11729377 B2_reversed ok 31 3.19 s
+tuned_4b 36 / 604 11729377 B3_shuffled ok 31 3.19 s
+tuned_4b 38 / 604 11776681 B1_result_first ok 48 4.9 s
+tuned_4b 39 / 604 11776681 B2_reversed ok 48 4.97 s
+tuned_4b 40 / 604 11776681 B3_shuffled ok 48 5.03 s
+tuned_4b 42 / 604 11882828 B1_result_first ok 53 5.42 s
+tuned_4b 43 / 604 11882828 B2_reversed ok 53 5.33 s
+tuned_4b 44 / 604 11882828 B3_shuffled ok 53 5.5 s
+tuned_4b 46 / 604 11978239 B1_result_first ok 49 4.93 s
+tuned_4b 47 / 604 11978239 B2_reversed ok 49 4.99 s
+tuned_4b 48 / 604 11978239 B3_shuffled ok 49 4.9 s
+tuned_4b 50 / 604 12095973 B1_result_first ok 27 2.78 s
+tuned_4b 51 / 604 12095973 B2_reversed ok 27 2.76 s
+tuned_4b 52 / 604 12095973 B3_shuffled ok 27 2.74 s
+tuned_4b 54 / 604 12153648 B1_result_first ok 52 5.32 s
+tuned_4b 55 / 604 12153648 B2_reversed ok 52 5.19 s
+tuned_4b 56 / 604 12153648 B3_shuffled ok 52 5.25 s
+tuned_4b 58 / 604 12238307 B1_result_first ok 35 3.5 s
+tuned_4b 59 / 604 12238307 B2_reversed ok 38 3.81 s
+tuned_4b 60 / 604 12238307 B3_shuffled ok 38 3.74 s
+tuned_4b 62 / 604 12607666 B1_result_first ok 46 4.74 s
+tuned_4b 63 / 604 12607666 B2_reversed ok 25 2.7 s
+tuned_4b 64 / 604 12607666 B3_shuffled ok 46 4.72 s
+tuned_4b 66 / 604 12690589 B1_result_first ok 62 6.19 s
+tuned_4b 67 / 604 12690589 B2_reversed ok 62 6.1 s
+tuned_4b 68 / 604 12690589 B3_shuffled ok 62 6.04 s
+tuned_4b 70 / 604 12855939 B1_result_first ok 25 2.62 s
+tuned_4b 71 / 604 12855939 B2_reversed ok 25 2.61 s
+tuned_4b 72 / 604 12855939 B3_shuffled ok 25 2.59 s
+tuned_4b 74 / 604 12913347 B1_result_first ok 37 3.76 s
+tuned_4b 75 / 604 12913347 B2_reversed ok 37 3.78 s
+tuned_4b 76 / 604 12913347 B3_shuffled ok 41 4.12 s
+tuned_4b 78 / 604 14518645 B1_result_first ok 80 7.85 s
+tuned_4b 79 / 604 14518645 B2_reversed ok 80 8.01 s
+tuned_4b 80 / 604 14518645 B3_shuffled ok 80 7.93 s
+tuned_4b 82 / 604 14745753 B1_result_first ok 46 4.65 s
+tuned_4b 83 / 604 14745753 B2_reversed ok 46 4.8 s
+tuned_4b 84 / 604 14745753 B3_shuffled ok 46 4.69 s
+tuned_4b 86 / 604 14976655 B1_result_first ok 35 3.62 s
+tuned_4b 87 / 604 14976655 B2_reversed ok 35 3.54 s
+tuned_4b 88 / 604 14976655 B3_shuffled ok 47 4.81 s
+tuned_4b 90 / 604 14978612 B1_result_first ok 85 8.37 s
+tuned_4b 91 / 604 14978612 B2_reversed ok 85 8.42 s
+tuned_4b 92 / 604 14978612 B3_shuffled ok 85 8.4 s
+tuned_4b 94 / 604 15125825 B1_result_first ok 45 4.57 s
+tuned_4b 95 / 604 15125825 B2_reversed ok 25 2.59 s
+tuned_4b 96 / 604 15125825 B3_shuffled ok 44 4.46 s
+tuned_4b 98 / 604 15137012 B1_result_first ok 30 3.1 s
+tuned_4b 99 / 604 15137012 B2_reversed ok 30 3.1 s
+tuned_4b 100 / 604 15137012 B3_shuffled ok 43 4.35 s
+tuned_4b 102 / 604 15141797 B1_result_first ok 42 4.2 s
+tuned_4b 103 / 604 15141797 B2_reversed ok 42 4.26 s
+tuned_4b 104 / 604 15141797 B3_shuffled ok 42 4.25 s
+tuned_4b 106 / 604 15222284 B1_result_first ok 71 7.04 s
+tuned_4b 107 / 604 15222284 B2_reversed ok 46 4.66 s
+tuned_4b 108 / 604 15222284 B3_shuffled ok 71 7.16 s
+tuned_4b 110 / 604 15223725 B1_result_first ok 67 6.52 s
+tuned_4b 111 / 604 15223725 B2_reversed ok 67 6.74 s
+tuned_4b 112 / 604 15223725 B3_shuffled ok 67 6.71 s
+tuned_4b 114 / 604 15381614 B1_result_first ok 45 4.64 s
+tuned_4b 115 / 604 15381614 B2_reversed ok 45 4.52 s
+tuned_4b 116 / 604 15381614 B3_shuffled ok 45 4.55 s
+tuned_4b 118 / 604 15483019 B1_result_first ok 45 4.67 s
+tuned_4b 119 / 604 15483019 B2_reversed ok 45 4.62 s
+tuned_4b 120 / 604 15483019 B3_shuffled ok 45 4.65 s
+tuned_4b 122 / 604 15800018 B1_result_first ok 52 5.25 s
+tuned_4b 123 / 604 15800018 B2_reversed ok 52 5.24 s
+tuned_4b 124 / 604 15800018 B3_shuffled ok 52 5.23 s
+tuned_4b 126 / 604 15879722 B1_result_first ok 47 4.69 s
+tuned_4b 127 / 604 15879722 B2_reversed ok 47 4.7 s
+tuned_4b 128 / 604 15879722 B3_shuffled ok 47 4.76 s
+tuned_4b 130 / 604 15954832 B1_result_first ok 46 4.75 s
+tuned_4b 131 / 604 15954832 B2_reversed ok 46 4.7 s
+tuned_4b 132 / 604 15954832 B3_shuffled ok 46 4.96 s
+tuned_4b 134 / 604 16151770 B1_result_first ok 50 5.06 s
+tuned_4b 135 / 604 16151770 B2_reversed ok 50 5.01 s
+tuned_4b 136 / 604 16151770 B3_shuffled ok 50 5.0 s
+tuned_4b 138 / 604 16195477 B1_result_first ok 53 5.42 s
+tuned_4b 139 / 604 16195477 B2_reversed ok 53 5.26 s
+tuned_4b 140 / 604 16195477 B3_shuffled ok 53 5.31 s
+tuned_4b 142 / 604 16253970 B1_result_first ok 47 4.65 s
+tuned_4b 143 / 604 16253970 B2_reversed ok 47 4.73 s
+tuned_4b 144 / 604 16253970 B3_shuffled ok 47 4.73 s
+tuned_4b 146 / 604 16319544 B1_result_first ok 57 5.58 s
+tuned_4b 147 / 604 16319544 B2_reversed ok 57 5.61 s
+tuned_4b 148 / 604 16319544 B3_shuffled ok 57 5.57 s
+tuned_4b 150 / 604 16428354 B1_result_first ok 52 5.2 s
+tuned_4b 151 / 604 16428354 B2_reversed ok 52 5.21 s
+tuned_4b 152 / 604 16428354 B3_shuffled ok 86 8.56 s
+tuned_4b 154 / 604 16498158 B1_result_first ok 59 5.98 s
+tuned_4b 155 / 604 16498158 B2_reversed ok 39 3.94 s
+tuned_4b 156 / 604 16498158 B3_shuffled ok 39 4.04 s
+tuned_4b 158 / 604 16647887 B1_result_first ok 52 5.15 s
+tuned_4b 159 / 604 16647887 B2_reversed ok 52 5.24 s
+tuned_4b 160 / 604 16647887 B3_shuffled ok 55 5.43 s
+tuned_4b 162 / 604 16968183 B1_result_first ok 47 4.78 s
+tuned_4b 163 / 604 16968183 B2_reversed ok 47 4.76 s
+tuned_4b 164 / 604 16968183 B3_shuffled ok 47 4.81 s
+tuned_4b 166 / 604 17096624 B1_result_first ok 38 3.83 s
+tuned_4b 167 / 604 17096624 B2_reversed ok 38 3.9 s
+tuned_4b 168 / 604 17096624 B3_shuffled ok 38 3.84 s
+tuned_4b 170 / 604 17224424 B1_result_first ok 47 4.78 s
+tuned_4b 171 / 604 17224424 B2_reversed ok 47 4.69 s
+tuned_4b 172 / 604 17224424 B3_shuffled ok 47 4.75 s
+tuned_4b 174 / 604 17279467 B1_result_first ok 62 6.14 s
+tuned_4b 175 / 604 17279467 B2_reversed ok 62 6.13 s
+tuned_4b 176 / 604 17279467 B3_shuffled ok 62 6.1 s
+tuned_4b 178 / 604 17403428 B1_result_first ok 52 5.2 s
+tuned_4b 179 / 604 17403428 B2_reversed ok 71 7.1 s
+tuned_4b 180 / 604 17403428 B3_shuffled ok 71 6.98 s
+tuned_4b 182 / 604 17453263 B1_result_first ok 33 3.41 s
+tuned_4b 183 / 604 17453263 B2_reversed ok 33 3.34 s
+tuned_4b 184 / 604 17453263 B3_shuffled ok 33 3.44 s
+tuned_4b 186 / 604 17562682 B1_result_first ok 58 5.68 s
+tuned_4b 187 / 604 17562682 B2_reversed ok 58 5.84 s
+tuned_4b 188 / 604 17562682 B3_shuffled ok 58 5.72 s
+tuned_4b 190 / 604 17578985 B1_result_first ok 58 5.82 s
+tuned_4b 191 / 604 17578985 B2_reversed ok 75 7.45 s
+tuned_4b 192 / 604 17578985 B3_shuffled ok 75 7.37 s
+tuned_4b 194 / 604 17595200 B1_result_first ok 56 5.57 s
+tuned_4b 195 / 604 17595200 B2_reversed ok 56 5.67 s
+tuned_4b 196 / 604 17595200 B3_shuffled ok 56 5.51 s
+tuned_4b 198 / 604 17601244 B1_result_first ok 51 5.08 s
+tuned_4b 199 / 604 17601244 B2_reversed ok 51 5.06 s
+tuned_4b 200 / 604 17601244 B3_shuffled ok 51 5.12 s
+tuned_4b 202 / 604 17715311 B1_result_first ok 44 4.43 s
+tuned_4b 203 / 604 17715311 B2_reversed ok 44 4.44 s
+tuned_4b 204 / 604 17715311 B3_shuffled ok 44 4.4 s
+tuned_4b 206 / 604 17890090 B1_result_first ok 55 5.46 s
+tuned_4b 207 / 604 17890090 B2_reversed ok 55 5.39 s
+tuned_4b 208 / 604 17890090 B3_shuffled ok 55 5.38 s
+tuned_4b 210 / 604 18049437 B1_result_first ok 37 3.8 s
+tuned_4b 211 / 604 18049437 B2_reversed ok 25 2.67 s
+tuned_4b 212 / 604 18049437 B3_shuffled ok 37 3.76 s
+tuned_4b 214 / 604 18269157 B1_result_first ok 81 8.02 s
+tuned_4b 215 / 604 18269157 B2_reversed ok 40 4.08 s
+tuned_4b 216 / 604 18269157 B3_shuffled ok 40 4.14 s
+tuned_4b 218 / 604 18375490 B1_result_first ok 71 6.99 s
+tuned_4b 219 / 604 18375490 B2_reversed ok 71 6.94 s
+tuned_4b 220 / 604 18375490 B3_shuffled ok 44 4.44 s
+tuned_4b 222 / 604 18534072 B1_result_first ok 37 3.72 s
+tuned_4b 223 / 604 18534072 B2_reversed ok 37 3.78 s
+tuned_4b 224 / 604 18534072 B3_shuffled ok 37 3.69 s
+tuned_4b 226 / 604 18603989 B1_result_first ok 60 5.94 s
+tuned_4b 227 / 604 18603989 B2_reversed ok 42 4.25 s
+tuned_4b 228 / 604 18603989 B3_shuffled ok 60 5.98 s
+tuned_4b 230 / 604 18607272 B1_result_first ok 55 5.43 s
+tuned_4b 231 / 604 18607272 B2_reversed ok 34 3.55 s
+tuned_4b 232 / 604 18607272 B3_shuffled ok 55 5.48 s
+tuned_4b 234 / 604 19054501 B1_result_first ok 40 4.06 s
+tuned_4b 235 / 604 19054501 B2_reversed ok 40 3.99 s
+tuned_4b 236 / 604 19054501 B3_shuffled ok 40 4.04 s
+tuned_4b 238 / 604 19155657 B1_result_first ok 45 4.56 s
+tuned_4b 239 / 604 19155657 B2_reversed ok 33 3.33 s
+tuned_4b 240 / 604 19155657 B3_shuffled ok 33 3.39 s
+tuned_4b 242 / 604 19198736 B1_result_first ok 57 5.59 s
+tuned_4b 243 / 604 19198736 B2_reversed ok 57 5.68 s
+tuned_4b 244 / 604 19198736 B3_shuffled ok 57 5.61 s
+tuned_4b 246 / 604 19299238 B1_result_first ok 43 4.34 s
+tuned_4b 247 / 604 19299238 B2_reversed ok 43 4.3 s
+tuned_4b 248 / 604 19299238 B3_shuffled ok 43 4.39 s
+tuned_4b 250 / 604 19406119 B1_result_first ok 76 7.52 s
+tuned_4b 251 / 604 19406119 B2_reversed ok 76 7.44 s
+tuned_4b 252 / 604 19406119 B3_shuffled ok 76 7.49 s
+tuned_4b 254 / 604 19459018 B1_result_first ok 44 4.51 s
+tuned_4b 255 / 604 19459018 B2_reversed ok 44 4.53 s
+tuned_4b 256 / 604 19459018 B3_shuffled ok 44 4.53 s
+tuned_4b 258 / 604 19615731 B1_result_first ok 44 4.38 s
+tuned_4b 259 / 604 19615731 B2_reversed ok 44 4.45 s
+tuned_4b 260 / 604 19615731 B3_shuffled ok 44 4.43 s
+tuned_4b 262 / 604 19643525 B1_result_first ok 39 3.92 s
+tuned_4b 263 / 604 19643525 B2_reversed ok 39 3.9 s
+tuned_4b 264 / 604 19643525 B3_shuffled ok 39 3.92 s
+tuned_4b 266 / 604 19648304 B1_result_first ok 40 4.13 s
+tuned_4b 267 / 604 19648304 B2_reversed ok 40 4.01 s
+tuned_4b 268 / 604 19648304 B3_shuffled ok 40 4.13 s
+tuned_4b 270 / 604 19653482 B1_result_first ok 40 3.96 s
+tuned_4b 271 / 604 19653482 B2_reversed ok 40 4.05 s
+tuned_4b 272 / 604 19653482 B3_shuffled ok 66 6.51 s
+tuned_4b 274 / 604 19664156 B1_result_first ok 31 3.22 s
+tuned_4b 275 / 604 19664156 B2_reversed ok 31 3.33 s
+tuned_4b 276 / 604 19664156 B3_shuffled ok 31 3.2 s
+tuned_4b 278 / 604 19683101 B1_result_first ok 38 3.89 s
+tuned_4b 279 / 604 19683101 B2_reversed ok 38 3.87 s
+tuned_4b 280 / 604 19683101 B3_shuffled ok 38 3.88 s
+tuned_4b 282 / 604 19852337 B1_result_first ok 50 4.93 s
+tuned_4b 283 / 604 19852337 B2_reversed ok 50 4.9 s
+tuned_4b 284 / 604 19852337 B3_shuffled ok 50 4.99 s
+tuned_4b 286 / 604 20073599 B1_result_first ok 37 3.77 s
+tuned_4b 287 / 604 20073599 B2_reversed ok 37 3.84 s
+tuned_4b 288 / 604 20073599 B3_shuffled ok 37 3.75 s
+tuned_4b 290 / 604 20082356 B1_result_first ok 54 5.56 s
+tuned_4b 291 / 604 20082356 B2_reversed ok 54 5.54 s
+tuned_4b 292 / 604 20082356 B3_shuffled ok 54 5.58 s
+tuned_4b 294 / 604 20101129 B1_result_first ok 62 6.21 s
+tuned_4b 295 / 604 20101129 B2_reversed ok 62 6.19 s
+tuned_4b 296 / 604 20101129 B3_shuffled ok 62 6.34 s
+tuned_4b 298 / 604 20304513 B1_result_first ok 49 5.05 s
+tuned_4b 299 / 604 20304513 B2_reversed ok 49 5.14 s
+tuned_4b 300 / 604 20304513 B3_shuffled ok 49 5.05 s
+tuned_4b 302 / 604 20363841 B1_result_first ok 32 3.39 s
+tuned_4b 303 / 604 20363841 B2_reversed ok 32 3.31 s
+tuned_4b 304 / 604 20363841 B3_shuffled ok 32 3.3 s
+tuned_4b 306 / 604 20382292 B1_result_first ok 45 4.64 s
+tuned_4b 307 / 604 20382292 B2_reversed ok 45 4.55 s
+tuned_4b 308 / 604 20382292 B3_shuffled ok 45 4.59 s
+tuned_4b 310 / 604 20497146 B1_result_first ok 54 5.43 s
+tuned_4b 311 / 604 20497146 B2_reversed ok 83 8.19 s
+tuned_4b 312 / 604 20497146 B3_shuffled ok 54 5.5 s
+tuned_4b 314 / 604 20497880 B1_result_first ok 31 3.15 s
+tuned_4b 315 / 604 20497880 B2_reversed ok 31 3.23 s
+tuned_4b 316 / 604 20497880 B3_shuffled ok 31 3.19 s
+tuned_4b 318 / 604 21080127 B1_result_first ok 47 4.74 s
+tuned_4b 319 / 604 21080127 B2_reversed ok 67 6.68 s
+tuned_4b 320 / 604 21080127 B3_shuffled ok 47 4.75 s
+tuned_4b 322 / 604 21550158 B1_result_first ok 62 6.19 s
+tuned_4b 323 / 604 21550158 B2_reversed ok 62 6.28 s
+tuned_4b 324 / 604 21550158 B3_shuffled ok 62 6.31 s
+tuned_4b 326 / 604 21669959 B1_result_first ok 40 4.03 s
+tuned_4b 327 / 604 21669959 B2_reversed ok 40 4.11 s
+tuned_4b 328 / 604 21669959 B3_shuffled ok 40 4.06 s
+tuned_4b 330 / 604 21745056 B1_result_first ok 53 5.21 s
+tuned_4b 331 / 604 21745056 B2_reversed ok 53 5.2 s
+tuned_4b 332 / 604 21745056 B3_shuffled ok 53 5.21 s
+tuned_4b 334 / 604 21873082 B1_result_first ok 41 4.13 s
+tuned_4b 335 / 604 21873082 B2_reversed ok 41 4.19 s
+tuned_4b 336 / 604 21873082 B3_shuffled ok 41 4.23 s
+tuned_4b 338 / 604 21881325 B1_result_first ok 45 4.58 s
+tuned_4b 339 / 604 21881325 B2_reversed ok 45 4.63 s
+tuned_4b 340 / 604 21881325 B3_shuffled ok 45 4.54 s
+tuned_4b 342 / 604 21914194 B1_result_first ok 41 4.2 s
+tuned_4b 343 / 604 21914194 B2_reversed ok 35 3.53 s
+tuned_4b 344 / 604 21914194 B3_shuffled ok 35 3.62 s
+tuned_4b 346 / 604 21951591 B1_result_first ok 34 3.5 s
+tuned_4b 347 / 604 21951591 B2_reversed ok 34 3.48 s
+tuned_4b 348 / 604 21951591 B3_shuffled ok 34 3.55 s
+tuned_4b 350 / 604 21979183 B1_result_first ok 64 6.26 s
+tuned_4b 351 / 604 21979183 B2_reversed ok 25 2.65 s
+tuned_4b 352 / 604 21979183 B3_shuffled ok 64 6.28 s
+tuned_4b 354 / 604 22302658 B1_result_first ok 50 4.98 s
+tuned_4b 355 / 604 22302658 B2_reversed ok 45 4.38 s
+tuned_4b 356 / 604 22302658 B3_shuffled ok 43 4.3 s
+tuned_4b 358 / 604 22428608 B1_result_first ok 44 4.45 s
+tuned_4b 359 / 604 22428608 B2_reversed ok 44 4.53 s
+tuned_4b 360 / 604 22428608 B3_shuffled ok 44 4.35 s
+tuned_4b 362 / 604 22519710 B1_result_first ok 101 9.88 s
+tuned_4b 363 / 604 22519710 B2_reversed ok 101 9.91 s
+tuned_4b 364 / 604 22519710 B3_shuffled ok 42 4.25 s
+tuned_4b 366 / 604 22564465 B1_result_first ok 41 4.14 s
+tuned_4b 367 / 604 22564465 B2_reversed ok 41 4.12 s
+tuned_4b 368 / 604 22564465 B3_shuffled ok 41 4.18 s
+tuned_4b 370 / 604 22954812 B1_result_first ok 44 4.46 s
+tuned_4b 371 / 604 22954812 B2_reversed ok 44 4.5 s
+tuned_4b 372 / 604 22954812 B3_shuffled ok 44 4.4 s
+tuned_4b 374 / 604 23240452 B1_result_first ok 39 3.89 s
+tuned_4b 375 / 604 23240452 B2_reversed ok 39 3.81 s
+tuned_4b 376 / 604 23240452 B3_shuffled ok 50 4.98 s
+tuned_4b 378 / 604 23252468 B1_result_first ok 55 5.45 s
+tuned_4b 379 / 604 23252468 B2_reversed ok 26 2.73 s
+tuned_4b 380 / 604 23252468 B3_shuffled ok 55 5.48 s
+tuned_4b 382 / 604 23389866 B1_result_first ok 52 5.24 s
+tuned_4b 383 / 604 23389866 B2_reversed ok 52 5.18 s
+tuned_4b 384 / 604 23389866 B3_shuffled ok 52 5.22 s
+tuned_4b 386 / 604 23414523 B1_result_first ok 40 3.91 s
+tuned_4b 387 / 604 23414523 B2_reversed ok 40 3.98 s
+tuned_4b 388 / 604 23414523 B3_shuffled ok 40 3.99 s
+tuned_4b 390 / 604 23449952 B1_result_first ok 83 8.34 s
+tuned_4b 391 / 604 23449952 B2_reversed ok 83 8.3 s
+tuned_4b 392 / 604 23449952 B3_shuffled ok 51 5.13 s
+tuned_4b 394 / 604 23587089 B1_result_first ok 32 3.3 s
+tuned_4b 395 / 604 23587089 B2_reversed ok 32 3.27 s
+tuned_4b 396 / 604 23587089 B3_shuffled ok 32 3.32 s
+tuned_4b 398 / 604 23719685 B1_result_first ok 25 2.6 s
+tuned_4b 399 / 604 23719685 B2_reversed ok 25 2.61 s
+tuned_4b 400 / 604 23719685 B3_shuffled ok 25 2.58 s
+tuned_4b 402 / 604 23791827 B1_result_first ok 43 4.34 s
+tuned_4b 403 / 604 23791827 B2_reversed ok 43 4.31 s
+tuned_4b 404 / 604 23791827 B3_shuffled ok 43 4.34 s
+tuned_4b 406 / 604 23831910 B1_result_first ok 25 2.68 s
+tuned_4b 407 / 604 23831910 B2_reversed ok 25 2.57 s
+tuned_4b 408 / 604 23831910 B3_shuffled ok 47 4.74 s
+tuned_4b 410 / 604 23860049 B1_result_first ok 54 5.35 s
+tuned_4b 411 / 604 23860049 B2_reversed ok 54 5.43 s
+tuned_4b 412 / 604 23860049 B3_shuffled ok 42 4.21 s
+tuned_4b 414 / 604 24019262 B1_result_first ok 41 4.18 s
+tuned_4b 415 / 604 24019262 B2_reversed ok 41 4.19 s
+tuned_4b 416 / 604 24019262 B3_shuffled ok 41 4.18 s
+tuned_4b 418 / 604 24153338 B1_result_first ok 55 5.53 s
+tuned_4b 419 / 604 24153338 B2_reversed ok 55 5.55 s
+tuned_4b 420 / 604 24153338 B3_shuffled ok 55 5.38 s
+tuned_4b 422 / 604 24235894 B1_result_first ok 33 3.38 s
+tuned_4b 423 / 604 24235894 B2_reversed ok 33 3.34 s
+tuned_4b 424 / 604 24235894 B3_shuffled ok 33 3.37 s
+tuned_4b 426 / 604 24267613 B1_result_first ok 46 4.63 s
+tuned_4b 427 / 604 24267613 B2_reversed ok 46 4.54 s
+tuned_4b 428 / 604 24267613 B3_shuffled ok 46 4.78 s
+tuned_4b 430 / 604 24433626 B1_result_first ok 41 4.11 s
+tuned_4b 431 / 604 24433626 B2_reversed ok 41 4.17 s
+tuned_4b 432 / 604 24433626 B3_shuffled ok 41 4.09 s
+tuned_4b 434 / 604 24446763 B1_result_first ok 28 2.96 s
+tuned_4b 435 / 604 24446763 B2_reversed ok 28 3.01 s
+tuned_4b 436 / 604 24446763 B3_shuffled ok 28 2.96 s
+tuned_4b 438 / 604 24450673 B1_result_first ok 46 4.73 s
+tuned_4b 439 / 604 24450673 B2_reversed ok 46 4.61 s
+tuned_4b 440 / 604 24450673 B3_shuffled ok 91 8.91 s
+tuned_4b 442 / 604 24599411 B1_result_first ok 25 2.55 s
+tuned_4b 443 / 604 24599411 B2_reversed ok 25 2.59 s
+tuned_4b 444 / 604 24599411 B3_shuffled ok 25 2.59 s
+tuned_4b 446 / 604 24614851 B1_result_first ok 25 2.53 s
+tuned_4b 447 / 604 24614851 B2_reversed ok 43 4.36 s
+tuned_4b 448 / 604 24614851 B3_shuffled ok 43 4.25 s
+tuned_4b 450 / 604 24630333 B1_result_first ok 55 5.49 s
+tuned_4b 451 / 604 24630333 B2_reversed ok 55 5.45 s
+tuned_4b 452 / 604 24630333 B3_shuffled ok 55 5.54 s
+tuned_4b 454 / 604 24748473 B1_result_first ok 43 4.31 s
+tuned_4b 455 / 604 24748473 B2_reversed ok 39 3.94 s
+tuned_4b 456 / 604 24748473 B3_shuffled ok 37 3.73 s
+tuned_4b 458 / 604 24793469 B1_result_first ok 46 4.58 s
+tuned_4b 459 / 604 24793469 B2_reversed ok 46 4.64 s
+tuned_4b 460 / 604 24793469 B3_shuffled ok 39 3.89 s
+tuned_4b 462 / 604 24827404 B1_result_first ok 118 11.43 s
+tuned_4b 463 / 604 24827404 B2_reversed ok 118 11.43 s
+tuned_4b 464 / 604 24827404 B3_shuffled ok 71 6.92 s
+tuned_4b 466 / 604 24851767 B1_result_first ok 25 2.59 s
+tuned_4b 467 / 604 24851767 B2_reversed ok 25 2.55 s
+tuned_4b 468 / 604 24851767 B3_shuffled ok 25 2.53 s
+tuned_4b 470 / 604 24866606 B1_result_first ok 37 3.72 s
+tuned_4b 471 / 604 24866606 B2_reversed ok 37 3.65 s
+tuned_4b 472 / 604 24866606 B3_shuffled ok 37 3.74 s
+tuned_4b 474 / 604 24964725 B1_result_first ok 63 6.29 s
+tuned_4b 475 / 604 24964725 B2_reversed ok 63 6.32 s
+tuned_4b 476 / 604 24964725 B3_shuffled ok 63 6.27 s
+tuned_4b 478 / 604 25155638 B1_result_first ok 47 4.69 s
+tuned_4b 479 / 604 25155638 B2_reversed ok 47 4.58 s
+tuned_4b 480 / 604 25155638 B3_shuffled ok 47 4.62 s
+tuned_4b 482 / 604 25218577 B1_result_first ok 35 3.5 s
+tuned_4b 483 / 604 25218577 B2_reversed ok 35 3.63 s
+tuned_4b 484 / 604 25218577 B3_shuffled ok 35 3.57 s
+tuned_4b 486 / 604 25228241 B1_result_first ok 54 5.42 s
+tuned_4b 487 / 604 25228241 B2_reversed ok 54 5.3 s
+tuned_4b 488 / 604 25228241 B3_shuffled ok 54 5.47 s
+tuned_4b 490 / 604 25274085 B1_result_first ok 52 5.15 s
+tuned_4b 491 / 604 25274085 B2_reversed ok 52 5.26 s
+tuned_4b 492 / 604 25274085 B3_shuffled ok 52 5.14 s
+tuned_4b 494 / 604 25432938 B1_result_first ok 103 10.02 s
+tuned_4b 495 / 604 25432938 B2_reversed ok 63 6.14 s
+tuned_4b 496 / 604 25432938 B3_shuffled ok 72 7.16 s
+tuned_4b 498 / 604 25480629 B1_result_first ok 56 5.53 s
+tuned_4b 499 / 604 25480629 B2_reversed ok 56 5.59 s
+tuned_4b 500 / 604 25480629 B3_shuffled ok 56 5.66 s
+tuned_4b 502 / 604 25501465 B1_result_first ok 38 3.84 s
+tuned_4b 503 / 604 25501465 B2_reversed ok 48 4.88 s
+tuned_4b 504 / 604 25501465 B3_shuffled ok 48 4.92 s
+tuned_4b 506 / 604 25735444 B1_result_first ok 71 7.04 s
+tuned_4b 507 / 604 25735444 B2_reversed ok 71 7.01 s
+tuned_4b 508 / 604 25735444 B3_shuffled ok 71 6.96 s
+tuned_4b 510 / 604 25747932 B1_result_first ok 36 3.73 s
+tuned_4b 511 / 604 25747932 B2_reversed ok 33 3.34 s
+tuned_4b 512 / 604 25747932 B3_shuffled ok 33 3.34 s
+tuned_4b 514 / 604 25885219 B1_result_first ok 37 3.84 s
+tuned_4b 515 / 604 25885219 B2_reversed ok 37 3.75 s
+tuned_4b 516 / 604 25885219 B3_shuffled ok 37 3.91 s
+tuned_4b 518 / 604 25981682 B1_result_first ok 34 3.44 s
+tuned_4b 519 / 604 25981682 B2_reversed ok 34 3.44 s
+tuned_4b 520 / 604 25981682 B3_shuffled ok 34 3.46 s
+tuned_4b 522 / 604 26079501 B1_result_first ok 37 3.7 s
+tuned_4b 523 / 604 26079501 B2_reversed ok 37 3.77 s
+tuned_4b 524 / 604 26079501 B3_shuffled ok 37 3.73 s
+tuned_4b 526 / 604 26104852 B1_result_first ok 59 5.86 s
+tuned_4b 527 / 604 26104852 B2_reversed ok 59 5.98 s
+tuned_4b 528 / 604 26104852 B3_shuffled ok 59 6.0 s
+tuned_4b 530 / 604 26133538 B1_result_first ok 38 3.87 s
+tuned_4b 531 / 604 26133538 B2_reversed ok 38 4.0 s
+tuned_4b 532 / 604 26133538 B3_shuffled ok 38 3.81 s
+tuned_4b 534 / 604 26222664 B1_result_first ok 48 4.72 s
+tuned_4b 535 / 604 26222664 B2_reversed ok 42 4.19 s
+tuned_4b 536 / 604 26222664 B3_shuffled ok 42 4.16 s
+tuned_4b 538 / 604 26285789 B1_result_first ok 34 3.54 s
+tuned_4b 539 / 604 26285789 B2_reversed ok 34 3.38 s
+tuned_4b 540 / 604 26285789 B3_shuffled ok 25 2.61 s
+tuned_4b 542 / 604 26363639 B1_result_first ok 135 13.24 s
+tuned_4b 543 / 604 26363639 B2_reversed ok 135 13.04 s
+tuned_4b 544 / 604 26363639 B3_shuffled ok 32 3.27 s
+tuned_4b 546 / 604 26452334 B1_result_first ok 62 6.03 s
+tuned_4b 547 / 604 26452334 B2_reversed ok 62 6.32 s
+tuned_4b 548 / 604 26452334 B3_shuffled ok 62 6.15 s
+tuned_4b 550 / 604 26485091 B1_result_first ok 39 3.94 s
+tuned_4b 551 / 604 26485091 B2_reversed ok 39 3.93 s
+tuned_4b 552 / 604 26485091 B3_shuffled ok 39 3.98 s
+tuned_4b 554 / 604 26505821 B1_result_first ok 47 4.65 s
+tuned_4b 555 / 604 26505821 B2_reversed ok 47 4.66 s
+tuned_4b 556 / 604 26505821 B3_shuffled ok 36 3.6 s
+tuned_4b 558 / 604 26686513 B1_result_first ok 31 3.13 s
+tuned_4b 559 / 604 26686513 B2_reversed ok 31 3.2 s
+tuned_4b 560 / 604 26686513 B3_shuffled ok 31 3.13 s
+tuned_4b 562 / 604 26818046 B1_result_first ok 34 3.51 s
+tuned_4b 563 / 604 26818046 B2_reversed ok 57 5.68 s
+tuned_4b 564 / 604 26818046 B3_shuffled ok 57 5.73 s
+tuned_4b 566 / 604 27832831 B1_result_first ok 36 3.67 s
+tuned_4b 567 / 604 27832831 B2_reversed ok 36 3.69 s
+tuned_4b 568 / 604 27832831 B3_shuffled ok 36 3.71 s
+tuned_4b 570 / 604 27908583 B1_result_first ok 55 5.39 s
+tuned_4b 571 / 604 27908583 B2_reversed ok 55 5.46 s
+tuned_4b 572 / 604 27908583 B3_shuffled ok 55 5.45 s
+tuned_4b 574 / 604 28127977 B1_result_first ok 70 6.85 s
+tuned_4b 575 / 604 28127977 B2_reversed ok 70 6.91 s
+tuned_4b 576 / 604 28127977 B3_shuffled ok 70 6.85 s
+tuned_4b 578 / 604 8200238 B1_result_first ok 25 2.52 s
+tuned_4b 579 / 604 8200238 B2_reversed ok 57 5.7 s
+tuned_4b 580 / 604 8200238 B3_shuffled ok 25 2.55 s
+tuned_4b 582 / 604 9003088 B1_result_first ok 43 4.29 s
+tuned_4b 583 / 604 9003088 B2_reversed ok 43 4.31 s
+tuned_4b 584 / 604 9003088 B3_shuffled ok 43 4.26 s
+tuned_4b 586 / 604 9107172 B1_result_first ok 61 6.14 s
+tuned_4b 587 / 604 9107172 B2_reversed ok 61 6.06 s
+tuned_4b 588 / 604 9107172 B3_shuffled ok 61 6.01 s
+tuned_4b 590 / 604 9191526 B1_result_first ok 66 6.63 s
+tuned_4b 591 / 604 9191526 B2_reversed ok 66 6.58 s
+tuned_4b 592 / 604 9191526 B3_shuffled ok 66 6.57 s
+tuned_4b 594 / 604 9381529 B1_result_first ok 86 8.46 s
+tuned_4b 595 / 604 9381529 B2_reversed ok 85 8.38 s
+tuned_4b 596 / 604 9381529 B3_shuffled ok 71 7.01 s
+tuned_4b 598 / 604 9602458 B1_result_first ok 41 4.06 s
+tuned_4b 599 / 604 9602458 B2_reversed ok 61 5.97 s
+tuned_4b 600 / 604 9602458 B3_shuffled ok 41 4.08 s
+tuned_4b 602 / 604 9792366 B1_result_first ok 47 4.85 s
+tuned_4b 603 / 604 9792366 B2_reversed ok 61 6.0 s
+tuned_4b 604 / 604 9792366 B3_shuffled ok 47 4.72 s
+fatal: not a git repository (or any of the parent directories): .git
+{'model': 'tuned_4b', 'n': 604, 'n_samples': 151, 'elapsed_seconds': 2227.287867700001, 'model_load_seconds': 9.352186399999482, 'fresh_requests': 453, 'cache_hits': 151, 'config_fingerprint': '639379b08a03b2305956aa3204134ae420b0478a6c6168a1ffb30ca90ace6ec6', 'generation_exceptions': 0, 'output_budget_hits': 0, 'harness_results': {'bioevidence_taskb': {'name': 'bioevidence_taskb', 'alias': 'bioevidence_taskb', 'sample_len': 604, 'bio_accuracy,none': 0.6109, 'bio_accuracy_stderr,none': 'N/A', 'bio_macro_f1,none': 0.4279, 'bio_macro_f1_stderr,none': 'N/A', 'bio_invalid_rate,none': 0.0, 'bio_invalid_rate_stderr,none': 'N/A'}}, 'input_system_and_context_checks_passed': True, 'direct_regression': []}

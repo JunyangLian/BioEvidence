@@ -1,0 +1,17 @@
+{
+  "package": "torch",
+  "version": "2.14.0+cu130",
+  "source_distribution": "C:\\Users\\yang\\.workbuddy\\binaries\\python\\envs\\bioevidence\\Lib\\site-packages",
+  "wheel": "C:\\1_yanjiusheng\\BioEvidence\\BioEvidence-v4\\wheelhouse\\torch-2.14.0+cu130-cp313-cp313-win_amd64.whl",
+  "sha256": "0b86a7af874ab5efe863a20104066cd62a6d977d2cecbb106092ac8f62b46acf",
+  "bytes": 3077889036,
+  "record_verified_files": 14685,
+  "record_hash_mismatches": [],
+  "excluded_outside_package_scripts": [
+    "../../Scripts/torchfrtrace.exe",
+    "../../Scripts/torchrun.exe",
+    "torch-2.14.0+cu130.dist-info/RECORD"
+  ],
+  "install_method": "independent local wheel; no shared environment links",
+  "origin_note": "Local repack of previously verified CUDA install; not the upstream wheel archive"
+}

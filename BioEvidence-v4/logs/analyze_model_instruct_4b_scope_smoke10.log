@@ -1,0 +1,1 @@
+instruct_4b smoke10 {'requests': 40, 'fresh_this_execution': 40, 'total_generated_tokens': 2222, 'generation_seconds_all_unique': 120.21858559999919, 'peak_allocated_gib': 2.7240047454833984, 'peak_reserved_gib': 2.861328125}

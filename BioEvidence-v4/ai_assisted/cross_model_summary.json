@@ -1,0 +1,95 @@
+{
+  "review_kind": "ai_assisted",
+  "human_ground_truth": false,
+  "n_opinions": 16,
+  "n_unique_questions": 2,
+  "n_agents": 2,
+  "validated_quote_locations": 48,
+  "batches": [
+    {
+      "model": "base_06b",
+      "agent": "/root/ai_biomedical_review",
+      "model_identifier": "unknown",
+      "rating_sha256": "fdbea474095b94816a76ab5383f3086f5c3b33a4435b7b5d72cd1b56af4bc57a",
+      "validated_quote_locations": 24,
+      "counts": {
+        "evidence_sufficiency": {
+          "insufficient": 4,
+          "sufficient": 4
+        },
+        "evidence_supports_reason": {
+          "partial": 7,
+          "unsupported": 1
+        },
+        "reason_supports_label": {
+          "partial": 4,
+          "supported": 1,
+          "unsupported": 3
+        },
+        "citation_traceability": {
+          "supported": 8
+        },
+        "citation_support": {
+          "partial": 7,
+          "unsupported": 1
+        },
+        "abstention_appropriateness": {
+          "N_A": 8
+        }
+      },
+      "n_opinions": 8
+    },
+    {
+      "model": "instruct_4b",
+      "agent": "/root/ai_biomedical_review_2",
+      "model_identifier": "unknown",
+      "rating_sha256": "5f6b55beb1dd98adea5a2748a333afacd98a37b41e02f0c800518f0fc80e7b48",
+      "validated_quote_locations": 24,
+      "counts": {
+        "evidence_sufficiency": {
+          "insufficient": 4,
+          "sufficient": 4
+        },
+        "evidence_supports_reason": {
+          "supported": 6,
+          "partial": 1,
+          "unsupported": 1
+        },
+        "reason_supports_label": {
+          "unsupported": 4,
+          "supported": 4
+        },
+        "citation_traceability": {
+          "N_A": 1,
+          "supported": 7
+        },
+        "citation_support": {
+          "N_A": 1,
+          "partial": 6,
+          "supported": 1
+        },
+        "abstention_appropriateness": {
+          "supported": 2,
+          "N_A": 6
+        }
+      },
+      "n_opinions": 8
+    }
+  ],
+  "evidence_sufficiency_opinions_by_question": {
+    "10411439": [
+      "insufficient"
+    ],
+    "10593212": [
+      "sufficient"
+    ]
+  },
+  "limitations": [
+    "Convenience first-two-question selection, not representative",
+    "Different agents reviewed different models: reviewer and model are confounded",
+    "No inference of model superiority, population prevalence or human correctness",
+    "Unknown and N_A remain distinct and are never converted to passing",
+    "Reason text is not direct evidence of model internal reasoning",
+    "Chunk traceability does not imply semantic support or source-document verification"
+  ]
+}

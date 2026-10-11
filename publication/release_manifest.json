@@ -1,0 +1,2383 @@
+{
+  "created_at_utc": "2026-10-11T07:25:38.958252+00:00",
+  "versions": [
+    4,
+    5
+  ],
+  "historical_sources_unchanged": true,
+  "files": [
+    {
+      "path": "BioEvidence-v4/README.md",
+      "source_relative_path": "BioEvidence-v4/README.md",
+      "source_bytes": 5417,
+      "source_sha256": "fd9177963527dc603d5641a8670adc2e3f0a938a6e004da0fa7f8cf32c94a03e",
+      "published_bytes": 5417,
+      "published_sha256": "fd9177963527dc603d5641a8670adc2e3f0a938a6e004da0fa7f8cf32c94a03e",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/V4_STATUS.md",
+      "source_relative_path": "BioEvidence-v4/V4_STATUS.md",
+      "source_bytes": 3261,
+      "source_sha256": "6789d200e50e25d712275e5594be6e6bd203e3b486c1c12f4686e4f932cd25ad",
+      "published_bytes": 3261,
+      "published_sha256": "6789d200e50e25d712275e5594be6e6bd203e3b486c1c12f4686e4f932cd25ad",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/adapter.py",
+      "source_relative_path": "BioEvidence-v4/adapter.py",
+      "source_bytes": 2379,
+      "source_sha256": "40e6d868a07de589aa386b51398b87fa3491f8360805e2e147cfa56c27ee8363",
+      "published_bytes": 2379,
+      "published_sha256": "40e6d868a07de589aa386b51398b87fa3491f8360805e2e147cfa56c27ee8363",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/ai_assisted/AI_REVIEW.md",
+      "source_relative_path": "BioEvidence-v4/ai_assisted/AI_REVIEW.md",
+      "source_bytes": 2021,
+      "source_sha256": "3208bdfaaaefdd114415a8e50d6eec7ae414be2596a27a5b184d1b15ec501fc9",
+      "published_bytes": 2021,
+      "published_sha256": "3208bdfaaaefdd114415a8e50d6eec7ae414be2596a27a5b184d1b15ec501fc9",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/ai_assisted/audit_lock.json",
+      "source_relative_path": "BioEvidence-v4/ai_assisted/audit_lock.json",
+      "source_bytes": 423,
+      "source_sha256": "9b3e957748df2cac4abd3b029398a8604fbd34537979ea0397c44be15f4be9aa",
+      "published_bytes": 423,
+      "published_sha256": "9b3e957748df2cac4abd3b029398a8604fbd34537979ea0397c44be15f4be9aa",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/ai_assisted/backend_mapping_locked.json",
+      "source_relative_path": "BioEvidence-v4/ai_assisted/backend_mapping_locked.json",
+      "source_bytes": 1715,
+      "source_sha256": "acff043a331e8838c2fbb00abbe497692eba6a95243bb2eeccb2c9aebe29a4f6",
+      "published_bytes": 1715,
+      "published_sha256": "acff043a331e8838c2fbb00abbe497692eba6a95243bb2eeccb2c9aebe29a4f6",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/ai_assisted/batch2/audit_lock.json",
+      "source_relative_path": "BioEvidence-v4/ai_assisted/batch2/audit_lock.json",
+      "source_bytes": 480,
+      "source_sha256": "dd1f339332b03c47564f6b54ddf885d3f733652d9715e0393f8c802ce21a1da9",
+      "published_bytes": 480,
+      "published_sha256": "dd1f339332b03c47564f6b54ddf885d3f733652d9715e0393f8c802ce21a1da9",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/ai_assisted/batch2/backend_mapping_locked.json",
+      "source_relative_path": "BioEvidence-v4/ai_assisted/batch2/backend_mapping_locked.json",
+      "source_bytes": 1739,
+      "source_sha256": "d6946e89184c706d5b193a594f3de56e3385f708bf17918981182f1aa1a2120e",
+      "published_bytes": 1739,
+      "published_sha256": "d6946e89184c706d5b193a594f3de56e3385f708bf17918981182f1aa1a2120e",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/ai_assisted/batch2/blind_cases.json",
+      "source_relative_path": "BioEvidence-v4/ai_assisted/batch2/blind_cases.json",
+      "source_bytes": 14081,
+      "source_sha256": "69dd348c12edbde77cb002cfa6570e0b390b29a6c404846e33f44f43571e0fa8",
+      "published_bytes": 14081,
+      "published_sha256": "69dd348c12edbde77cb002cfa6570e0b390b29a6c404846e33f44f43571e0fa8",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/ai_assisted/batch2/ratings_blinded.json",
+      "source_relative_path": "BioEvidence-v4/ai_assisted/batch2/ratings_blinded.json",
+      "source_bytes": 29648,
+      "source_sha256": "5f6b55beb1dd98adea5a2748a333afacd98a37b41e02f0c800518f0fc80e7b48",
+      "published_bytes": 29648,
+      "published_sha256": "5f6b55beb1dd98adea5a2748a333afacd98a37b41e02f0c800518f0fc80e7b48",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/ai_assisted/batch2/ratings_unsealed.json",
+      "source_relative_path": "BioEvidence-v4/ai_assisted/batch2/ratings_unsealed.json",
+      "source_bytes": 28374,
+      "source_sha256": "6b788c2f6f337de1082838396b85ab4be36fff9f587e3ec0c073dcceacaa1f1b",
+      "published_bytes": 28374,
+      "published_sha256": "6b788c2f6f337de1082838396b85ab4be36fff9f587e3ec0c073dcceacaa1f1b",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/ai_assisted/batch2/selection.json",
+      "source_relative_path": "BioEvidence-v4/ai_assisted/batch2/selection.json",
+      "source_bytes": 306,
+      "source_sha256": "924cd1c59c223e02a76c0f8a8c1e21ea19d63b3f52307107879801e4c0bd2cbb",
+      "published_bytes": 306,
+      "published_sha256": "924cd1c59c223e02a76c0f8a8c1e21ea19d63b3f52307107879801e4c0bd2cbb",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/ai_assisted/batch2/summary.json",
+      "source_relative_path": "BioEvidence-v4/ai_assisted/batch2/summary.json",
+      "source_bytes": 5947,
+      "source_sha256": "86b48daf52c39b47c2e0cccd34ff21e61c6d75bbceaab9afc42b094dffa5bfaf",
+      "published_bytes": 5947,
+      "published_sha256": "86b48daf52c39b47c2e0cccd34ff21e61c6d75bbceaab9afc42b094dffa5bfaf",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/ai_assisted/blind_cases.json",
+      "source_relative_path": "BioEvidence-v4/ai_assisted/blind_cases.json",
+      "source_bytes": 14365,
+      "source_sha256": "098475498f9908e8991492a9a35399c6c4e2a0d1ec7cc6ab147e9fd03c607840",
+      "published_bytes": 14365,
+      "published_sha256": "098475498f9908e8991492a9a35399c6c4e2a0d1ec7cc6ab147e9fd03c607840",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/ai_assisted/cross_model_summary.json",
+      "source_relative_path": "BioEvidence-v4/ai_assisted/cross_model_summary.json",
+      "source_bytes": 2698,
+      "source_sha256": "5bef2675b65fae5de67d0503cc1df31d7f49da8dad3878c187d15df17bfe6e91",
+      "published_bytes": 2698,
+      "published_sha256": "5bef2675b65fae5de67d0503cc1df31d7f49da8dad3878c187d15df17bfe6e91",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/ai_assisted/ratings_blinded.json",
+      "source_relative_path": "BioEvidence-v4/ai_assisted/ratings_blinded.json",
+      "source_bytes": 30231,
+      "source_sha256": "fdbea474095b94816a76ab5383f3086f5c3b33a4435b7b5d72cd1b56af4bc57a",
+      "published_bytes": 30231,
+      "published_sha256": "fdbea474095b94816a76ab5383f3086f5c3b33a4435b7b5d72cd1b56af4bc57a",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/ai_assisted/ratings_unsealed.json",
+      "source_relative_path": "BioEvidence-v4/ai_assisted/ratings_unsealed.json",
+      "source_bytes": 29640,
+      "source_sha256": "23fc1f6b906e5d13aea7d5f20079f25b4d8e4885a87f779e06d8c1481c285ddd",
+      "published_bytes": 29640,
+      "published_sha256": "23fc1f6b906e5d13aea7d5f20079f25b4d8e4885a87f779e06d8c1481c285ddd",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/ai_assisted/selection.json",
+      "source_relative_path": "BioEvidence-v4/ai_assisted/selection.json",
+      "source_bytes": 398,
+      "source_sha256": "5b89a230f9c09e5aeb6adc7e17518c87ac0c964bd6df3aad63101b2b03ef8073",
+      "published_bytes": 398,
+      "published_sha256": "5b89a230f9c09e5aeb6adc7e17518c87ac0c964bd6df3aad63101b2b03ef8073",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/ai_assisted/summary.json",
+      "source_relative_path": "BioEvidence-v4/ai_assisted/summary.json",
+      "source_bytes": 4953,
+      "source_sha256": "81dd269ab54a5d238e58d8587bcac62618296a7a4a024c91d2badfc0ed201ed4",
+      "published_bytes": 4953,
+      "published_sha256": "81dd269ab54a5d238e58d8587bcac62618296a7a4a024c91d2badfc0ed201ed4",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/ai_audit_summary.py",
+      "source_relative_path": "BioEvidence-v4/ai_audit_summary.py",
+      "source_bytes": 3239,
+      "source_sha256": "bd687f20f2b808fc25d9b3e3337d3ae51956fc8b1ded96578107833451428776",
+      "published_bytes": 3239,
+      "published_sha256": "bd687f20f2b808fc25d9b3e3337d3ae51956fc8b1ded96578107833451428776",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/ai_join.py",
+      "source_relative_path": "BioEvidence-v4/ai_join.py",
+      "source_bytes": 4266,
+      "source_sha256": "e4ae8b4de92d92718d9c4ee2744d0759881c6639af014c9c1a821f32d2c0cf30",
+      "published_bytes": 4266,
+      "published_sha256": "e4ae8b4de92d92718d9c4ee2744d0759881c6639af014c9c1a821f32d2c0cf30",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/analyze.py",
+      "source_relative_path": "BioEvidence-v4/analyze.py",
+      "source_bytes": 9294,
+      "source_sha256": "36dfa9b07a9d837c2a4dd7338cef6dbeb1a015dbb6a497ec03ea4fac6280ff66",
+      "published_bytes": 9294,
+      "published_sha256": "36dfa9b07a9d837c2a4dd7338cef6dbeb1a015dbb6a497ec03ea4fac6280ff66",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/common.py",
+      "source_relative_path": "BioEvidence-v4/common.py",
+      "source_bytes": 3028,
+      "source_sha256": "527f220d7eed729118cfb912bce11624f5c425d13f9f8079d5c8182d02ec5ee8",
+      "published_bytes": 3028,
+      "published_sha256": "527f220d7eed729118cfb912bce11624f5c425d13f9f8079d5c8182d02ec5ee8",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/config/models.json",
+      "source_relative_path": "BioEvidence-v4/config/models.json",
+      "source_bytes": 921,
+      "source_sha256": "c892713dc230e1bb3265d1f7c3b6cbf2e791892cc1609fe2b27e63cc368bbf0c",
+      "published_bytes": 921,
+      "published_sha256": "c892713dc230e1bb3265d1f7c3b6cbf2e791892cc1609fe2b27e63cc368bbf0c",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/continue_full.py",
+      "source_relative_path": "BioEvidence-v4/continue_full.py",
+      "source_bytes": 2102,
+      "source_sha256": "c75e066e868e60d89c8875ae35bce32a449cf97f922d67bddf1e5c239d5ee6fd",
+      "published_bytes": 2102,
+      "published_sha256": "c75e066e868e60d89c8875ae35bce32a449cf97f922d67bddf1e5c239d5ee6fd",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/cuda_snapshot.json",
+      "source_relative_path": "BioEvidence-v4/cuda_snapshot.json",
+      "source_bytes": 806,
+      "source_sha256": "31a3944f672557611b4ccba18e4d2722b1ccbb35395178f2bc4ec2da30905edb",
+      "published_bytes": 806,
+      "published_sha256": "31a3944f672557611b4ccba18e4d2722b1ccbb35395178f2bc4ec2da30905edb",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/environment.json",
+      "source_relative_path": "BioEvidence-v4/environment.json",
+      "source_bytes": 4445,
+      "source_sha256": "e043fdd6acd839111221222d14464bf8fa3e6af6374a42c9a9acadc9ce8f43b8",
+      "published_bytes": 4445,
+      "published_sha256": "e043fdd6acd839111221222d14464bf8fa3e6af6374a42c9a9acadc9ce8f43b8",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/environment.py",
+      "source_relative_path": "BioEvidence-v4/environment.py",
+      "source_bytes": 3360,
+      "source_sha256": "f8de51e2259afa74045d33e1fd8bdd72cb26e9823900dc46e5b82c58a9b7cbbf",
+      "published_bytes": 3360,
+      "published_sha256": "f8de51e2259afa74045d33e1fd8bdd72cb26e9823900dc46e5b82c58a9b7cbbf",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/fetch_model.py",
+      "source_relative_path": "BioEvidence-v4/fetch_model.py",
+      "source_bytes": 5681,
+      "source_sha256": "d36f83183b4311855b92df3c4e69c4617d96a45c7bf26b8e9200834a125536b5",
+      "published_bytes": 5681,
+      "published_sha256": "d36f83183b4311855b92df3c4e69c4617d96a45c7bf26b8e9200834a125536b5",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/fetch_parallel.py",
+      "source_relative_path": "BioEvidence-v4/fetch_parallel.py",
+      "source_bytes": 973,
+      "source_sha256": "ecca424591875a053a044a36e90326ce248d098a7f08db03f359b7eaa83afca7",
+      "published_bytes": 973,
+      "published_sha256": "ecca424591875a053a044a36e90326ce248d098a7f08db03f359b7eaa83afca7",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/fetch_ranges.py",
+      "source_relative_path": "BioEvidence-v4/fetch_ranges.py",
+      "source_bytes": 6302,
+      "source_sha256": "b84ec647a57b64467e284242266293bf3b39c3c3881f19d0b13ceb21e699d308",
+      "published_bytes": 6302,
+      "published_sha256": "b84ec647a57b64467e284242266293bf3b39c3c3881f19d0b13ceb21e699d308",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/finalize.py",
+      "source_relative_path": "BioEvidence-v4/finalize.py",
+      "source_bytes": 5691,
+      "source_sha256": "c661220177e73d5569e81c1a0d20ae9f76450b85f8b36bbcb9e042d5aa00ef64",
+      "published_bytes": 5691,
+      "published_sha256": "c661220177e73d5569e81c1a0d20ae9f76450b85f8b36bbcb9e042d5aa00ef64",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/framework_smoke.py",
+      "source_relative_path": "BioEvidence-v4/framework_smoke.py",
+      "source_bytes": 2193,
+      "source_sha256": "34d230bdf5b05ed1ab7315608f37961d0aaab4f7ff2a1ca120907a6e38809c06",
+      "published_bytes": 2193,
+      "published_sha256": "34d230bdf5b05ed1ab7315608f37961d0aaab4f7ff2a1ca120907a6e38809c06",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/generate.py",
+      "source_relative_path": "BioEvidence-v4/generate.py",
+      "source_bytes": 10558,
+      "source_sha256": "a009bf9d9f40c3662eb331ac5203bb86cbb6274a73ead01b01d3f174f299a814",
+      "published_bytes": 10558,
+      "published_sha256": "a009bf9d9f40c3662eb331ac5203bb86cbb6274a73ead01b01d3f174f299a814",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/gpu_monitor.py",
+      "source_relative_path": "BioEvidence-v4/gpu_monitor.py",
+      "source_bytes": 1748,
+      "source_sha256": "19fa0fcf6fc67bd28ea34b6d8c51b488074c77046d4bf7d4466ec4608397ad98",
+      "published_bytes": 1748,
+      "published_sha256": "19fa0fcf6fc67bd28ea34b6d8c51b488074c77046d4bf7d4466ec4608397ad98",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/legacy_structural.py",
+      "source_relative_path": "BioEvidence-v4/legacy_structural.py",
+      "source_bytes": 1828,
+      "source_sha256": "b118f9cd3afa593384981994cae8c8228b621c708a702e8733d53ff9d02c5846",
+      "published_bytes": 1828,
+      "published_sha256": "b118f9cd3afa593384981994cae8c8228b621c708a702e8733d53ff9d02c5846",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/logs/analyze_model_instruct_4b_scope_smoke10.log",
+      "source_relative_path": "BioEvidence-v4/logs/analyze_model_instruct_4b_scope_smoke10.log",
+      "source_bytes": 227,
+      "source_sha256": "e9ec77398dc451838abb0f8e653798023ed8649e45c397b97264415f4c3fbf96",
+      "published_bytes": 227,
+      "published_sha256": "e9ec77398dc451838abb0f8e653798023ed8649e45c397b97264415f4c3fbf96",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/logs/generate_model_base_06b_n_151.log",
+      "source_relative_path": "BioEvidence-v4/logs/generate_model_base_06b_n_151.log",
+      "source_bytes": 33275,
+      "source_sha256": "d9b6ac7a96c38a4b68ecc69b64ffb82e2c95a7a6e6a1da3678c07a9ec266d9af",
+      "published_bytes": 33275,
+      "published_sha256": "d9b6ac7a96c38a4b68ecc69b64ffb82e2c95a7a6e6a1da3678c07a9ec266d9af",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/logs/generate_model_instruct_4b_n_10.log",
+      "source_relative_path": "BioEvidence-v4/logs/generate_model_instruct_4b_n_10.log",
+      "source_bytes": 7877,
+      "source_sha256": "3ddc7c3a19241059fd2ecb3d1f3b5305d096a80da6652e0b35c0fb6e57629949",
+      "published_bytes": 7877,
+      "published_sha256": "3ddc7c3a19241059fd2ecb3d1f3b5305d096a80da6652e0b35c0fb6e57629949",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/logs/generate_model_instruct_4b_n_151.log",
+      "source_relative_path": "BioEvidence-v4/logs/generate_model_instruct_4b_n_151.log",
+      "source_bytes": 43131,
+      "source_sha256": "3ac36496a2cf0ce4f0ca735adfa511ccc448613b60d6945dc2d66008c1c00da7",
+      "published_bytes": 43131,
+      "published_sha256": "3ac36496a2cf0ce4f0ca735adfa511ccc448613b60d6945dc2d66008c1c00da7",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/logs/gpu_memory_series.jsonl",
+      "source_relative_path": "BioEvidence-v4/logs/gpu_memory_series.jsonl",
+      "source_bytes": 2697854,
+      "source_sha256": "313968f26365ad6e9f62bc015d852061806a913e87de14df9d4b8a6dc94a8f9d",
+      "published_bytes": 2697854,
+      "published_sha256": "313968f26365ad6e9f62bc015d852061806a913e87de14df9d4b8a6dc94a8f9d",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/logs/offline_final.log",
+      "source_relative_path": "BioEvidence-v4/logs/offline_final.log",
+      "source_bytes": 482,
+      "source_sha256": "ebd8c61b0ffdc71083e5e5977b5e6bbab571699d503b60e57e0f697676580e30",
+      "published_bytes": 482,
+      "published_sha256": "ebd8c61b0ffdc71083e5e5977b5e6bbab571699d503b60e57e0f697676580e30",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/logs/pipeline_events.jsonl",
+      "source_relative_path": "BioEvidence-v4/logs/pipeline_events.jsonl",
+      "source_bytes": 2685,
+      "source_sha256": "137b0ebb3e4b79f6b0bce5dc04d73f39eeb66df8d593f73ff3947301bd549b58",
+      "published_bytes": 2685,
+      "published_sha256": "137b0ebb3e4b79f6b0bce5dc04d73f39eeb66df8d593f73ff3947301bd549b58",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/logs/prepare_assets.log",
+      "source_relative_path": "BioEvidence-v4/logs/prepare_assets.log",
+      "source_bytes": 468,
+      "source_sha256": "ecc798c852f7f909033b50890dcbf3b92575cd79ef30a98d876f96f485163347",
+      "published_bytes": 468,
+      "published_sha256": "ecc798c852f7f909033b50890dcbf3b92575cd79ef30a98d876f96f485163347",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/logs/prepare_verify.log",
+      "source_relative_path": "BioEvidence-v4/logs/prepare_verify.log",
+      "source_bytes": 177,
+      "source_sha256": "030587400d92399ca96443d9173b8b39cede7ce2698f89b90b0895b87604f576",
+      "published_bytes": 177,
+      "published_sha256": "030587400d92399ca96443d9173b8b39cede7ce2698f89b90b0895b87604f576",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/logs/report_run.log",
+      "source_relative_path": "BioEvidence-v4/logs/report_run.log",
+      "source_bytes": 2078,
+      "source_sha256": "6a3f6caa0a757464bfc906eea980c6c634d73f389b75538f4afd7db2a67a0d29",
+      "published_bytes": 2078,
+      "published_sha256": "6a3f6caa0a757464bfc906eea980c6c634d73f389b75538f4afd7db2a67a0d29",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/make_blind_review.py",
+      "source_relative_path": "BioEvidence-v4/make_blind_review.py",
+      "source_bytes": 1828,
+      "source_sha256": "e9623a30695c6012c6a2f53de14ba3963925bd56ae3c0af49860f08637a358ca",
+      "published_bytes": 1828,
+      "published_sha256": "e9623a30695c6012c6a2f53de14ba3963925bd56ae3c0af49860f08637a358ca",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/mirror_probe.py",
+      "source_relative_path": "BioEvidence-v4/mirror_probe.py",
+      "source_bytes": 1721,
+      "source_sha256": "dc35cf5cf0234c82de7ad7f8d11fe81fd968d0743ec968b609c21788b2166bda",
+      "published_bytes": 1721,
+      "published_sha256": "dc35cf5cf0234c82de7ad7f8d11fe81fd968d0743ec968b609c21788b2166bda",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/models/Qwen3-4B-Instruct-2507/download_manifest.json",
+      "source_relative_path": "BioEvidence-v4/models/Qwen3-4B-Instruct-2507/download_manifest.json",
+      "source_bytes": 4291,
+      "source_sha256": "a21985abc6aa9cadd265c2933ac06e89dbd2823cf8b7fd109fd52c935e70f981",
+      "published_bytes": 4291,
+      "published_sha256": "a21985abc6aa9cadd265c2933ac06e89dbd2823cf8b7fd109fd52c935e70f981",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/models/Qwen3-4B-Instruct-2507/download_manifest_model-00003-of-00003.safetensors.json",
+      "source_relative_path": "BioEvidence-v4/models/Qwen3-4B-Instruct-2507/download_manifest_model-00003-of-00003.safetensors.json",
+      "source_bytes": 777,
+      "source_sha256": "16be945591b80ce11be79e0b0b817d8ba5ec02dcc3844814d01c7c507273e485",
+      "published_bytes": 777,
+      "published_sha256": "16be945591b80ce11be79e0b0b817d8ba5ec02dcc3844814d01c7c507273e485",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/models/Qwen3-4B-Instruct-2507/download_manifest_model.safetensors.index.json.json",
+      "source_relative_path": "BioEvidence-v4/models/Qwen3-4B-Instruct-2507/download_manifest_model.safetensors.index.json.json",
+      "source_bytes": 775,
+      "source_sha256": "41ddb0d7cb3d217795f80f61c0aaccc3fd3c6b392a06365b2638f6757f08fbde",
+      "published_bytes": 775,
+      "published_sha256": "41ddb0d7cb3d217795f80f61c0aaccc3fd3c6b392a06365b2638f6757f08fbde",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/models/Qwen3-4B-Instruct-2507/download_manifest_tokenizer_config.json.json",
+      "source_relative_path": "BioEvidence-v4/models/Qwen3-4B-Instruct-2507/download_manifest_tokenizer_config.json.json",
+      "source_bytes": 760,
+      "source_sha256": "62c1d2a71900ec309a70e283f7eb7f9fb0972a120177e0f8142cb52e676d3251",
+      "published_bytes": 760,
+      "published_sha256": "62c1d2a71900ec309a70e283f7eb7f9fb0972a120177e0f8142cb52e676d3251",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/offline.py",
+      "source_relative_path": "BioEvidence-v4/offline.py",
+      "source_bytes": 6620,
+      "source_sha256": "454fdf41c06b9bdd7edb12c8fa8d80cab9a5be2ca6a62066ed6d60e265ec75e4",
+      "published_bytes": 6620,
+      "published_sha256": "454fdf41c06b9bdd7edb12c8fa8d80cab9a5be2ca6a62066ed6d60e265ec75e4",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/prepare.py",
+      "source_relative_path": "BioEvidence-v4/prepare.py",
+      "source_bytes": 7817,
+      "source_sha256": "973d109fd92f3d1e8bfeed1082b7dca8ccd81c5b3c54801bed3120e82522c656",
+      "published_bytes": 7817,
+      "published_sha256": "973d109fd92f3d1e8bfeed1082b7dca8ccd81c5b3c54801bed3120e82522c656",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/prepare_assets.py",
+      "source_relative_path": "BioEvidence-v4/prepare_assets.py",
+      "source_bytes": 2801,
+      "source_sha256": "5e2cc691acc66d90c88b9f0d465bfc8284b1626f0565a35b7b2940e9285564e5",
+      "published_bytes": 2801,
+      "published_sha256": "5e2cc691acc66d90c88b9f0d465bfc8284b1626f0565a35b7b2940e9285564e5",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/progress_status.py",
+      "source_relative_path": "BioEvidence-v4/progress_status.py",
+      "source_bytes": 1376,
+      "source_sha256": "fd2af5fe9ebedb954ac15b55f84e2035f273e3cb8a34a2104ac1232117fee52e",
+      "published_bytes": 1376,
+      "published_sha256": "fd2af5fe9ebedb954ac15b55f84e2035f273e3cb8a34a2104ac1232117fee52e",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/provenance.py",
+      "source_relative_path": "BioEvidence-v4/provenance.py",
+      "source_bytes": 1191,
+      "source_sha256": "3c7b18d9b9e0b1219a555b7207c165d97b246a74375e93fe2475a15f8f87f77d",
+      "published_bytes": 1191,
+      "published_sha256": "3c7b18d9b9e0b1219a555b7207c165d97b246a74375e93fe2475a15f8f87f77d",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/repack_cuda.py",
+      "source_relative_path": "BioEvidence-v4/repack_cuda.py",
+      "source_bytes": 2666,
+      "source_sha256": "aceea727aec246ba9ab4018d1c240f57ed4b4f2c4d6ec549434016175f62bd28",
+      "published_bytes": 2666,
+      "published_sha256": "aceea727aec246ba9ab4018d1c240f57ed4b4f2c4d6ec549434016175f62bd28",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/report.py",
+      "source_relative_path": "BioEvidence-v4/report.py",
+      "source_bytes": 13690,
+      "source_sha256": "65174ee7ee06ee2a491c5e95e588bc59e00712dcdfdfbbe454d0864e7e9bed4c",
+      "published_bytes": 13690,
+      "published_sha256": "65174ee7ee06ee2a491c5e95e588bc59e00712dcdfdfbbe454d0864e7e9bed4c",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/reports/SCORING_PARITY.md",
+      "source_relative_path": "BioEvidence-v4/reports/SCORING_PARITY.md",
+      "source_bytes": 2751,
+      "source_sha256": "eda4df8fb9adbd8f8d4e3e40e0fad44c0bffbc04178e9a5ff16159e58990edd0",
+      "published_bytes": 2751,
+      "published_sha256": "eda4df8fb9adbd8f8d4e3e40e0fad44c0bffbc04178e9a5ff16159e58990edd0",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/reports/V4_REPORT.md",
+      "source_relative_path": "BioEvidence-v4/reports/V4_REPORT.md",
+      "source_bytes": 11794,
+      "source_sha256": "51ddace99159a9255488799c42323625d5be11510fae7005146761f3a7d3f8ca",
+      "published_bytes": 11794,
+      "published_sha256": "51ddace99159a9255488799c42323625d5be11510fae7005146761f3a7d3f8ca",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/reports/assembly.json",
+      "source_relative_path": "BioEvidence-v4/reports/assembly.json",
+      "source_bytes": 376,
+      "source_sha256": "6f4f080ecb9cf7fe774677b489bb40111527071745b6ba04dd0846060db56153",
+      "published_bytes": 376,
+      "published_sha256": "6f4f080ecb9cf7fe774677b489bb40111527071745b6ba04dd0846060db56153",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/reports/delivery_manifest.json",
+      "source_relative_path": "BioEvidence-v4/reports/delivery_manifest.json",
+      "source_bytes": 13679,
+      "source_sha256": "f4135e7639d0afab88c129878d2518bfb60fd97e39585cdf00bdc9f69cf06a67",
+      "published_bytes": 13679,
+      "published_sha256": "f4135e7639d0afab88c129878d2518bfb60fd97e39585cdf00bdc9f69cf06a67",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/reports/development_comparison.json",
+      "source_relative_path": "BioEvidence-v4/reports/development_comparison.json",
+      "source_bytes": 92751,
+      "source_sha256": "85d3fa07ecafed72e8a4bb807404f5b1680ee627904e32c322ffbff106cc0b01",
+      "published_bytes": 92751,
+      "published_sha256": "85d3fa07ecafed72e8a4bb807404f5b1680ee627904e32c322ffbff106cc0b01",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/reports/e7_generation_regression.json",
+      "source_relative_path": "BioEvidence-v4/reports/e7_generation_regression.json",
+      "source_bytes": 1669,
+      "source_sha256": "f41bcc2bfa85b57cb1d77ae3729e0719509785bc6794adbc387b0b47921257eb",
+      "published_bytes": 1669,
+      "published_sha256": "f41bcc2bfa85b57cb1d77ae3729e0719509785bc6794adbc387b0b47921257eb",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/reports/expansion_cost_plan.json",
+      "source_relative_path": "BioEvidence-v4/reports/expansion_cost_plan.json",
+      "source_bytes": 923,
+      "source_sha256": "bcec043b98a31039d06b0c87c3beea80fa2b8ab7ecdd0c4e2a67ba4adcef3ca7",
+      "published_bytes": 923,
+      "published_sha256": "bcec043b98a31039d06b0c87c3beea80fa2b8ab7ecdd0c4e2a67ba4adcef3ca7",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/reports/historical_protection.json",
+      "source_relative_path": "BioEvidence-v4/reports/historical_protection.json",
+      "source_bytes": 196,
+      "source_sha256": "cd992006ebe34d6f67ce6e396de74213c8d2bbf7fb6df39ed4f60a3a7c7b768f",
+      "published_bytes": 196,
+      "published_sha256": "cd992006ebe34d6f67ce6e396de74213c8d2bbf7fb6df39ed4f60a3a7c7b768f",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/reports/instruct4b_input_preflight.json",
+      "source_relative_path": "BioEvidence-v4/reports/instruct4b_input_preflight.json",
+      "source_bytes": 268,
+      "source_sha256": "213480aa8249cdb039e08a2cb52417b7c9fb0dcde2d73955512d6fec91d882d2",
+      "published_bytes": 268,
+      "published_sha256": "213480aa8249cdb039e08a2cb52417b7c9fb0dcde2d73955512d6fec91d882d2",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/reports/lm_eval_pypi_attestations.json",
+      "source_relative_path": "BioEvidence-v4/reports/lm_eval_pypi_attestations.json",
+      "source_bytes": 11273,
+      "source_sha256": "ae36fd2650878a32a8d1cf4badd7b47b1d6b79c395bdf79b28dbbf3fb7fefb0f",
+      "published_bytes": 11273,
+      "published_sha256": "ae36fd2650878a32a8d1cf4badd7b47b1d6b79c395bdf79b28dbbf3fb7fefb0f",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/reports/mirror_probe.json",
+      "source_relative_path": "BioEvidence-v4/reports/mirror_probe.json",
+      "source_bytes": 575,
+      "source_sha256": "33f0ae4d25d6328a36bd57bbb54e6b85525aec45fc3de3808ac20f82df73a18c",
+      "published_bytes": 575,
+      "published_sha256": "33f0ae4d25d6328a36bd57bbb54e6b85525aec45fc3de3808ac20f82df73a18c",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/reports/mirror_probe_4194304.json",
+      "source_relative_path": "BioEvidence-v4/reports/mirror_probe_4194304.json",
+      "source_bytes": 582,
+      "source_sha256": "219c27a0802d89f29656f39dd63c0a7a51287a72278135a920ac41138995c8af",
+      "published_bytes": 582,
+      "published_sha256": "219c27a0802d89f29656f39dd63c0a7a51287a72278135a920ac41138995c8af",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/reports/model_assets.json",
+      "source_relative_path": "BioEvidence-v4/reports/model_assets.json",
+      "source_bytes": 2399,
+      "source_sha256": "788ea3b8f5630ad2846fbcb26616bedeff699554581003b10ab1c15aa6a13281",
+      "published_bytes": 2399,
+      "published_sha256": "788ea3b8f5630ad2846fbcb26616bedeff699554581003b10ab1c15aa6a13281",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/reports/output_integrity_dev151.json",
+      "source_relative_path": "BioEvidence-v4/reports/output_integrity_dev151.json",
+      "source_bytes": 1698,
+      "source_sha256": "1cb9f01acde7603e4cacc14ef8bbffd4f96b5e3e8487d07f03a1c5d823218ecc",
+      "published_bytes": 1698,
+      "published_sha256": "1cb9f01acde7603e4cacc14ef8bbffd4f96b5e3e8487d07f03a1c5d823218ecc",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/reports/output_integrity_smoke10.json",
+      "source_relative_path": "BioEvidence-v4/reports/output_integrity_smoke10.json",
+      "source_bytes": 1027,
+      "source_sha256": "d874e1b08fc809d061676ca50a7ba86d1cbb7a1717758722d92ffa2a4b4d8755",
+      "published_bytes": 1027,
+      "published_sha256": "d874e1b08fc809d061676ca50a7ba86d1cbb7a1717758722d92ffa2a4b4d8755",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/reports/pip_check.json",
+      "source_relative_path": "BioEvidence-v4/reports/pip_check.json",
+      "source_bytes": 87,
+      "source_sha256": "2a0254ff5371f08bfeeffcb6fb44b4c420089d31524769c1b02d8561efcfbcb6",
+      "published_bytes": 87,
+      "published_sha256": "2a0254ff5371f08bfeeffcb6fb44b4c420089d31524769c1b02d8561efcfbcb6",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/reports/pipeline_complete.json",
+      "source_relative_path": "BioEvidence-v4/reports/pipeline_complete.json",
+      "source_bytes": 218,
+      "source_sha256": "e518b19d6e83e9261ffb73834870c94a2d20415f34850635030f329bf949760c",
+      "published_bytes": 218,
+      "published_sha256": "e518b19d6e83e9261ffb73834870c94a2d20415f34850635030f329bf949760c",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/reports/range_download_mirror16_attempt.json",
+      "source_relative_path": "BioEvidence-v4/reports/range_download_mirror16_attempt.json",
+      "source_bytes": 35027,
+      "source_sha256": "173bd7937b2b42cf04f6b8bfc56962280203a13f77dc58871616a82955f1efa7",
+      "published_bytes": 35027,
+      "published_sha256": "173bd7937b2b42cf04f6b8bfc56962280203a13f77dc58871616a82955f1efa7",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/reports/range_download_official_attempt.json",
+      "source_relative_path": "BioEvidence-v4/reports/range_download_official_attempt.json",
+      "source_bytes": 39606,
+      "source_sha256": "d05ec9da86da7a6d0052c316131e272cd75e33e0f11bc71f288409850c9a1755",
+      "published_bytes": 39606,
+      "published_sha256": "d05ec9da86da7a6d0052c316131e272cd75e33e0f11bc71f288409850c9a1755",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/reports/range_download_results.json",
+      "source_relative_path": "BioEvidence-v4/reports/range_download_results.json",
+      "source_bytes": 11519,
+      "source_sha256": "35baa41c289ddfd3fa636ad2e4e16d2afc2ef9422e1e3cf3fd45f439e52ff4c0",
+      "published_bytes": 11519,
+      "published_sha256": "35baa41c289ddfd3fa636ad2e4e16d2afc2ef9422e1e3cf3fd45f439e52ff4c0",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/reports/scoring_parity.json",
+      "source_relative_path": "BioEvidence-v4/reports/scoring_parity.json",
+      "source_bytes": 15825,
+      "source_sha256": "0ad5825f927a1eaf3c3774a4c21c500a243349f5cb5d963c0bb847fe6c52d833",
+      "published_bytes": 15825,
+      "published_sha256": "0ad5825f927a1eaf3c3774a4c21c500a243349f5cb5d963c0bb847fe6c52d833",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/reports/source_commits.json",
+      "source_relative_path": "BioEvidence-v4/reports/source_commits.json",
+      "source_bytes": 766,
+      "source_sha256": "0756caf181f3278ac933fc507b497bac1cc0362a9f2a6b05995da3f45a66bc3e",
+      "published_bytes": 766,
+      "published_sha256": "0756caf181f3278ac933fc507b497bac1cc0362a9f2a6b05995da3f45a66bc3e",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/reports/source_provenance.json",
+      "source_relative_path": "BioEvidence-v4/reports/source_provenance.json",
+      "source_bytes": 23508,
+      "source_sha256": "e2a7a22c7e6bbe9363228aae00c053532380b6e67d4cf1ce60d94452c5b095e9",
+      "published_bytes": 23508,
+      "published_sha256": "e2a7a22c7e6bbe9363228aae00c053532380b6e67d4cf1ce60d94452c5b095e9",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/reports/transformers_pypi_attestations.json",
+      "source_relative_path": "BioEvidence-v4/reports/transformers_pypi_attestations.json",
+      "source_bytes": 11301,
+      "source_sha256": "1b633ada6d4515fc2b0280c44e8fc09db96b2ad1a8836be024483f706c4a745f",
+      "published_bytes": 11301,
+      "published_sha256": "1b633ada6d4515fc2b0280c44e8fc09db96b2ad1a8836be024483f706c4a745f",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/requirements-hashed.txt",
+      "source_relative_path": "BioEvidence-v4/requirements-hashed.txt",
+      "source_bytes": 8531,
+      "source_sha256": "d424a099db2d360d66a303d943fb9b3559c671ee76b527b93764dffcc806af1a",
+      "published_bytes": 8531,
+      "published_sha256": "d424a099db2d360d66a303d943fb9b3559c671ee76b527b93764dffcc806af1a",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/requirements-lock.txt",
+      "source_relative_path": "BioEvidence-v4/requirements-lock.txt",
+      "source_bytes": 1762,
+      "source_sha256": "ad705211d00d81e841d8c4d113e0ac76786f3ee2f654f88a9f40239b06651c9e",
+      "published_bytes": 1762,
+      "published_sha256": "ad705211d00d81e841d8c4d113e0ac76786f3ee2f654f88a9f40239b06651c9e",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/run_remaining.py",
+      "source_relative_path": "BioEvidence-v4/run_remaining.py",
+      "source_bytes": 4424,
+      "source_sha256": "f3f8470b6f68f7bb28f56f1d682adb3bdb42cfecb3e258fe8071437f27a702d8",
+      "published_bytes": 4424,
+      "published_sha256": "f3f8470b6f68f7bb28f56f1d682adb3bdb42cfecb3e258fe8071437f27a702d8",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/runs/base_06b/config.json",
+      "source_relative_path": "BioEvidence-v4/runs/base_06b/config.json",
+      "source_bytes": 11487,
+      "source_sha256": "855b42b397d31cc2e2d7cd9818b3eeb34653a0756e2656eac1959f1c9b0d270b",
+      "published_bytes": 11487,
+      "published_sha256": "855b42b397d31cc2e2d7cd9818b3eeb34653a0756e2656eac1959f1c9b0d270b",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/runs/base_06b/dev151/analysis.json",
+      "source_relative_path": "BioEvidence-v4/runs/base_06b/dev151/analysis.json",
+      "source_bytes": 36811,
+      "source_sha256": "5804f6cff697eaaa6e1894238ec44fca51f3fa05ca788e473dff60aa4ebd365f",
+      "published_bytes": 36811,
+      "published_sha256": "5804f6cff697eaaa6e1894238ec44fca51f3fa05ca788e473dff60aa4ebd365f",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/runs/base_06b/dev151/failure_cases.jsonl",
+      "source_relative_path": "BioEvidence-v4/runs/base_06b/dev151/failure_cases.jsonl",
+      "source_bytes": 1022479,
+      "source_sha256": "cf711873af57aa114fa94667317c10064ff67dd99f43df56966ca3988ac12da5",
+      "published_bytes": 1022479,
+      "published_sha256": "cf711873af57aa114fa94667317c10064ff67dd99f43df56966ca3988ac12da5",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/runs/base_06b/dev151/harness_results.json.gz",
+      "source_relative_path": "BioEvidence-v4/runs/base_06b/dev151/harness_results.json",
+      "source_bytes": 60078499,
+      "source_sha256": "a6622c4160f903d6926f2d0c7f4863417877d7a4f3a22fcaa733d99eb58f8b0f",
+      "published_bytes": 1326640,
+      "published_sha256": "1f6cc47c51fbd883b77363a92f79e4a4d8d0fd03f5e57fe8adcd540cbdb50388",
+      "encoding": "gzip"
+    },
+    {
+      "path": "BioEvidence-v4/runs/base_06b/dev151/pairs.jsonl",
+      "source_relative_path": "BioEvidence-v4/runs/base_06b/dev151/pairs.jsonl",
+      "source_bytes": 234100,
+      "source_sha256": "7de0f3e59d7d4c614352d061fa59508c70f3337c2aeb8384bf93ad98e725bf8a",
+      "published_bytes": 234100,
+      "published_sha256": "7de0f3e59d7d4c614352d061fa59508c70f3337c2aeb8384bf93ad98e725bf8a",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/runs/base_06b/dev151/predictions.jsonl",
+      "source_relative_path": "BioEvidence-v4/runs/base_06b/dev151/predictions.jsonl",
+      "source_bytes": 9619884,
+      "source_sha256": "1d60d9e6600dd7ab16bb39f851e9e26b33c6a3ac0500c1d5d1a2440bf486c9c5",
+      "published_bytes": 9619884,
+      "published_sha256": "1d60d9e6600dd7ab16bb39f851e9e26b33c6a3ac0500c1d5d1a2440bf486c9c5",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/runs/base_06b/dev151/summary.json",
+      "source_relative_path": "BioEvidence-v4/runs/base_06b/dev151/summary.json",
+      "source_bytes": 826,
+      "source_sha256": "8d181626785e6aa53a1e6dad48f0624ef4cf997494d57b9f225f98f9c653933b",
+      "published_bytes": 826,
+      "published_sha256": "8d181626785e6aa53a1e6dad48f0624ef4cf997494d57b9f225f98f9c653933b",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/runs/e7_06b/config.json",
+      "source_relative_path": "BioEvidence-v4/runs/e7_06b/config.json",
+      "source_bytes": 9856,
+      "source_sha256": "73f8dee67aed1b1b7e0f8b2bbe501c214d17e7ee3f3a1c184e7ff8ce0e54202a",
+      "published_bytes": 9856,
+      "published_sha256": "73f8dee67aed1b1b7e0f8b2bbe501c214d17e7ee3f3a1c184e7ff8ce0e54202a",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/runs/instruct_4b/config.json",
+      "source_relative_path": "BioEvidence-v4/runs/instruct_4b/config.json",
+      "source_bytes": 12604,
+      "source_sha256": "33a6e0685a5fbdc286a76d335dae7255ffe21a3c4900c43d21211d5e73cdb960",
+      "published_bytes": 12604,
+      "published_sha256": "33a6e0685a5fbdc286a76d335dae7255ffe21a3c4900c43d21211d5e73cdb960",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/runs/instruct_4b/dev151/analysis.json",
+      "source_relative_path": "BioEvidence-v4/runs/instruct_4b/dev151/analysis.json",
+      "source_bytes": 38839,
+      "source_sha256": "9ad0315bb16be1854f32edfcab5bcd877df436545221dd742932e99f0f9461a5",
+      "published_bytes": 38839,
+      "published_sha256": "9ad0315bb16be1854f32edfcab5bcd877df436545221dd742932e99f0f9461a5",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/runs/instruct_4b/dev151/failure_cases.jsonl",
+      "source_relative_path": "BioEvidence-v4/runs/instruct_4b/dev151/failure_cases.jsonl",
+      "source_bytes": 508013,
+      "source_sha256": "68dfee9078ec9940f33e8df181d4476bdd35da72c770c2c7afa6e6da32ff1e07",
+      "published_bytes": 508013,
+      "published_sha256": "68dfee9078ec9940f33e8df181d4476bdd35da72c770c2c7afa6e6da32ff1e07",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/runs/instruct_4b/dev151/harness_results.json.gz",
+      "source_relative_path": "BioEvidence-v4/runs/instruct_4b/dev151/harness_results.json",
+      "source_bytes": 59699407,
+      "source_sha256": "aa3cbcd6d3afe005c44a8abba7f5930cd0f5df35bc067f560f5f83fd122e059b",
+      "published_bytes": 1323065,
+      "published_sha256": "dcca543da6ec06de3a6f83b7a6e48d134a4101241c2688aeb074afed1b8dc589",
+      "encoding": "gzip"
+    },
+    {
+      "path": "BioEvidence-v4/runs/instruct_4b/dev151/pairs.jsonl",
+      "source_relative_path": "BioEvidence-v4/runs/instruct_4b/dev151/pairs.jsonl",
+      "source_bytes": 218261,
+      "source_sha256": "f59092842ee6fa515deda06b65f82ad34107df13cd9a37c45097c6fdac5c0bc0",
+      "published_bytes": 218261,
+      "published_sha256": "f59092842ee6fa515deda06b65f82ad34107df13cd9a37c45097c6fdac5c0bc0",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/runs/instruct_4b/dev151/predictions.jsonl",
+      "source_relative_path": "BioEvidence-v4/runs/instruct_4b/dev151/predictions.jsonl",
+      "source_bytes": 9513885,
+      "source_sha256": "b0b1005f32bce7d9f71151140fea45600fa536e6a6027885241b8a14295b61ee",
+      "published_bytes": 9513885,
+      "published_sha256": "b0b1005f32bce7d9f71151140fea45600fa536e6a6027885241b8a14295b61ee",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/runs/instruct_4b/dev151/summary.json",
+      "source_relative_path": "BioEvidence-v4/runs/instruct_4b/dev151/summary.json",
+      "source_bytes": 831,
+      "source_sha256": "1223810320868f454c7b81afff73d9cde619244e34a9f17a6fff7d8b5e06ef85",
+      "published_bytes": 831,
+      "published_sha256": "1223810320868f454c7b81afff73d9cde619244e34a9f17a6fff7d8b5e06ef85",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/source_inventory.json",
+      "source_relative_path": "BioEvidence-v4/source_inventory.json",
+      "source_bytes": 519473,
+      "source_sha256": "a39ece7b9db13d0f80b63c5f653adacb954a5ec02e9e6593af2036875e72e3b9",
+      "published_bytes": 519473,
+      "published_sha256": "a39ece7b9db13d0f80b63c5f653adacb954a5ec02e9e6593af2036875e72e3b9",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/test_adapter.py",
+      "source_relative_path": "BioEvidence-v4/test_adapter.py",
+      "source_bytes": 2087,
+      "source_sha256": "e4cd7dfda1c903f7e0dfb582da8084ecb02513a39bb2222a93e71a0ab574536a",
+      "published_bytes": 2087,
+      "published_sha256": "e4cd7dfda1c903f7e0dfb582da8084ecb02513a39bb2222a93e71a0ab574536a",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v4/verify_outputs.py",
+      "source_relative_path": "BioEvidence-v4/verify_outputs.py",
+      "source_bytes": 4422,
+      "source_sha256": "683aa5dfc07f6a6ebc0181eeaee8eaa951e4e04b22858f74e33eb8700fda5d35",
+      "published_bytes": 4422,
+      "published_sha256": "683aa5dfc07f6a6ebc0181eeaee8eaa951e4e04b22858f74e33eb8700fda5d35",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/README.md",
+      "source_relative_path": "BioEvidence-v5/README.md",
+      "source_bytes": 5997,
+      "source_sha256": "ba7511569a4779b4d15e5895ee355e260e59f03f37964a5b6e2aaef85c5a23bc",
+      "published_bytes": 5997,
+      "published_sha256": "ba7511569a4779b4d15e5895ee355e260e59f03f37964a5b6e2aaef85c5a23bc",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/V5_STATUS.md",
+      "source_relative_path": "BioEvidence-v5/V5_STATUS.md",
+      "source_bytes": 2799,
+      "source_sha256": "ec88c807e8ced60b89f2401092bca47aa9e9eb7254ddd8307f00a152aa192578",
+      "published_bytes": 2799,
+      "published_sha256": "ec88c807e8ced60b89f2401092bca47aa9e9eb7254ddd8307f00a152aa192578",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/adapter.py",
+      "source_relative_path": "BioEvidence-v5/adapter.py",
+      "source_bytes": 2379,
+      "source_sha256": "40e6d868a07de589aa386b51398b87fa3491f8360805e2e147cfa56c27ee8363",
+      "published_bytes": 2379,
+      "published_sha256": "40e6d868a07de589aa386b51398b87fa3491f8360805e2e147cfa56c27ee8363",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/ai_assisted/AI_REVIEW.md",
+      "source_relative_path": "BioEvidence-v5/ai_assisted/AI_REVIEW.md",
+      "source_bytes": 3004,
+      "source_sha256": "453d18a18a598147d38578a69cd49f6e3a974ce054516b4084407282e375ee75",
+      "published_bytes": 3004,
+      "published_sha256": "453d18a18a598147d38578a69cd49f6e3a974ce054516b4084407282e375ee75",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/ai_assisted/RUBRIC.md",
+      "source_relative_path": "BioEvidence-v5/ai_assisted/RUBRIC.md",
+      "source_bytes": 2438,
+      "source_sha256": "c90e9a59cd22be7ebf5a0042c428d65cf6de2db652f6ba2d9fef2c26c38b26a6",
+      "published_bytes": 2438,
+      "published_sha256": "c90e9a59cd22be7ebf5a0042c428d65cf6de2db652f6ba2d9fef2c26c38b26a6",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/ai_assisted/audit_lock.json",
+      "source_relative_path": "BioEvidence-v5/ai_assisted/audit_lock.json",
+      "source_bytes": 680,
+      "source_sha256": "d0419a89c63ab656f9308565459bc400700070cea851889d4b4904e26a7fa1a4",
+      "published_bytes": 680,
+      "published_sha256": "d0419a89c63ab656f9308565459bc400700070cea851889d4b4904e26a7fa1a4",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/ai_assisted/blind_cases.json",
+      "source_relative_path": "BioEvidence-v5/ai_assisted/blind_cases.json",
+      "source_bytes": 17185,
+      "source_sha256": "54a036a78d7e51afa5f4defbac1b47fcc420298c23601aa6be3c222bd05b146a",
+      "published_bytes": 17185,
+      "published_sha256": "54a036a78d7e51afa5f4defbac1b47fcc420298c23601aa6be3c222bd05b146a",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/ai_assisted/private_mapping.json",
+      "source_relative_path": "BioEvidence-v5/ai_assisted/private_mapping.json",
+      "source_bytes": 869,
+      "source_sha256": "05870a3a5ec2fa05f1d2de32ad5e889e2ed95ee4eec045e18ddefaa774f8509b",
+      "published_bytes": 869,
+      "published_sha256": "05870a3a5ec2fa05f1d2de32ad5e889e2ed95ee4eec045e18ddefaa774f8509b",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/ai_assisted/ratings_unsealed.jsonl",
+      "source_relative_path": "BioEvidence-v5/ai_assisted/ratings_unsealed.jsonl",
+      "source_bytes": 40639,
+      "source_sha256": "ca2b2fedc35249991e800a0f25ca3951e2734004f6a07d5c4e2d8e66dbb78001",
+      "published_bytes": 40639,
+      "published_sha256": "ca2b2fedc35249991e800a0f25ca3951e2734004f6a07d5c4e2d8e66dbb78001",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/ai_assisted/review_a_blinded.json",
+      "source_relative_path": "BioEvidence-v5/ai_assisted/review_a_blinded.json",
+      "source_bytes": 22739,
+      "source_sha256": "549945660553f21570c78791ef0f36f78675cb9a93dc4cb1948f85f4cfb36fe4",
+      "published_bytes": 22739,
+      "published_sha256": "549945660553f21570c78791ef0f36f78675cb9a93dc4cb1948f85f4cfb36fe4",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/ai_assisted/review_b_blinded.json",
+      "source_relative_path": "BioEvidence-v5/ai_assisted/review_b_blinded.json",
+      "source_bytes": 19251,
+      "source_sha256": "fd373a254f0971b270f08496e449b4fdad5a9cbf8ae79ac11cabc89989ed26ff",
+      "published_bytes": 19251,
+      "published_sha256": "fd373a254f0971b270f08496e449b4fdad5a9cbf8ae79ac11cabc89989ed26ff",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/ai_assisted/selection.json",
+      "source_relative_path": "BioEvidence-v5/ai_assisted/selection.json",
+      "source_bytes": 963,
+      "source_sha256": "ef029470ab16598a9886b7e4e5b5905fa29e84ff17edf92b1f5f696cdda0579c",
+      "published_bytes": 963,
+      "published_sha256": "ef029470ab16598a9886b7e4e5b5905fa29e84ff17edf92b1f5f696cdda0579c",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/ai_assisted/summary.json",
+      "source_relative_path": "BioEvidence-v5/ai_assisted/summary.json",
+      "source_bytes": 6205,
+      "source_sha256": "67c2d02122686b385d2fb053be35280e042453bcc403265848f681f4f93491f3",
+      "published_bytes": 6205,
+      "published_sha256": "67c2d02122686b385d2fb053be35280e042453bcc403265848f681f4f93491f3",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/ai_join.py",
+      "source_relative_path": "BioEvidence-v5/ai_join.py",
+      "source_bytes": 7048,
+      "source_sha256": "a8689d229a86e147282cc6cfc1512f62b5e0c876c7b5db494f46a4484d141aba",
+      "published_bytes": 7048,
+      "published_sha256": "a8689d229a86e147282cc6cfc1512f62b5e0c876c7b5db494f46a4484d141aba",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/alignment.py",
+      "source_relative_path": "BioEvidence-v5/alignment.py",
+      "source_bytes": 3431,
+      "source_sha256": "dd45a82958336aeb4c9d11351a87440e206936f23c916b3fedd49493f5f4370e",
+      "published_bytes": 3431,
+      "published_sha256": "dd45a82958336aeb4c9d11351a87440e206936f23c916b3fedd49493f5f4370e",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/analyze.py",
+      "source_relative_path": "BioEvidence-v5/analyze.py",
+      "source_bytes": 10338,
+      "source_sha256": "795ece140a1de78f888321998b522a77508896f6f9b686d5a91f5cfaaaa0022b",
+      "published_bytes": 10338,
+      "published_sha256": "795ece140a1de78f888321998b522a77508896f6f9b686d5a91f5cfaaaa0022b",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/audit_targets.py",
+      "source_relative_path": "BioEvidence-v5/audit_targets.py",
+      "source_bytes": 1668,
+      "source_sha256": "b36fca5c7e6e9e8dfc792eaca05a89c1886f6c9acb53cf41cb712a9cce0b932f",
+      "published_bytes": 1668,
+      "published_sha256": "b36fca5c7e6e9e8dfc792eaca05a89c1886f6c9acb53cf41cb712a9cce0b932f",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/blind_review.py",
+      "source_relative_path": "BioEvidence-v5/blind_review.py",
+      "source_bytes": 2465,
+      "source_sha256": "d5009e7e0ef05d2b501c3efbe2eeda0b1bea257129f057deb6b0f0a7f9003d2f",
+      "published_bytes": 2465,
+      "published_sha256": "d5009e7e0ef05d2b501c3efbe2eeda0b1bea257129f057deb6b0f0a7f9003d2f",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/bootstrap.py",
+      "source_relative_path": "BioEvidence-v5/bootstrap.py",
+      "source_bytes": 1895,
+      "source_sha256": "b408d8161a5be00db80fa390431e4ba26db058b8c9457b0c8b24b4c236e704fe",
+      "published_bytes": 1895,
+      "published_sha256": "b408d8161a5be00db80fa390431e4ba26db058b8c9457b0c8b24b4c236e704fe",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/cases.py",
+      "source_relative_path": "BioEvidence-v5/cases.py",
+      "source_bytes": 3026,
+      "source_sha256": "75bec9a310630a26034aa8802144fac39a7db342b6f5f4152aeeeaa910c278e1",
+      "published_bytes": 3026,
+      "published_sha256": "75bec9a310630a26034aa8802144fac39a7db342b6f5f4152aeeeaa910c278e1",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/common.py",
+      "source_relative_path": "BioEvidence-v5/common.py",
+      "source_bytes": 2667,
+      "source_sha256": "9cd9b881e79e934219f80bf9594d7ca1050a7ab6d338f3443bf93ad9170a1275",
+      "published_bytes": 2667,
+      "published_sha256": "9cd9b881e79e934219f80bf9594d7ca1050a7ab6d338f3443bf93ad9170a1275",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/config/models.json",
+      "source_relative_path": "BioEvidence-v5/config/models.json",
+      "source_bytes": 1428,
+      "source_sha256": "4cf9469aaf350249271a103992b15e1c04838f9f1c47e3fabf980e9d678fcaaf",
+      "published_bytes": 1428,
+      "published_sha256": "4cf9469aaf350249271a103992b15e1c04838f9f1c47e3fabf980e9d678fcaaf",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/config/protocol.json",
+      "source_relative_path": "BioEvidence-v5/config/protocol.json",
+      "source_bytes": 2592,
+      "source_sha256": "8a19e12a521d9a1747cdad6b58bd09332da6b46aa8d4f55e0d2782105f7223f6",
+      "published_bytes": 2592,
+      "published_sha256": "8a19e12a521d9a1747cdad6b58bd09332da6b46aa8d4f55e0d2782105f7223f6",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/constraints-baseline.txt",
+      "source_relative_path": "BioEvidence-v5/constraints-baseline.txt",
+      "source_bytes": 1579,
+      "source_sha256": "e2ab544596a15c1da0ea11b04faa2e653d9f87584b24c8d15d90986c1fd2acc1",
+      "published_bytes": 1579,
+      "published_sha256": "e2ab544596a15c1da0ea11b04faa2e653d9f87584b24c8d15d90986c1fd2acc1",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/continue.py",
+      "source_relative_path": "BioEvidence-v5/continue.py",
+      "source_bytes": 3318,
+      "source_sha256": "5a89e46422dede27f4d7e84a8e578613c5a6bdb4e8b60f3e23720b1d8fdff362",
+      "published_bytes": 3318,
+      "published_sha256": "5a89e46422dede27f4d7e84a8e578613c5a6bdb4e8b60f3e23720b1d8fdff362",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/data/dev151_conditions.jsonl",
+      "source_relative_path": "BioEvidence-v5/data/dev151_conditions.jsonl",
+      "source_bytes": 4780038,
+      "source_sha256": "0380001b8046bd31439c63caa95dfe5296e55c13a13ff1b6b50d5a806708745d",
+      "published_bytes": 4780038,
+      "published_sha256": "0380001b8046bd31439c63caa95dfe5296e55c13a13ff1b6b50d5a806708745d",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/data/human_dev26_reference.json",
+      "source_relative_path": "BioEvidence-v5/data/human_dev26_reference.json",
+      "source_bytes": 10714,
+      "source_sha256": "7be91a50c0f984eda3b3de7eff586e1448ef7fba8e2759177353ecb0b544a272",
+      "published_bytes": 10714,
+      "published_sha256": "7be91a50c0f984eda3b3de7eff586e1448ef7fba8e2759177353ecb0b544a272",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/data/sft_taskb_exact.jsonl",
+      "source_relative_path": "BioEvidence-v5/data/sft_taskb_exact.jsonl",
+      "source_bytes": 1896600,
+      "source_sha256": "b0762479353e2e5932cff437cf15f5382efa63751eb87c6fa2b8961d36a2cae1",
+      "published_bytes": 1896600,
+      "published_sha256": "b0762479353e2e5932cff437cf15f5382efa63751eb87c6fa2b8961d36a2cae1",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/data/target_parse_audit.jsonl",
+      "source_relative_path": "BioEvidence-v5/data/target_parse_audit.jsonl",
+      "source_bytes": 322493,
+      "source_sha256": "0a4a8caa3b2f314b905a1f1f2ca4a1051cfa40149052f966f90efdc5b8989b4a",
+      "published_bytes": 322493,
+      "published_sha256": "0a4a8caa3b2f314b905a1f1f2ca4a1051cfa40149052f966f90efdc5b8989b4a",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/data/training_native4b.jsonl",
+      "source_relative_path": "BioEvidence-v5/data/training_native4b.jsonl",
+      "source_bytes": 4961576,
+      "source_sha256": "7e0fe3bf1da656298e3cd776907114ef6c684c5e4745264b6019641ab697719f",
+      "published_bytes": 4961576,
+      "published_sha256": "7e0fe3bf1da656298e3cd776907114ef6c684c5e4745264b6019641ab697719f",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/environment.json",
+      "source_relative_path": "BioEvidence-v5/environment.json",
+      "source_bytes": 8825,
+      "source_sha256": "c1930f32b02a4d7967d22f0beccc591f6c4089c1b5a61c3a726e99253dee6080",
+      "published_bytes": 8825,
+      "published_sha256": "c1930f32b02a4d7967d22f0beccc591f6c4089c1b5a61c3a726e99253dee6080",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/finalize.py",
+      "source_relative_path": "BioEvidence-v5/finalize.py",
+      "source_bytes": 3740,
+      "source_sha256": "cc3a79f238172ed949c0e25fe8b0b741067671526d33df928eecf2fbf0b2c98c",
+      "published_bytes": 3740,
+      "published_sha256": "cc3a79f238172ed949c0e25fe8b0b741067671526d33df928eecf2fbf0b2c98c",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/generate.py",
+      "source_relative_path": "BioEvidence-v5/generate.py",
+      "source_bytes": 11064,
+      "source_sha256": "362266b15c4f44c776c7656268d82fe602ca978d7bf1d5b94c5c493e71c793b6",
+      "published_bytes": 11064,
+      "published_sha256": "362266b15c4f44c776c7656268d82fe602ca978d7bf1d5b94c5c493e71c793b6",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/integrity.py",
+      "source_relative_path": "BioEvidence-v5/integrity.py",
+      "source_bytes": 3463,
+      "source_sha256": "27c5da893397858102af0c8318013ed4567d850421b5492ae1722256af1cd87d",
+      "published_bytes": 3463,
+      "published_sha256": "27c5da893397858102af0c8318013ed4567d850421b5492ae1722256af1cd87d",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/legacy_structural.py",
+      "source_relative_path": "BioEvidence-v5/legacy_structural.py",
+      "source_bytes": 1828,
+      "source_sha256": "b118f9cd3afa593384981994cae8c8228b621c708a702e8733d53ff9d02c5846",
+      "published_bytes": 1828,
+      "published_sha256": "b118f9cd3afa593384981994cae8c8228b621c708a702e8733d53ff9d02c5846",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/logs/continue.log",
+      "source_relative_path": "BioEvidence-v5/logs/continue.log",
+      "source_bytes": 359,
+      "source_sha256": "be902706ab6107221ed63b0118109d91724099cd6141d7be3407335f1fadc9e2",
+      "published_bytes": 359,
+      "published_sha256": "be902706ab6107221ed63b0118109d91724099cd6141d7be3407335f1fadc9e2",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/logs/gpu_memory_series.jsonl",
+      "source_relative_path": "BioEvidence-v5/logs/gpu_memory_series.jsonl",
+      "source_bytes": 53788,
+      "source_sha256": "8149d27a21666b48fd26fa9d1f83fd3d7a3bf9733565b41d5f1c731da3066cde",
+      "published_bytes": 53788,
+      "published_sha256": "8149d27a21666b48fd26fa9d1f83fd3d7a3bf9733565b41d5f1c731da3066cde",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/logs/offline.log",
+      "source_relative_path": "BioEvidence-v5/logs/offline.log",
+      "source_bytes": 482,
+      "source_sha256": "f267ff5ff87d74ba6a4dd76b53b3e2c01b720bcb4b0e0621e306c9c0c2932643",
+      "published_bytes": 482,
+      "published_sha256": "f267ff5ff87d74ba6a4dd76b53b3e2c01b720bcb4b0e0621e306c9c0c2932643",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/logs/pipeline_finalize_.log",
+      "source_relative_path": "BioEvidence-v5/logs/pipeline_finalize_.log",
+      "source_bytes": 32,
+      "source_sha256": "52f73bd7beb57921d0003d36e8666cf8b51013769bff6a4767c370ce9fc24c12",
+      "published_bytes": 32,
+      "published_sha256": "52f73bd7beb57921d0003d36e8666cf8b51013769bff6a4767c370ce9fc24c12",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/logs/pipeline_generate_model_tuned_4b_n_10_b0-only.log",
+      "source_relative_path": "BioEvidence-v5/logs/pipeline_generate_model_tuned_4b_n_10_b0-only.log",
+      "source_bytes": 6462,
+      "source_sha256": "86691492a782132ea9b4cfde8c27309e5b07c95c5dba6da42299d512ae97a228",
+      "published_bytes": 6462,
+      "published_sha256": "86691492a782132ea9b4cfde8c27309e5b07c95c5dba6da42299d512ae97a228",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/logs/pipeline_generate_model_tuned_4b_n_151.log",
+      "source_relative_path": "BioEvidence-v5/logs/pipeline_generate_model_tuned_4b_n_151.log",
+      "source_bytes": 30888,
+      "source_sha256": "4befa8fd4673c8787dfea7d7cab00f63d44a89b3ab3960b02c7a1617b94228e5",
+      "published_bytes": 30888,
+      "published_sha256": "4befa8fd4673c8787dfea7d7cab00f63d44a89b3ab3960b02c7a1617b94228e5",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/logs/pipeline_generate_model_tuned_4b_n_151_b0-only.log",
+      "source_relative_path": "BioEvidence-v5/logs/pipeline_generate_model_tuned_4b_n_151_b0-only.log",
+      "source_bytes": 13407,
+      "source_sha256": "06f64fcde0ebff2167dfd7a13e45343dfa92be00699ff4c5d53966c41f300eb9",
+      "published_bytes": 13407,
+      "published_sha256": "06f64fcde0ebff2167dfd7a13e45343dfa92be00699ff4c5d53966c41f300eb9",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/logs/pipeline_integrity_.log",
+      "source_relative_path": "BioEvidence-v5/logs/pipeline_integrity_.log",
+      "source_bytes": 1265,
+      "source_sha256": "1124707a9f7c7ea5ea1a4daa5f07d5826e6050bdf9a25de11eefa0d5be26df8d",
+      "published_bytes": 1265,
+      "published_sha256": "1124707a9f7c7ea5ea1a4daa5f07d5826e6050bdf9a25de11eefa0d5be26df8d",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/logs/pipeline_integrity_scope_B0_dev151.log",
+      "source_relative_path": "BioEvidence-v5/logs/pipeline_integrity_scope_B0_dev151.log",
+      "source_bytes": 1268,
+      "source_sha256": "4f35401412244e0fcbfd0decf0c04317e0b4c1793131f866d40d8ea47243a3bb",
+      "published_bytes": 1268,
+      "published_sha256": "4f35401412244e0fcbfd0decf0c04317e0b4c1793131f866d40d8ea47243a3bb",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/logs/pipeline_integrity_scope_smoke10_only-tuned.log",
+      "source_relative_path": "BioEvidence-v5/logs/pipeline_integrity_scope_smoke10_only-tuned.log",
+      "source_bytes": 338,
+      "source_sha256": "becbd9edd74a6bf7eb7ecc43d824e7d3fd9811f7867b703b6bf475a6148e32d1",
+      "published_bytes": 338,
+      "published_sha256": "becbd9edd74a6bf7eb7ecc43d824e7d3fd9811f7867b703b6bf475a6148e32d1",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/logs/pipeline_report_.log",
+      "source_relative_path": "BioEvidence-v5/logs/pipeline_report_.log",
+      "source_bytes": 3168,
+      "source_sha256": "8539c78423917bdf028607edfff8d574fd5d2f0fdc51377a417a87c945268cea",
+      "published_bytes": 3168,
+      "published_sha256": "8539c78423917bdf028607edfff8d574fd5d2f0fdc51377a417a87c945268cea",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/logs/pipeline_report_b0-only.log",
+      "source_relative_path": "BioEvidence-v5/logs/pipeline_report_b0-only.log",
+      "source_bytes": 3036,
+      "source_sha256": "33374b9394299dabdf2f6c83cc27ca061545686f4398925e60413d6334fa77f3",
+      "published_bytes": 3036,
+      "published_sha256": "33374b9394299dabdf2f6c83cc27ca061545686f4398925e60413d6334fa77f3",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/logs/pipeline_sources_verify.log",
+      "source_relative_path": "BioEvidence-v5/logs/pipeline_sources_verify.log",
+      "source_bytes": 42,
+      "source_sha256": "8a5608580abca61420fa9df5323bdfd78e5d1679f4e70a930d5da149c3335a6c",
+      "published_bytes": 42,
+      "published_sha256": "8a5608580abca61420fa9df5323bdfd78e5d1679f4e70a930d5da149c3335a6c",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/logs/protection_preflight.log",
+      "source_relative_path": "BioEvidence-v5/logs/protection_preflight.log",
+      "source_bytes": 42,
+      "source_sha256": "8a5608580abca61420fa9df5323bdfd78e5d1679f4e70a930d5da149c3335a6c",
+      "published_bytes": 42,
+      "published_sha256": "8a5608580abca61420fa9df5323bdfd78e5d1679f4e70a930d5da149c3335a6c",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/logs/reuse.log",
+      "source_relative_path": "BioEvidence-v5/logs/reuse.log",
+      "source_bytes": 63,
+      "source_sha256": "0636c2266493d9307b83fd7d30cf20731e6c229faf6dc3bba0c4b18f5addeee3",
+      "published_bytes": 63,
+      "published_sha256": "0636c2266493d9307b83fd7d30cf20731e6c229faf6dc3bba0c4b18f5addeee3",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/logs/reused_B0_integrity.log",
+      "source_relative_path": "BioEvidence-v5/logs/reused_B0_integrity.log",
+      "source_bytes": 963,
+      "source_sha256": "570157b3882e25ece349c688cd2c39dfb99b0b1cee69be194c9c220d85fd3365",
+      "published_bytes": 963,
+      "published_sha256": "570157b3882e25ece349c688cd2c39dfb99b0b1cee69be194c9c220d85fd3365",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/logs/risk_tests.log",
+      "source_relative_path": "BioEvidence-v5/logs/risk_tests.log",
+      "source_bytes": 110,
+      "source_sha256": "d4096016f94b3e2f854d42c86eca1d620c32a0e1545d3bdfb4b98c0627fef27a",
+      "published_bytes": 110,
+      "published_sha256": "d4096016f94b3e2f854d42c86eca1d620c32a0e1545d3bdfb4b98c0627fef27a",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/logs/train_full.log",
+      "source_relative_path": "BioEvidence-v5/logs/train_full.log",
+      "source_bytes": 84137,
+      "source_sha256": "09b885e93fd104db6d3e9f1018c8c89413a2a6e8741334fc7e4336eb5bed7e16",
+      "published_bytes": 84137,
+      "published_sha256": "09b885e93fd104db6d3e9f1018c8c89413a2a6e8741334fc7e4336eb5bed7e16",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/logs/train_smoke.log",
+      "source_relative_path": "BioEvidence-v5/logs/train_smoke.log",
+      "source_bytes": 7528,
+      "source_sha256": "8e28f07f83c08526b54990dea970c3b982cb55c6c00e9e16175c44ea3bba9ab0",
+      "published_bytes": 7528,
+      "published_sha256": "8e28f07f83c08526b54990dea970c3b982cb55c6c00e9e16175c44ea3bba9ab0",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/logs/train_smoke_retry_schema.log",
+      "source_relative_path": "BioEvidence-v5/logs/train_smoke_retry_schema.log",
+      "source_bytes": 7642,
+      "source_sha256": "71f62aadafe1561342fb37405af1de745c8a7b998ef4659ccd57c3f2159fe01c",
+      "published_bytes": 7642,
+      "published_sha256": "71f62aadafe1561342fb37405af1de745c8a7b998ef4659ccd57c3f2159fe01c",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/logs/train_smoke_trl_eos.log",
+      "source_relative_path": "BioEvidence-v5/logs/train_smoke_trl_eos.log",
+      "source_bytes": 8054,
+      "source_sha256": "6b79c86250fe4e95abf8684a10a856edf1a00381f5ba33209f51b1e37eef8e3a",
+      "published_bytes": 8054,
+      "published_sha256": "6b79c86250fe4e95abf8684a10a856edf1a00381f5ba33209f51b1e37eef8e3a",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/offline.py",
+      "source_relative_path": "BioEvidence-v5/offline.py",
+      "source_bytes": 6620,
+      "source_sha256": "454fdf41c06b9bdd7edb12c8fa8d80cab9a5be2ca6a62066ed6d60e265ec75e4",
+      "published_bytes": 6620,
+      "published_sha256": "454fdf41c06b9bdd7edb12c8fa8d80cab9a5be2ca6a62066ed6d60e265ec75e4",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/prepare.py",
+      "source_relative_path": "BioEvidence-v5/prepare.py",
+      "source_bytes": 6792,
+      "source_sha256": "1d3db352a4ab45410e4b0f5995f11571bd0405df67848a1e1cb54b95c515cdad",
+      "published_bytes": 6792,
+      "published_sha256": "1d3db352a4ab45410e4b0f5995f11571bd0405df67848a1e1cb54b95c515cdad",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/prepare_runtime.py",
+      "source_relative_path": "BioEvidence-v5/prepare_runtime.py",
+      "source_bytes": 5434,
+      "source_sha256": "6a7a5b2afb353859bcb14af78b21b3b8b548f22a6a38bb3e1f1af349b87089c2",
+      "published_bytes": 5434,
+      "published_sha256": "6a7a5b2afb353859bcb14af78b21b3b8b548f22a6a38bb3e1f1af349b87089c2",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/report.py",
+      "source_relative_path": "BioEvidence-v5/report.py",
+      "source_bytes": 16538,
+      "source_sha256": "a1061697e68b71b415061898c72539801fc25e95d38f17291a0ffcc01137a618",
+      "published_bytes": 16538,
+      "published_sha256": "a1061697e68b71b415061898c72539801fc25e95d38f17291a0ffcc01137a618",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/reports/E7_training_alignment.json",
+      "source_relative_path": "BioEvidence-v5/reports/E7_training_alignment.json",
+      "source_bytes": 4366,
+      "source_sha256": "48b50471412b91d01bf56d9210ed18b35ebb5bcc7c205011fab8f399e3a0aa72",
+      "published_bytes": 4366,
+      "published_sha256": "48b50471412b91d01bf56d9210ed18b35ebb5bcc7c205011fab8f399e3a0aa72",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/reports/V5_FINDINGS.md",
+      "source_relative_path": "BioEvidence-v5/reports/V5_FINDINGS.md",
+      "source_bytes": 2190,
+      "source_sha256": "1b40a67f4f1ec202d7fc50fa8b497afa56688c3ac291ea4f2f3b7f34e5b5a3ea",
+      "published_bytes": 2190,
+      "published_sha256": "1b40a67f4f1ec202d7fc50fa8b497afa56688c3ac291ea4f2f3b7f34e5b5a3ea",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/reports/V5_REPORT.md",
+      "source_relative_path": "BioEvidence-v5/reports/V5_REPORT.md",
+      "source_bytes": 15339,
+      "source_sha256": "1f6ee51394c312eb3dd73d2cad9e86fa2522b15d98f8ee85fe597b024dc19938",
+      "published_bytes": 15339,
+      "published_sha256": "1f6ee51394c312eb3dd73d2cad9e86fa2522b15d98f8ee85fe597b024dc19938",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/reports/V5_REPORT_B0.md",
+      "source_relative_path": "BioEvidence-v5/reports/V5_REPORT_B0.md",
+      "source_bytes": 7284,
+      "source_sha256": "7ca7ce12036fe27da4a59d324aca0df03cfb558e516adb0ee4fc390d461dd3c7",
+      "published_bytes": 7284,
+      "published_sha256": "7ca7ce12036fe27da4a59d324aca0df03cfb558e516adb0ee4fc390d461dd3c7",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/reports/adaptation_case_index.json",
+      "source_relative_path": "BioEvidence-v5/reports/adaptation_case_index.json",
+      "source_bytes": 2869,
+      "source_sha256": "b6efdbbe7e6d7d63233fea1fa8c9d85725279ee54684db382cc89f330cc87558",
+      "published_bytes": 2869,
+      "published_sha256": "b6efdbbe7e6d7d63233fea1fa8c9d85725279ee54684db382cc89f330cc87558",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/reports/adaptation_cases_all.jsonl",
+      "source_relative_path": "BioEvidence-v5/reports/adaptation_cases_all.jsonl",
+      "source_bytes": 4208484,
+      "source_sha256": "b90212b648e7e7f683321dedc0799ab1028e683a5e045eaddd0642757bb6ba17",
+      "published_bytes": 4208484,
+      "published_sha256": "b90212b648e7e7f683321dedc0799ab1028e683a5e045eaddd0642757bb6ba17",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/reports/atomic_write_probe.json",
+      "source_relative_path": "BioEvidence-v5/reports/atomic_write_probe.json",
+      "source_bytes": 22,
+      "source_sha256": "ac2199d298697d1ffd1ff5fca42aa71d031307dc5940fb968e1ec1ea7f33e932",
+      "published_bytes": 22,
+      "published_sha256": "ac2199d298697d1ffd1ff5fca42aa71d031307dc5940fb968e1ec1ea7f33e932",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/reports/delivery_manifest.json",
+      "source_relative_path": "BioEvidence-v5/reports/delivery_manifest.json",
+      "source_bytes": 22123,
+      "source_sha256": "a2bf45b4f8cc02dee86d8e8a9084a8a3fbb805cfbb67b1a8f36037bfb946964b",
+      "published_bytes": 22123,
+      "published_sha256": "a2bf45b4f8cc02dee86d8e8a9084a8a3fbb805cfbb67b1a8f36037bfb946964b",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/reports/development_comparison.json",
+      "source_relative_path": "BioEvidence-v5/reports/development_comparison.json",
+      "source_bytes": 196654,
+      "source_sha256": "6b4cd79f2344efca5b60fc1f108ecb6caa5e9196ba12e79e2549b9ec439cf8c9",
+      "published_bytes": 196654,
+      "published_sha256": "6b4cd79f2344efca5b60fc1f108ecb6caa5e9196ba12e79e2549b9ec439cf8c9",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/reports/development_comparison_B0.json",
+      "source_relative_path": "BioEvidence-v5/reports/development_comparison_B0.json",
+      "source_bytes": 84728,
+      "source_sha256": "52bb75a16b039877b5e68b91c98324615b8cbf5fb6486f5cfe60447d9dc5eeb8",
+      "published_bytes": 84728,
+      "published_sha256": "52bb75a16b039877b5e68b91c98324615b8cbf5fb6486f5cfe60447d9dc5eeb8",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/reports/expansion_cost_preflight.json",
+      "source_relative_path": "BioEvidence-v5/reports/expansion_cost_preflight.json",
+      "source_bytes": 331,
+      "source_sha256": "934109cfa2c9265d92d82f2f9befe5671a409bbe4db4ed4dcadf5db1575a6a01",
+      "published_bytes": 331,
+      "published_sha256": "934109cfa2c9265d92d82f2f9befe5671a409bbe4db4ed4dcadf5db1575a6a01",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/reports/historical_protection.json",
+      "source_relative_path": "BioEvidence-v5/reports/historical_protection.json",
+      "source_bytes": 478,
+      "source_sha256": "4aeec5afafdad3635d0700137eabe09fd62857d40c3863cf370dee26936dbcb2",
+      "published_bytes": 478,
+      "published_sha256": "4aeec5afafdad3635d0700137eabe09fd62857d40c3863cf370dee26936dbcb2",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/reports/historical_target_distribution.json",
+      "source_relative_path": "BioEvidence-v5/reports/historical_target_distribution.json",
+      "source_bytes": 719,
+      "source_sha256": "35483e518408c4c2ba7cfea46e44117962c659a113364876b571240dcdb59d0f",
+      "published_bytes": 719,
+      "published_sha256": "35483e518408c4c2ba7cfea46e44117962c659a113364876b571240dcdb59d0f",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/reports/output_integrity_B0_dev151.json",
+      "source_relative_path": "BioEvidence-v5/reports/output_integrity_B0_dev151.json",
+      "source_bytes": 1592,
+      "source_sha256": "051b89b9a86ce4e382010f9f637c216eb74caa9c90c2b4a31a3e321455f1416c",
+      "published_bytes": 1592,
+      "published_sha256": "051b89b9a86ce4e382010f9f637c216eb74caa9c90c2b4a31a3e321455f1416c",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/reports/output_integrity_dev151.json",
+      "source_relative_path": "BioEvidence-v5/reports/output_integrity_dev151.json",
+      "source_bytes": 1589,
+      "source_sha256": "9aeb79b725f66904925d8daf8dc822bf25194ea6b84cc1d6487337d54f0c5592",
+      "published_bytes": 1589,
+      "published_sha256": "9aeb79b725f66904925d8daf8dc822bf25194ea6b84cc1d6487337d54f0c5592",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/reports/output_integrity_smoke10.json",
+      "source_relative_path": "BioEvidence-v5/reports/output_integrity_smoke10.json",
+      "source_bytes": 458,
+      "source_sha256": "4eeb913d5f7665ea94dac98fd731c3059a466ff4c97ce3fd4b1280424c708a91",
+      "published_bytes": 458,
+      "published_sha256": "4eeb913d5f7665ea94dac98fd731c3059a466ff4c97ce3fd4b1280424c708a91",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/reports/pipeline_complete.json",
+      "source_relative_path": "BioEvidence-v5/reports/pipeline_complete.json",
+      "source_bytes": 149,
+      "source_sha256": "5394ee081ed7fe59265004412033333ad0cb48222f730c8380b98e6377c5985f",
+      "published_bytes": 149,
+      "published_sha256": "5394ee081ed7fe59265004412033333ad0cb48222f730c8380b98e6377c5985f",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/reports/reuse_integrity.json",
+      "source_relative_path": "BioEvidence-v5/reports/reuse_integrity.json",
+      "source_bytes": 995,
+      "source_sha256": "529cf9a5ac14f8200d37974dcdfb7ac04ffba72f6fe45cd4a469cd45395172f7",
+      "published_bytes": 995,
+      "published_sha256": "529cf9a5ac14f8200d37974dcdfb7ac04ffba72f6fe45cd4a469cd45395172f7",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/reports/scoring_parity.json",
+      "source_relative_path": "BioEvidence-v5/reports/scoring_parity.json",
+      "source_bytes": 15825,
+      "source_sha256": "0ad5825f927a1eaf3c3774a4c21c500a243349f5cb5d963c0bb847fe6c52d833",
+      "published_bytes": 15825,
+      "published_sha256": "0ad5825f927a1eaf3c3774a4c21c500a243349f5cb5d963c0bb847fe6c52d833",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/reports/source_commits.json",
+      "source_relative_path": "BioEvidence-v5/reports/source_commits.json",
+      "source_bytes": 1367,
+      "source_sha256": "70bd73bdc21741035fa434715abeb860c51bd9f4ca85468dae0a71111526bed0",
+      "published_bytes": 1367,
+      "published_sha256": "70bd73bdc21741035fa434715abeb860c51bd9f4ca85468dae0a71111526bed0",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/reports/training_data_audit.json",
+      "source_relative_path": "BioEvidence-v5/reports/training_data_audit.json",
+      "source_bytes": 969,
+      "source_sha256": "bae47653153d5a1c5901d2f77afa6a6fddba1fd712308e2fd52ecbc411e4b261",
+      "published_bytes": 969,
+      "published_sha256": "bae47653153d5a1c5901d2f77afa6a6fddba1fd712308e2fd52ecbc411e4b261",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/reports/verification_precondition_failure.json",
+      "source_relative_path": "BioEvidence-v5/reports/verification_precondition_failure.json",
+      "source_bytes": 299,
+      "source_sha256": "a21e3b8149a4d1d995d87bf8452ce8d3bd2d39f25098e629ea0e61364b95e2cd",
+      "published_bytes": 299,
+      "published_sha256": "a21e3b8149a4d1d995d87bf8452ce8d3bd2d39f25098e629ea0e61364b95e2cd",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/reports/within_model_pairs.jsonl",
+      "source_relative_path": "BioEvidence-v5/reports/within_model_pairs.jsonl",
+      "source_bytes": 483767,
+      "source_sha256": "746355932c2ac17e24af894ec3fc69664dfed1c7f700584fab8a4f0613480a94",
+      "published_bytes": 483767,
+      "published_sha256": "746355932c2ac17e24af894ec3fc69664dfed1c7f700584fab8a4f0613480a94",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/reports/within_model_pairs_B0.jsonl",
+      "source_relative_path": "BioEvidence-v5/reports/within_model_pairs_B0.jsonl",
+      "source_bytes": 120494,
+      "source_sha256": "85e4c1ea3eb0f48a4612d0dac0f9c60cc5d45ef2e93ecdb1828cae0a0111f692",
+      "published_bytes": 120494,
+      "published_sha256": "85e4c1ea3eb0f48a4612d0dac0f9c60cc5d45ef2e93ecdb1828cae0a0111f692",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/requirements-hashed.txt",
+      "source_relative_path": "BioEvidence-v5/requirements-hashed.txt",
+      "source_bytes": 8623,
+      "source_sha256": "df9bf2cb02f76b9094cea52cf764270e6355cc89037c2f59657c78bcf0cfb5d8",
+      "published_bytes": 8623,
+      "published_sha256": "df9bf2cb02f76b9094cea52cf764270e6355cc89037c2f59657c78bcf0cfb5d8",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/requirements-lock.txt",
+      "source_relative_path": "BioEvidence-v5/requirements-lock.txt",
+      "source_bytes": 1605,
+      "source_sha256": "9ad5ca3b1fc76f7180b372eafafd5a5845242e5526577e4e8268309db7d9525d",
+      "published_bytes": 1605,
+      "published_sha256": "9ad5ca3b1fc76f7180b372eafafd5a5845242e5526577e4e8268309db7d9525d",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/requirements-v4-baseline-hashed.txt",
+      "source_relative_path": "BioEvidence-v5/requirements-v4-baseline-hashed.txt",
+      "source_bytes": 8531,
+      "source_sha256": "d424a099db2d360d66a303d943fb9b3559c671ee76b527b93764dffcc806af1a",
+      "published_bytes": 8531,
+      "published_sha256": "d424a099db2d360d66a303d943fb9b3559c671ee76b527b93764dffcc806af1a",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/reuse.py",
+      "source_relative_path": "BioEvidence-v5/reuse.py",
+      "source_bytes": 5574,
+      "source_sha256": "2aef6407b27cc5bf08c6f05fc000a11af385b48aa4237335e203076b00326459",
+      "published_bytes": 5574,
+      "published_sha256": "2aef6407b27cc5bf08c6f05fc000a11af385b48aa4237335e203076b00326459",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/base_06b/B0_dev151/analysis.json",
+      "source_relative_path": "BioEvidence-v5/runs/base_06b/B0_dev151/analysis.json",
+      "source_bytes": 15494,
+      "source_sha256": "8620e45bd6b15907defd3c111b8877e3ff29d6d3e1be4eefecfcab4ddffb2c57",
+      "published_bytes": 15494,
+      "published_sha256": "8620e45bd6b15907defd3c111b8877e3ff29d6d3e1be4eefecfcab4ddffb2c57",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/base_06b/B0_dev151/failure_cases.jsonl",
+      "source_relative_path": "BioEvidence-v5/runs/base_06b/B0_dev151/failure_cases.jsonl",
+      "source_bytes": 273337,
+      "source_sha256": "4d5befceb0af44027b549f84ce0f66fb03d28822f147b0b99f9fb748046e55ae",
+      "published_bytes": 273337,
+      "published_sha256": "4d5befceb0af44027b549f84ce0f66fb03d28822f147b0b99f9fb748046e55ae",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/base_06b/B0_dev151/pairs.jsonl",
+      "source_relative_path": "BioEvidence-v5/runs/base_06b/B0_dev151/pairs.jsonl",
+      "source_bytes": 0,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_bytes": 0,
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/base_06b/B0_dev151/predictions.jsonl",
+      "source_relative_path": "BioEvidence-v5/runs/base_06b/B0_dev151/predictions.jsonl",
+      "source_bytes": 2443727,
+      "source_sha256": "185bbb85b065a8d3d38c50d9fc0bb03a253c69b102d6a55039b7ab121ef1f3d2",
+      "published_bytes": 2443727,
+      "published_sha256": "185bbb85b065a8d3d38c50d9fc0bb03a253c69b102d6a55039b7ab121ef1f3d2",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/base_06b/config.json",
+      "source_relative_path": "BioEvidence-v5/runs/base_06b/config.json",
+      "source_bytes": 11487,
+      "source_sha256": "855b42b397d31cc2e2d7cd9818b3eeb34653a0756e2656eac1959f1c9b0d270b",
+      "published_bytes": 11487,
+      "published_sha256": "855b42b397d31cc2e2d7cd9818b3eeb34653a0756e2656eac1959f1c9b0d270b",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/base_06b/dev151/analysis.json",
+      "source_relative_path": "BioEvidence-v5/runs/base_06b/dev151/analysis.json",
+      "source_bytes": 37773,
+      "source_sha256": "615847f9ade28eb738fc3a5f640afd8d0c896a752be8212a9e633542cbc713f1",
+      "published_bytes": 37773,
+      "published_sha256": "615847f9ade28eb738fc3a5f640afd8d0c896a752be8212a9e633542cbc713f1",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/base_06b/dev151/failure_cases.jsonl",
+      "source_relative_path": "BioEvidence-v5/runs/base_06b/dev151/failure_cases.jsonl",
+      "source_bytes": 1022479,
+      "source_sha256": "cf711873af57aa114fa94667317c10064ff67dd99f43df56966ca3988ac12da5",
+      "published_bytes": 1022479,
+      "published_sha256": "cf711873af57aa114fa94667317c10064ff67dd99f43df56966ca3988ac12da5",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/base_06b/dev151/pairs.jsonl",
+      "source_relative_path": "BioEvidence-v5/runs/base_06b/dev151/pairs.jsonl",
+      "source_bytes": 234100,
+      "source_sha256": "7de0f3e59d7d4c614352d061fa59508c70f3337c2aeb8384bf93ad98e725bf8a",
+      "published_bytes": 234100,
+      "published_sha256": "7de0f3e59d7d4c614352d061fa59508c70f3337c2aeb8384bf93ad98e725bf8a",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/base_06b/dev151/predictions.jsonl",
+      "source_relative_path": "BioEvidence-v5/runs/base_06b/dev151/predictions.jsonl",
+      "source_bytes": 9773904,
+      "source_sha256": "1d6cb6e3561679533c25861cd072cd142884eb880dc57418908bddeaa6f32dcd",
+      "published_bytes": 9773904,
+      "published_sha256": "1d6cb6e3561679533c25861cd072cd142884eb880dc57418908bddeaa6f32dcd",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/e7_06b/B0_dev151/analysis.json",
+      "source_relative_path": "BioEvidence-v5/runs/e7_06b/B0_dev151/analysis.json",
+      "source_bytes": 15375,
+      "source_sha256": "4d23c536c87f6567959c68a93ae75d1d0188632268361d6ce85f9817fb605029",
+      "published_bytes": 15375,
+      "published_sha256": "4d23c536c87f6567959c68a93ae75d1d0188632268361d6ce85f9817fb605029",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/e7_06b/B0_dev151/failure_cases.jsonl",
+      "source_relative_path": "BioEvidence-v5/runs/e7_06b/B0_dev151/failure_cases.jsonl",
+      "source_bytes": 136745,
+      "source_sha256": "2fceb710c132dc745d581a498f64ff33e06ffb266418cd44f30d24eddbc52819",
+      "published_bytes": 136745,
+      "published_sha256": "2fceb710c132dc745d581a498f64ff33e06ffb266418cd44f30d24eddbc52819",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/e7_06b/B0_dev151/pairs.jsonl",
+      "source_relative_path": "BioEvidence-v5/runs/e7_06b/B0_dev151/pairs.jsonl",
+      "source_bytes": 0,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_bytes": 0,
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/e7_06b/B0_dev151/predictions.jsonl",
+      "source_relative_path": "BioEvidence-v5/runs/e7_06b/B0_dev151/predictions.jsonl",
+      "source_bytes": 2349544,
+      "source_sha256": "1dba839b9cbfdfb5105d20d75c62e7142210d4cda3c4e979ed0505f4bd2e57ec",
+      "published_bytes": 2349544,
+      "published_sha256": "1dba839b9cbfdfb5105d20d75c62e7142210d4cda3c4e979ed0505f4bd2e57ec",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/e7_06b/config.json",
+      "source_relative_path": "BioEvidence-v5/runs/e7_06b/config.json",
+      "source_bytes": 3293,
+      "source_sha256": "57997673bebac544fd0b0ab9d402d22373e853baec2b6a1951c2cd6238d825c2",
+      "published_bytes": 3293,
+      "published_sha256": "57997673bebac544fd0b0ab9d402d22373e853baec2b6a1951c2cd6238d825c2",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/e7_06b/dev151/analysis.json",
+      "source_relative_path": "BioEvidence-v5/runs/e7_06b/dev151/analysis.json",
+      "source_bytes": 38739,
+      "source_sha256": "e8cbbf581a3ffa0748edbffe6a389a0ccb6c9f53dc11643192b1abbb6c79e81d",
+      "published_bytes": 38739,
+      "published_sha256": "e8cbbf581a3ffa0748edbffe6a389a0ccb6c9f53dc11643192b1abbb6c79e81d",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/e7_06b/dev151/failure_cases.jsonl",
+      "source_relative_path": "BioEvidence-v5/runs/e7_06b/dev151/failure_cases.jsonl",
+      "source_bytes": 633752,
+      "source_sha256": "a9b7ce330cb70d626562592129e60f6780fb327b7a0d9a450c9ba29bfb66c1cb",
+      "published_bytes": 633752,
+      "published_sha256": "a9b7ce330cb70d626562592129e60f6780fb327b7a0d9a450c9ba29bfb66c1cb",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/e7_06b/dev151/pairs.jsonl",
+      "source_relative_path": "BioEvidence-v5/runs/e7_06b/dev151/pairs.jsonl",
+      "source_bytes": 195496,
+      "source_sha256": "199c4f5260903f1abc403071c5724202f7573185138fc2e15881170e8a652547",
+      "published_bytes": 195496,
+      "published_sha256": "199c4f5260903f1abc403071c5724202f7573185138fc2e15881170e8a652547",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/e7_06b/dev151/predictions.jsonl",
+      "source_relative_path": "BioEvidence-v5/runs/e7_06b/dev151/predictions.jsonl",
+      "source_bytes": 9401566,
+      "source_sha256": "c08500bba4d2d080967e39653d0aadc2a982bdefd93aa207e8805c82d51692bb",
+      "published_bytes": 9401566,
+      "published_sha256": "c08500bba4d2d080967e39653d0aadc2a982bdefd93aa207e8805c82d51692bb",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/instruct_4b/B0_dev151/analysis.json",
+      "source_relative_path": "BioEvidence-v5/runs/instruct_4b/B0_dev151/analysis.json",
+      "source_bytes": 15661,
+      "source_sha256": "d5a01facd94635e354bacfaedd8d62db356d1e33396eabca87881f6397c662e6",
+      "published_bytes": 15661,
+      "published_sha256": "d5a01facd94635e354bacfaedd8d62db356d1e33396eabca87881f6397c662e6",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/instruct_4b/B0_dev151/failure_cases.jsonl",
+      "source_relative_path": "BioEvidence-v5/runs/instruct_4b/B0_dev151/failure_cases.jsonl",
+      "source_bytes": 124129,
+      "source_sha256": "b033e6aa0fd05d49abc800a2b40265c57f9a5965ab4f9e93baed018c6d09b1af",
+      "published_bytes": 124129,
+      "published_sha256": "b033e6aa0fd05d49abc800a2b40265c57f9a5965ab4f9e93baed018c6d09b1af",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/instruct_4b/B0_dev151/pairs.jsonl",
+      "source_relative_path": "BioEvidence-v5/runs/instruct_4b/B0_dev151/pairs.jsonl",
+      "source_bytes": 0,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_bytes": 0,
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/instruct_4b/B0_dev151/predictions.jsonl",
+      "source_relative_path": "BioEvidence-v5/runs/instruct_4b/B0_dev151/predictions.jsonl",
+      "source_bytes": 2416925,
+      "source_sha256": "cc61193847b5e95b45d6d852507c7df66484ca415c668cd4f024229859af47a5",
+      "published_bytes": 2416925,
+      "published_sha256": "cc61193847b5e95b45d6d852507c7df66484ca415c668cd4f024229859af47a5",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/instruct_4b/config.json",
+      "source_relative_path": "BioEvidence-v5/runs/instruct_4b/config.json",
+      "source_bytes": 12604,
+      "source_sha256": "33a6e0685a5fbdc286a76d335dae7255ffe21a3c4900c43d21211d5e73cdb960",
+      "published_bytes": 12604,
+      "published_sha256": "33a6e0685a5fbdc286a76d335dae7255ffe21a3c4900c43d21211d5e73cdb960",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/instruct_4b/dev151/analysis.json",
+      "source_relative_path": "BioEvidence-v5/runs/instruct_4b/dev151/analysis.json",
+      "source_bytes": 39801,
+      "source_sha256": "4cac51dcb0704b8cce663454ca36f7daaa811046edaff68a4660667b0184afec",
+      "published_bytes": 39801,
+      "published_sha256": "4cac51dcb0704b8cce663454ca36f7daaa811046edaff68a4660667b0184afec",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/instruct_4b/dev151/failure_cases.jsonl",
+      "source_relative_path": "BioEvidence-v5/runs/instruct_4b/dev151/failure_cases.jsonl",
+      "source_bytes": 508013,
+      "source_sha256": "68dfee9078ec9940f33e8df181d4476bdd35da72c770c2c7afa6e6da32ff1e07",
+      "published_bytes": 508013,
+      "published_sha256": "68dfee9078ec9940f33e8df181d4476bdd35da72c770c2c7afa6e6da32ff1e07",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/instruct_4b/dev151/pairs.jsonl",
+      "source_relative_path": "BioEvidence-v5/runs/instruct_4b/dev151/pairs.jsonl",
+      "source_bytes": 218261,
+      "source_sha256": "f59092842ee6fa515deda06b65f82ad34107df13cd9a37c45097c6fdac5c0bc0",
+      "published_bytes": 218261,
+      "published_sha256": "f59092842ee6fa515deda06b65f82ad34107df13cd9a37c45097c6fdac5c0bc0",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/instruct_4b/dev151/predictions.jsonl",
+      "source_relative_path": "BioEvidence-v5/runs/instruct_4b/dev151/predictions.jsonl",
+      "source_bytes": 9669717,
+      "source_sha256": "d994a03f104bb16f86e07ca552b2eabc946ab2c390753ad157c5849bb30cccc0",
+      "published_bytes": 9669717,
+      "published_sha256": "d994a03f104bb16f86e07ca552b2eabc946ab2c390753ad157c5849bb30cccc0",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/offline/harness_results.json.gz",
+      "source_relative_path": "BioEvidence-v5/runs/offline/harness_results.json",
+      "source_bytes": 32034187,
+      "source_sha256": "cf95860960b265de547c1b17384c3460dfd03707641fe09daa6d38f311a060e1",
+      "published_bytes": 623114,
+      "published_sha256": "7ecbb33c9235fdb80c34695127cca26e46d270597770cde2ae2ae9529c4ea0e0",
+      "encoding": "gzip"
+    },
+    {
+      "path": "BioEvidence-v5/runs/offline/parsed_rows.jsonl",
+      "source_relative_path": "BioEvidence-v5/runs/offline/parsed_rows.jsonl",
+      "source_bytes": 6776525,
+      "source_sha256": "ca5c9315b20bb4c6806817e82207fb3b77dfa89a9597334bc15257f867e6388c",
+      "published_bytes": 6776525,
+      "published_sha256": "ca5c9315b20bb4c6806817e82207fb3b77dfa89a9597334bc15257f867e6388c",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/training/full/loss_masks.jsonl",
+      "source_relative_path": "BioEvidence-v5/runs/training/full/loss_masks.jsonl",
+      "source_bytes": 3787846,
+      "source_sha256": "54509e10c700c057167b1ae112f86a503dfae68be1514c6b926118861f008640",
+      "published_bytes": 3787846,
+      "published_sha256": "54509e10c700c057167b1ae112f86a503dfae68be1514c6b926118861f008640",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/training/full/report.json",
+      "source_relative_path": "BioEvidence-v5/runs/training/full/report.json",
+      "source_bytes": 103818,
+      "source_sha256": "8d809d30e172c81b79fcfd263982e6bfaab5d594d40817c491491baf890d73ad",
+      "published_bytes": 103818,
+      "published_sha256": "8d809d30e172c81b79fcfd263982e6bfaab5d594d40817c491491baf890d73ad",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/training/full/steps.jsonl",
+      "source_relative_path": "BioEvidence-v5/runs/training/full/steps.jsonl",
+      "source_bytes": 78054,
+      "source_sha256": "d25efcc9c562b92abee14e36f36bb100d10118d6073e6c1625c2a0c7ccc94aaf",
+      "published_bytes": 78054,
+      "published_sha256": "d25efcc9c562b92abee14e36f36bb100d10118d6073e6c1625c2a0c7ccc94aaf",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/training/smoke/failure_1791693045.json",
+      "source_relative_path": "BioEvidence-v5/runs/training/smoke/failure_1791693045.json",
+      "source_bytes": 445,
+      "source_sha256": "bb13c6435ce0e700a6feadc1d79f6b3d4d9c52d37ad665ee125dff745ab3e4b5",
+      "published_bytes": 445,
+      "published_sha256": "bb13c6435ce0e700a6feadc1d79f6b3d4d9c52d37ad665ee125dff745ab3e4b5",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/training/smoke/failure_1791693089.json",
+      "source_relative_path": "BioEvidence-v5/runs/training/smoke/failure_1791693089.json",
+      "source_bytes": 465,
+      "source_sha256": "7e752a872ebf6c84ff124644776aabd7ef6c87187f29d90bbfbd3658715a4348",
+      "published_bytes": 465,
+      "published_sha256": "7e752a872ebf6c84ff124644776aabd7ef6c87187f29d90bbfbd3658715a4348",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/training/smoke/loss_masks.jsonl",
+      "source_relative_path": "BioEvidence-v5/runs/training/smoke/loss_masks.jsonl",
+      "source_bytes": 3787846,
+      "source_sha256": "54509e10c700c057167b1ae112f86a503dfae68be1514c6b926118861f008640",
+      "published_bytes": 3787846,
+      "published_sha256": "54509e10c700c057167b1ae112f86a503dfae68be1514c6b926118861f008640",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/training/smoke/report.json",
+      "source_relative_path": "BioEvidence-v5/runs/training/smoke/report.json",
+      "source_bytes": 7395,
+      "source_sha256": "d29782961098a0c5e0ec67bf2c4067f83f4ed5728ed1376927a20ece094dd3ac",
+      "published_bytes": 7395,
+      "published_sha256": "d29782961098a0c5e0ec67bf2c4067f83f4ed5728ed1376927a20ece094dd3ac",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/training/smoke/steps.jsonl",
+      "source_relative_path": "BioEvidence-v5/runs/training/smoke/steps.jsonl",
+      "source_bytes": 937,
+      "source_sha256": "1db3ff0d597931e73bbde29e1eb2dac5a3fa5e1d1e2edd9d844ab5eba9f63672",
+      "published_bytes": 937,
+      "published_sha256": "1db3ff0d597931e73bbde29e1eb2dac5a3fa5e1d1e2edd9d844ab5eba9f63672",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/tuned_4b/B0_dev151/analysis.json",
+      "source_relative_path": "BioEvidence-v5/runs/tuned_4b/B0_dev151/analysis.json",
+      "source_bytes": 15559,
+      "source_sha256": "d66679c2dff45c020daa3cc56156ade850c38a5bcc1a7b9b82b73932dd5f77d7",
+      "published_bytes": 15559,
+      "published_sha256": "d66679c2dff45c020daa3cc56156ade850c38a5bcc1a7b9b82b73932dd5f77d7",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/tuned_4b/B0_dev151/failure_cases.jsonl",
+      "source_relative_path": "BioEvidence-v5/runs/tuned_4b/B0_dev151/failure_cases.jsonl",
+      "source_bytes": 99834,
+      "source_sha256": "470997b8abf7950dfda1d5f68fc8888a1ac0f1fc8bf5aabb26e55970574edc7d",
+      "published_bytes": 99834,
+      "published_sha256": "470997b8abf7950dfda1d5f68fc8888a1ac0f1fc8bf5aabb26e55970574edc7d",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/tuned_4b/B0_dev151/harness_results.json",
+      "source_relative_path": "BioEvidence-v5/runs/tuned_4b/B0_dev151/harness_results.json",
+      "source_bytes": 14866709,
+      "source_sha256": "b19ca876af9d0a7b621264da924b54c5180b6f37c9f9957c0af444a10b1ade4a",
+      "published_bytes": 14866709,
+      "published_sha256": "b19ca876af9d0a7b621264da924b54c5180b6f37c9f9957c0af444a10b1ade4a",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/tuned_4b/B0_dev151/pairs.jsonl",
+      "source_relative_path": "BioEvidence-v5/runs/tuned_4b/B0_dev151/pairs.jsonl",
+      "source_bytes": 0,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_bytes": 0,
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/tuned_4b/B0_dev151/predictions.jsonl",
+      "source_relative_path": "BioEvidence-v5/runs/tuned_4b/B0_dev151/predictions.jsonl",
+      "source_bytes": 2353890,
+      "source_sha256": "0794b46a6da68c5dcdb1b5fda92d49965c2088e7b68acaa71ea2b4e1fe5abf5b",
+      "published_bytes": 2353890,
+      "published_sha256": "0794b46a6da68c5dcdb1b5fda92d49965c2088e7b68acaa71ea2b4e1fe5abf5b",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/tuned_4b/B0_dev151/summary.json",
+      "source_relative_path": "BioEvidence-v5/runs/tuned_4b/B0_dev151/summary.json",
+      "source_bytes": 825,
+      "source_sha256": "8ae456e131c19f5ef15d6cc66f786deaed837bd582b4d9c156d3cf75f19265cb",
+      "published_bytes": 825,
+      "published_sha256": "8ae456e131c19f5ef15d6cc66f786deaed837bd582b4d9c156d3cf75f19265cb",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/tuned_4b/config.json",
+      "source_relative_path": "BioEvidence-v5/runs/tuned_4b/config.json",
+      "source_bytes": 13369,
+      "source_sha256": "96c076852e49ea7e9fe97ea75008127bcc9ed244bf6b88e1742d00d48c5249e6",
+      "published_bytes": 13369,
+      "published_sha256": "96c076852e49ea7e9fe97ea75008127bcc9ed244bf6b88e1742d00d48c5249e6",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/tuned_4b/dev151/analysis.json",
+      "source_relative_path": "BioEvidence-v5/runs/tuned_4b/dev151/analysis.json",
+      "source_bytes": 38792,
+      "source_sha256": "9871712a2a3272249bcd245fd0ff130bc1b291b9d339ef91add5f19d1dfbd8e8",
+      "published_bytes": 38792,
+      "published_sha256": "9871712a2a3272249bcd245fd0ff130bc1b291b9d339ef91add5f19d1dfbd8e8",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/tuned_4b/dev151/failure_cases.jsonl",
+      "source_relative_path": "BioEvidence-v5/runs/tuned_4b/dev151/failure_cases.jsonl",
+      "source_bytes": 431583,
+      "source_sha256": "85d6a505003739c7225f690a1c3af26cd24c47fb420a67ba041a478f2a68708b",
+      "published_bytes": 431583,
+      "published_sha256": "85d6a505003739c7225f690a1c3af26cd24c47fb420a67ba041a478f2a68708b",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/tuned_4b/dev151/harness_results.json.gz",
+      "source_relative_path": "BioEvidence-v5/runs/tuned_4b/dev151/harness_results.json",
+      "source_bytes": 59462173,
+      "source_sha256": "f2a9edf9dc3b75f83cf5246e8dca8c9f9bd40732b74754656464040850662622",
+      "published_bytes": 1290028,
+      "published_sha256": "15e17b6d265cf1154ef20d6cc0fac9c3889c34f1cd97c9cdfb4ff1162c8bb3de",
+      "encoding": "gzip"
+    },
+    {
+      "path": "BioEvidence-v5/runs/tuned_4b/dev151/pairs.jsonl",
+      "source_relative_path": "BioEvidence-v5/runs/tuned_4b/dev151/pairs.jsonl",
+      "source_bytes": 195945,
+      "source_sha256": "cf603e952cc2365ff0c3600057910a758c02709acfa4db4fc8f77e1f048c6b9e",
+      "published_bytes": 195945,
+      "published_sha256": "cf603e952cc2365ff0c3600057910a758c02709acfa4db4fc8f77e1f048c6b9e",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/tuned_4b/dev151/predictions.jsonl",
+      "source_relative_path": "BioEvidence-v5/runs/tuned_4b/dev151/predictions.jsonl",
+      "source_bytes": 9421480,
+      "source_sha256": "47e9be578a0d4e00e67624ddaea863116a43726a054bda00b41669c5c95aab04",
+      "published_bytes": 9421480,
+      "published_sha256": "47e9be578a0d4e00e67624ddaea863116a43726a054bda00b41669c5c95aab04",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/tuned_4b/dev151/summary.json",
+      "source_relative_path": "BioEvidence-v5/runs/tuned_4b/dev151/summary.json",
+      "source_bytes": 827,
+      "source_sha256": "e013e169741c2e3dacd5239daf27bcb7f4196a030c39bdc3a5b847951b6b346b",
+      "published_bytes": 827,
+      "published_sha256": "e013e169741c2e3dacd5239daf27bcb7f4196a030c39bdc3a5b847951b6b346b",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/tuned_4b/smoke10/harness_results.json",
+      "source_relative_path": "BioEvidence-v5/runs/tuned_4b/smoke10/harness_results.json",
+      "source_bytes": 992053,
+      "source_sha256": "905dfad993ae80c25038380638cbb5b369fbb405f9da72d71cd4d51570b55005",
+      "published_bytes": 992053,
+      "published_sha256": "905dfad993ae80c25038380638cbb5b369fbb405f9da72d71cd4d51570b55005",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/tuned_4b/smoke10/predictions.jsonl",
+      "source_relative_path": "BioEvidence-v5/runs/tuned_4b/smoke10/predictions.jsonl",
+      "source_bytes": 155845,
+      "source_sha256": "c18b64be03e152a81dc542282b6b9881c97a33bd96037c922fc5820e9c3e5e0e",
+      "published_bytes": 155845,
+      "published_sha256": "c18b64be03e152a81dc542282b6b9881c97a33bd96037c922fc5820e9c3e5e0e",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/runs/tuned_4b/smoke10/summary.json",
+      "source_relative_path": "BioEvidence-v5/runs/tuned_4b/smoke10/summary.json",
+      "source_bytes": 818,
+      "source_sha256": "180b72ca0d830583251321f16200f2869915575f78053de3cbf6c39549390aa0",
+      "published_bytes": 818,
+      "published_sha256": "180b72ca0d830583251321f16200f2869915575f78053de3cbf6c39549390aa0",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/source_inventory.json",
+      "source_relative_path": "BioEvidence-v5/source_inventory.json",
+      "source_bytes": 573655,
+      "source_sha256": "e97f3192ea0384be033cb1aded61af72d8e31b4cd3fbb3b149dc540d681e1ee1",
+      "published_bytes": 573655,
+      "published_sha256": "e97f3192ea0384be033cb1aded61af72d8e31b4cd3fbb3b149dc540d681e1ee1",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/sources.py",
+      "source_relative_path": "BioEvidence-v5/sources.py",
+      "source_bytes": 3213,
+      "source_sha256": "21c3550c803e00c76272cacf44b9d6e255f22b1adf052ee6ee09e6e4fdda39bb",
+      "published_bytes": 3213,
+      "published_sha256": "21c3550c803e00c76272cacf44b9d6e255f22b1adf052ee6ee09e6e4fdda39bb",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/status.py",
+      "source_relative_path": "BioEvidence-v5/status.py",
+      "source_bytes": 3635,
+      "source_sha256": "f9e6c21e18d4834e3f5ffdf97f6716bd2497dfebca1f78b170c48cc62dd81622",
+      "published_bytes": 3635,
+      "published_sha256": "f9e6c21e18d4834e3f5ffdf97f6716bd2497dfebca1f78b170c48cc62dd81622",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/test_adapter.py",
+      "source_relative_path": "BioEvidence-v5/test_adapter.py",
+      "source_bytes": 2087,
+      "source_sha256": "e4cd7dfda1c903f7e0dfb582da8084ecb02513a39bb2222a93e71a0ab574536a",
+      "published_bytes": 2087,
+      "published_sha256": "e4cd7dfda1c903f7e0dfb582da8084ecb02513a39bb2222a93e71a0ab574536a",
+      "encoding": "identity"
+    },
+    {
+      "path": "BioEvidence-v5/train.py",
+      "source_relative_path": "BioEvidence-v5/train.py",
+      "source_bytes": 7608,
+      "source_sha256": "7d612c13760771021156f230935ccc6ba9a7cf0370b7a821a38df970fdd5f0a9",
+      "published_bytes": 7608,
+      "published_sha256": "7d612c13760771021156f230935ccc6ba9a7cf0370b7a821a38df970fdd5f0a9",
+      "encoding": "identity"
+    },
+    {
+      "path": "historical_dependencies/BioEvidence-v1/src/bioevidence/evaluation/metrics.py",
+      "source_relative_path": "historical_dependencies/BioEvidence-v1/src/bioevidence/evaluation/metrics.py",
+      "source_bytes": 8973,
+      "source_sha256": "ca8d69f05dc89a06a61362320d80e5264f95fcfbd0aa9397a906fbcb8c66b1bd",
+      "published_bytes": 8973,
+      "published_sha256": "ca8d69f05dc89a06a61362320d80e5264f95fcfbd0aa9397a906fbcb8c66b1bd",
+      "encoding": "identity"
+    },
+    {
+      "path": "historical_dependencies/BioEvidence-v1/src/bioevidence/inference/eval_taskb.py",
+      "source_relative_path": "historical_dependencies/BioEvidence-v1/src/bioevidence/inference/eval_taskb.py",
+      "source_bytes": 22912,
+      "source_sha256": "7d7219084d6d2db0cc2a68d25b3ee30e6c1ea22161d4edfca4197284d0c2595c",
+      "published_bytes": 22912,
+      "published_sha256": "7d7219084d6d2db0cc2a68d25b3ee30e6c1ea22161d4edfca4197284d0c2595c",
+      "encoding": "identity"
+    },
+    {
+      "path": "historical_dependencies/BioEvidence-v1/src/bioevidence/inference/prompts_taskb.py",
+      "source_relative_path": "historical_dependencies/BioEvidence-v1/src/bioevidence/inference/prompts_taskb.py",
+      "source_bytes": 7862,
+      "source_sha256": "78bae13bd7817dc568a46a68475cfd8b4543944ca9c34adf8e98004d285fd4ae",
+      "published_bytes": 7862,
+      "published_sha256": "78bae13bd7817dc568a46a68475cfd8b4543944ca9c34adf8e98004d285fd4ae",
+      "encoding": "identity"
+    },
+    {
+      "path": "historical_dependencies/BioEvidence-v2/runs/P1-v2-stageB-order-20260924/stageb_dev_analysis.json",
+      "source_relative_path": "historical_dependencies/BioEvidence-v2/runs/P1-v2-stageB-order-20260924/stageb_dev_analysis.json",
+      "source_bytes": 7901,
+      "source_sha256": "871f7bff4ef2d16aaa7390b7c3d9e0779b850d5e101ca2218948c9c3e4e7ba95",
+      "published_bytes": 7901,
+      "published_sha256": "871f7bff4ef2d16aaa7390b7c3d9e0779b850d5e101ca2218948c9c3e4e7ba95",
+      "encoding": "identity"
+    },
+    {
+      "path": "historical_dependencies/BioEvidence-v2/scripts/v2_stageb_dev_analysis.py",
+      "source_relative_path": "historical_dependencies/BioEvidence-v2/scripts/v2_stageb_dev_analysis.py",
+      "source_bytes": 12582,
+      "source_sha256": "e8a1b677ec8d6580145c580251d2a4e51ad2975d382de36ac3adfad607367350",
+      "published_bytes": 12582,
+      "published_sha256": "e8a1b677ec8d6580145c580251d2a4e51ad2975d382de36ac3adfad607367350",
+      "encoding": "identity"
+    },
+    {
+      "path": "historical_dependencies/BioEvidence-v2/scripts/v2_stageb_order_control.py",
+      "source_relative_path": "historical_dependencies/BioEvidence-v2/scripts/v2_stageb_order_control.py",
+      "source_bytes": 31636,
+      "source_sha256": "6049ba23458ea46794ff4527fb340e0ab213649f2e94e62e19a2b759cb443cd3",
+      "published_bytes": 31636,
+      "published_sha256": "6049ba23458ea46794ff4527fb340e0ab213649f2e94e62e19a2b759cb443cd3",
+      "encoding": "identity"
+    }
+  ],
+  "n_files": 256,
+  "published_bytes": 130717990,
+  "omitted_binary_artifacts": [
+    {
+      "source": "BioEvidence-v5/install-baseline-report.json",
+      "bytes": 1447613,
+      "sha256": "8b68fc308dd2d2661a69e511dfdb885d271b38be576d1fd1e0231a2d8fec16cb",
+      "reason": "Installation report may contain expiring signed download URLs; versions/hashes remain in dependency locks and provenance"
+    },
+    {
+      "source": "BioEvidence-v5/install-trl-report.json",
+      "bytes": 14460,
+      "sha256": "005b41ebc2272bf31a8466f932cd7f8a2c13633503f205123c75696d350ca562",
+      "reason": "Installation report may contain expiring signed download URLs; versions/hashes remain in dependency locks and provenance"
+    },
+    {
+      "source": "BioEvidence-v5/artifacts/adapters/qwen3-4b-e7-target/adapter_config.json",
+      "bytes": 1283,
+      "sha256": "007e9de25964e68c077135515ed9cdbc6bf3690eccbc73e32153d833a93bd7bc",
+      "reason": "Weights/tokenizer binary bundle kept local; original identity in training report"
+    },
+    {
+      "source": "BioEvidence-v5/artifacts/adapters/qwen3-4b-e7-target/adapter_model.safetensors",
+      "bytes": 33096960,
+      "sha256": "049d82c7cf59e81500bc4aad51860166f303a31e9b414966a9ecbe717760ec44",
+      "reason": "Weights/tokenizer binary bundle kept local; original identity in training report"
+    },
+    {
+      "source": "BioEvidence-v5/artifacts/adapters/qwen3-4b-e7-target/chat_template.jinja",
+      "bytes": 2690,
+      "sha256": "0ab115e84509e86db2bb05a63edf63778ae7fe624972cdfa982b1e59053d6710",
+      "reason": "Weights/tokenizer binary bundle kept local; original identity in training report"
+    },
+    {
+      "source": "BioEvidence-v5/artifacts/adapters/qwen3-4b-e7-target/README.md",
+      "bytes": 5312,
+      "sha256": "b5b3d87582c4ae8fbe55cd768f6c2ad77da73f5211ef54c97270ec069c5ad516",
+      "reason": "Weights/tokenizer binary bundle kept local; original identity in training report"
+    },
+    {
+      "source": "BioEvidence-v5/artifacts/adapters/qwen3-4b-e7-target/tokenizer.json",
+      "bytes": 11422650,
+      "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+      "reason": "Weights/tokenizer binary bundle kept local; original identity in training report"
+    },
+    {
+      "source": "BioEvidence-v5/artifacts/adapters/qwen3-4b-e7-target/tokenizer_config.json",
+      "bytes": 723,
+      "sha256": "fdc4880fb4cd074ee859c0f49c8980047fb9b0677f76d5c8480d2cffbf677da9",
+      "reason": "Weights/tokenizer binary bundle kept local; original identity in training report"
+    },
+    {
+      "source": "BioEvidence-v5/artifacts/adapters/qwen3-4b-e7-target/training_args.bin",
+      "bytes": 5777,
+      "sha256": "4c77bfe5b5f070f4d6a53dd46f3c6242edbedfaeed5982e2087fe76ace8acb93",
+      "reason": "Weights/tokenizer binary bundle kept local; original identity in training report"
+    }
+  ],
+  "excluded_categories": [
+    "virtual environments",
+    "runtime caches",
+    "temporary files",
+    "wheelhouse",
+    "base-model weights",
+    "LoRA weights",
+    "intermediate checkpoints"
+  ],
+  "compression": "Only large harness_results JSON is losslessly gzipped; original SHA256 preserved. No scoring/raw output rewritten.",
+  "privacy_scan": "Token/private-key/signed-URL patterns checked on every published source/artifact; no matches"
+}

@@ -1,0 +1,107 @@
+{
+  "selection": "First two lexically ordered question/condition per pair and mechanical category; all qualifying cases retained separately",
+  "n_records": 739,
+  "illustrative_index": {
+    "base_06b->e7_06b|classification_regression": [
+      {
+        "question_id": "10411439",
+        "condition": "B0_original"
+      },
+      {
+        "question_id": "10411439",
+        "condition": "B1_result_first"
+      }
+    ],
+    "base_06b->e7_06b|mechanical_contract_resolved": [
+      {
+        "question_id": "10411439",
+        "condition": "B0_original"
+      },
+      {
+        "question_id": "10411439",
+        "condition": "B1_result_first"
+      }
+    ],
+    "base_06b->e7_06b|classification_gain": [
+      {
+        "question_id": "10605400",
+        "condition": "B1_result_first"
+      },
+      {
+        "question_id": "10605400",
+        "condition": "B2_reversed"
+      }
+    ],
+    "base_06b->e7_06b|abstains_human_sufficient": [
+      {
+        "question_id": "10605400",
+        "condition": "B1_result_first"
+      },
+      {
+        "question_id": "10605400",
+        "condition": "B2_reversed"
+      }
+    ],
+    "base_06b->e7_06b|still_answers_human_insufficient": [
+      {
+        "question_id": "11053064",
+        "condition": "B0_original"
+      },
+      {
+        "question_id": "11053064",
+        "condition": "B1_result_first"
+      }
+    ],
+    "instruct_4b->tuned_4b|mechanical_contract_resolved": [
+      {
+        "question_id": "10411439",
+        "condition": "B0_original"
+      },
+      {
+        "question_id": "10411439",
+        "condition": "B3_shuffled"
+      }
+    ],
+    "instruct_4b->tuned_4b|classification_regression": [
+      {
+        "question_id": "10605400",
+        "condition": "B1_result_first"
+      },
+      {
+        "question_id": "10605400",
+        "condition": "B2_reversed"
+      }
+    ],
+    "instruct_4b->tuned_4b|still_answers_human_insufficient": [
+      {
+        "question_id": "11053064",
+        "condition": "B0_original"
+      },
+      {
+        "question_id": "11053064",
+        "condition": "B1_result_first"
+      }
+    ],
+    "instruct_4b->tuned_4b|classification_gain": [
+      {
+        "question_id": "11413427",
+        "condition": "B0_original"
+      },
+      {
+        "question_id": "11413427",
+        "condition": "B1_result_first"
+      }
+    ],
+    "instruct_4b->tuned_4b|mechanical_contract_introduced": [
+      {
+        "question_id": "24614851",
+        "condition": "B0_original"
+      },
+      {
+        "question_id": "24614851",
+        "condition": "B1_result_first"
+      }
+    ]
+  },
+  "boundary": "Gold-label correctness does not establish evidence support. Mechanical casebook has no semantic grades; limited two-question AI-assisted opinions are separate."
+}

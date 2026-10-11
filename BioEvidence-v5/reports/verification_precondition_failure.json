@@ -1,0 +1,7 @@
+{
+  "action": "integrity --scope B0_dev151 --only-tuned before generation",
+  "error": "FileNotFoundError: tuned4b predictions not yet generated",
+  "outcome": "No passing report produced; corrected to validate reused configurations first",
+  "model_failure": false,
+  "data_modified": false
+}

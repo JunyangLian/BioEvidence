@@ -1,0 +1,582 @@
+W1011 10:52:01.466000 11672 .venv\Lib\site-packages\torch\utils\flop_counter.py:113] triton not found; flop counting will not work for triton kernels
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights:   0%|          | 1/398 [00:00<06:03,  1.09it/s]Loading weights:   1%|          | 3/398 [00:01<01:53,  3.49it/s]Loading weights:   2%|▏         | 9/398 [00:01<00:32, 11.91it/s]Loading weights:   4%|▍         | 15/398 [00:01<00:19, 19.89it/s]Loading weights:   6%|▋         | 25/398 [00:01<00:11, 32.76it/s]Loading weights:   8%|▊         | 30/398 [00:01<00:10, 36.25it/s]Loading weights:   9%|▉         | 37/398 [00:01<00:08, 40.21it/s]Loading weights:  11%|█▏        | 45/398 [00:01<00:07, 49.30it/s]Loading weights:  13%|█▎        | 51/398 [00:01<00:07, 46.48it/s]Loading weights:  15%|█▍        | 59/398 [00:02<00:06, 48.96it/s]Loading weights:  17%|█▋        | 67/398 [00:02<00:05, 56.07it/s]Loading weights:  19%|█▊        | 74/398 [00:02<00:06, 52.28it/s]Loading weights:  20%|██        | 81/398 [00:02<00:06, 51.46it/s]Loading weights:  23%|██▎       | 91/398 [00:02<00:05, 59.90it/s]Loading weights:  25%|██▍       | 99/398 [00:02<00:04, 62.21it/s]Loading weights:  27%|██▋       | 106/398 [00:02<00:04, 63.21it/s]Loading weights:  29%|██▊       | 114/398 [00:02<00:04, 61.02it/s]Loading weights:  31%|███       | 124/398 [00:03<00:04, 63.52it/s]Loading weights:  33%|███▎      | 131/398 [00:03<00:04, 62.28it/s]Loading weights:  35%|███▍      | 138/398 [00:03<00:04, 54.27it/s]Loading weights:  37%|███▋      | 147/398 [00:03<00:04, 57.24it/s]Loading weights:  39%|███▉      | 157/398 [00:03<00:03, 61.68it/s]Loading weights:  41%|████      | 164/398 [00:03<00:03, 58.73it/s]Loading weights:  43%|████▎     | 170/398 [00:03<00:04, 51.76it/s]Loading weights:  45%|████▌     | 180/398 [00:04<00:03, 57.29it/s]Loading weights:  48%|████▊     | 190/398 [00:04<00:03, 61.38it/s]Loading weights:  49%|████▉     | 197/398 [00:04<00:03, 60.93it/s]Loading weights:  51%|█████▏    | 204/398 [00:04<00:03, 54.26it/s]Loading weights:  54%|█████▎    | 213/398 [00:04<00:03, 56.68it/s]Loading weights:  56%|█████▌    | 223/398 [00:04<00:02, 61.71it/s]Loading weights:  58%|█████▊    | 230/398 [00:04<00:02, 61.38it/s]Loading weights:  60%|█████▉    | 237/398 [00:05<00:02, 55.27it/s]Loading weights:  62%|██████▏   | 246/398 [00:05<00:02, 57.73it/s]Loading weights:  64%|██████▍   | 256/398 [00:05<00:02, 61.81it/s]Loading weights:  66%|██████▌   | 263/398 [00:05<00:02, 59.99it/s]Loading weights:  68%|██████▊   | 270/398 [00:05<00:02, 53.34it/s]Loading weights:  70%|███████   | 279/398 [00:05<00:02, 56.76it/s]Loading weights:  73%|███████▎  | 289/398 [00:05<00:01, 61.10it/s]Loading weights:  74%|███████▍  | 296/398 [00:06<00:01, 60.79it/s]Loading weights:  76%|███████▌  | 303/398 [00:06<00:01, 55.06it/s]Loading weights:  78%|███████▊  | 312/398 [00:06<00:01, 57.25it/s]Loading weights:  81%|████████  | 322/398 [00:06<00:01, 61.02it/s]Loading weights:  83%|████████▎ | 329/398 [00:06<00:01, 59.95it/s]Loading weights:  84%|████████▍ | 336/398 [00:06<00:01, 54.05it/s]Loading weights:  87%|████████▋ | 345/398 [00:06<00:00, 56.77it/s]Loading weights:  89%|████████▉ | 355/398 [00:07<00:00, 61.17it/s]Loading weights:  91%|█████████ | 362/398 [00:07<00:00, 60.46it/s]Loading weights:  93%|█████████▎| 369/398 [00:07<00:00, 54.45it/s]Loading weights:  95%|█████████▍| 378/398 [00:07<00:00, 57.26it/s]Loading weights:  97%|█████████▋| 388/398 [00:07<00:00, 60.67it/s]Loading weights:  99%|█████████▉| 395/398 [00:07<00:00, 59.68it/s]Loading weights: 100%|██████████| 398/398 [00:07<00:00, 51.10it/s]
+`pretrained` model kwarg is not of type `str`. Many other model arguments may be ignored. Please do not launch via accelerate or use `parallelize=True` if passing an existing model this way.
+Passed an already-initialized model through `pretrained`, assuming single-process call to evaluate() or custom distributed integration
+bioevidence_taskb: Custom kwargs can be passed to `--metadata` in console (as json string) or to the TaskManager.
+For example --metadata='{"max_seq_lengths":[4096, 8192]}'. For details see task Readme.
+  0%|          | 0/604 [00:00<?, ?it/s]100%|██████████| 604/604 [00:00<00:00, 106095.97it/s]
+instruct_4b 41 / 604 11882828 B0_original ok 64 4.08 s
+instruct_4b 42 / 604 11882828 B1_result_first ok 63 3.54 s
+instruct_4b 43 / 604 11882828 B2_reversed ok 57 3.28 s
+instruct_4b 44 / 604 11882828 B3_shuffled ok 64 3.54 s
+instruct_4b 45 / 604 11978239 B0_original ok 48 2.68 s
+instruct_4b 46 / 604 11978239 B1_result_first ok 52 2.92 s
+instruct_4b 47 / 604 11978239 B2_reversed ok 56 3.06 s
+instruct_4b 48 / 604 11978239 B3_shuffled ok 65 3.6 s
+instruct_4b 49 / 604 12095973 B0_original ok 64 3.51 s
+instruct_4b 50 / 604 12095973 B1_result_first ok 62 3.32 s
+instruct_4b 51 / 604 12095973 B2_reversed ok 53 2.86 s
+instruct_4b 52 / 604 12095973 B3_shuffled ok 53 2.87 s
+instruct_4b 53 / 604 12153648 B0_original ok 50 2.79 s
+instruct_4b 54 / 604 12153648 B1_result_first ok 56 3.05 s
+instruct_4b 55 / 604 12153648 B2_reversed ok 61 3.44 s
+instruct_4b 56 / 604 12153648 B3_shuffled ok 61 3.35 s
+instruct_4b 57 / 604 12238307 B0_original ok 42 2.26 s
+instruct_4b 58 / 604 12238307 B1_result_first ok 47 2.57 s
+instruct_4b 59 / 604 12238307 B2_reversed ok 50 2.75 s
+instruct_4b 60 / 604 12238307 B3_shuffled ok 45 2.39 s
+instruct_4b 61 / 604 12607666 B0_original ok 49 2.85 s
+instruct_4b 62 / 604 12607666 B1_result_first ok 59 3.32 s
+instruct_4b 63 / 604 12607666 B2_reversed ok 59 3.25 s
+instruct_4b 64 / 604 12607666 B3_shuffled ok 59 3.3 s
+instruct_4b 65 / 604 12690589 B0_original ok 57 3.04 s
+instruct_4b 66 / 604 12690589 B1_result_first ok 54 2.89 s
+instruct_4b 67 / 604 12690589 B2_reversed ok 59 3.17 s
+instruct_4b 68 / 604 12690589 B3_shuffled ok 52 2.92 s
+instruct_4b 69 / 604 12855939 B0_original ok 36 2.04 s
+instruct_4b 70 / 604 12855939 B1_result_first ok 36 2.01 s
+instruct_4b 71 / 604 12855939 B2_reversed ok 36 2.04 s
+instruct_4b 72 / 604 12855939 B3_shuffled ok 36 2.09 s
+instruct_4b 73 / 604 12913347 B0_original ok 58 3.22 s
+instruct_4b 74 / 604 12913347 B1_result_first ok 57 3.1 s
+instruct_4b 75 / 604 12913347 B2_reversed ok 57 3.3 s
+instruct_4b 76 / 604 12913347 B3_shuffled ok 58 3.31 s
+instruct_4b 77 / 604 14518645 B0_original ok 48 2.7 s
+instruct_4b 78 / 604 14518645 B1_result_first ok 52 2.85 s
+instruct_4b 79 / 604 14518645 B2_reversed ok 45 2.51 s
+instruct_4b 80 / 604 14518645 B3_shuffled ok 52 2.78 s
+instruct_4b 81 / 604 14745753 B0_original ok 67 3.62 s
+instruct_4b 82 / 604 14745753 B1_result_first ok 62 3.43 s
+instruct_4b 83 / 604 14745753 B2_reversed ok 52 2.86 s
+instruct_4b 84 / 604 14745753 B3_shuffled ok 69 3.71 s
+instruct_4b 85 / 604 14976655 B0_original ok 66 3.56 s
+instruct_4b 86 / 604 14976655 B1_result_first ok 59 3.19 s
+instruct_4b 87 / 604 14976655 B2_reversed ok 59 3.42 s
+instruct_4b 88 / 604 14976655 B3_shuffled ok 66 3.83 s
+instruct_4b 89 / 604 14978612 B0_original ok 58 3.25 s
+instruct_4b 90 / 604 14978612 B1_result_first ok 55 3.47 s
+instruct_4b 91 / 604 14978612 B2_reversed ok 58 3.1 s
+instruct_4b 92 / 604 14978612 B3_shuffled ok 56 3.01 s
+instruct_4b 93 / 604 15125825 B0_original ok 55 3.01 s
+instruct_4b 94 / 604 15125825 B1_result_first ok 68 3.63 s
+instruct_4b 95 / 604 15125825 B2_reversed ok 61 3.26 s
+instruct_4b 96 / 604 15125825 B3_shuffled ok 57 3.1 s
+instruct_4b 97 / 604 15137012 B0_original ok 56 3.03 s
+instruct_4b 98 / 604 15137012 B1_result_first ok 55 2.93 s
+instruct_4b 99 / 604 15137012 B2_reversed ok 58 3.19 s
+instruct_4b 100 / 604 15137012 B3_shuffled ok 66 3.51 s
+instruct_4b 101 / 604 15141797 B0_original ok 49 2.7 s
+instruct_4b 102 / 604 15141797 B1_result_first ok 46 2.51 s
+instruct_4b 103 / 604 15141797 B2_reversed ok 51 2.74 s
+instruct_4b 104 / 604 15141797 B3_shuffled ok 46 2.45 s
+instruct_4b 105 / 604 15222284 B0_original ok 58 3.16 s
+instruct_4b 106 / 604 15222284 B1_result_first ok 62 3.39 s
+instruct_4b 107 / 604 15222284 B2_reversed ok 67 3.94 s
+instruct_4b 108 / 604 15222284 B3_shuffled ok 62 3.6 s
+instruct_4b 109 / 604 15223725 B0_original ok 43 2.4 s
+instruct_4b 110 / 604 15223725 B1_result_first ok 45 2.46 s
+instruct_4b 111 / 604 15223725 B2_reversed ok 42 2.27 s
+instruct_4b 112 / 604 15223725 B3_shuffled ok 45 2.42 s
+instruct_4b 113 / 604 15381614 B0_original ok 44 2.4 s
+instruct_4b 114 / 604 15381614 B1_result_first ok 53 2.87 s
+instruct_4b 115 / 604 15381614 B2_reversed ok 48 2.73 s
+instruct_4b 116 / 604 15381614 B3_shuffled ok 48 2.81 s
+instruct_4b 117 / 604 15483019 B0_original ok 70 3.84 s
+instruct_4b 118 / 604 15483019 B1_result_first ok 55 3.07 s
+instruct_4b 119 / 604 15483019 B2_reversed ok 63 3.54 s
+instruct_4b 120 / 604 15483019 B3_shuffled ok 55 3.16 s
+instruct_4b 121 / 604 15800018 B0_original ok 53 2.96 s
+instruct_4b 122 / 604 15800018 B1_result_first ok 53 2.84 s
+instruct_4b 123 / 604 15800018 B2_reversed ok 49 2.61 s
+instruct_4b 124 / 604 15800018 B3_shuffled ok 53 2.92 s
+instruct_4b 125 / 604 15879722 B0_original ok 53 2.78 s
+instruct_4b 126 / 604 15879722 B1_result_first ok 53 2.76 s
+instruct_4b 127 / 604 15879722 B2_reversed ok 53 2.76 s
+instruct_4b 128 / 604 15879722 B3_shuffled ok 66 3.42 s
+instruct_4b 129 / 604 15954832 B0_original ok 53 2.9 s
+instruct_4b 130 / 604 15954832 B1_result_first ok 53 2.88 s
+instruct_4b 131 / 604 15954832 B2_reversed ok 60 3.25 s
+instruct_4b 132 / 604 15954832 B3_shuffled ok 67 3.58 s
+instruct_4b 133 / 604 16151770 B0_original ok 60 3.18 s
+instruct_4b 134 / 604 16151770 B1_result_first ok 62 3.28 s
+instruct_4b 135 / 604 16151770 B2_reversed ok 62 3.25 s
+instruct_4b 136 / 604 16151770 B3_shuffled ok 60 3.17 s
+instruct_4b 137 / 604 16195477 B0_original ok 65 3.64 s
+instruct_4b 138 / 604 16195477 B1_result_first ok 61 3.42 s
+instruct_4b 139 / 604 16195477 B2_reversed ok 61 3.44 s
+instruct_4b 140 / 604 16195477 B3_shuffled ok 55 3.04 s
+instruct_4b 141 / 604 16253970 B0_original ok 55 2.96 s
+instruct_4b 142 / 604 16253970 B1_result_first ok 63 3.33 s
+instruct_4b 143 / 604 16253970 B2_reversed ok 63 3.3 s
+instruct_4b 144 / 604 16253970 B3_shuffled ok 63 3.29 s
+instruct_4b 145 / 604 16319544 B0_original ok 57 2.98 s
+instruct_4b 146 / 604 16319544 B1_result_first ok 58 3.01 s
+instruct_4b 147 / 604 16319544 B2_reversed ok 62 3.22 s
+instruct_4b 148 / 604 16319544 B3_shuffled ok 55 2.89 s
+instruct_4b 149 / 604 16428354 B0_original ok 48 2.57 s
+instruct_4b 150 / 604 16428354 B1_result_first ok 73 3.81 s
+instruct_4b 151 / 604 16428354 B2_reversed ok 73 3.82 s
+instruct_4b 152 / 604 16428354 B3_shuffled ok 48 2.64 s
+instruct_4b 153 / 604 16498158 B0_original ok 48 2.65 s
+instruct_4b 154 / 604 16498158 B1_result_first ok 48 2.6 s
+instruct_4b 155 / 604 16498158 B2_reversed ok 51 2.74 s
+instruct_4b 156 / 604 16498158 B3_shuffled ok 48 2.59 s
+instruct_4b 157 / 604 16647887 B0_original ok 46 2.4 s
+instruct_4b 158 / 604 16647887 B1_result_first ok 43 2.28 s
+instruct_4b 159 / 604 16647887 B2_reversed ok 40 2.15 s
+instruct_4b 160 / 604 16647887 B3_shuffled ok 46 2.49 s
+instruct_4b 161 / 604 16968183 B0_original ok 54 2.98 s
+instruct_4b 162 / 604 16968183 B1_result_first ok 50 2.79 s
+instruct_4b 163 / 604 16968183 B2_reversed ok 53 3.01 s
+instruct_4b 164 / 604 16968183 B3_shuffled ok 53 3.04 s
+instruct_4b 165 / 604 17096624 B0_original ok 41 2.38 s
+instruct_4b 166 / 604 17096624 B1_result_first ok 46 2.66 s
+instruct_4b 167 / 604 17096624 B2_reversed ok 47 3.16 s
+instruct_4b 168 / 604 17096624 B3_shuffled ok 46 2.75 s
+instruct_4b 169 / 604 17224424 B0_original ok 45 2.66 s
+instruct_4b 170 / 604 17224424 B1_result_first ok 49 2.93 s
+instruct_4b 171 / 604 17224424 B2_reversed ok 46 2.68 s
+instruct_4b 172 / 604 17224424 B3_shuffled ok 46 2.52 s
+instruct_4b 173 / 604 17279467 B0_original ok 62 3.27 s
+instruct_4b 174 / 604 17279467 B1_result_first ok 70 3.66 s
+instruct_4b 175 / 604 17279467 B2_reversed ok 52 2.96 s
+instruct_4b 176 / 604 17279467 B3_shuffled ok 52 3.07 s
+
+RESUME 2026-10-11T03:28:02.236948+00:00
+W1011 11:28:13.371000 7584 .venv\Lib\site-packages\torch\utils\flop_counter.py:113] triton not found; flop counting will not work for triton kernels
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights:   0%|          | 1/398 [00:00<06:04,  1.09it/s]Loading weights:   1%|          | 3/398 [00:01<01:52,  3.50it/s]Loading weights:   2%|▏         | 9/398 [00:01<00:32, 11.99it/s]Loading weights:   4%|▍         | 15/398 [00:01<00:18, 20.21it/s]Loading weights:   6%|▋         | 25/398 [00:01<00:11, 33.72it/s]Loading weights:   8%|▊         | 31/398 [00:01<00:09, 38.30it/s]Loading weights:   9%|▉         | 37/398 [00:01<00:08, 42.34it/s]Loading weights:  12%|█▏        | 47/398 [00:01<00:06, 51.76it/s]Loading weights:  13%|█▎        | 53/398 [00:01<00:06, 50.50it/s]Loading weights:  15%|█▍        | 59/398 [00:02<00:06, 51.70it/s]Loading weights:  17%|█▋        | 69/398 [00:02<00:05, 59.38it/s]Loading weights:  19%|█▉        | 76/398 [00:02<00:05, 60.32it/s]Loading weights:  21%|██        | 83/398 [00:02<00:05, 53.24it/s]Loading weights:  23%|██▎       | 92/398 [00:02<00:05, 56.30it/s]Loading weights:  26%|██▌       | 102/398 [00:02<00:04, 61.55it/s]Loading weights:  27%|██▋       | 109/398 [00:02<00:04, 60.86it/s]Loading weights:  29%|██▉       | 116/398 [00:02<00:05, 54.70it/s]Loading weights:  31%|███▏      | 125/398 [00:03<00:04, 57.52it/s]Loading weights:  34%|███▍      | 135/398 [00:03<00:04, 60.56it/s]Loading weights:  36%|███▌      | 142/398 [00:03<00:04, 51.30it/s]Loading weights:  37%|███▋      | 148/398 [00:03<00:05, 45.81it/s]Loading weights:  40%|███▉      | 158/398 [00:03<00:04, 52.35it/s]Loading weights:  42%|████▏     | 168/398 [00:03<00:04, 57.35it/s]Loading weights:  44%|████▎     | 174/398 [00:04<00:04, 55.81it/s]Loading weights:  45%|████▌     | 180/398 [00:04<00:04, 54.39it/s]Loading weights:  48%|████▊     | 190/398 [00:04<00:03, 59.40it/s]Loading weights:  49%|████▉     | 196/398 [00:04<00:03, 56.10it/s]Loading weights:  51%|█████     | 202/398 [00:04<00:03, 55.00it/s]Loading weights:  53%|█████▎    | 212/398 [00:04<00:03, 59.97it/s]Loading weights:  55%|█████▍    | 218/398 [00:04<00:03, 58.10it/s]Loading weights:  56%|█████▋    | 224/398 [00:04<00:03, 56.34it/s]Loading weights:  59%|█████▉    | 234/398 [00:05<00:02, 61.02it/s]Loading weights:  61%|██████    | 241/398 [00:05<00:02, 61.15it/s]Loading weights:  62%|██████▏   | 248/398 [00:05<00:02, 53.53it/s]Loading weights:  65%|██████▍   | 257/398 [00:05<00:02, 56.92it/s]Loading weights:  67%|██████▋   | 267/398 [00:05<00:02, 61.25it/s]Loading weights:  69%|██████▉   | 274/398 [00:05<00:02, 60.03it/s]Loading weights:  71%|███████   | 281/398 [00:05<00:02, 53.74it/s]Loading weights:  73%|███████▎  | 290/398 [00:06<00:01, 56.81it/s]Loading weights:  75%|███████▌  | 300/398 [00:06<00:01, 61.57it/s]Loading weights:  77%|███████▋  | 307/398 [00:06<00:01, 60.78it/s]Loading weights:  79%|███████▉  | 314/398 [00:06<00:01, 54.28it/s]Loading weights:  81%|████████  | 323/398 [00:06<00:01, 56.91it/s]Loading weights:  84%|████████▎ | 333/398 [00:06<00:01, 61.03it/s]Loading weights:  85%|████████▌ | 340/398 [00:06<00:00, 60.58it/s]Loading weights:  87%|████████▋ | 347/398 [00:07<00:00, 54.44it/s]Loading weights:  89%|████████▉ | 356/398 [00:07<00:00, 57.39it/s]Loading weights:  92%|█████████▏| 366/398 [00:07<00:00, 61.67it/s]Loading weights:  94%|█████████▎| 373/398 [00:07<00:00, 59.81it/s]Loading weights:  95%|█████████▌| 380/398 [00:07<00:00, 53.96it/s]Loading weights:  98%|█████████▊| 389/398 [00:07<00:00, 56.19it/s]Loading weights: 100%|██████████| 398/398 [00:07<00:00, 50.71it/s]
+`pretrained` model kwarg is not of type `str`. Many other model arguments may be ignored. Please do not launch via accelerate or use `parallelize=True` if passing an existing model this way.
+Passed an already-initialized model through `pretrained`, assuming single-process call to evaluate() or custom distributed integration
+bioevidence_taskb: Custom kwargs can be passed to `--metadata` in console (as json string) or to the TaskManager.
+For example --metadata='{"max_seq_lengths":[4096, 8192]}'. For details see task Readme.
+  0%|          | 0/604 [00:00<?, ?it/s]100%|██████████| 604/604 [00:00<00:00, 116412.08it/s]
+instruct_4b 177 / 604 17403428 B0_original ok 59 3.61 s
+instruct_4b 178 / 604 17403428 B1_result_first ok 66 3.62 s
+instruct_4b 179 / 604 17403428 B2_reversed ok 62 3.35 s
+instruct_4b 180 / 604 17403428 B3_shuffled ok 62 3.29 s
+instruct_4b 181 / 604 17453263 B0_original ok 43 2.45 s
+instruct_4b 182 / 604 17453263 B1_result_first ok 39 2.22 s
+instruct_4b 183 / 604 17453263 B2_reversed ok 36 2.02 s
+instruct_4b 184 / 604 17453263 B3_shuffled ok 39 2.14 s
+instruct_4b 185 / 604 17562682 B0_original ok 60 3.33 s
+instruct_4b 186 / 604 17562682 B1_result_first ok 72 3.91 s
+instruct_4b 187 / 604 17562682 B2_reversed ok 57 3.18 s
+instruct_4b 188 / 604 17562682 B3_shuffled ok 72 3.88 s
+instruct_4b 189 / 604 17578985 B0_original ok 51 2.81 s
+instruct_4b 190 / 604 17578985 B1_result_first ok 58 3.12 s
+instruct_4b 191 / 604 17578985 B2_reversed ok 56 3.07 s
+instruct_4b 192 / 604 17578985 B3_shuffled ok 56 3.03 s
+instruct_4b 193 / 604 17595200 B0_original ok 46 2.5 s
+instruct_4b 194 / 604 17595200 B1_result_first ok 46 2.49 s
+instruct_4b 195 / 604 17595200 B2_reversed ok 48 2.67 s
+instruct_4b 196 / 604 17595200 B3_shuffled ok 46 2.49 s
+instruct_4b 197 / 604 17601244 B0_original ok 40 2.18 s
+instruct_4b 198 / 604 17601244 B1_result_first ok 40 2.43 s
+instruct_4b 199 / 604 17601244 B2_reversed ok 48 2.68 s
+instruct_4b 200 / 604 17601244 B3_shuffled ok 40 2.33 s
+instruct_4b 201 / 604 17715311 B0_original ok 55 3.02 s
+instruct_4b 202 / 604 17715311 B1_result_first ok 61 3.38 s
+instruct_4b 203 / 604 17715311 B2_reversed ok 55 3.05 s
+instruct_4b 204 / 604 17715311 B3_shuffled ok 57 3.15 s
+instruct_4b 205 / 604 17890090 B0_original ok 53 2.93 s
+instruct_4b 206 / 604 17890090 B1_result_first ok 51 2.75 s
+instruct_4b 207 / 604 17890090 B2_reversed ok 54 2.89 s
+instruct_4b 208 / 604 17890090 B3_shuffled ok 54 2.94 s
+instruct_4b 209 / 604 18049437 B0_original ok 51 2.81 s
+instruct_4b 210 / 604 18049437 B1_result_first ok 51 2.75 s
+instruct_4b 211 / 604 18049437 B2_reversed ok 40 2.23 s
+instruct_4b 212 / 604 18049437 B3_shuffled ok 51 2.82 s
+instruct_4b 213 / 604 18269157 B0_original ok 57 3.14 s
+instruct_4b 214 / 604 18269157 B1_result_first ok 70 3.79 s
+instruct_4b 215 / 604 18269157 B2_reversed ok 72 3.88 s
+instruct_4b 216 / 604 18269157 B3_shuffled ok 60 3.25 s
+instruct_4b 217 / 604 18375490 B0_original ok 42 2.31 s
+instruct_4b 218 / 604 18375490 B1_result_first ok 40 2.19 s
+instruct_4b 219 / 604 18375490 B2_reversed ok 39 2.14 s
+instruct_4b 220 / 604 18375490 B3_shuffled ok 41 2.2 s
+instruct_4b 221 / 604 18534072 B0_original ok 41 2.26 s
+instruct_4b 222 / 604 18534072 B1_result_first ok 43 2.39 s
+instruct_4b 223 / 604 18534072 B2_reversed ok 39 2.16 s
+instruct_4b 224 / 604 18534072 B3_shuffled ok 41 2.22 s
+instruct_4b 225 / 604 18603989 B0_original ok 51 2.76 s
+instruct_4b 226 / 604 18603989 B1_result_first ok 51 2.87 s
+instruct_4b 227 / 604 18603989 B2_reversed ok 56 3.11 s
+instruct_4b 228 / 604 18603989 B3_shuffled ok 51 2.77 s
+instruct_4b 229 / 604 18607272 B0_original ok 61 3.31 s
+instruct_4b 230 / 604 18607272 B1_result_first ok 42 2.34 s
+instruct_4b 231 / 604 18607272 B2_reversed ok 43 2.36 s
+instruct_4b 232 / 604 18607272 B3_shuffled ok 42 2.32 s
+instruct_4b 233 / 604 19054501 B0_original ok 62 3.35 s
+instruct_4b 234 / 604 19054501 B1_result_first ok 49 2.69 s
+instruct_4b 235 / 604 19054501 B2_reversed ok 49 2.66 s
+instruct_4b 236 / 604 19054501 B3_shuffled ok 49 2.71 s
+instruct_4b 237 / 604 19155657 B0_original ok 46 2.58 s
+instruct_4b 238 / 604 19155657 B1_result_first ok 48 2.62 s
+instruct_4b 239 / 604 19155657 B2_reversed ok 51 2.83 s
+instruct_4b 240 / 604 19155657 B3_shuffled ok 46 2.57 s
+instruct_4b 241 / 604 19198736 B0_original ok 59 3.19 s
+instruct_4b 242 / 604 19198736 B1_result_first ok 50 2.73 s
+instruct_4b 243 / 604 19198736 B2_reversed ok 55 3.0 s
+instruct_4b 244 / 604 19198736 B3_shuffled ok 53 2.92 s
+instruct_4b 245 / 604 19299238 B0_original ok 50 2.81 s
+instruct_4b 246 / 604 19299238 B1_result_first ok 50 2.76 s
+instruct_4b 247 / 604 19299238 B2_reversed ok 50 2.79 s
+instruct_4b 248 / 604 19299238 B3_shuffled ok 50 2.71 s
+instruct_4b 249 / 604 19406119 B0_original ok 53 2.9 s
+instruct_4b 250 / 604 19406119 B1_result_first ok 47 2.62 s
+instruct_4b 251 / 604 19406119 B2_reversed ok 47 2.55 s
+instruct_4b 252 / 604 19406119 B3_shuffled ok 54 2.86 s
+instruct_4b 253 / 604 19459018 B0_original ok 74 4.23 s
+instruct_4b 254 / 604 19459018 B1_result_first ok 65 3.59 s
+instruct_4b 255 / 604 19459018 B2_reversed ok 62 3.41 s
+instruct_4b 256 / 604 19459018 B3_shuffled ok 62 3.45 s
+instruct_4b 257 / 604 19615731 B0_original ok 43 2.33 s
+instruct_4b 258 / 604 19615731 B1_result_first ok 43 2.33 s
+instruct_4b 259 / 604 19615731 B2_reversed ok 38 2.18 s
+instruct_4b 260 / 604 19615731 B3_shuffled ok 39 2.21 s
+instruct_4b 261 / 604 19643525 B0_original ok 49 2.65 s
+instruct_4b 262 / 604 19643525 B1_result_first ok 49 2.6 s
+instruct_4b 263 / 604 19643525 B2_reversed ok 51 2.8 s
+instruct_4b 264 / 604 19643525 B3_shuffled ok 49 2.66 s
+instruct_4b 265 / 604 19648304 B0_original ok 44 2.4 s
+instruct_4b 266 / 604 19648304 B1_result_first ok 43 2.39 s
+instruct_4b 267 / 604 19648304 B2_reversed ok 45 2.52 s
+instruct_4b 268 / 604 19648304 B3_shuffled ok 43 2.42 s
+instruct_4b 269 / 604 19653482 B0_original ok 42 2.28 s
+instruct_4b 270 / 604 19653482 B1_result_first ok 34 1.86 s
+instruct_4b 271 / 604 19653482 B2_reversed ok 36 2.0 s
+instruct_4b 272 / 604 19653482 B3_shuffled ok 42 2.32 s
+instruct_4b 273 / 604 19664156 B0_original ok 58 3.13 s
+instruct_4b 274 / 604 19664156 B1_result_first ok 46 2.55 s
+instruct_4b 275 / 604 19664156 B2_reversed ok 50 2.75 s
+instruct_4b 276 / 604 19664156 B3_shuffled ok 46 2.58 s
+instruct_4b 277 / 604 19683101 B0_original ok 40 2.21 s
+instruct_4b 278 / 604 19683101 B1_result_first ok 40 2.26 s
+instruct_4b 279 / 604 19683101 B2_reversed ok 37 2.12 s
+instruct_4b 280 / 604 19683101 B3_shuffled ok 49 2.7 s
+instruct_4b 281 / 604 19852337 B0_original ok 60 3.11 s
+instruct_4b 282 / 604 19852337 B1_result_first ok 55 3.02 s
+instruct_4b 283 / 604 19852337 B2_reversed ok 53 2.84 s
+instruct_4b 284 / 604 19852337 B3_shuffled ok 60 3.21 s
+instruct_4b 285 / 604 20073599 B0_original ok 64 3.46 s
+instruct_4b 286 / 604 20073599 B1_result_first ok 64 3.46 s
+instruct_4b 287 / 604 20073599 B2_reversed ok 61 3.23 s
+instruct_4b 288 / 604 20073599 B3_shuffled ok 45 2.48 s
+instruct_4b 289 / 604 20082356 B0_original ok 51 2.77 s
+instruct_4b 290 / 604 20082356 B1_result_first ok 50 2.66 s
+instruct_4b 291 / 604 20082356 B2_reversed ok 48 2.55 s
+instruct_4b 292 / 604 20082356 B3_shuffled ok 52 2.79 s
+instruct_4b 293 / 604 20101129 B0_original ok 65 3.46 s
+instruct_4b 294 / 604 20101129 B1_result_first ok 67 3.56 s
+instruct_4b 295 / 604 20101129 B2_reversed ok 64 3.49 s
+instruct_4b 296 / 604 20101129 B3_shuffled ok 64 3.42 s
+instruct_4b 297 / 604 20304513 B0_original ok 51 2.85 s
+instruct_4b 298 / 604 20304513 B1_result_first ok 87 4.72 s
+instruct_4b 299 / 604 20304513 B2_reversed ok 77 4.13 s
+instruct_4b 300 / 604 20304513 B3_shuffled ok 82 4.47 s
+instruct_4b 301 / 604 20363841 B0_original ok 57 3.04 s
+instruct_4b 302 / 604 20363841 B1_result_first ok 57 3.13 s
+instruct_4b 303 / 604 20363841 B2_reversed ok 56 3.07 s
+instruct_4b 304 / 604 20363841 B3_shuffled ok 57 3.04 s
+instruct_4b 305 / 604 20382292 B0_original ok 47 2.52 s
+instruct_4b 306 / 604 20382292 B1_result_first ok 45 2.52 s
+instruct_4b 307 / 604 20382292 B2_reversed ok 48 2.65 s
+instruct_4b 308 / 604 20382292 B3_shuffled ok 45 2.43 s
+instruct_4b 309 / 604 20497146 B0_original ok 70 3.78 s
+instruct_4b 310 / 604 20497146 B1_result_first ok 53 2.89 s
+instruct_4b 311 / 604 20497146 B2_reversed ok 54 2.86 s
+instruct_4b 312 / 604 20497146 B3_shuffled ok 70 3.72 s
+instruct_4b 313 / 604 20497880 B0_original ok 55 2.98 s
+instruct_4b 314 / 604 20497880 B1_result_first ok 58 3.1 s
+instruct_4b 315 / 604 20497880 B2_reversed ok 55 2.97 s
+instruct_4b 316 / 604 20497880 B3_shuffled ok 58 3.13 s
+instruct_4b 317 / 604 21080127 B0_original ok 51 2.72 s
+instruct_4b 318 / 604 21080127 B1_result_first ok 51 2.78 s
+instruct_4b 319 / 604 21080127 B2_reversed ok 60 3.35 s
+instruct_4b 320 / 604 21080127 B3_shuffled ok 59 3.17 s
+instruct_4b 321 / 604 21550158 B0_original ok 56 3.03 s
+instruct_4b 322 / 604 21550158 B1_result_first ok 65 3.53 s
+instruct_4b 323 / 604 21550158 B2_reversed ok 71 3.77 s
+instruct_4b 324 / 604 21550158 B3_shuffled ok 71 3.86 s
+instruct_4b 325 / 604 21669959 B0_original ok 53 2.94 s
+instruct_4b 326 / 604 21669959 B1_result_first ok 50 2.67 s
+instruct_4b 327 / 604 21669959 B2_reversed ok 53 2.89 s
+instruct_4b 328 / 604 21669959 B3_shuffled ok 52 2.82 s
+instruct_4b 329 / 604 21745056 B0_original ok 44 2.35 s
+instruct_4b 330 / 604 21745056 B1_result_first ok 56 2.96 s
+instruct_4b 331 / 604 21745056 B2_reversed ok 49 2.71 s
+instruct_4b 332 / 604 21745056 B3_shuffled ok 49 2.67 s
+instruct_4b 333 / 604 21873082 B0_original ok 70 3.73 s
+instruct_4b 334 / 604 21873082 B1_result_first ok 63 3.46 s
+instruct_4b 335 / 604 21873082 B2_reversed ok 66 3.55 s
+instruct_4b 336 / 604 21873082 B3_shuffled ok 63 3.44 s
+instruct_4b 337 / 604 21881325 B0_original ok 58 3.23 s
+instruct_4b 338 / 604 21881325 B1_result_first ok 53 2.89 s
+instruct_4b 339 / 604 21881325 B2_reversed ok 60 3.24 s
+instruct_4b 340 / 604 21881325 B3_shuffled ok 58 3.15 s
+instruct_4b 341 / 604 21914194 B0_original ok 47 2.56 s
+instruct_4b 342 / 604 21914194 B1_result_first ok 48 2.59 s
+instruct_4b 343 / 604 21914194 B2_reversed ok 41 2.32 s
+instruct_4b 344 / 604 21914194 B3_shuffled ok 45 2.47 s
+instruct_4b 345 / 604 21951591 B0_original ok 59 3.17 s
+instruct_4b 346 / 604 21951591 B1_result_first ok 45 2.49 s
+instruct_4b 347 / 604 21951591 B2_reversed ok 48 2.63 s
+instruct_4b 348 / 604 21951591 B3_shuffled ok 59 3.17 s
+instruct_4b 349 / 604 21979183 B0_original ok 67 3.53 s
+instruct_4b 350 / 604 21979183 B1_result_first ok 67 3.67 s
+instruct_4b 351 / 604 21979183 B2_reversed ok 55 3.0 s
+instruct_4b 352 / 604 21979183 B3_shuffled ok 51 2.74 s
+instruct_4b 353 / 604 22302658 B0_original ok 48 2.59 s
+instruct_4b 354 / 604 22302658 B1_result_first ok 48 2.56 s
+instruct_4b 355 / 604 22302658 B2_reversed ok 48 2.55 s
+instruct_4b 356 / 604 22302658 B3_shuffled ok 51 2.73 s
+instruct_4b 357 / 604 22428608 B0_original ok 56 3.09 s
+instruct_4b 358 / 604 22428608 B1_result_first ok 54 2.89 s
+instruct_4b 359 / 604 22428608 B2_reversed ok 52 2.78 s
+instruct_4b 360 / 604 22428608 B3_shuffled ok 56 3.01 s
+instruct_4b 361 / 604 22519710 B0_original ok 54 2.91 s
+instruct_4b 362 / 604 22519710 B1_result_first ok 57 3.06 s
+instruct_4b 363 / 604 22519710 B2_reversed ok 59 3.22 s
+instruct_4b 364 / 604 22519710 B3_shuffled ok 60 3.19 s
+instruct_4b 365 / 604 22564465 B0_original ok 51 2.77 s
+instruct_4b 366 / 604 22564465 B1_result_first ok 50 2.73 s
+instruct_4b 367 / 604 22564465 B2_reversed ok 50 2.71 s
+instruct_4b 368 / 604 22564465 B3_shuffled ok 50 2.69 s
+instruct_4b 369 / 604 22954812 B0_original ok 44 2.45 s
+instruct_4b 370 / 604 22954812 B1_result_first ok 49 2.78 s
+instruct_4b 371 / 604 22954812 B2_reversed ok 48 2.7 s
+instruct_4b 372 / 604 22954812 B3_shuffled ok 45 2.48 s
+instruct_4b 373 / 604 23240452 B0_original ok 48 2.62 s
+instruct_4b 374 / 604 23240452 B1_result_first ok 45 2.45 s
+instruct_4b 375 / 604 23240452 B2_reversed ok 42 2.25 s
+instruct_4b 376 / 604 23240452 B3_shuffled ok 47 2.44 s
+instruct_4b 377 / 604 23252468 B0_original ok 56 3.1 s
+instruct_4b 378 / 604 23252468 B1_result_first ok 47 2.64 s
+instruct_4b 379 / 604 23252468 B2_reversed ok 63 3.39 s
+instruct_4b 380 / 604 23252468 B3_shuffled ok 47 2.67 s
+instruct_4b 381 / 604 23389866 B0_original ok 56 3.01 s
+instruct_4b 382 / 604 23389866 B1_result_first ok 71 3.73 s
+instruct_4b 383 / 604 23389866 B2_reversed ok 51 2.82 s
+instruct_4b 384 / 604 23389866 B3_shuffled ok 71 3.82 s
+instruct_4b 385 / 604 23414523 B0_original ok 42 2.23 s
+instruct_4b 386 / 604 23414523 B1_result_first ok 42 2.28 s
+instruct_4b 387 / 604 23414523 B2_reversed ok 38 2.07 s
+instruct_4b 388 / 604 23414523 B3_shuffled ok 42 2.27 s
+instruct_4b 389 / 604 23449952 B0_original ok 60 3.22 s
+instruct_4b 390 / 604 23449952 B1_result_first ok 78 4.28 s
+instruct_4b 391 / 604 23449952 B2_reversed ok 72 3.92 s
+instruct_4b 392 / 604 23449952 B3_shuffled ok 60 3.3 s
+instruct_4b 393 / 604 23587089 B0_original ok 53 2.93 s
+instruct_4b 394 / 604 23587089 B1_result_first ok 57 3.06 s
+instruct_4b 395 / 604 23587089 B2_reversed ok 56 3.04 s
+instruct_4b 396 / 604 23587089 B3_shuffled ok 54 3.02 s
+instruct_4b 397 / 604 23719685 B0_original ok 39 2.22 s
+instruct_4b 398 / 604 23719685 B1_result_first ok 45 2.43 s
+instruct_4b 399 / 604 23719685 B2_reversed ok 40 2.24 s
+instruct_4b 400 / 604 23719685 B3_shuffled ok 51 2.83 s
+instruct_4b 401 / 604 23791827 B0_original ok 48 2.64 s
+instruct_4b 402 / 604 23791827 B1_result_first ok 51 2.76 s
+instruct_4b 403 / 604 23791827 B2_reversed ok 48 2.73 s
+instruct_4b 404 / 604 23791827 B3_shuffled ok 48 2.75 s
+instruct_4b 405 / 604 23831910 B0_original ok 53 2.86 s
+instruct_4b 406 / 604 23831910 B1_result_first ok 49 2.74 s
+instruct_4b 407 / 604 23831910 B2_reversed ok 52 2.86 s
+instruct_4b 408 / 604 23831910 B3_shuffled ok 57 3.07 s
+instruct_4b 409 / 604 23860049 B0_original ok 59 3.15 s
+instruct_4b 410 / 604 23860049 B1_result_first ok 47 2.68 s
+instruct_4b 411 / 604 23860049 B2_reversed ok 45 2.51 s
+instruct_4b 412 / 604 23860049 B3_shuffled ok 50 2.73 s
+instruct_4b 413 / 604 24019262 B0_original ok 54 2.96 s
+instruct_4b 414 / 604 24019262 B1_result_first ok 51 2.79 s
+instruct_4b 415 / 604 24019262 B2_reversed ok 50 2.7 s
+instruct_4b 416 / 604 24019262 B3_shuffled ok 51 2.75 s
+instruct_4b 417 / 604 24153338 B0_original ok 50 2.78 s
+instruct_4b 418 / 604 24153338 B1_result_first ok 47 2.56 s
+instruct_4b 419 / 604 24153338 B2_reversed ok 49 2.65 s
+instruct_4b 420 / 604 24153338 B3_shuffled ok 49 2.7 s
+instruct_4b 421 / 604 24235894 B0_original ok 47 2.64 s
+instruct_4b 422 / 604 24235894 B1_result_first ok 48 2.62 s
+instruct_4b 423 / 604 24235894 B2_reversed ok 45 2.42 s
+instruct_4b 424 / 604 24235894 B3_shuffled ok 48 2.62 s
+instruct_4b 425 / 604 24267613 B0_original ok 59 3.2 s
+instruct_4b 426 / 604 24267613 B1_result_first ok 38 2.09 s
+instruct_4b 427 / 604 24267613 B2_reversed ok 52 2.79 s
+instruct_4b 428 / 604 24267613 B3_shuffled ok 53 2.89 s
+instruct_4b 429 / 604 24433626 B0_original ok 54 2.91 s
+instruct_4b 430 / 604 24433626 B1_result_first ok 48 2.6 s
+instruct_4b 431 / 604 24433626 B2_reversed ok 51 2.81 s
+instruct_4b 432 / 604 24433626 B3_shuffled ok 48 2.6 s
+instruct_4b 433 / 604 24446763 B0_original ok 53 2.9 s
+instruct_4b 434 / 604 24446763 B1_result_first ok 43 2.45 s
+instruct_4b 435 / 604 24446763 B2_reversed ok 58 3.24 s
+instruct_4b 436 / 604 24446763 B3_shuffled ok 53 2.93 s
+instruct_4b 437 / 604 24450673 B0_original ok 53 2.87 s
+instruct_4b 438 / 604 24450673 B1_result_first ok 44 2.45 s
+instruct_4b 439 / 604 24450673 B2_reversed ok 45 2.53 s
+instruct_4b 440 / 604 24450673 B3_shuffled ok 55 2.97 s
+instruct_4b 441 / 604 24599411 B0_original ok 41 2.19 s
+instruct_4b 442 / 604 24599411 B1_result_first ok 46 2.49 s
+instruct_4b 443 / 604 24599411 B2_reversed ok 32 1.76 s
+instruct_4b 444 / 604 24599411 B3_shuffled ok 46 2.44 s
+instruct_4b 445 / 604 24614851 B0_original ok 52 2.78 s
+instruct_4b 446 / 604 24614851 B1_result_first ok 50 2.74 s
+instruct_4b 447 / 604 24614851 B2_reversed ok 53 2.85 s
+instruct_4b 448 / 604 24614851 B3_shuffled ok 53 2.84 s
+instruct_4b 449 / 604 24630333 B0_original ok 53 2.94 s
+instruct_4b 450 / 604 24630333 B1_result_first ok 53 2.91 s
+instruct_4b 451 / 604 24630333 B2_reversed ok 49 2.66 s
+instruct_4b 452 / 604 24630333 B3_shuffled ok 73 3.95 s
+instruct_4b 453 / 604 24748473 B0_original ok 58 3.13 s
+instruct_4b 454 / 604 24748473 B1_result_first ok 61 3.23 s
+instruct_4b 455 / 604 24748473 B2_reversed ok 60 3.24 s
+instruct_4b 456 / 604 24748473 B3_shuffled ok 51 2.75 s
+instruct_4b 457 / 604 24793469 B0_original ok 49 2.66 s
+instruct_4b 458 / 604 24793469 B1_result_first ok 52 3.01 s
+instruct_4b 459 / 604 24793469 B2_reversed ok 55 3.06 s
+instruct_4b 460 / 604 24793469 B3_shuffled ok 49 2.68 s
+instruct_4b 461 / 604 24827404 B0_original ok 51 2.8 s
+instruct_4b 462 / 604 24827404 B1_result_first ok 51 2.78 s
+instruct_4b 463 / 604 24827404 B2_reversed ok 49 2.64 s
+instruct_4b 464 / 604 24827404 B3_shuffled ok 43 2.36 s
+instruct_4b 465 / 604 24851767 B0_original ok 51 2.76 s
+instruct_4b 466 / 604 24851767 B1_result_first ok 48 2.64 s
+instruct_4b 467 / 604 24851767 B2_reversed ok 51 2.72 s
+instruct_4b 468 / 604 24851767 B3_shuffled ok 43 2.29 s
+instruct_4b 469 / 604 24866606 B0_original ok 37 2.03 s
+instruct_4b 470 / 604 24866606 B1_result_first ok 37 2.0 s
+instruct_4b 471 / 604 24866606 B2_reversed ok 54 2.86 s
+instruct_4b 472 / 604 24866606 B3_shuffled ok 53 2.83 s
+instruct_4b 473 / 604 24964725 B0_original ok 47 2.64 s
+instruct_4b 474 / 604 24964725 B1_result_first ok 46 2.52 s
+instruct_4b 475 / 604 24964725 B2_reversed ok 47 2.55 s
+instruct_4b 476 / 604 24964725 B3_shuffled ok 47 2.58 s
+instruct_4b 477 / 604 25155638 B0_original ok 61 3.33 s
+instruct_4b 478 / 604 25155638 B1_result_first ok 53 2.81 s
+instruct_4b 479 / 604 25155638 B2_reversed ok 50 2.7 s
+instruct_4b 480 / 604 25155638 B3_shuffled ok 53 2.94 s
+instruct_4b 481 / 604 25218577 B0_original ok 59 3.27 s
+instruct_4b 482 / 604 25218577 B1_result_first ok 71 3.78 s
+instruct_4b 483 / 604 25218577 B2_reversed ok 77 4.09 s
+instruct_4b 484 / 604 25218577 B3_shuffled ok 59 3.12 s
+instruct_4b 485 / 604 25228241 B0_original ok 51 2.9 s
+instruct_4b 486 / 604 25228241 B1_result_first ok 48 2.64 s
+instruct_4b 487 / 604 25228241 B2_reversed ok 52 2.8 s
+instruct_4b 488 / 604 25228241 B3_shuffled ok 53 2.91 s
+instruct_4b 489 / 604 25274085 B0_original ok 62 3.35 s
+instruct_4b 490 / 604 25274085 B1_result_first ok 67 3.54 s
+instruct_4b 491 / 604 25274085 B2_reversed ok 58 3.15 s
+instruct_4b 492 / 604 25274085 B3_shuffled ok 58 3.2 s
+instruct_4b 493 / 604 25432938 B0_original ok 53 2.82 s
+instruct_4b 494 / 604 25432938 B1_result_first ok 56 3.04 s
+instruct_4b 495 / 604 25432938 B2_reversed ok 65 3.45 s
+instruct_4b 496 / 604 25432938 B3_shuffled ok 62 3.26 s
+instruct_4b 497 / 604 25480629 B0_original ok 57 3.17 s
+instruct_4b 498 / 604 25480629 B1_result_first ok 59 3.27 s
+instruct_4b 499 / 604 25480629 B2_reversed ok 60 3.26 s
+instruct_4b 500 / 604 25480629 B3_shuffled ok 52 2.88 s
+instruct_4b 501 / 604 25501465 B0_original ok 37 2.07 s
+instruct_4b 502 / 604 25501465 B1_result_first ok 39 2.16 s
+instruct_4b 503 / 604 25501465 B2_reversed ok 42 2.27 s
+instruct_4b 504 / 604 25501465 B3_shuffled ok 46 2.52 s
+instruct_4b 505 / 604 25735444 B0_original ok 49 2.78 s
+instruct_4b 506 / 604 25735444 B1_result_first ok 49 2.67 s
+instruct_4b 507 / 604 25735444 B2_reversed ok 46 2.53 s
+instruct_4b 508 / 604 25735444 B3_shuffled ok 49 2.75 s
+instruct_4b 509 / 604 25747932 B0_original ok 59 3.13 s
+instruct_4b 510 / 604 25747932 B1_result_first ok 62 3.28 s
+instruct_4b 511 / 604 25747932 B2_reversed ok 47 2.62 s
+instruct_4b 512 / 604 25747932 B3_shuffled ok 64 3.47 s
+instruct_4b 513 / 604 25885219 B0_original ok 66 3.6 s
+instruct_4b 514 / 604 25885219 B1_result_first ok 60 3.3 s
+instruct_4b 515 / 604 25885219 B2_reversed ok 51 2.82 s
+instruct_4b 516 / 604 25885219 B3_shuffled ok 66 3.55 s
+instruct_4b 517 / 604 25981682 B0_original ok 46 2.55 s
+instruct_4b 518 / 604 25981682 B1_result_first ok 46 2.54 s
+instruct_4b 519 / 604 25981682 B2_reversed ok 44 2.4 s
+instruct_4b 520 / 604 25981682 B3_shuffled ok 46 2.59 s
+instruct_4b 521 / 604 26079501 B0_original ok 37 2.07 s
+instruct_4b 522 / 604 26079501 B1_result_first ok 43 2.33 s
+instruct_4b 523 / 604 26079501 B2_reversed ok 42 2.27 s
+instruct_4b 524 / 604 26079501 B3_shuffled ok 37 2.06 s
+instruct_4b 525 / 604 26104852 B0_original ok 62 3.38 s
+instruct_4b 526 / 604 26104852 B1_result_first ok 62 3.35 s
+instruct_4b 527 / 604 26104852 B2_reversed ok 62 3.31 s
+instruct_4b 528 / 604 26104852 B3_shuffled ok 60 3.27 s
+instruct_4b 529 / 604 26133538 B0_original ok 51 2.76 s
+instruct_4b 530 / 604 26133538 B1_result_first ok 65 3.46 s
+instruct_4b 531 / 604 26133538 B2_reversed ok 53 2.99 s
+instruct_4b 532 / 604 26133538 B3_shuffled ok 53 2.89 s
+instruct_4b 533 / 604 26222664 B0_original ok 56 2.96 s
+instruct_4b 534 / 604 26222664 B1_result_first ok 57 3.02 s
+instruct_4b 535 / 604 26222664 B2_reversed ok 44 2.36 s
+instruct_4b 536 / 604 26222664 B3_shuffled ok 44 2.33 s
+instruct_4b 537 / 604 26285789 B0_original ok 57 3.08 s
+instruct_4b 538 / 604 26285789 B1_result_first ok 50 2.78 s
+instruct_4b 539 / 604 26285789 B2_reversed ok 54 2.91 s
+instruct_4b 540 / 604 26285789 B3_shuffled ok 55 2.93 s
+instruct_4b 541 / 604 26363639 B0_original ok 45 2.48 s
+instruct_4b 542 / 604 26363639 B1_result_first ok 46 2.51 s
+instruct_4b 543 / 604 26363639 B2_reversed ok 46 2.48 s
+instruct_4b 544 / 604 26363639 B3_shuffled ok 49 2.68 s
+instruct_4b 545 / 604 26452334 B0_original ok 55 3.01 s
+instruct_4b 546 / 604 26452334 B1_result_first ok 53 2.87 s
+instruct_4b 547 / 604 26452334 B2_reversed ok 47 2.6 s
+instruct_4b 548 / 604 26452334 B3_shuffled ok 55 3.02 s
+instruct_4b 549 / 604 26485091 B0_original ok 48 2.7 s
+instruct_4b 550 / 604 26485091 B1_result_first ok 51 2.76 s
+instruct_4b 551 / 604 26485091 B2_reversed ok 44 2.42 s
+instruct_4b 552 / 604 26485091 B3_shuffled ok 44 2.47 s
+instruct_4b 553 / 604 26505821 B0_original ok 60 3.23 s
+instruct_4b 554 / 604 26505821 B1_result_first ok 62 3.3 s
+instruct_4b 555 / 604 26505821 B2_reversed ok 52 2.85 s
+instruct_4b 556 / 604 26505821 B3_shuffled ok 54 2.89 s
+instruct_4b 557 / 604 26686513 B0_original ok 68 3.56 s
+instruct_4b 558 / 604 26686513 B1_result_first ok 47 2.61 s
+instruct_4b 559 / 604 26686513 B2_reversed ok 47 2.58 s
+instruct_4b 560 / 604 26686513 B3_shuffled ok 47 2.53 s
+instruct_4b 561 / 604 26818046 B0_original ok 54 3.02 s
+instruct_4b 562 / 604 26818046 B1_result_first ok 61 3.37 s
+instruct_4b 563 / 604 26818046 B2_reversed ok 61 3.27 s
+instruct_4b 564 / 604 26818046 B3_shuffled ok 54 3.02 s
+instruct_4b 565 / 604 27832831 B0_original ok 74 4.02 s
+instruct_4b 566 / 604 27832831 B1_result_first ok 46 2.5 s
+instruct_4b 567 / 604 27832831 B2_reversed ok 66 3.58 s
+instruct_4b 568 / 604 27832831 B3_shuffled ok 51 2.77 s
+instruct_4b 569 / 604 27908583 B0_original ok 52 2.76 s
+instruct_4b 570 / 604 27908583 B1_result_first ok 57 3.12 s
+instruct_4b 571 / 604 27908583 B2_reversed ok 46 2.57 s
+instruct_4b 572 / 604 27908583 B3_shuffled ok 57 3.04 s
+instruct_4b 573 / 604 28127977 B0_original ok 39 2.16 s
+instruct_4b 574 / 604 28127977 B1_result_first ok 37 2.06 s
+instruct_4b 575 / 604 28127977 B2_reversed ok 37 2.08 s
+instruct_4b 576 / 604 28127977 B3_shuffled ok 39 2.14 s
+instruct_4b 577 / 604 8200238 B0_original ok 39 2.08 s
+instruct_4b 578 / 604 8200238 B1_result_first ok 36 2.01 s
+instruct_4b 579 / 604 8200238 B2_reversed ok 62 3.42 s
+instruct_4b 580 / 604 8200238 B3_shuffled ok 39 2.07 s
+instruct_4b 581 / 604 9003088 B0_original ok 44 2.36 s
+instruct_4b 582 / 604 9003088 B1_result_first ok 45 2.49 s
+instruct_4b 583 / 604 9003088 B2_reversed ok 42 2.31 s
+instruct_4b 584 / 604 9003088 B3_shuffled ok 45 2.43 s
+instruct_4b 585 / 604 9107172 B0_original ok 50 2.68 s
+instruct_4b 586 / 604 9107172 B1_result_first ok 54 3.0 s
+instruct_4b 587 / 604 9107172 B2_reversed ok 54 2.99 s
+instruct_4b 588 / 604 9107172 B3_shuffled ok 48 2.58 s
+instruct_4b 589 / 604 9191526 B0_original ok 46 2.57 s
+instruct_4b 590 / 604 9191526 B1_result_first ok 46 2.59 s
+instruct_4b 591 / 604 9191526 B2_reversed ok 46 2.47 s
+instruct_4b 592 / 604 9191526 B3_shuffled ok 47 2.57 s
+instruct_4b 593 / 604 9381529 B0_original ok 59 3.28 s
+instruct_4b 594 / 604 9381529 B1_result_first ok 62 3.34 s
+instruct_4b 595 / 604 9381529 B2_reversed ok 62 3.38 s
+instruct_4b 596 / 604 9381529 B3_shuffled ok 63 3.44 s
+instruct_4b 597 / 604 9602458 B0_original ok 47 2.54 s
+instruct_4b 598 / 604 9602458 B1_result_first ok 52 2.76 s
+instruct_4b 599 / 604 9602458 B2_reversed ok 57 3.09 s
+instruct_4b 600 / 604 9602458 B3_shuffled ok 52 2.85 s
+instruct_4b 601 / 604 9792366 B0_original ok 53 2.87 s
+instruct_4b 602 / 604 9792366 B1_result_first ok 53 2.94 s
+instruct_4b 603 / 604 9792366 B2_reversed ok 44 2.47 s
+instruct_4b 604 / 604 9792366 B3_shuffled ok 53 2.85 s
+fatal: not a git repository (or any of the parent directories): .git
+{'model': 'instruct_4b', 'n': 604, 'n_samples': 151, 'elapsed_seconds': 1243.2004457000003, 'model_load_seconds': 8.462400800000069, 'fresh_requests': 428, 'cache_hits': 176, 'config_fingerprint': '54781c6addec3789ba942a500ee2fcf74e690a581c0601c5e6d67bd11fb87512', 'generation_exceptions': 0, 'output_budget_hits': 0, 'harness_results': {'bioevidence_taskb': {'name': 'bioevidence_taskb', 'alias': 'bioevidence_taskb', 'sample_len': 604, 'bio_accuracy,none': 0.5712, 'bio_accuracy_stderr,none': 'N/A', 'bio_macro_f1,none': 0.4707, 'bio_macro_f1_stderr,none': 'N/A', 'bio_invalid_rate,none': 0.0, 'bio_invalid_rate_stderr,none': 'N/A'}}, 'input_system_and_context_checks_passed': True, 'direct_regression': []}

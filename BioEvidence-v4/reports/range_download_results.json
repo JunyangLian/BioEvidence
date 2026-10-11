@@ -1,0 +1,451 @@
+{
+  "workers": 4,
+  "transport_endpoint": "https://hf-mirror.com",
+  "request_mib": 4,
+  "results": [
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2051541511,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2118650375,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2185759239,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2252868103,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2319976967,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2387085831,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2521303559,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2454194695,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2588412423,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2655521287,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2789739015,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2722630151,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2856847879,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2991065607,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2923956743,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 3058174471,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 3125283335,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 3192392199,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 3393718791,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 3259501063,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 3326609927,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 3460827655,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 3662154247,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 3527936519,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 3595045383,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 3729263111,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 3796371975,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 3863480839,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 3930589703,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 370147328,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 504365056,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 437256192,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 571473920,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 638582784,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 839909376,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 772800512,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 974127104,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 1041235968,
+      "end": 1108344832,
+      "bytes": 67108864,
+      "sha256": "de5dc962765fcd456ae0b1c8570935799e69e99fec48cb0912e35d2de0acde56",
+      "seconds": 9.981105599999864,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 4,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 1175453696,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 1242562560,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 1309671424,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 1376780288,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 1443889152,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 1510998016,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 1578106880,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 1645215744,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 1712324608,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 1779433472,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 1846542336,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 1913651200,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 1980760064,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 2047868928,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 2114977792,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 2182086656,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 2249195520,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 2316304384,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 2383413248,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 2450522112,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 2517630976,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 2584739840,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 2651848704,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 2718957568,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 2786066432,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 2853175296,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 2920284160,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 2987393024,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 3054501888,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 3121610752,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 3188719616,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 3255828480,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 3322937344,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 3390046208,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 3457155072,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 3524263936,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 3591372800,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 3658481664,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 3725590528,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 3792699392,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 3859808256,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 3926917120,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 705691648,
+      "end": 772800512,
+      "bytes": 67108864,
+      "sha256": "fb06296a4e5198094e9c42a61c7aa1fb5aa10248eeb299247cda17ab4cf10576",
+      "seconds": 15.657786599999781,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 4,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 907018240,
+      "end": 974127104,
+      "bytes": 67108864,
+      "sha256": "5055f46197f570ceec3296983b937ab61a693d7d3e42b5a7c7e53cc1da052a2a",
+      "seconds": 25.303832799999782,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 4,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 1108344832,
+      "end": 1175453696,
+      "bytes": 67108864,
+      "sha256": "7f1847aeb890d826b283abd48ccf45ec361871326b9c9a270ebf29a3441f0b20",
+      "seconds": 43.92346929999985,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 4,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    }
+  ],
+  "errors": []
+}

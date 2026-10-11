@@ -1,0 +1,623 @@
+{
+  "model": "e7_06b",
+  "scope": "B0_dev151",
+  "source_split": "repeated-development internal_70_30/dev",
+  "n_unique_questions": 151,
+  "n_unique_gold_documents": 151,
+  "classification_policy": "frozen v2 Stage B all rows including invalid; labels yes/no/maybe; absent-support class historical N/A",
+  "human_reference": "v2 human dev26 B0 chunk IDs verified; 14 insufficient/12 sufficient; reviewer/time unknown; single reviewer; repeated dev",
+  "semantic_audit": "mechanical only; citation legality and result-family rates do not establish semantic support",
+  "per_condition": {
+    "B0_original": {
+      "classification": {
+        "n": 151,
+        "n_ok": 151,
+        "n_invalid": 0,
+        "accuracy": 0.4901,
+        "n_correct": 74,
+        "macro_f1": 0.3617,
+        "per_class": {
+          "yes": {
+            "support": 83,
+            "tp": 60,
+            "fp": 38,
+            "fn": 23,
+            "precision": 0.6122,
+            "recall": 0.7229,
+            "f1": 0.663
+          },
+          "no": {
+            "support": 51,
+            "tp": 11,
+            "fp": 15,
+            "fn": 40,
+            "precision": 0.4231,
+            "recall": 0.2157,
+            "f1": 0.2857
+          },
+          "maybe": {
+            "support": 17,
+            "tp": 3,
+            "fp": 24,
+            "fn": 14,
+            "precision": 0.1111,
+            "recall": 0.1765,
+            "f1": 0.1364
+          }
+        }
+      },
+      "v1_compatibility": {
+        "n_total": 151,
+        "n_applicable": 151,
+        "n_failure": 0,
+        "n_invalid": 0,
+        "n_correct": 74,
+        "accuracy": 0.4901,
+        "accuracy_including_failures": 0.4901,
+        "macro_f1": 0.3617,
+        "per_class": {
+          "yes": {
+            "tp": 60,
+            "fp": 38,
+            "fn": 23,
+            "support": 83,
+            "precision": 0.6122,
+            "recall": 0.7229,
+            "f1": 0.663,
+            "excluded_from_macro": false,
+            "note": "support>0 但 tp=0 时 f1 记为 0（该类必须参与 macro 平均，不得被跳过）；recall 的 fn 包含 invalid/failure 输出，因此 recall 会低于只看 ok 的口径。"
+          },
+          "no": {
+            "tp": 11,
+            "fp": 15,
+            "fn": 40,
+            "support": 51,
+            "precision": 0.4231,
+            "recall": 0.2157,
+            "f1": 0.2857,
+            "excluded_from_macro": false,
+            "note": "support>0 但 tp=0 时 f1 记为 0（该类必须参与 macro 平均，不得被跳过）；recall 的 fn 包含 invalid/failure 输出，因此 recall 会低于只看 ok 的口径。"
+          },
+          "maybe": {
+            "tp": 3,
+            "fp": 24,
+            "fn": 14,
+            "support": 17,
+            "precision": 0.1111,
+            "recall": 0.1765,
+            "f1": 0.1364,
+            "excluded_from_macro": false,
+            "note": "support>0 但 tp=0 时 f1 记为 0（该类必须参与 macro 平均，不得被跳过）；recall 的 fn 包含 invalid/failure 输出，因此 recall 会低于只看 ok 的口径。"
+          }
+        },
+        "confusion": {
+          "yes": {
+            "yes": 60,
+            "no": 11,
+            "maybe": 12
+          },
+          "no": {
+            "yes": 28,
+            "no": 11,
+            "maybe": 12
+          },
+          "maybe": {
+            "yes": 10,
+            "no": 4,
+            "maybe": 3
+          },
+          "__invalid__": {
+            "yes": 0,
+            "no": 0,
+            "maybe": 0
+          },
+          "__failure__": {
+            "yes": 0,
+            "no": 0,
+            "maybe": 0
+          }
+        },
+        "parse_ok_rate": 1.0,
+        "invalid_rate": 0.0,
+        "failure_rate": 0.0,
+        "counts": {
+          "n_ok": 151,
+          "gold_distribution": {
+            "yes": 83,
+            "no": 51,
+            "maybe": 17
+          },
+          "pred_distribution": {
+            "yes": 98,
+            "no": 26,
+            "maybe": 27
+          }
+        },
+        "denominator_policy": "accuracy 的分母是 n_applicable（= n_total - n_failure），invalid 输出计为错误；n_failure 单列，不进入 accuracy 分母，但通过 accuracy_including_failures 一并报出。"
+      },
+      "predicted_label_distribution": {
+        "maybe": 27,
+        "yes": 98,
+        "no": 26
+      },
+      "parse_failure": {
+        "num": 0,
+        "den": 151,
+        "rate": 0.0
+      },
+      "citation_out_of_range": {
+        "num": 0,
+        "den": 151,
+        "rate": 0.0
+      },
+      "complete_contract_violation": {
+        "num": 0,
+        "den": 151,
+        "rate": 0.0
+      },
+      "complete_contract_issue_counts": {},
+      "citation_terminal_period_only": {
+        "num": 0,
+        "den": 151,
+        "rate": 0.0
+      },
+      "abstention_behavior": {
+        "num": 14,
+        "den": 151,
+        "rate": 0.0927
+      },
+      "answerable_distribution": {
+        "no": 14,
+        "yes": 137
+      },
+      "generation_exceptions": 0,
+      "output_budget_hits": 0,
+      "human_coverage": {
+        "num": 26,
+        "den": 151,
+        "rate": 0.1722
+      },
+      "unsupported_answer": {
+        "num": 9,
+        "den": 14,
+        "rate": 0.6429
+      },
+      "wrong_abstention": {
+        "num": 1,
+        "den": 12,
+        "rate": 0.0833
+      },
+      "valid_abstention_insufficient": {
+        "num": 5,
+        "den": 14,
+        "rate": 0.3571
+      },
+      "valid_answer_sufficient": {
+        "num": 11,
+        "den": 12,
+        "rate": 0.9167
+      },
+      "human_subset_failures": {
+        "insufficient": 0,
+        "sufficient": 0
+      },
+      "diagnostic_result_family_cited": {
+        "num": 5,
+        "den": 137,
+        "rate": 0.0365
+      },
+      "diagnostic_E1_cited": {
+        "num": 91,
+        "den": 137,
+        "rate": 0.6642
+      },
+      "citation_position_counts": {
+        "1": 91,
+        "2": 41,
+        "3": 5
+      },
+      "historical_missing_stop_or_budget_telemetry": 151,
+      "actual_generated_token_count_coverage": {
+        "num": 0,
+        "den": 151,
+        "rate": 0.0
+      },
+      "output_retokenized_count": {
+        "n": 151,
+        "min": 24,
+        "p50": 42,
+        "p90": 60,
+        "p95": 63,
+        "p99": 71,
+        "max": 73,
+        "mean": 43.24503311258278,
+        "total": 6530
+      },
+      "output_tokens": null,
+      "output_chars": {
+        "n": 151,
+        "min": 100,
+        "p50": 183,
+        "p90": 262,
+        "p95": 291,
+        "p99": 302,
+        "max": 315,
+        "mean": 185.95364238410596,
+        "total": 28079
+      },
+      "latency_seconds": {
+        "n": 151,
+        "min": 1.794,
+        "p50": 3.185,
+        "p90": 4.491,
+        "p95": 4.755,
+        "p99": 5.259,
+        "max": 5.395,
+        "mean": 3.2628013245033114,
+        "total": 492.683
+      },
+      "peak_allocated_gib": null,
+      "peak_reserved_gib": null,
+      "confusion": {
+        "yes": {
+          "yes": 60,
+          "no": 11,
+          "maybe": 12
+        },
+        "no": {
+          "yes": 28,
+          "no": 11,
+          "maybe": 12
+        },
+        "maybe": {
+          "yes": 10,
+          "no": 4,
+          "maybe": 3
+        },
+        "__invalid__": {
+          "yes": 0,
+          "no": 0,
+          "maybe": 0
+        },
+        "__failure__": {
+          "yes": 0,
+          "no": 0,
+          "maybe": 0
+        }
+      }
+    }
+  },
+  "paired": {
+    "B1_result_first": {
+      "all": {
+        "n_pairs": 0,
+        "label_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "answerable_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "actual_citation_set_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "display_citations_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "raw_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "label_transitions": {},
+        "mcnemar_correct_incorrect_only": {
+          "b": 0,
+          "c": 0,
+          "n_discordant": 0,
+          "p_exact": 1.0
+        }
+      },
+      "input_changed": {
+        "n_pairs": 0,
+        "label_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "answerable_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "actual_citation_set_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "display_citations_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "raw_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "label_transitions": {},
+        "mcnemar_correct_incorrect_only": {
+          "b": 0,
+          "c": 0,
+          "n_discordant": 0,
+          "p_exact": 1.0
+        }
+      },
+      "input_unchanged": {
+        "n_pairs": 0,
+        "label_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "answerable_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "actual_citation_set_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "display_citations_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "raw_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "label_transitions": {},
+        "mcnemar_correct_incorrect_only": {
+          "b": 0,
+          "c": 0,
+          "n_discordant": 0,
+          "p_exact": 1.0
+        }
+      }
+    },
+    "B2_reversed": {
+      "all": {
+        "n_pairs": 0,
+        "label_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "answerable_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "actual_citation_set_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "display_citations_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "raw_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "label_transitions": {},
+        "mcnemar_correct_incorrect_only": {
+          "b": 0,
+          "c": 0,
+          "n_discordant": 0,
+          "p_exact": 1.0
+        }
+      },
+      "input_changed": {
+        "n_pairs": 0,
+        "label_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "answerable_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "actual_citation_set_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "display_citations_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "raw_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "label_transitions": {},
+        "mcnemar_correct_incorrect_only": {
+          "b": 0,
+          "c": 0,
+          "n_discordant": 0,
+          "p_exact": 1.0
+        }
+      },
+      "input_unchanged": {
+        "n_pairs": 0,
+        "label_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "answerable_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "actual_citation_set_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "display_citations_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "raw_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "label_transitions": {},
+        "mcnemar_correct_incorrect_only": {
+          "b": 0,
+          "c": 0,
+          "n_discordant": 0,
+          "p_exact": 1.0
+        }
+      }
+    },
+    "B3_shuffled": {
+      "all": {
+        "n_pairs": 0,
+        "label_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "answerable_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "actual_citation_set_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "display_citations_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "raw_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "label_transitions": {},
+        "mcnemar_correct_incorrect_only": {
+          "b": 0,
+          "c": 0,
+          "n_discordant": 0,
+          "p_exact": 1.0
+        }
+      },
+      "input_changed": {
+        "n_pairs": 0,
+        "label_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "answerable_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "actual_citation_set_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "display_citations_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "raw_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "label_transitions": {},
+        "mcnemar_correct_incorrect_only": {
+          "b": 0,
+          "c": 0,
+          "n_discordant": 0,
+          "p_exact": 1.0
+        }
+      },
+      "input_unchanged": {
+        "n_pairs": 0,
+        "label_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "answerable_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "actual_citation_set_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "display_citations_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "raw_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "label_transitions": {},
+        "mcnemar_correct_incorrect_only": {
+          "b": 0,
+          "c": 0,
+          "n_discordant": 0,
+          "p_exact": 1.0
+        }
+      }
+    }
+  },
+  "cost": {
+    "requests": 151,
+    "new_V5_requests": 0,
+    "actual_generated_token_count_known_rows": 0,
+    "fresh_this_execution": 0,
+    "total_generated_tokens": null,
+    "generation_seconds_all_unique": 492.683,
+    "peak_allocated_gib": null,
+    "peak_reserved_gib": null
+  }
+}

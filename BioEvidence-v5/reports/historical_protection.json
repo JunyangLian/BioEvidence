@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "n_hashed": 1590,
+  "changed_or_missing": [],
+  "mtime_changed": [],
+  "v1_v3_additions": [],
+  "v4_meaningful_file_additions": [],
+  "v4_excluded_categories": [
+    ".venv",
+    "cache",
+    "ranges",
+    "tmp",
+    "wheelhouse"
+  ],
+  "timestamp_utc": "2026-10-11T05:53:22.495043+00:00",
+  "v4_scope": "All V1-V3 original 1411-file baseline; V4 sources/data/results/reports and original model assets, excluding runtime/cache duplicates"
+}

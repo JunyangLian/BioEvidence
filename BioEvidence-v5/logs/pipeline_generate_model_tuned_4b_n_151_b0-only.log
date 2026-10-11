@@ -1,0 +1,150 @@
+W1011 13:03:28.943000 20332 .venv\Lib\site-packages\torch\utils\flop_counter.py:113] triton not found; flop counting will not work for triton kernels
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights:   0%|          | 1/398 [00:00<06:03,  1.09it/s]Loading weights:   1%|          | 3/398 [00:01<01:50,  3.56it/s]Loading weights:   2%|▏         | 9/398 [00:01<00:32, 12.14it/s]Loading weights:   4%|▍         | 15/398 [00:01<00:19, 20.12it/s]Loading weights:   6%|▋         | 25/398 [00:01<00:11, 33.03it/s]Loading weights:   8%|▊         | 30/398 [00:01<00:10, 36.27it/s]Loading weights:   9%|▉         | 37/398 [00:01<00:09, 40.08it/s]Loading weights:  11%|█▏        | 45/398 [00:01<00:07, 48.87it/s]Loading weights:  13%|█▎        | 51/398 [00:01<00:07, 48.11it/s]Loading weights:  15%|█▍        | 59/398 [00:01<00:06, 55.40it/s]Loading weights:  18%|█▊        | 70/398 [00:02<00:05, 64.81it/s]Loading weights:  20%|██        | 80/398 [00:02<00:04, 71.17it/s]Loading weights:  22%|██▏       | 88/398 [00:02<00:04, 70.86it/s]Loading weights:  24%|██▍       | 96/398 [00:02<00:04, 69.37it/s]Loading weights:  26%|██▌       | 104/398 [00:02<00:04, 64.15it/s]Loading weights:  29%|██▊       | 114/398 [00:02<00:04, 65.75it/s]Loading weights:  31%|███       | 122/398 [00:02<00:04, 68.84it/s]Loading weights:  33%|███▎      | 130/398 [00:03<00:04, 60.19it/s]Loading weights:  34%|███▍      | 137/398 [00:03<00:04, 52.86it/s]Loading weights:  37%|███▋      | 146/398 [00:03<00:04, 60.82it/s]Loading weights:  38%|███▊      | 153/398 [00:03<00:04, 59.72it/s]Loading weights:  40%|████      | 160/398 [00:03<00:04, 52.27it/s]Loading weights:  42%|████▏     | 168/398 [00:03<00:03, 58.07it/s]Loading weights:  44%|████▍     | 175/398 [00:03<00:03, 57.95it/s]Loading weights:  46%|████▌     | 182/398 [00:04<00:04, 50.87it/s]Loading weights:  48%|████▊     | 191/398 [00:04<00:03, 53.97it/s]Loading weights:  51%|█████     | 201/398 [00:04<00:03, 57.89it/s]Loading weights:  52%|█████▏    | 207/398 [00:04<00:03, 55.55it/s]Loading weights:  54%|█████▎    | 213/398 [00:04<00:03, 53.82it/s]Loading weights:  56%|█████▌    | 223/398 [00:04<00:03, 58.20it/s]Loading weights:  58%|█████▊    | 229/398 [00:04<00:03, 55.66it/s]Loading weights:  59%|█████▉    | 235/398 [00:04<00:03, 53.57it/s]Loading weights:  62%|██████▏   | 245/398 [00:05<00:02, 57.96it/s]Loading weights:  63%|██████▎   | 251/398 [00:05<00:02, 55.35it/s]Loading weights:  65%|██████▍   | 257/398 [00:05<00:02, 53.10it/s]Loading weights:  67%|██████▋   | 267/398 [00:05<00:02, 57.48it/s]Loading weights:  69%|██████▊   | 273/398 [00:05<00:02, 55.04it/s]Loading weights:  70%|███████   | 279/398 [00:05<00:02, 53.20it/s]Loading weights:  73%|███████▎  | 289/398 [00:05<00:01, 57.91it/s]Loading weights:  74%|███████▍  | 295/398 [00:06<00:01, 55.18it/s]Loading weights:  76%|███████▌  | 301/398 [00:06<00:01, 53.42it/s]Loading weights:  78%|███████▊  | 311/398 [00:06<00:01, 57.79it/s]Loading weights:  80%|███████▉  | 317/398 [00:06<00:01, 55.61it/s]Loading weights:  81%|████████  | 323/398 [00:06<00:01, 52.99it/s]Loading weights:  83%|████████▎ | 332/398 [00:06<00:01, 62.15it/s]Loading weights:  85%|████████▌ | 339/398 [00:06<00:01, 53.82it/s]Loading weights:  87%|████████▋ | 345/398 [00:06<00:01, 52.41it/s]Loading weights:  89%|████████▉ | 355/398 [00:07<00:00, 56.86it/s]Loading weights:  91%|█████████ | 361/398 [00:07<00:00, 54.49it/s]Loading weights:  92%|█████████▏| 367/398 [00:07<00:00, 52.56it/s]Loading weights:  95%|█████████▍| 377/398 [00:07<00:00, 57.39it/s]Loading weights:  96%|█████████▌| 383/398 [00:07<00:00, 55.06it/s]Loading weights:  98%|█████████▊| 389/398 [00:07<00:00, 52.80it/s]Loading weights: 100%|█████████▉| 397/398 [00:07<00:00, 59.31it/s]Loading weights: 100%|██████████| 398/398 [00:07<00:00, 50.67it/s]
+`pretrained` model kwarg is not of type `str`. Many other model arguments may be ignored. Please do not launch via accelerate or use `parallelize=True` if passing an existing model this way.
+Passed an already-initialized model through `pretrained`, assuming single-process call to evaluate() or custom distributed integration
+bioevidence_taskb: Custom kwargs can be passed to `--metadata` in console (as json string) or to the TaskManager.
+For example --metadata='{"max_seq_lengths":[4096, 8192]}'. For details see task Readme.
+  0%|          | 0/151 [00:00<?, ?it/s]100%|██████████| 151/151 [00:00<00:00, 127612.31it/s]
+tuned_4b 11 / 151 11882828 B0_original ok 53 5.71 s
+tuned_4b 12 / 151 11978239 B0_original ok 49 4.96 s
+tuned_4b 13 / 151 12095973 B0_original ok 27 2.69 s
+tuned_4b 14 / 151 12153648 B0_original ok 52 5.11 s
+tuned_4b 15 / 151 12238307 B0_original ok 35 3.45 s
+tuned_4b 16 / 151 12607666 B0_original ok 46 4.67 s
+tuned_4b 17 / 151 12690589 B0_original ok 62 5.98 s
+tuned_4b 18 / 151 12855939 B0_original ok 25 2.59 s
+tuned_4b 19 / 151 12913347 B0_original ok 41 4.08 s
+tuned_4b 20 / 151 14518645 B0_original ok 64 6.3 s
+tuned_4b 21 / 151 14745753 B0_original ok 46 4.62 s
+tuned_4b 22 / 151 14976655 B0_original ok 47 4.64 s
+tuned_4b 23 / 151 14978612 B0_original ok 47 4.68 s
+tuned_4b 24 / 151 15125825 B0_original ok 45 4.48 s
+tuned_4b 25 / 151 15137012 B0_original ok 43 4.32 s
+tuned_4b 26 / 151 15141797 B0_original ok 63 6.1 s
+tuned_4b 27 / 151 15222284 B0_original ok 71 6.98 s
+tuned_4b 28 / 151 15223725 B0_original ok 67 6.49 s
+tuned_4b 29 / 151 15381614 B0_original ok 45 4.54 s
+tuned_4b 30 / 151 15483019 B0_original ok 45 4.64 s
+tuned_4b 31 / 151 15800018 B0_original ok 54 5.31 s
+tuned_4b 32 / 151 15879722 B0_original ok 47 4.59 s
+tuned_4b 33 / 151 15954832 B0_original ok 46 4.71 s
+tuned_4b 34 / 151 16151770 B0_original ok 50 4.95 s
+tuned_4b 35 / 151 16195477 B0_original ok 53 5.32 s
+tuned_4b 36 / 151 16253970 B0_original ok 47 4.66 s
+tuned_4b 37 / 151 16319544 B0_original ok 57 5.63 s
+tuned_4b 38 / 151 16428354 B0_original ok 86 8.42 s
+tuned_4b 39 / 151 16498158 B0_original ok 39 4.01 s
+tuned_4b 40 / 151 16647887 B0_original ok 39 3.85 s
+tuned_4b 41 / 151 16968183 B0_original ok 47 4.74 s
+tuned_4b 42 / 151 17096624 B0_original ok 38 3.77 s
+tuned_4b 43 / 151 17224424 B0_original ok 56 5.54 s
+tuned_4b 44 / 151 17279467 B0_original ok 62 6.06 s
+tuned_4b 45 / 151 17403428 B0_original ok 52 5.14 s
+tuned_4b 46 / 151 17453263 B0_original ok 38 3.81 s
+tuned_4b 47 / 151 17562682 B0_original ok 58 5.78 s
+tuned_4b 48 / 151 17578985 B0_original ok 58 5.73 s
+tuned_4b 49 / 151 17595200 B0_original ok 56 5.46 s
+tuned_4b 50 / 151 17601244 B0_original ok 34 3.47 s
+tuned_4b 51 / 151 17715311 B0_original ok 44 4.47 s
+tuned_4b 52 / 151 17890090 B0_original ok 55 5.32 s
+tuned_4b 53 / 151 18049437 B0_original ok 25 2.62 s
+tuned_4b 54 / 151 18269157 B0_original ok 40 3.96 s
+tuned_4b 55 / 151 18375490 B0_original ok 44 4.4 s
+tuned_4b 56 / 151 18534072 B0_original ok 37 3.68 s
+tuned_4b 57 / 151 18603989 B0_original ok 60 5.91 s
+tuned_4b 58 / 151 18607272 B0_original ok 34 3.39 s
+tuned_4b 59 / 151 19054501 B0_original ok 40 4.02 s
+tuned_4b 60 / 151 19155657 B0_original ok 33 3.31 s
+tuned_4b 61 / 151 19198736 B0_original ok 57 5.54 s
+tuned_4b 62 / 151 19299238 B0_original ok 43 4.28 s
+tuned_4b 63 / 151 19406119 B0_original ok 76 7.47 s
+tuned_4b 64 / 151 19459018 B0_original ok 44 4.43 s
+tuned_4b 65 / 151 19615731 B0_original ok 44 4.39 s
+tuned_4b 66 / 151 19643525 B0_original ok 39 3.86 s
+tuned_4b 67 / 151 19648304 B0_original ok 40 4.01 s
+tuned_4b 68 / 151 19653482 B0_original ok 66 6.37 s
+tuned_4b 69 / 151 19664156 B0_original ok 31 3.17 s
+tuned_4b 70 / 151 19683101 B0_original ok 38 3.84 s
+tuned_4b 71 / 151 19852337 B0_original ok 50 4.89 s
+tuned_4b 72 / 151 20073599 B0_original ok 37 3.77 s
+tuned_4b 73 / 151 20082356 B0_original ok 54 5.23 s
+tuned_4b 74 / 151 20101129 B0_original ok 34 3.5 s
+tuned_4b 75 / 151 20304513 B0_original ok 49 4.96 s
+tuned_4b 76 / 151 20363841 B0_original ok 32 3.33 s
+tuned_4b 77 / 151 20382292 B0_original ok 45 4.48 s
+tuned_4b 78 / 151 20497146 B0_original ok 54 5.29 s
+tuned_4b 79 / 151 20497880 B0_original ok 31 3.18 s
+tuned_4b 80 / 151 21080127 B0_original ok 47 4.71 s
+tuned_4b 81 / 151 21550158 B0_original ok 62 6.16 s
+tuned_4b 82 / 151 21669959 B0_original ok 40 3.99 s
+tuned_4b 83 / 151 21745056 B0_original ok 53 5.15 s
+tuned_4b 84 / 151 21873082 B0_original ok 51 5.07 s
+tuned_4b 85 / 151 21881325 B0_original ok 45 4.5 s
+tuned_4b 86 / 151 21914194 B0_original ok 35 3.58 s
+tuned_4b 87 / 151 21951591 B0_original ok 34 3.59 s
+tuned_4b 88 / 151 21979183 B0_original ok 64 6.33 s
+tuned_4b 89 / 151 22302658 B0_original ok 45 4.47 s
+tuned_4b 90 / 151 22428608 B0_original ok 44 4.34 s
+tuned_4b 91 / 151 22519710 B0_original ok 42 4.19 s
+tuned_4b 92 / 151 22564465 B0_original ok 41 4.06 s
+tuned_4b 93 / 151 22954812 B0_original ok 44 4.47 s
+tuned_4b 94 / 151 23240452 B0_original ok 50 4.85 s
+tuned_4b 95 / 151 23252468 B0_original ok 55 5.45 s
+tuned_4b 96 / 151 23389866 B0_original ok 41 4.08 s
+tuned_4b 97 / 151 23414523 B0_original ok 40 3.98 s
+tuned_4b 98 / 151 23449952 B0_original ok 81 7.91 s
+tuned_4b 99 / 151 23587089 B0_original ok 32 3.29 s
+tuned_4b 100 / 151 23719685 B0_original ok 25 2.54 s
+tuned_4b 101 / 151 23791827 B0_original ok 43 4.44 s
+tuned_4b 102 / 151 23831910 B0_original ok 25 2.59 s
+tuned_4b 103 / 151 23860049 B0_original ok 42 4.14 s
+tuned_4b 104 / 151 24019262 B0_original ok 72 7.01 s
+tuned_4b 105 / 151 24153338 B0_original ok 55 5.52 s
+tuned_4b 106 / 151 24235894 B0_original ok 33 3.31 s
+tuned_4b 107 / 151 24267613 B0_original ok 46 4.63 s
+tuned_4b 108 / 151 24433626 B0_original ok 36 3.67 s
+tuned_4b 109 / 151 24446763 B0_original ok 28 2.97 s
+tuned_4b 110 / 151 24450673 B0_original ok 46 4.72 s
+tuned_4b 111 / 151 24599411 B0_original ok 25 2.52 s
+tuned_4b 112 / 151 24614851 B0_original ok 25 2.54 s
+tuned_4b 113 / 151 24630333 B0_original ok 55 5.5 s
+tuned_4b 114 / 151 24748473 B0_original ok 37 3.67 s
+tuned_4b 115 / 151 24793469 B0_original ok 39 3.99 s
+tuned_4b 116 / 151 24827404 B0_original ok 71 6.96 s
+tuned_4b 117 / 151 24851767 B0_original ok 25 2.54 s
+tuned_4b 118 / 151 24866606 B0_original ok 37 3.67 s
+tuned_4b 119 / 151 24964725 B0_original ok 63 6.23 s
+tuned_4b 120 / 151 25155638 B0_original ok 38 3.72 s
+tuned_4b 121 / 151 25218577 B0_original ok 35 3.55 s
+tuned_4b 122 / 151 25228241 B0_original ok 54 5.37 s
+tuned_4b 123 / 151 25274085 B0_original ok 52 5.23 s
+tuned_4b 124 / 151 25432938 B0_original ok 72 7.1 s
+tuned_4b 125 / 151 25480629 B0_original ok 56 5.61 s
+tuned_4b 126 / 151 25501465 B0_original ok 38 3.77 s
+tuned_4b 127 / 151 25735444 B0_original ok 71 7.0 s
+tuned_4b 128 / 151 25747932 B0_original ok 36 3.64 s
+tuned_4b 129 / 151 25885219 B0_original ok 37 3.88 s
+tuned_4b 130 / 151 25981682 B0_original ok 34 3.44 s
+tuned_4b 131 / 151 26079501 B0_original ok 37 3.77 s
+tuned_4b 132 / 151 26104852 B0_original ok 59 5.79 s
+tuned_4b 133 / 151 26133538 B0_original ok 38 3.84 s
+tuned_4b 134 / 151 26222664 B0_original ok 48 4.65 s
+tuned_4b 135 / 151 26285789 B0_original ok 34 3.4 s
+tuned_4b 136 / 151 26363639 B0_original ok 32 3.3 s
+tuned_4b 137 / 151 26452334 B0_original ok 62 6.21 s
+tuned_4b 138 / 151 26485091 B0_original ok 39 3.96 s
+tuned_4b 139 / 151 26505821 B0_original ok 47 4.61 s
+tuned_4b 140 / 151 26686513 B0_original ok 31 3.23 s
+tuned_4b 141 / 151 26818046 B0_original ok 57 5.68 s
+tuned_4b 142 / 151 27832831 B0_original ok 36 3.75 s
+tuned_4b 143 / 151 27908583 B0_original ok 36 3.65 s
+tuned_4b 144 / 151 28127977 B0_original ok 70 6.97 s
+tuned_4b 145 / 151 8200238 B0_original ok 25 2.53 s
+tuned_4b 146 / 151 9003088 B0_original ok 43 4.3 s
+tuned_4b 147 / 151 9107172 B0_original ok 61 5.99 s
+tuned_4b 148 / 151 9191526 B0_original ok 36 3.69 s
+tuned_4b 149 / 151 9381529 B0_original ok 71 6.95 s
+tuned_4b 150 / 151 9602458 B0_original ok 41 4.11 s
+tuned_4b 151 / 151 9792366 B0_original ok 47 4.63 s
+fatal: not a git repository (or any of the parent directories): .git
+{'model': 'tuned_4b', 'n': 151, 'n_samples': 151, 'elapsed_seconds': 674.1691276000001, 'model_load_seconds': 9.20210120000047, 'fresh_requests': 141, 'cache_hits': 10, 'config_fingerprint': '639379b08a03b2305956aa3204134ae420b0478a6c6168a1ffb30ca90ace6ec6', 'generation_exceptions': 0, 'output_budget_hits': 0, 'harness_results': {'bioevidence_taskb': {'name': 'bioevidence_taskb', 'alias': 'bioevidence_taskb', 'sample_len': 151, 'bio_accuracy,none': 0.6424, 'bio_accuracy_stderr,none': 'N/A', 'bio_macro_f1,none': 0.4492, 'bio_macro_f1_stderr,none': 'N/A', 'bio_invalid_rate,none': 0.0, 'bio_invalid_rate_stderr,none': 'N/A'}}, 'input_system_and_context_checks_passed': True, 'direct_regression': []}

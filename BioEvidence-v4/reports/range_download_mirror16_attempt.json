@@ -1,0 +1,915 @@
+{
+  "workers": 8,
+  "transport_endpoint": "https://hf-mirror.com",
+  "request_mib": 16,
+  "results": [
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2252868103,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2521303559,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2185759239,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2051541511,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2319976967,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2454194695,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2118650375,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2387085831,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2588412423,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2856847879,
+      "end": 2923956743,
+      "bytes": 67108864,
+      "sha256": "a770b410533ba97bc089e1b636af2a5d13ee49edec742167cbd61cb1f4488cd8",
+      "seconds": 46.90359600000011,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2655521287,
+      "end": 2722630151,
+      "bytes": 67108864,
+      "sha256": "1fb4ccd57c8a65c4d083f92d9e7d2208c927ab0cbede083a39c93f6e5143fdbe",
+      "seconds": 54.43209679999927,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2923956743,
+      "end": 2991065607,
+      "bytes": 67108864,
+      "sha256": "726333e1e0b9f9897d61b968f79610a0143adc293c43e804d5288a01912f595b",
+      "seconds": 70.92798009999933,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2722630151,
+      "end": 2789739015,
+      "bytes": 67108864,
+      "sha256": "9ce3d0d17bf528fd0fb4f3e01fcd2ea335ffca5753fdbf08fd397e83962256a0",
+      "seconds": 88.20782520000103,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2789739015,
+      "end": 2856847879,
+      "bytes": 67108864,
+      "sha256": "95c86c312290c14e4eba249063cc4ebd95fd1eb204b3b9fde97d443954ae6a01",
+      "seconds": 89.21867880000173,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2991065607,
+      "end": 3058174471,
+      "bytes": 67108864,
+      "sha256": "c68a7d013cb5802d35e1c3aa4dd5df1ce0eb0cb8ced3c649c7d9742ad24f33b8",
+      "seconds": 96.19398210000145,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 3058174471,
+      "end": 3125283335,
+      "bytes": 67108864,
+      "sha256": "61cb9c81c2b8171d23c9f834d7ce41197f052ae3a4acd96e61ae35667f88f8d7",
+      "seconds": 103.37033259999953,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 3125283335,
+      "end": 3192392199,
+      "bytes": 67108864,
+      "sha256": "38b664efb23fcd0c3d05dc7bad0b5e53dcb13fa3a0937b3a70fa1f4b84a0a69d",
+      "seconds": 229.43943500000023,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 3259501063,
+      "end": 3326609927,
+      "bytes": 67108864,
+      "sha256": "173aa21a924cbdf35d5d2c607fd1cc28776b97bc197be6a5e94c10ed7ab91ea8",
+      "seconds": 189.2083060999994,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 3192392199,
+      "end": 3259501063,
+      "bytes": 67108864,
+      "sha256": "10ff7b486ba6c92a28e47ad75b4c0a5bf393e43c442e45f38e922be501872833",
+      "seconds": 196.7630250000002,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 3326609927,
+      "end": 3393718791,
+      "bytes": 67108864,
+      "sha256": "8a2a84a725f745404b41f09c642a141963a4b59d39f48a96aa3e2490abc23539",
+      "seconds": 189.01000470000145,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 3393718791,
+      "end": 3460827655,
+      "bytes": 67108864,
+      "sha256": "e00f454fb501257ed72abc1fa9cf4f4f002aaa1f8a6d24e35a66145b428e954f",
+      "seconds": 198.2214359999998,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 3930589703,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 3527936519,
+      "end": 3595045383,
+      "bytes": 67108864,
+      "sha256": "db98f78574ae8a22e5632646335834ad23bdc1818ffebad533c4f71ec30c4368",
+      "seconds": 213.131319600001,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 3460827655,
+      "end": 3527936519,
+      "bytes": 67108864,
+      "sha256": "4f1cc314e8d1767135e346243e9438575e2a0a6cb8622e4fb6a51122045385ff",
+      "seconds": 246.8316440999988,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 3595045383,
+      "end": 3662154247,
+      "bytes": 67108864,
+      "sha256": "72483ed80411037d7789da330d1081baab3a59c2f69072bae0927e21b677eb7f",
+      "seconds": 252.2779171000002,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 3662154247,
+      "end": 3729263111,
+      "bytes": 67108864,
+      "sha256": "81496182415e2c969fe30d5f3b8a34dcc2ff6be72bcf532ef3c9e35df9efde7a",
+      "seconds": 185.63418850000016,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 3729263111,
+      "end": 3796371975,
+      "bytes": 67108864,
+      "sha256": "f8ef6d3988865e30eb122fabb601ae624d3f8fc8787bee45ab7e0c9f9abc2224",
+      "seconds": 227.94484980000016,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 3796371975,
+      "end": 3863480839,
+      "bytes": 67108864,
+      "sha256": "54c102aff4a3a6fca6fb0d990394cd6d1e8bf30563b217f48a7458dc8364b95a",
+      "seconds": 229.12282400000004,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 3863480839,
+      "end": 3930589703,
+      "bytes": 67108864,
+      "sha256": "ba00b2d0e91552d6c855ccea8b7dccf23c5ca471b0456c51d1fa43f1339c0d48",
+      "seconds": 228.8785865000009,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 370147328,
+      "end": 437256192,
+      "bytes": 67108864,
+      "sha256": "f606f7843429441c99a369afc9faec18b4bec9ba484b5c3c0902497cf993adb5",
+      "seconds": 204.73712069999965,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 437256192,
+      "end": 504365056,
+      "bytes": 67108864,
+      "sha256": "c5840aa2f7043652e03f0732f67830f463bf0dc0a73dc0813c7351898d303a2e",
+      "seconds": 195.30504130000008,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 504365056,
+      "end": 571473920,
+      "bytes": 67108864,
+      "sha256": "00bc074a6cf160406da559e2532f6362e23ddf37eeae36aa98cdbc2e56228efb",
+      "seconds": 188.53882929999963,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 571473920,
+      "end": 638582784,
+      "bytes": 67108864,
+      "sha256": "5bc0b42ef9ac41becaca912109664037f154a5c89ecd4dea119fa15ced0bd08d",
+      "seconds": 208.18842210000003,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 638582784,
+      "end": 705691648,
+      "bytes": 67108864,
+      "sha256": "dbdd3f16e635bf6af58158d80ad20e22800b269964c694591ffb59f10affa770",
+      "seconds": 199.7971845000011,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 974127104,
+      "end": 1041235968,
+      "bytes": 67108864,
+      "sha256": "944ef423abbfdf29663e2fac4afa3c9794031d75ebd7af28e36256f51d1f2754",
+      "seconds": 243.09366059999957,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 772800512,
+      "end": 839909376,
+      "bytes": 67108864,
+      "sha256": "94ced3746ae09999289a3884d8a5586664ce034450b1775e70729d8de373d884",
+      "seconds": 309.4489500999989,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 839909376,
+      "end": 907018240,
+      "bytes": 67108864,
+      "sha256": "d16777d56885e68ad9a2e72abf3738bec8147a1b0329b6f8c27c0f14a7842050",
+      "seconds": 366.2685717000004,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 1175453696,
+      "end": 1242562560,
+      "bytes": 67108864,
+      "sha256": "07a1e61805870fde07bfe72a94faf8e4f3fadf3a8c9e3c04d9f6ae2b5795ff97",
+      "seconds": 387.4245917999997,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 1242562560,
+      "end": 1309671424,
+      "bytes": 67108864,
+      "sha256": "aece96502c39540ab1b547e11ab634b01e1ca0dd08973084db80aab958b6a9de",
+      "seconds": 374.8102357000007,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 1309671424,
+      "end": 1376780288,
+      "bytes": 67108864,
+      "sha256": "40f8bac6638e53e225cfc877eb459b733da17eb29627e02b40c85b37486a4493",
+      "seconds": 374.69157129999985,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 1443889152,
+      "end": 1510998016,
+      "bytes": 67108864,
+      "sha256": "e430ef282d974e077a067ebcf5b0c0e5f5409cf7063338ab235e0fd1fa329992",
+      "seconds": 406.03848429999925,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 1578106880,
+      "end": 1645215744,
+      "bytes": 67108864,
+      "sha256": "ffb4b9c53731659b1f351c40f82bf9fddae806482ec44eea2c77b99444a37479",
+      "seconds": 435.4073888999992,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 1376780288,
+      "end": 1443889152,
+      "bytes": 67108864,
+      "sha256": "e46014bee77aa5afffda03804dc83b7f469e42a605c731ee9d6206932dcd8b65",
+      "seconds": 444.82919440000114,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 1510998016,
+      "end": 1578106880,
+      "bytes": 67108864,
+      "sha256": "dc0d595e9ed5f9f95819d6780c969b651c874a29fa080c133e56ea2cff2b6850",
+      "seconds": 455.03689959999974,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 1645215744,
+      "end": 1712324608,
+      "bytes": 67108864,
+      "sha256": "654b20687a27c1a608367bb1df4daa5e9404d49b6adef63abc1440e3119146f6",
+      "seconds": 425.23800129999836,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 1712324608,
+      "end": 1779433472,
+      "bytes": 67108864,
+      "sha256": "3a24629f6c8dade8b81e04c92f1bfe2081177ee290f2c3bf8633a773894f9fcc",
+      "seconds": 438.16709850000007,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 1779433472,
+      "end": 1846542336,
+      "bytes": 67108864,
+      "sha256": "7172d46e8fba7f3a67ac239f3b0fc52b909bfa21810fc3cbe81d80604b4c7a1e",
+      "seconds": 449.6107393000002,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 1846542336,
+      "end": 1913651200,
+      "bytes": 67108864,
+      "sha256": "a090b750953025264a3d9064dbe3d0cc5a759d95a208393f4bc940407fcaa73d",
+      "seconds": 498.1758245000001,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 1913651200,
+      "end": 1980760064,
+      "bytes": 67108864,
+      "sha256": "82d0c6d639649b6d6bb2cbf29a4d308dcb41a0d3323386a8a2650b35461a98fe",
+      "seconds": 477.346607200001,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 1980760064,
+      "end": 2047868928,
+      "bytes": 67108864,
+      "sha256": "9fb8d29ec89e953f4c1f51d98f18ca8dc6fb7785e86a0a457483e9ed3d308b9a",
+      "seconds": 459.92850199999884,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 2047868928,
+      "end": 2114977792,
+      "bytes": 67108864,
+      "sha256": "66c0a97f245becd5d45e2c3d6ec13a05977bcc78972362ac0355f87d70343e5a",
+      "seconds": 465.7319097000018,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 2114977792,
+      "end": 2182086656,
+      "bytes": 67108864,
+      "sha256": "6a0733cbd70dd04fdcde096f100e4833a0c2626f0e4c6d2b80f2349cb82a0e3c",
+      "seconds": 481.61987820000104,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 2182086656,
+      "end": 2249195520,
+      "bytes": 67108864,
+      "sha256": "fc2f04c899862eedf75125748078d540292fb9a6bdc9ee505e2e43af7505fa45",
+      "seconds": 486.7444585000012,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 2249195520,
+      "end": 2316304384,
+      "bytes": 67108864,
+      "sha256": "fef669e6b27a15d26bd364127a5e14f2dec6c1b6387d1d61f1602d9947a7de65",
+      "seconds": 448.5655033000003,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 2316304384,
+      "end": 2383413248,
+      "bytes": 67108864,
+      "sha256": "fd21f54359e6fd91a4c82aa085759d6ea3ce6e30766b0463c205350838ba0954",
+      "seconds": 375.08892939999896,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 2383413248,
+      "end": 2450522112,
+      "bytes": 67108864,
+      "sha256": "5e70238ba985067fdd9b4a8629469b65a984f30dde8b6287bc787ff046e9884d",
+      "seconds": 302.38647469999887,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 2450522112,
+      "end": 2517630976,
+      "bytes": 67108864,
+      "sha256": "5e5135329db70935604feb30ab1149cf0bc062f56c60ca6ece166ac2119053fe",
+      "seconds": 280.9444347000008,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 2584739840,
+      "end": 2651848704,
+      "bytes": 67108864,
+      "sha256": "e2d10d668bdfe9d28311a7fcd3efd55c5eac5c1304d6a2b5d7f4439a8e1ed005",
+      "seconds": 260.2007957000005,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 2517630976,
+      "end": 2584739840,
+      "bytes": 67108864,
+      "sha256": "d3999f5fa925f9ab98b4e4b7f3017441c86b6ef5dcd57623f7c111df89fa6d77",
+      "seconds": 266.8147043000008,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 2651848704,
+      "end": 2718957568,
+      "bytes": 67108864,
+      "sha256": "11591b5dc1afc589591ac39e08ad44becc26ccb658e59b607ede95c2c87faa9d",
+      "seconds": 235.39076829999976,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 2718957568,
+      "end": 2786066432,
+      "bytes": 67108864,
+      "sha256": "ed294e969d22bbd2f3e71e8186ab57865cf84c8db57b940437bfc24d44848b0d",
+      "seconds": 217.77510520000033,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 3255828480,
+      "end": 3322937344,
+      "bytes": 67108864,
+      "sha256": "7e78151a5029c956a1771f37fee5c41f96d7c226cff834f180ec4b72f9b1b332",
+      "seconds": 23.97245870000006,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 2786066432,
+      "end": 2853175296,
+      "bytes": 67108864,
+      "sha256": "755ebb2614df66404d8d20b5991ea5866197132a31a07cd2ca7fabc119650f5f",
+      "seconds": 125.02286710000044,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 2853175296,
+      "end": 2920284160,
+      "bytes": 67108864,
+      "sha256": "901982e0f514c6419dc33254bae87b1dd491e72f8b1807c576a703df9686d7cf",
+      "seconds": 93.99491610000041,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 3322937344,
+      "end": 3390046208,
+      "bytes": 67108864,
+      "sha256": "f42da75c15839852594c1f2dc4bd74e7c5ab503ff6a4e3fc64e257c6ec9d8f30",
+      "seconds": 37.90589329999966,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 3390046208,
+      "end": 3457155072,
+      "bytes": 67108864,
+      "sha256": "6539e1446f65b677973a97a8745d8544366189037c478e5e876bb2c41dcdfab3",
+      "seconds": 33.8341920999992,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 2920284160,
+      "end": 2987393024,
+      "bytes": 67108864,
+      "sha256": "3d0e2b06dbe5a09e8a4711e7df9628fa44168614ae92ceac966e2c4e04960b85",
+      "seconds": 90.94176510000034,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 2987393024,
+      "end": 3054501888,
+      "bytes": 67108864,
+      "sha256": "e95511997bba74d6ddc1319bfa412b018e23c7be113592c0a77a5f32d5d6fff3",
+      "seconds": 87.6526517000002,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 3725590528,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 3792699392,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 3859808256,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 3926917120,
+      "status": "reused"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 3054501888,
+      "end": 3121610752,
+      "bytes": 67108864,
+      "sha256": "942c5fe57a54c18ed152b4b7301fbe17c233e19aac5a7041055fcd4b5190750d",
+      "seconds": 95.95814790000077,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 3121610752,
+      "end": 3188719616,
+      "bytes": 67108864,
+      "sha256": "dcf7b2ea1425eb420c562db162860ee06577c6922b91b7792e0f40250bcc27a6",
+      "seconds": 95.58366589999969,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 3591372800,
+      "end": 3658481664,
+      "bytes": 67108864,
+      "sha256": "2485ad19fc7b56921c5245a2cbe6f42a57e1f2194783498f20b160d9caccb279",
+      "seconds": 24.562513599999875,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 3457155072,
+      "end": 3524263936,
+      "bytes": 67108864,
+      "sha256": "73c163326332919a8431a3da746de1645261b5e23a1720d40448e1648ebfc480",
+      "seconds": 33.103522199999134,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 3188719616,
+      "end": 3255828480,
+      "bytes": 67108864,
+      "sha256": "5779908e146a63d7c3da3800b95d40924bd446d21e9031ac98afd5e254fb7578",
+      "seconds": 92.69717889999993,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 3658481664,
+      "end": 3725590528,
+      "bytes": 67108864,
+      "sha256": "613cab45b78c9881bcfb87189e5cbd839629df8b4ebb786bd3ac97bc95300500",
+      "seconds": 29.776279500001692,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 3524263936,
+      "end": 3591372800,
+      "bytes": 67108864,
+      "sha256": "fa10c79f3ea74ff3ca2147c180e02efccd48d37b9c99b56816deade4f0cfaac1",
+      "seconds": 31.714580800000476,
+      "status": "ok",
+      "transport_endpoint": "https://hf-mirror.com",
+      "request_mib": 16,
+      "note": "Partial prefix may be from earlier official transport; whole upstream SHA is final identity."
+    }
+  ],
+  "errors": [
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        1108344832,
+        1175453696
+      ],
+      "error": "Incomplete bounded range 1129925436-1175453696"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        907018240,
+        974127104
+      ],
+      "error": "Incomplete bounded range 944494466-974127104"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        705691648,
+        772800512
+      ],
+      "error": "Incomplete bounded range 748056860-772800512"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        1041235968,
+        1108344832
+      ],
+      "error": "Incomplete bounded range 1092355742-1108344832"
+    }
+  ]
+}

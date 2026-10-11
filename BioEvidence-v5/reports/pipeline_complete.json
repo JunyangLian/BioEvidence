@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "training": "fixed final3epochs",
+  "unique_comparison_rows": 2416,
+  "reused_rows": 1812,
+  "new_generation_rows": 604
+}

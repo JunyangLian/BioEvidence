@@ -1,0 +1,10 @@
+{
+  "completed": true,
+  "timestamp_utc": "2026-10-11T03:49:26.607307+00:00",
+  "main_requests": 1208,
+  "unique_questions": 151,
+  "conditions": 4,
+  "models": 2,
+  "training": false,
+  "new_heldout": false
+}

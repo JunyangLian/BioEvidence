@@ -1,0 +1,23 @@
+{
+  "timestamp_utc": "2026-10-11T02:28:05.009464+00:00",
+  "main_unique_requests": 1208,
+  "smoke_unique_requests": 80,
+  "remaining_requests": 1128,
+  "models": {
+    "base_06b": {
+      "remaining_requests": 564,
+      "measured_mean_seconds": 2.6386726375000307,
+      "projected_remaining_generation_seconds": 1488.2113675500173,
+      "smoke_output_budget_hits": 0,
+      "locked_config_fingerprint": "95f616fa11518ce8bbf857e683962335475943b0c56f9e1dd3a841530eff2eb1"
+    },
+    "instruct_4b": {
+      "remaining_requests": 564,
+      "measured_mean_seconds": 3.0054646399999796,
+      "projected_remaining_generation_seconds": 1695.0820569599884,
+      "smoke_output_budget_hits": 0,
+      "locked_config_fingerprint": "54781c6addec3789ba942a500ee2fcf74e690a581c0601c5e6d67bd11fb87512"
+    }
+  },
+  "note": "Actual measured smoke cost; load overhead separate; cached completed samples reused."
+}

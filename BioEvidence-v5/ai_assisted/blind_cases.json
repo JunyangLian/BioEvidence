@@ -1,0 +1,210 @@
+[
+  {
+    "anonymous_question_id": "Q01",
+    "question": "Fatigue in primary Sjögren's syndrome: is there a link with the fibromyalgia syndrome?",
+    "evidence": [
+      {
+        "display_id": "E1",
+        "chunk_id": "PMID19108857-SEC00",
+        "section": "INTRODUCTION",
+        "text": "Tuberculosis continues to be a public health problem in emerging countries with a recent evidence of increased incidence of extrapulmonary localization in developed countries probably linked to HIV. To our knowledge the occurrence of cerebro-mediastinal tuberculosis in an immuno-competent child has not been previously described; moreover the child we describe has a probable Say-Barber-Miller syndrome. We discuss a putative causative link between this syndrome and the occurrence of tuberculosis."
+      },
+      {
+        "display_id": "E2",
+        "chunk_id": "PMID11053064-SEC00",
+        "section": "OBJECTIVE",
+        "text": "To determine whether fibromyalgia (FM) is more common in patients with primary Sjögren's syndrome (pSS) who complain of fatigue. The association and prevalence of fatigue and FM was recorded in a group of patients with pSS and a control group of lupus patients, a subset of whom had secondary Sjögren's syndrome (sSS)."
+      },
+      {
+        "display_id": "E3",
+        "chunk_id": "PMID18575014-SEC02",
+        "section": "RESULTS",
+        "text": "Thirteen patients had a personal history of NP without asthma, aspirin intolerance, Churg Strauss syndrome, cystic fibrosis, Young's syndrome, bare lymphocyte syndrome, or primary ciliary dyskinesia. Within this family, 19.7% of those older than 17 years were affected by NP, as compared with the national French prevalence of 2.1%."
+      }
+    ],
+    "raw_output": "Label: yes\nReason: To determine whether fibromyalgia (FM) is more common in patients with primary Sjögren's syndrome (pSS) who complain of fatigue.\nCitations: E2\nAnswerable: yes",
+    "case_id": "R01"
+  },
+  {
+    "anonymous_question_id": "Q02",
+    "question": "Is the international normalised ratio (INR) reliable?",
+    "evidence": [
+      {
+        "display_id": "E1",
+        "chunk_id": "PMID15151701-SEC00",
+        "section": "BACKGROUND",
+        "text": "We sought to develop a more reliable structured implicit chart review instrument for use in assessing the quality of care for chronic disease and to examine if ratings are more reliable for conditions in which the evidence base for practice is more developed."
+      },
+      {
+        "display_id": "E2",
+        "chunk_id": "PMID15141797-SEC01",
+        "section": "METHODS",
+        "text": "The morning following cardiac surgery, simultaneous arterial line and peripheral venous blood samples were taken for activated plasma thromboplastin time (APTT) ratio and international normalized ratio (INR) in 49 randomly selected patients. Also, a thromboelastogram analysis (TEG) (n = 7) was made. A survey of 22 UK cardiothoracic intensive care units was carried out to determine the practice for the withdrawal of blood for clotting studies."
+      },
+      {
+        "display_id": "E3",
+        "chunk_id": "PMID15141797-SEC02",
+        "section": "RESULTS",
+        "text": "The median arterial APTT ratio value was 1.32 +/- 0.52 as compared to the median peripheral APTT ratio value which was 1.1 +/- 0.24 (P<0.001). INR values were statistically similar by both routes. Heparin contamination was confirmed by TEG which revealed that the R-value for arterial catheter blood samples without heparinase in the cup was higher (406.00 +/- 64.44 s) compared with the value for arterial samples with heparinase in the cup (318.28 +/- 47.26s, P<0.05). The survey of 22 UK cardiothoracic intensive care units showed that heparinized arterial lines were by far the commonest ports used for blood withdrawal for the measurement of APTT ratio results."
+      }
+    ],
+    "raw_output": "Label: no\nReason: The morning following cardiac surgery, simultaneous arterial line and peripheral venous blood samples were taken for activated plasma thromboplastin time (APTT) ratio and international normalized ratio (INR) in 49 randomly selected patients.\nCitations: E2\nAnswerable: yes",
+    "case_id": "R02"
+  },
+  {
+    "anonymous_question_id": "Q01",
+    "question": "Fatigue in primary Sjögren's syndrome: is there a link with the fibromyalgia syndrome?",
+    "evidence": [
+      {
+        "display_id": "E1",
+        "chunk_id": "PMID19108857-SEC00",
+        "section": "INTRODUCTION",
+        "text": "Tuberculosis continues to be a public health problem in emerging countries with a recent evidence of increased incidence of extrapulmonary localization in developed countries probably linked to HIV. To our knowledge the occurrence of cerebro-mediastinal tuberculosis in an immuno-competent child has not been previously described; moreover the child we describe has a probable Say-Barber-Miller syndrome. We discuss a putative causative link between this syndrome and the occurrence of tuberculosis."
+      },
+      {
+        "display_id": "E2",
+        "chunk_id": "PMID11053064-SEC00",
+        "section": "OBJECTIVE",
+        "text": "To determine whether fibromyalgia (FM) is more common in patients with primary Sjögren's syndrome (pSS) who complain of fatigue. The association and prevalence of fatigue and FM was recorded in a group of patients with pSS and a control group of lupus patients, a subset of whom had secondary Sjögren's syndrome (sSS)."
+      },
+      {
+        "display_id": "E3",
+        "chunk_id": "PMID18575014-SEC02",
+        "section": "RESULTS",
+        "text": "Thirteen patients had a personal history of NP without asthma, aspirin intolerance, Churg Strauss syndrome, cystic fibrosis, Young's syndrome, bare lymphocyte syndrome, or primary ciliary dyskinesia. Within this family, 19.7% of those older than 17 years were affected by NP, as compared with the national French prevalence of 2.1%."
+      }
+    ],
+    "raw_output": "Label: yes  \nReason: The evidence shows a potential link between the Say-Barber-Miller syndrome and tuberculosis, which may be linked to fatigue, supporting a possible connection between fibromyalgia and fatigue in patients with Sjögren's syndrome.  \nCitations: E1, E2, E3.  \nAnswerable: yes",
+    "case_id": "R03"
+  },
+  {
+    "anonymous_question_id": "Q02",
+    "question": "Is the international normalised ratio (INR) reliable?",
+    "evidence": [
+      {
+        "display_id": "E1",
+        "chunk_id": "PMID15151701-SEC00",
+        "section": "BACKGROUND",
+        "text": "We sought to develop a more reliable structured implicit chart review instrument for use in assessing the quality of care for chronic disease and to examine if ratings are more reliable for conditions in which the evidence base for practice is more developed."
+      },
+      {
+        "display_id": "E2",
+        "chunk_id": "PMID15141797-SEC01",
+        "section": "METHODS",
+        "text": "The morning following cardiac surgery, simultaneous arterial line and peripheral venous blood samples were taken for activated plasma thromboplastin time (APTT) ratio and international normalized ratio (INR) in 49 randomly selected patients. Also, a thromboelastogram analysis (TEG) (n = 7) was made. A survey of 22 UK cardiothoracic intensive care units was carried out to determine the practice for the withdrawal of blood for clotting studies."
+      },
+      {
+        "display_id": "E3",
+        "chunk_id": "PMID15141797-SEC02",
+        "section": "RESULTS",
+        "text": "The median arterial APTT ratio value was 1.32 +/- 0.52 as compared to the median peripheral APTT ratio value which was 1.1 +/- 0.24 (P<0.001). INR values were statistically similar by both routes. Heparin contamination was confirmed by TEG which revealed that the R-value for arterial catheter blood samples without heparinase in the cup was higher (406.00 +/- 64.44 s) compared with the value for arterial samples with heparinase in the cup (318.28 +/- 47.26s, P<0.05). The survey of 22 UK cardiothoracic intensive care units showed that heparinized arterial lines were by far the commonest ports used for blood withdrawal for the measurement of APTT ratio results."
+      }
+    ],
+    "raw_output": "Label: yes  \nReason: The evidence shows that the INR is reliable as the median arterial APTT ratio was significantly higher than the peripheral APTT ratio (P<0.001), and the results indicate consistent statistical differences between the two methods.  \nCitations: E1, E2, E3  \nAnswerable: yes",
+    "case_id": "R04"
+  },
+  {
+    "anonymous_question_id": "Q02",
+    "question": "Is the international normalised ratio (INR) reliable?",
+    "evidence": [
+      {
+        "display_id": "E1",
+        "chunk_id": "PMID15151701-SEC00",
+        "section": "BACKGROUND",
+        "text": "We sought to develop a more reliable structured implicit chart review instrument for use in assessing the quality of care for chronic disease and to examine if ratings are more reliable for conditions in which the evidence base for practice is more developed."
+      },
+      {
+        "display_id": "E2",
+        "chunk_id": "PMID15141797-SEC01",
+        "section": "METHODS",
+        "text": "The morning following cardiac surgery, simultaneous arterial line and peripheral venous blood samples were taken for activated plasma thromboplastin time (APTT) ratio and international normalized ratio (INR) in 49 randomly selected patients. Also, a thromboelastogram analysis (TEG) (n = 7) was made. A survey of 22 UK cardiothoracic intensive care units was carried out to determine the practice for the withdrawal of blood for clotting studies."
+      },
+      {
+        "display_id": "E3",
+        "chunk_id": "PMID15141797-SEC02",
+        "section": "RESULTS",
+        "text": "The median arterial APTT ratio value was 1.32 +/- 0.52 as compared to the median peripheral APTT ratio value which was 1.1 +/- 0.24 (P<0.001). INR values were statistically similar by both routes. Heparin contamination was confirmed by TEG which revealed that the R-value for arterial catheter blood samples without heparinase in the cup was higher (406.00 +/- 64.44 s) compared with the value for arterial samples with heparinase in the cup (318.28 +/- 47.26s, P<0.05). The survey of 22 UK cardiothoracic intensive care units showed that heparinized arterial lines were by far the commonest ports used for blood withdrawal for the measurement of APTT ratio results."
+      }
+    ],
+    "raw_output": "Label: yes  \nReason: The evidence shows that INR values were statistically similar when measured via arterial and peripheral venous blood samples, indicating consistent and reliable results.  \nCitations: E2  \nAnswerable: yes",
+    "case_id": "R05"
+  },
+  {
+    "anonymous_question_id": "Q01",
+    "question": "Fatigue in primary Sjögren's syndrome: is there a link with the fibromyalgia syndrome?",
+    "evidence": [
+      {
+        "display_id": "E1",
+        "chunk_id": "PMID19108857-SEC00",
+        "section": "INTRODUCTION",
+        "text": "Tuberculosis continues to be a public health problem in emerging countries with a recent evidence of increased incidence of extrapulmonary localization in developed countries probably linked to HIV. To our knowledge the occurrence of cerebro-mediastinal tuberculosis in an immuno-competent child has not been previously described; moreover the child we describe has a probable Say-Barber-Miller syndrome. We discuss a putative causative link between this syndrome and the occurrence of tuberculosis."
+      },
+      {
+        "display_id": "E2",
+        "chunk_id": "PMID11053064-SEC00",
+        "section": "OBJECTIVE",
+        "text": "To determine whether fibromyalgia (FM) is more common in patients with primary Sjögren's syndrome (pSS) who complain of fatigue. The association and prevalence of fatigue and FM was recorded in a group of patients with pSS and a control group of lupus patients, a subset of whom had secondary Sjögren's syndrome (sSS)."
+      },
+      {
+        "display_id": "E3",
+        "chunk_id": "PMID18575014-SEC02",
+        "section": "RESULTS",
+        "text": "Thirteen patients had a personal history of NP without asthma, aspirin intolerance, Churg Strauss syndrome, cystic fibrosis, Young's syndrome, bare lymphocyte syndrome, or primary ciliary dyskinesia. Within this family, 19.7% of those older than 17 years were affected by NP, as compared with the national French prevalence of 2.1%."
+      }
+    ],
+    "raw_output": "Label: yes\nReason: To determine whether fibromyalgia (FM) is more common in patients with primary Sjögren's syndrome (pSS) who complain of fatigue.\nCitations: E2\nAnswerable: yes",
+    "case_id": "R06"
+  },
+  {
+    "anonymous_question_id": "Q01",
+    "question": "Fatigue in primary Sjögren's syndrome: is there a link with the fibromyalgia syndrome?",
+    "evidence": [
+      {
+        "display_id": "E1",
+        "chunk_id": "PMID19108857-SEC00",
+        "section": "INTRODUCTION",
+        "text": "Tuberculosis continues to be a public health problem in emerging countries with a recent evidence of increased incidence of extrapulmonary localization in developed countries probably linked to HIV. To our knowledge the occurrence of cerebro-mediastinal tuberculosis in an immuno-competent child has not been previously described; moreover the child we describe has a probable Say-Barber-Miller syndrome. We discuss a putative causative link between this syndrome and the occurrence of tuberculosis."
+      },
+      {
+        "display_id": "E2",
+        "chunk_id": "PMID11053064-SEC00",
+        "section": "OBJECTIVE",
+        "text": "To determine whether fibromyalgia (FM) is more common in patients with primary Sjögren's syndrome (pSS) who complain of fatigue. The association and prevalence of fatigue and FM was recorded in a group of patients with pSS and a control group of lupus patients, a subset of whom had secondary Sjögren's syndrome (sSS)."
+      },
+      {
+        "display_id": "E3",
+        "chunk_id": "PMID18575014-SEC02",
+        "section": "RESULTS",
+        "text": "Thirteen patients had a personal history of NP without asthma, aspirin intolerance, Churg Strauss syndrome, cystic fibrosis, Young's syndrome, bare lymphocyte syndrome, or primary ciliary dyskinesia. Within this family, 19.7% of those older than 17 years were affected by NP, as compared with the national French prevalence of 2.1%."
+      }
+    ],
+    "raw_output": "Label: yes  \nReason: Evidence E2 indicates that fatigue in primary Sjögren's syndrome is associated with fibromyalgia, suggesting a link between the two conditions.  \nCitations: E2  \nAnswerable: yes",
+    "case_id": "R07"
+  },
+  {
+    "anonymous_question_id": "Q02",
+    "question": "Is the international normalised ratio (INR) reliable?",
+    "evidence": [
+      {
+        "display_id": "E1",
+        "chunk_id": "PMID15151701-SEC00",
+        "section": "BACKGROUND",
+        "text": "We sought to develop a more reliable structured implicit chart review instrument for use in assessing the quality of care for chronic disease and to examine if ratings are more reliable for conditions in which the evidence base for practice is more developed."
+      },
+      {
+        "display_id": "E2",
+        "chunk_id": "PMID15141797-SEC01",
+        "section": "METHODS",
+        "text": "The morning following cardiac surgery, simultaneous arterial line and peripheral venous blood samples were taken for activated plasma thromboplastin time (APTT) ratio and international normalized ratio (INR) in 49 randomly selected patients. Also, a thromboelastogram analysis (TEG) (n = 7) was made. A survey of 22 UK cardiothoracic intensive care units was carried out to determine the practice for the withdrawal of blood for clotting studies."
+      },
+      {
+        "display_id": "E3",
+        "chunk_id": "PMID15141797-SEC02",
+        "section": "RESULTS",
+        "text": "The median arterial APTT ratio value was 1.32 +/- 0.52 as compared to the median peripheral APTT ratio value which was 1.1 +/- 0.24 (P<0.001). INR values were statistically similar by both routes. Heparin contamination was confirmed by TEG which revealed that the R-value for arterial catheter blood samples without heparinase in the cup was higher (406.00 +/- 64.44 s) compared with the value for arterial samples with heparinase in the cup (318.28 +/- 47.26s, P<0.05). The survey of 22 UK cardiothoracic intensive care units showed that heparinized arterial lines were by far the commonest ports used for blood withdrawal for the measurement of APTT ratio results."
+      }
+    ],
+    "raw_output": "Label: yes\nReason: The morning following cardiac surgery, simultaneous arterial line and peripheral venous blood samples were taken for activated plasma thromboplastin time (APTT) ratio and international normalized ratio (INR) in 49 randomly selected patients.\nCitations: E2\nAnswerable: yes",
+    "case_id": "R08"
+  }
+]

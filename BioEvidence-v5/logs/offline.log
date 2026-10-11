@@ -1,0 +1,7 @@
+bioevidence_offline_replay: Custom kwargs can be passed to `--metadata` in console (as json string) or to the TaskManager.
+For example --metadata='{"max_seq_lengths":[4096, 8192]}'. For details see task Readme.
+
+  0%|          | 0/604 [00:00<?, ?it/s]
+100%|██████████| 604/604 [00:00<00:00, 124159.95it/s]
+fatal: not a git repository (or any of the parent directories): .git
+REAL offline scoring parity PASSED: 604 dev outputs, four conditions; v1 B0 151

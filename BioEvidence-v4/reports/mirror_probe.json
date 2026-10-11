@@ -1,0 +1,15 @@
+{
+  "mirror": "https://hf-mirror.com",
+  "documentation": "https://hf-mirror.com/",
+  "timestamp_utc": "2026-10-10T17:26:05.405260+00:00",
+  "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "file": "model-00003-of-00003.safetensors",
+  "role": "transport probe only; official upstream whole-file SHA remains required",
+  "bytes_requested": 65536,
+  "http_status": 206,
+  "content_range": "bytes 0-65535/99630640",
+  "final_host": "us.aws.cdn.hf.co",
+  "bytes_received": 65536,
+  "same_as_verified_original_prefix": true,
+  "seconds": 6.48397660000046
+}

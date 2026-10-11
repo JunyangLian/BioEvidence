@@ -1,0 +1,62 @@
+{
+  "configuration": {
+    "repo": "Qwen/Qwen3-0.6B",
+    "path": "../BioEvidence-v1/artifacts/models/Qwen3-0.6B",
+    "adapter": "../BioEvidence-v1/artifacts/adapters/p6-taskb-lora",
+    "thinking": false,
+    "role": "main tuned historical E7 comparison; not v2 C1 old-target"
+  },
+  "identity": {
+    "config.json": "660db3b73d788119c04535e48cf9be5f55bc3100841a718637ae695b442f27dd",
+    "configuration.json": "f888421726665e8a84b738eed42a64875aed79de8be7daade851ac8bf4c0cef9",
+    "generation_config.json": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2",
+    "merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+    "model.safetensors": "f47f71177f32bcd101b7573ec9171e6a57f4f4d31148d38e382306f42996874b",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+    "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+    "adapter": {
+      "adapter_config.json": "8e3a4e43d7dd8506aa40f0f9c63eb9e6291c756ac4ca40f9f43a9f4df68b121a",
+      "adapter_model.safetensors": "92c10fae625042af35cac547ab58b78eca79d1f5769ef34dcc306f0dcf0823ec",
+      "chat_template.jinja": "51fa65c79bb57f058dc7ef8734884bd325fe9d45bb03a61bfef59785d3bc2da9",
+      "README.md": "7a88e12ef6168a00cdb5e2f5f9b001c3aeba2d14fe230f6bab1a32bf49e85589",
+      "tokenizer.json": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+      "tokenizer_config.json": "1f18fb516a5b9ec1286b09ef8df6cbe736ad8298c77d99953d85f182572b273e",
+      "training_args.bin": "4537a0d0577da191a8bb02e03b1a832bd67d8f04575dc9486a03e85ed67773c4"
+    }
+  },
+  "historical_meta": {
+    "task": "v2 阶段 B：顺序对照准备（不生成）",
+    "prepare_version": "v2_stageB_order_v1_20260924",
+    "generated_at_utc": "2026-09-24T04:40:02.624164+00:00",
+    "v1_root": "C:\\1_yanjiusheng\\BioEvidence\\BioEvidence-v1",
+    "run_dir": "runs\\P1-v2-stageB-order-20260924",
+    "result_section_definition": {
+      "source": "bioevidence.retrieval.section_aware.RESULT_SECTION_KEYS",
+      "keys": [
+        "RESULT",
+        "FINDING"
+      ],
+      "match": "section 字符串大写后子串匹配"
+    },
+    "conditions": {
+      "B0_original": "section_index 升序（= 冻结 build_evidence_block 输出顺序）",
+      "B1_result_first": "结果族优先，族内/其余各自保持原相对顺序",
+      "B2_reversed": "B0 完全逆序",
+      "B3_shuffled": "固定种子 shuffle（seed 派生自 'v2-order-20260924|<qid>'）"
+    },
+    "seal_policy": "先用原条件跑 build_evidence_block 封存入选集合，再在该集合上排列",
+    "cache_config_key": "47e5fc51",
+    "retrieval_condition": "A2_quota",
+    "budget_tokens": 900,
+    "m_evidence": 3,
+    "k_retrieve": 10,
+    "prompt_template": "tpl_taskb_v1_20260920",
+    "prompt_fingerprint": "ff7103c06b3760c3",
+    "adapter_dir": "C:\\1_yanjiusheng\\BioEvidence\\BioEvidence-v1\\artifacts\\adapters\\p6-taskb-lora",
+    "model_path": "C:\\1_yanjiusheng\\BioEvidence\\BioEvidence-v1\\artifacts\\models\\Qwen3-0.6B",
+    "max_new_tokens": 160,
+    "dev_n": 151
+  },
+  "reuse": true
+}

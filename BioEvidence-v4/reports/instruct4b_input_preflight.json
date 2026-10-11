@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "rows": 604,
+  "min_input_tokens": 404,
+  "max_input_tokens": 904,
+  "model_calls": 0,
+  "weights_not_required": true,
+  "non_thinking_template_verified": true,
+  "system_once_and_evidence_exact": true,
+  "no_context_truncation": true
+}

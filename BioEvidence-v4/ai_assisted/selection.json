@@ -1,0 +1,9 @@
+{
+  "kind": "AI-assisted illustrative convenience subset; not prevalence estimate",
+  "selection": "first two sorted smoke question IDs, all four conditions; random presentation seed 20260924",
+  "n": 8,
+  "prompt_version": "v4_ai_biomedical_audit_v1",
+  "human_truth": false,
+  "model_identifier": "unavailable until agent record",
+  "phase": "blinded; mapping not disclosed to reviewer"
+}

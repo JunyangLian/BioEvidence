@@ -1,0 +1,21 @@
+{
+  "timestamp_utc": "2026-10-11T05:23:41.760797+00:00",
+  "selection": "First lexically sorted human-reference insufficient and sufficient questions, excluding the2 V4 AI review questions. Outputs did not determine selection.",
+  "selected_question_ids_private": [
+    "11053064",
+    "10605400"
+  ],
+  "prior_excluded": [
+    "10411439",
+    "10593212"
+  ],
+  "n_questions": 2,
+  "n_cases": 8,
+  "reviews_per_case": 2,
+  "reviewer_model_balancing": "Each AI reviewer reviews all4 model groups; model labels/conditions/gold/human references and prior conclusions hidden",
+  "shuffle_seed": 20261011,
+  "prompt_version": "v5_ai_biomedical_v1",
+  "human_truth": false,
+  "packet_sha256": "54a036a78d7e51afa5f4defbac1b47fcc420298c23601aa6be3c222bd05b146a",
+  "boundary": "Illustrative two-question subset; repeated questions may be recognized from content; stylistic blinding cannot be guaranteed; no prevalence or model superiority inference"
+}

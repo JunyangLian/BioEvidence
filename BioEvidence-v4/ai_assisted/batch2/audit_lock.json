@@ -1,0 +1,10 @@
+{
+  "sha256": "5f6b55beb1dd98adea5a2748a333afacd98a37b41e02f0c800518f0fc80e7b48",
+  "agent_self_lock_timestamp": "2026-10-11 02:32:41 UTC",
+  "agent_timestamp_source_field": "reviewed_at_utc",
+  "filesystem_lock_timestamp": "2026-10-11T02:36:26.748976+00:00",
+  "validated_cases": 8,
+  "validated_quote_locations": 24,
+  "read_only": true,
+  "note": "Independent agent self-locked judgements before root technical validation and mapping inspection; no judgement edits."
+}

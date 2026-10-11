@@ -1,0 +1,10 @@
+{
+  "expected_unique_new_requests": 604,
+  "smoke_requests_already_in_cache": 10,
+  "B0_remaining": 141,
+  "other_order_requests": 453,
+  "smoke_elapsed_seconds_including_load": 70.91265569999996,
+  "conservative_estimated_total_seconds": 4283.124404279997,
+  "declared_budget_seconds": 7200,
+  "score_based_gate": false
+}

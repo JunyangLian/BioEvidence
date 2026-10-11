@@ -1,0 +1,489 @@
+{
+  "metadata": {
+    "review_kind": "ai_assisted",
+    "agent": "/root/ai_biomedical_review_2",
+    "model_identifier": "unknown",
+    "model_identifier_note": "当前会话未提供可核实的精确模型版本标识；不从产品名称或上下文推测。",
+    "prompt_version": "v4_ai_biomedical_audit_v1",
+    "reviewed_at_utc": "2026-10-11 02:32:41 UTC",
+    "review_locked": true,
+    "human_ground_truth": false,
+    "reading_scope": [
+      "C:\\1_yanjiusheng\\BioEvidence\\BioEvidence-v4\\ai_assisted\\batch2\\blind_cases.json"
+    ],
+    "reading_restrictions": "仅阅读该文件内的 8 个匿名问题、所给片段与输出；未读映射、选择记录、历史标签、其它模型输出或前一复核结论；未调用其它项目、skill、用户任务或外部资料。",
+    "write_scope": "C:\\1_yanjiusheng\\BioEvidence\\BioEvidence-v4\\ai_assisted\\batch2\\ratings_blinded.json",
+    "review_limitations": [
+      "这是 AI 辅助生物医药视角评定，不是实际专家或独立人工审核，不构成人工真值。",
+      "citation_traceability 只评本地显示编号到所给匿名片段的对应；外部文献来源均为 unknown。",
+      "evidence_sufficiency 依内容与问题适用性评定，而非是否有 RESULTS；阴性结果不证明等效、安全或普遍无效。",
+      "输出 Reason 不是模型内部推理过程的直接证据。",
+      "unknown 和 N_A 不应作为通过计分；未弃答的 abstention_appropriateness 均为 N_A。",
+      "全片段逐字作为证据定位，偏移相对于该 evidence.text；这些片段均为 ASCII，因此字符与 UTF-16 计数一致。",
+      "reason_supports_label 按可见 no 标签的实质语义评定；Answerable: no 的弃答适当性单独评分。",
+      "sufficient 的 LOC 案例仅支持给定研究所观测的比较方向，不为普遍临床预测有效性定论。"
+    ],
+    "citation_aggregation_rule": "逐引用独立判断：结果直接支持可见陈述为 supported；仅研究目标/设计背景或只支持部分陈述为 partial。任何引用只有部分支持时总体 citation_support 为 partial。",
+    "opinion_status": "locked_after_blinded_review; no unblinding or human-label writeback"
+  },
+  "ratings": [
+    {
+      "audit_id": "AI101",
+      "evidence_sufficiency": "insufficient",
+      "evidence_supports_reason": "supported",
+      "reason_supports_label": "unsupported",
+      "citation_traceability": "N_A",
+      "citation_support": "N_A",
+      "abstention_appropriateness": "supported",
+      "assessment_notes": "所给片段分别涉及医院群体伤亡事件、俯卧与仰卧眼部参数及冷刺激眼震方法，均未研究所问的 Lloyd-Davies 联合 Trendelenburg 体位或相关临床风险。Reason 的不适用性判断及 Answerable: no 合理；这些证据不能支持实质性 Label: no。",
+      "reservations": [
+        "把 Label: no 作为实质性的无风险/否定答案评为不受支持；若它只是弃答占位符，文件未提供这种语义约定。",
+        "没有引用，因此两个引用维度为 N_A，不表示通过。",
+        "输出 Reason 只能作为可见解释评审，不能证明模型内部推理过程。"
+      ],
+      "citation_details": [],
+      "evidence_locations": [
+        {
+          "display": "E1",
+          "anonymous_chunk": "e4a69906e1b1",
+          "section": "METHODS",
+          "quote": "A retrospective study of HMCIs was recorded in the Israeli Defense Force (IDF) home front command and the Israeli National Trauma Registry (ITR) between November 2000 and June 2003. An HMCI is defined by the Emergency and Disaster Medicine Division in the Israeli Ministry of Health as>or=10 casualties or>or=4 suffering from injuries with an ISS>or=16 arriving to a single hospital.",
+          "char_start_zero_based": 0,
+          "char_end_exclusive": 383
+        },
+        {
+          "display": "E2",
+          "anonymous_chunk": "9bcefcdde536",
+          "section": "RESULTS",
+          "quote": "No significant differences in intraocular pressure or axial length between the prone and supine positions were found in either eye. Anterior chamber depth in eyes with pseudoexfoliation decreased from a mean of 3.08 mm in the supine position to a mean of 2.95 mm in the prone position, whereas mean anterior chamber depth in the fellow eyes decreased from 3.01 mm to 2.97 mm. The decrease in anterior chamber depth when facing down in the eyes with pseudoexfoliation was significantly greater than in the fellow eyes.",
+          "char_start_zero_based": 0,
+          "char_end_exclusive": 517
+        },
+        {
+          "display": "E3",
+          "anonymous_chunk": "672b3a0502c8",
+          "section": "METHODS",
+          "quote": "The subjects were seven healthy humans. The right ear was stimulated using ice-water. Each subject was kept in a left-ear-down position for 20 s and then repositioned to a prone position, a right-ear-down position and a supine position with 20 s intervals. Nystagmus was analysed using three-dimensional video-oculography.",
+          "char_start_zero_based": 0,
+          "char_end_exclusive": 322
+        }
+      ]
+    },
+    {
+      "audit_id": "AI102",
+      "evidence_sufficiency": "sufficient",
+      "evidence_supports_reason": "supported",
+      "reason_supports_label": "supported",
+      "citation_traceability": "supported",
+      "citation_support": "partial",
+      "abstention_appropriateness": "N_A",
+      "assessment_notes": "E2 直接报告 LOC、无 LOC 和不确定 LOC 组在所测神经心理指标上未发现显著差异，并明确说 LOC 患者没有表现得更差。足以回答该研究所观察到的比较，Reason 与 no 标签在这一有限范围内一致。",
+      "reservations": [
+        "未显著差异并不证明等效，也不证明 LOC 在所有脑震荡人群、时间点或结局上均无预测价值。",
+        "片段未给出具体样本、脑震荡诊断边界、随访时间、效应量、置信区间和混杂控制；充分性限于所给研究结果的方向。",
+        "E1 与 E3 可回溯且提供设计和研究目标，不能独自支持否定结果；引用组合因此为 partial。",
+        "未弃答，abstention_appropriateness=N_A；本地回溯不验证外部文献来源。"
+      ],
+      "citation_details": [
+        {
+          "citation": "E1",
+          "citation_traceability": "supported",
+          "citation_support": "partial",
+          "explanation": "E1 对应前瞻性神经心理测试设计，提供背景，但没有 LOC 组比较结果。",
+          "anonymous_chunk": "4601594f61eb",
+          "section": "DESIGN",
+          "external_source_verification": "unknown"
+        },
+        {
+          "citation": "E2",
+          "citation_traceability": "supported",
+          "citation_support": "supported",
+          "explanation": "E2 明确给出未发现组间显著差异及 LOC 患者未表现更差，直接支持 Reason 的研究内描述。",
+          "anonymous_chunk": "afb3ef2846a4",
+          "section": "RESULTS",
+          "external_source_verification": "unknown"
+        },
+        {
+          "citation": "E3",
+          "citation_traceability": "supported",
+          "citation_support": "partial",
+          "explanation": "E3 是 LOC 预测测试表现的研究目标，支持相关性而非实际阴性结果。",
+          "anonymous_chunk": "93195438f528",
+          "section": "OBJECTIVE",
+          "external_source_verification": "unknown"
+        }
+      ],
+      "evidence_locations": [
+        {
+          "display": "E1",
+          "anonymous_chunk": "4601594f61eb",
+          "section": "DESIGN",
+          "quote": "A prospective study of patients assessed with a neuropsychological test battery.",
+          "char_start_zero_based": 0,
+          "char_end_exclusive": 80
+        },
+        {
+          "display": "E2",
+          "anonymous_chunk": "afb3ef2846a4",
+          "section": "RESULTS",
+          "quote": "No significant differences were found between the LOC, no LOC, or uncertain LOC groups for any of the neuropsychological measures used. Patients who had experienced traumatic LOC did not perform more poorly on neuropsychological testing than those with no LOC or uncertain LOC. All three groups demonstrated mildly decreased performance on formal tests of speed of information processing, attentional process, and memory.",
+          "char_start_zero_based": 0,
+          "char_end_exclusive": 421
+        },
+        {
+          "display": "E3",
+          "anonymous_chunk": "93195438f528",
+          "section": "OBJECTIVE",
+          "quote": "To investigate the importance of loss of consciousness (LOC) in predicting neuropsychological test performance in a large sample of patients with head injury.",
+          "char_start_zero_based": 0,
+          "char_end_exclusive": 158
+        }
+      ]
+    },
+    {
+      "audit_id": "AI103",
+      "evidence_sufficiency": "insufficient",
+      "evidence_supports_reason": "partial",
+      "reason_supports_label": "unsupported",
+      "citation_traceability": "supported",
+      "citation_support": "partial",
+      "abstention_appropriateness": "N_A",
+      "assessment_notes": "E1 确实描述眼部生理指标及前房深度变化，没有报告所问体位的灾难性临床结局。但 E1 比较的是俯卧与仰卧，不能把未提供 Lloyd-Davies 联合 Trendelenburg 风险证据转换为该体位不是灾难或安全的 no 答案；Answerable: yes 缺乏依据。",
+      "reservations": [
+        "Reason 的眼部参数概述和未见目标风险证据部分受支持，最终否定推断不受支持。",
+        "前房深度组间变化明确显著，不能因这里没有列出不良事件就推断风险不存在。",
+        "存在 RESULTS 不使这些不相关证据充分。",
+        "未弃答，abstention_appropriateness=N_A；可另指出无依据作答。"
+      ],
+      "citation_details": [
+        {
+          "citation": "E1",
+          "citation_traceability": "supported",
+          "citation_support": "partial",
+          "explanation": "可回溯到俯卧/仰卧眼部参数结果；支持所描述的生理变化，不能支持目标体位无灾难性风险或可作答。",
+          "anonymous_chunk": "9bcefcdde536",
+          "section": "RESULTS",
+          "external_source_verification": "unknown"
+        }
+      ],
+      "evidence_locations": [
+        {
+          "display": "E1",
+          "anonymous_chunk": "9bcefcdde536",
+          "section": "RESULTS",
+          "quote": "No significant differences in intraocular pressure or axial length between the prone and supine positions were found in either eye. Anterior chamber depth in eyes with pseudoexfoliation decreased from a mean of 3.08 mm in the supine position to a mean of 2.95 mm in the prone position, whereas mean anterior chamber depth in the fellow eyes decreased from 3.01 mm to 2.97 mm. The decrease in anterior chamber depth when facing down in the eyes with pseudoexfoliation was significantly greater than in the fellow eyes.",
+          "char_start_zero_based": 0,
+          "char_end_exclusive": 517
+        },
+        {
+          "display": "E2",
+          "anonymous_chunk": "672b3a0502c8",
+          "section": "METHODS",
+          "quote": "The subjects were seven healthy humans. The right ear was stimulated using ice-water. Each subject was kept in a left-ear-down position for 20 s and then repositioned to a prone position, a right-ear-down position and a supine position with 20 s intervals. Nystagmus was analysed using three-dimensional video-oculography.",
+          "char_start_zero_based": 0,
+          "char_end_exclusive": 322
+        },
+        {
+          "display": "E3",
+          "anonymous_chunk": "e4a69906e1b1",
+          "section": "METHODS",
+          "quote": "A retrospective study of HMCIs was recorded in the Israeli Defense Force (IDF) home front command and the Israeli National Trauma Registry (ITR) between November 2000 and June 2003. An HMCI is defined by the Emergency and Disaster Medicine Division in the Israeli Ministry of Health as>or=10 casualties or>or=4 suffering from injuries with an ISS>or=16 arriving to a single hospital.",
+          "char_start_zero_based": 0,
+          "char_end_exclusive": 383
+        }
+      ]
+    },
+    {
+      "audit_id": "AI104",
+      "evidence_sufficiency": "insufficient",
+      "evidence_supports_reason": "unsupported",
+      "reason_supports_label": "unsupported",
+      "citation_traceability": "supported",
+      "citation_support": "partial",
+      "abstention_appropriateness": "N_A",
+      "assessment_notes": "Reason 正确复述眼压和眼轴长度未发现显著差异，却把前房深度变化称为 minor、non-significant；E1 明确写出假性剥脱眼的前房深度下降比对侧眼显著更大。这个关键描述与证据矛盾，而且俯卧/仰卧比较未覆盖所问联合体位风险，不能支持 no 或 Answerable: yes。",
+      "reservations": [
+        "minor 是未经临床阈值支持的意义判断；统计显著性和临床意义也不能相互替代。",
+        "E1 的部分参数支持 Reason 的局部陈述，所以逐引用支持为 partial；Reason 的整体关键解释因矛盾与越界推断为 unsupported。",
+        "非显著眼压/眼轴结果不能证明目标体位安全。",
+        "未弃答，abstention_appropriateness=N_A。"
+      ],
+      "citation_details": [
+        {
+          "citation": "E1",
+          "citation_traceability": "supported",
+          "citation_support": "partial",
+          "explanation": "编号可回溯；支持眼压/眼轴长度的未显著差异，明确反驳前房深度 non-significant 的说法，且不能支持目标体位的风险否定结论。",
+          "anonymous_chunk": "9bcefcdde536",
+          "section": "RESULTS",
+          "external_source_verification": "unknown"
+        }
+      ],
+      "evidence_locations": [
+        {
+          "display": "E1",
+          "anonymous_chunk": "9bcefcdde536",
+          "section": "RESULTS",
+          "quote": "No significant differences in intraocular pressure or axial length between the prone and supine positions were found in either eye. Anterior chamber depth in eyes with pseudoexfoliation decreased from a mean of 3.08 mm in the supine position to a mean of 2.95 mm in the prone position, whereas mean anterior chamber depth in the fellow eyes decreased from 3.01 mm to 2.97 mm. The decrease in anterior chamber depth when facing down in the eyes with pseudoexfoliation was significantly greater than in the fellow eyes.",
+          "char_start_zero_based": 0,
+          "char_end_exclusive": 517
+        },
+        {
+          "display": "E2",
+          "anonymous_chunk": "e4a69906e1b1",
+          "section": "METHODS",
+          "quote": "A retrospective study of HMCIs was recorded in the Israeli Defense Force (IDF) home front command and the Israeli National Trauma Registry (ITR) between November 2000 and June 2003. An HMCI is defined by the Emergency and Disaster Medicine Division in the Israeli Ministry of Health as>or=10 casualties or>or=4 suffering from injuries with an ISS>or=16 arriving to a single hospital.",
+          "char_start_zero_based": 0,
+          "char_end_exclusive": 383
+        },
+        {
+          "display": "E3",
+          "anonymous_chunk": "672b3a0502c8",
+          "section": "METHODS",
+          "quote": "The subjects were seven healthy humans. The right ear was stimulated using ice-water. Each subject was kept in a left-ear-down position for 20 s and then repositioned to a prone position, a right-ear-down position and a supine position with 20 s intervals. Nystagmus was analysed using three-dimensional video-oculography.",
+          "char_start_zero_based": 0,
+          "char_end_exclusive": 322
+        }
+      ]
+    },
+    {
+      "audit_id": "AI105",
+      "evidence_sufficiency": "sufficient",
+      "evidence_supports_reason": "supported",
+      "reason_supports_label": "supported",
+      "citation_traceability": "supported",
+      "citation_support": "partial",
+      "abstention_appropriateness": "N_A",
+      "assessment_notes": "E3 明确报告所测指标未发现 LOC 各组显著差异，LOC 患者没有表现更差，且所有组均有轻度认知表现下降。Reason 的 similar performance 作为该研究所见差异的描述可支持有限范围的 no 标签。",
+      "reservations": [
+        "similar performance 只能理解为该研究没有发现差异，不能理解为已证明等效；not associated 也不能推广为所有患者中的零关联。",
+        "问题说 concussion，研究目标片段说 head injury；给定证据未充分界定人群，结论应保留研究范围。",
+        "E1 只提供研究目标，无法独自支持组间阴性结果；总体引用支持为 partial。",
+        "未弃答，abstention_appropriateness=N_A。"
+      ],
+      "citation_details": [
+        {
+          "citation": "E1",
+          "citation_traceability": "supported",
+          "citation_support": "partial",
+          "explanation": "本地编号对应 LOC 与测试表现的研究目标，支持题目相关性但不报告比较结果。",
+          "anonymous_chunk": "93195438f528",
+          "section": "OBJECTIVE",
+          "external_source_verification": "unknown"
+        },
+        {
+          "citation": "E3",
+          "citation_traceability": "supported",
+          "citation_support": "supported",
+          "explanation": "E3 直接报告未发现显著组间差异、LOC 未表现更差和所有组轻度下降，支持有限的研究内解释。",
+          "anonymous_chunk": "afb3ef2846a4",
+          "section": "RESULTS",
+          "external_source_verification": "unknown"
+        }
+      ],
+      "evidence_locations": [
+        {
+          "display": "E1",
+          "anonymous_chunk": "93195438f528",
+          "section": "OBJECTIVE",
+          "quote": "To investigate the importance of loss of consciousness (LOC) in predicting neuropsychological test performance in a large sample of patients with head injury.",
+          "char_start_zero_based": 0,
+          "char_end_exclusive": 158
+        },
+        {
+          "display": "E2",
+          "anonymous_chunk": "4601594f61eb",
+          "section": "DESIGN",
+          "quote": "A prospective study of patients assessed with a neuropsychological test battery.",
+          "char_start_zero_based": 0,
+          "char_end_exclusive": 80
+        },
+        {
+          "display": "E3",
+          "anonymous_chunk": "afb3ef2846a4",
+          "section": "RESULTS",
+          "quote": "No significant differences were found between the LOC, no LOC, or uncertain LOC groups for any of the neuropsychological measures used. Patients who had experienced traumatic LOC did not perform more poorly on neuropsychological testing than those with no LOC or uncertain LOC. All three groups demonstrated mildly decreased performance on formal tests of speed of information processing, attentional process, and memory.",
+          "char_start_zero_based": 0,
+          "char_end_exclusive": 421
+        }
+      ]
+    },
+    {
+      "audit_id": "AI106",
+      "evidence_sufficiency": "sufficient",
+      "evidence_supports_reason": "supported",
+      "reason_supports_label": "supported",
+      "citation_traceability": "supported",
+      "citation_support": "supported",
+      "abstention_appropriateness": "N_A",
+      "assessment_notes": "E1 的实际结果直接说创伤性 LOC 患者在神经心理测试上没有比无 LOC 或不确定 LOC 患者表现更差，与 Reason 一致；在研究内比较范围足以支持 no，唯一引用也直接支持所述结论。",
+      "reservations": [
+        "未显著差异不证明等效或所有情境下无预测作用。",
+        "片段缺少效应量、区间、时间点、混杂控制和详细人群边界，不能据此作普遍结论。",
+        "所有组均轻度下降，因此 no 是对 LOC 的额外预测关系的否定，不能理解为脑震荡后没有认知下降。",
+        "未弃答，abstention_appropriateness=N_A；引用支持仅针对本地给定片段。"
+      ],
+      "citation_details": [
+        {
+          "citation": "E1",
+          "citation_traceability": "supported",
+          "citation_support": "supported",
+          "explanation": "E1 的 LOC 与无 LOC/不确定 LOC 比较结果直接支持可见 Reason 的有限研究内描述。",
+          "anonymous_chunk": "afb3ef2846a4",
+          "section": "RESULTS",
+          "external_source_verification": "unknown"
+        }
+      ],
+      "evidence_locations": [
+        {
+          "display": "E1",
+          "anonymous_chunk": "afb3ef2846a4",
+          "section": "RESULTS",
+          "quote": "No significant differences were found between the LOC, no LOC, or uncertain LOC groups for any of the neuropsychological measures used. Patients who had experienced traumatic LOC did not perform more poorly on neuropsychological testing than those with no LOC or uncertain LOC. All three groups demonstrated mildly decreased performance on formal tests of speed of information processing, attentional process, and memory.",
+          "char_start_zero_based": 0,
+          "char_end_exclusive": 421
+        },
+        {
+          "display": "E2",
+          "anonymous_chunk": "93195438f528",
+          "section": "OBJECTIVE",
+          "quote": "To investigate the importance of loss of consciousness (LOC) in predicting neuropsychological test performance in a large sample of patients with head injury.",
+          "char_start_zero_based": 0,
+          "char_end_exclusive": 158
+        },
+        {
+          "display": "E3",
+          "anonymous_chunk": "4601594f61eb",
+          "section": "DESIGN",
+          "quote": "A prospective study of patients assessed with a neuropsychological test battery.",
+          "char_start_zero_based": 0,
+          "char_end_exclusive": 80
+        }
+      ]
+    },
+    {
+      "audit_id": "AI107",
+      "evidence_sufficiency": "sufficient",
+      "evidence_supports_reason": "supported",
+      "reason_supports_label": "supported",
+      "citation_traceability": "supported",
+      "citation_support": "partial",
+      "abstention_appropriateness": "N_A",
+      "assessment_notes": "E1 直接报告 LOC 患者没有在测试上表现更差，支持 Reason 与研究内范围的 no；E3 是研究目标，可以确认主题，却不能作为阴性比较结果的直接证据。",
+      "reservations": [
+        "缺乏显著差异不构成等效证明，结论不能推广到所有脑震荡患者和神经心理结局。",
+        "E3 的主题关联不等于语义上的结果支持，故整体引用支持为 partial。",
+        "证据中全部组轻度表现下降，不能把 no 解释为没有脑伤后认知减退。",
+        "未弃答，abstention_appropriateness=N_A。"
+      ],
+      "citation_details": [
+        {
+          "citation": "E1",
+          "citation_traceability": "supported",
+          "citation_support": "supported",
+          "explanation": "编号回溯至实际 LOC 组比较结果，直接支持 Reason。",
+          "anonymous_chunk": "afb3ef2846a4",
+          "section": "RESULTS",
+          "external_source_verification": "unknown"
+        },
+        {
+          "citation": "E3",
+          "citation_traceability": "supported",
+          "citation_support": "partial",
+          "explanation": "编号回溯至研究目标，可支持关注 LOC 预测表现，但不能证明研究得出的无显著差异。",
+          "anonymous_chunk": "93195438f528",
+          "section": "OBJECTIVE",
+          "external_source_verification": "unknown"
+        }
+      ],
+      "evidence_locations": [
+        {
+          "display": "E1",
+          "anonymous_chunk": "afb3ef2846a4",
+          "section": "RESULTS",
+          "quote": "No significant differences were found between the LOC, no LOC, or uncertain LOC groups for any of the neuropsychological measures used. Patients who had experienced traumatic LOC did not perform more poorly on neuropsychological testing than those with no LOC or uncertain LOC. All three groups demonstrated mildly decreased performance on formal tests of speed of information processing, attentional process, and memory.",
+          "char_start_zero_based": 0,
+          "char_end_exclusive": 421
+        },
+        {
+          "display": "E2",
+          "anonymous_chunk": "4601594f61eb",
+          "section": "DESIGN",
+          "quote": "A prospective study of patients assessed with a neuropsychological test battery.",
+          "char_start_zero_based": 0,
+          "char_end_exclusive": 80
+        },
+        {
+          "display": "E3",
+          "anonymous_chunk": "93195438f528",
+          "section": "OBJECTIVE",
+          "quote": "To investigate the importance of loss of consciousness (LOC) in predicting neuropsychological test performance in a large sample of patients with head injury.",
+          "char_start_zero_based": 0,
+          "char_end_exclusive": 158
+        }
+      ]
+    },
+    {
+      "audit_id": "AI108",
+      "evidence_sufficiency": "insufficient",
+      "evidence_supports_reason": "supported",
+      "reason_supports_label": "unsupported",
+      "citation_traceability": "supported",
+      "citation_support": "partial",
+      "abstention_appropriateness": "supported",
+      "assessment_notes": "所有片段未提及 Lloyd-Davies 或 Trendelenburg。E3 描述俯卧/仰卧眼部生理参数，E2 描述冷刺激后不同体位的眼震测量方法，均未提供目标体位风险结局；Reason 的证据不适用性描述及 Answerable: no 合理。实质性 Label: no 仍不能由缺少相关证据推出。",
+      "reservations": [
+        "Label: no 若作为实质性的风险否定答案不受支持；文件未说明它是否为弃答占位符。",
+        "E2 没有眼压/前房深度结果，仅提供不同体位的眼震方法背景；E3 支持眼部参数描述及未提及目标体位的局部事实。",
+        "对片段中未出现风险的判断只限给定片段，不声称原论文或外部文献没有风险报道。",
+        "弃答适当不使 no 标签成为有证据的临床结论。"
+      ],
+      "citation_details": [
+        {
+          "citation": "E2",
+          "citation_traceability": "supported",
+          "citation_support": "partial",
+          "explanation": "E2 可准确回溯到冷刺激与眼震体位方法；支持未提及目标体位的局部事实，不支持眼压/前房深度结果。",
+          "anonymous_chunk": "672b3a0502c8",
+          "section": "METHODS",
+          "external_source_verification": "unknown"
+        },
+        {
+          "citation": "E3",
+          "citation_traceability": "supported",
+          "citation_support": "supported",
+          "explanation": "E3 直接支持眼压/前房深度生理参数描述，且文本未出现所问体位或其风险；支持弃答理由，不支持实质性风险否定。",
+          "anonymous_chunk": "9bcefcdde536",
+          "section": "RESULTS",
+          "external_source_verification": "unknown"
+        }
+      ],
+      "evidence_locations": [
+        {
+          "display": "E1",
+          "anonymous_chunk": "e4a69906e1b1",
+          "section": "METHODS",
+          "quote": "A retrospective study of HMCIs was recorded in the Israeli Defense Force (IDF) home front command and the Israeli National Trauma Registry (ITR) between November 2000 and June 2003. An HMCI is defined by the Emergency and Disaster Medicine Division in the Israeli Ministry of Health as>or=10 casualties or>or=4 suffering from injuries with an ISS>or=16 arriving to a single hospital.",
+          "char_start_zero_based": 0,
+          "char_end_exclusive": 383
+        },
+        {
+          "display": "E2",
+          "anonymous_chunk": "672b3a0502c8",
+          "section": "METHODS",
+          "quote": "The subjects were seven healthy humans. The right ear was stimulated using ice-water. Each subject was kept in a left-ear-down position for 20 s and then repositioned to a prone position, a right-ear-down position and a supine position with 20 s intervals. Nystagmus was analysed using three-dimensional video-oculography.",
+          "char_start_zero_based": 0,
+          "char_end_exclusive": 322
+        },
+        {
+          "display": "E3",
+          "anonymous_chunk": "9bcefcdde536",
+          "section": "RESULTS",
+          "quote": "No significant differences in intraocular pressure or axial length between the prone and supine positions were found in either eye. Anterior chamber depth in eyes with pseudoexfoliation decreased from a mean of 3.08 mm in the supine position to a mean of 2.95 mm in the prone position, whereas mean anterior chamber depth in the fellow eyes decreased from 3.01 mm to 2.97 mm. The decrease in anterior chamber depth when facing down in the eyes with pseudoexfoliation was significantly greater than in the fellow eyes.",
+          "char_start_zero_based": 0,
+          "char_end_exclusive": 517
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Output integrity passed smoke10 {'tuned_4b': {'rows': 10, 'exact_prompts_and_tokens_and_frozen_parse': True, 'generation_exceptions': 0, 'budget_hits_known': 0, 'budget_unknown_rows': 0, 'historical_origin_rows': 0, 'harness_aggregate_checked': True, 'source_sha256': 'c18b64be03e152a81dc542282b6b9881c97a33bd96037c922fc5820e9c3e5e0e'}}

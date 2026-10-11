@@ -1,0 +1,135 @@
+{
+  "passed": true,
+  "source_paths": {
+    "historical_config": "C:\\1_yanjiusheng\\BioEvidence\\BioEvidence-v1\\configs\\train_taskb.yaml",
+    "historical_train_report": "C:\\1_yanjiusheng\\BioEvidence\\BioEvidence-v1\\runs\\P6-taskb-20260920\\train_report.json"
+  },
+  "source_sha256": {
+    "historical_config": "eaba77e68b0b791f704179ecd94cbc4fb7be8c0a71ad7cce2c34cfdc2501833d",
+    "historical_train_report": "e3e13d5f7ebc69738f5842519b6815d4006264583696fd4189a3e55d73260a6f"
+  },
+  "same_historical_582_target_file_sha256": "b0762479353e2e5932cff437cf15f5382efa63751eb87c6fa2b8961d36a2cae1",
+  "actual_effective_parameters": {
+    "max_length": {
+      "historical_effective": 1024,
+      "new_effective": 1024
+    },
+    "num_train_epochs": {
+      "historical_effective": 3.0,
+      "new_effective": 3
+    },
+    "per_device_train_batch_size": {
+      "historical_effective": 1,
+      "new_effective": 1
+    },
+    "gradient_accumulation_steps": {
+      "historical_effective": 8,
+      "new_effective": 8
+    },
+    "learning_rate": {
+      "historical_effective": 0.0001,
+      "new_effective": 0.0001
+    },
+    "optim": {
+      "historical_effective": "paged_adamw_8bit",
+      "new_effective": "paged_adamw_8bit"
+    },
+    "seed": {
+      "historical_effective": 20260918,
+      "new_effective": 20260918
+    },
+    "packing": {
+      "historical_effective": false,
+      "new_effective": false
+    },
+    "completion_only_loss": {
+      "historical_effective": true,
+      "new_effective": true
+    },
+    "bf16": {
+      "historical_effective": true,
+      "new_effective": true
+    },
+    "fp16": {
+      "historical_effective": false,
+      "new_effective": false
+    },
+    "lora_r": {
+      "historical_adapter": 8,
+      "new_adapter": 8
+    },
+    "lora_lora_alpha": {
+      "historical_adapter": 16,
+      "new_adapter": 16
+    },
+    "lora_lora_dropout": {
+      "historical_adapter": 0.05,
+      "new_adapter": 0.05
+    },
+    "lora_bias": {
+      "historical_adapter": "none",
+      "new_adapter": "none"
+    },
+    "lora_task_type": {
+      "historical_adapter": "CAUSAL_LM",
+      "new_adapter": "CAUSAL_LM"
+    }
+  },
+  "target_modules": [
+    "down_proj",
+    "gate_proj",
+    "k_proj",
+    "o_proj",
+    "q_proj",
+    "up_proj",
+    "v_proj"
+  ],
+  "reported_package_versions": {
+    "torch": {
+      "historical_P0_environment": "2.14.0+cu130",
+      "V5_actual": "2.14.0+cu130",
+      "same_reported_version": true
+    },
+    "transformers": {
+      "historical_P0_environment": "5.17.0",
+      "V5_actual": "5.17.0",
+      "same_reported_version": true
+    },
+    "peft": {
+      "historical_P0_environment": "0.21.0",
+      "V5_actual": "0.21.0",
+      "same_reported_version": true
+    },
+    "trl": {
+      "historical_P0_environment": "1.13.0",
+      "V5_actual": "1.13.0",
+      "same_reported_version": true
+    },
+    "accelerate": {
+      "historical_P0_environment": "1.15.0",
+      "V5_actual": "1.15.0",
+      "same_reported_version": true
+    },
+    "datasets": {
+      "historical_P0_environment": "5.0.1",
+      "V5_actual": "5.0.1",
+      "same_reported_version": true
+    },
+    "bitsandbytes": {
+      "historical_P0_environment": "0.50.2",
+      "V5_actual": "0.50.2",
+      "same_reported_version": true
+    }
+  },
+  "package_evidence_limit": "P0 environment report and adapter PEFT metadata, not an independently saved complete P6 installation manifest; no binary identity claim",
+  "remaining_differences": [
+    "Different model architecture, model version and instruction-training history",
+    "Native chat templates/tokenization/lengths differ; 0.6B historical completion includes empty nonthinking header, 4B native has none",
+    "Same LoRA rank/modules do not equalize trainable parameter count: historical E7 5046272 versus new 4B 16515072",
+    "Historical save_strategy=no; V5 operational checkpoints every25 updates for recovery, never dev selection",
+    "Full historical runtime source/binary snapshot not independently available; V5 actual environment is pinned",
+    "E7 historical generation uses direct HF; V5 generation uses HFLM; migration verified on10 only"
+  ],
+  "no_dev_checkpoint_selection": true,
+  "no_pure_scale_or_equal_compute_inference": true
+}

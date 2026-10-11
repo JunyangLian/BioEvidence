@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "scope": "smoke10",
+  "timestamp_utc": "2026-10-11T02:38:37.273998+00:00",
+  "model_calls": 0,
+  "checks": {
+    "base_06b": {
+      "n_checked": 40,
+      "source_prompt_and_tokens_unchanged": true,
+      "raw_and_entire_record_match_cache": true,
+      "historical_parser_fields_and_errors_match": true,
+      "actual_harness_aggregation_matches_historical_entry": true,
+      "cache_hits": 0,
+      "fresh_requests": 40,
+      "runtime_failure_count": 0,
+      "parsed_non_ok_count": 0
+    },
+    "instruct_4b": {
+      "n_checked": 40,
+      "source_prompt_and_tokens_unchanged": true,
+      "raw_and_entire_record_match_cache": true,
+      "historical_parser_fields_and_errors_match": true,
+      "actual_harness_aggregation_matches_historical_entry": true,
+      "cache_hits": 0,
+      "fresh_requests": 40,
+      "runtime_failure_count": 0,
+      "parsed_non_ok_count": 0
+    }
+  },
+  "note": "Validates records, without replacing failures or modifying raw outputs."
+}

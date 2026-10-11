@@ -1,0 +1,104 @@
+W1011 12:31:12.322000 20804 .venv\Lib\site-packages\torch\utils\flop_counter.py:113] triton not found; flop counting will not work for triton kernels
+
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/398 [00:00<05:54,  1.12it/s]
+Loading weights:   1%|          | 4/398 [00:01<01:22,  4.76it/s]
+Loading weights:   3%|▎         | 11/398 [00:01<00:25, 14.89it/s]
+Loading weights:   4%|▍         | 15/398 [00:01<00:19, 19.27it/s]
+Loading weights:   6%|▌         | 22/398 [00:01<00:12, 29.54it/s]
+Loading weights:   7%|▋         | 27/398 [00:01<00:12, 30.07it/s]
+Loading weights:   9%|▉         | 36/398 [00:01<00:08, 42.97it/s]
+Loading weights:  11%|█         | 42/398 [00:01<00:08, 44.27it/s]
+Loading weights:  12%|█▏        | 48/398 [00:01<00:07, 44.35it/s]
+Loading weights:  14%|█▍        | 56/398 [00:01<00:06, 52.50it/s]
+Loading weights:  16%|█▌        | 62/398 [00:02<00:06, 49.29it/s]
+Loading weights:  18%|█▊        | 70/398 [00:02<00:06, 50.97it/s]
+Loading weights:  19%|█▉        | 77/398 [00:02<00:05, 54.95it/s]
+Loading weights:  21%|██        | 83/398 [00:02<00:06, 48.69it/s]
+Loading weights:  23%|██▎       | 91/398 [00:02<00:05, 55.44it/s]
+Loading weights:  24%|██▍       | 97/398 [00:02<00:05, 52.54it/s]
+Loading weights:  26%|██▌       | 103/398 [00:02<00:05, 50.25it/s]
+Loading weights:  28%|██▊       | 110/398 [00:03<00:06, 47.10it/s]
+Loading weights:  29%|██▉       | 115/398 [00:03<00:06, 40.51it/s]
+Loading weights:  31%|███       | 124/398 [00:03<00:05, 50.39it/s]
+Loading weights:  33%|███▎      | 130/398 [00:03<00:05, 49.35it/s]
+Loading weights:  34%|███▍      | 136/398 [00:03<00:05, 48.26it/s]
+Loading weights:  36%|███▌      | 142/398 [00:03<00:05, 50.63it/s]
+Loading weights:  37%|███▋      | 148/398 [00:03<00:05, 42.87it/s]
+Loading weights:  39%|███▉      | 157/398 [00:04<00:04, 52.87it/s]
+Loading weights:  41%|████      | 163/398 [00:04<00:04, 50.92it/s]
+Loading weights:  42%|████▏     | 169/398 [00:04<00:04, 49.11it/s]
+Loading weights:  44%|████▍     | 176/398 [00:04<00:04, 54.09it/s]
+Loading weights:  46%|████▌     | 182/398 [00:04<00:04, 47.79it/s]
+Loading weights:  48%|████▊     | 190/398 [00:04<00:03, 55.13it/s]
+Loading weights:  49%|████▉     | 196/398 [00:04<00:03, 53.22it/s]
+Loading weights:  51%|█████     | 202/398 [00:04<00:03, 50.77it/s]
+Loading weights:  53%|█████▎    | 212/398 [00:05<00:03, 56.41it/s]
+Loading weights:  55%|█████▍    | 218/398 [00:05<00:03, 53.21it/s]
+Loading weights:  56%|█████▋    | 224/398 [00:05<00:03, 51.78it/s]
+Loading weights:  59%|█████▉    | 234/398 [00:05<00:02, 56.24it/s]
+Loading weights:  60%|██████    | 240/398 [00:05<00:02, 53.31it/s]
+Loading weights:  62%|██████▏   | 246/398 [00:05<00:02, 51.69it/s]
+Loading weights:  64%|██████▍   | 256/398 [00:05<00:02, 56.87it/s]
+Loading weights:  66%|██████▌   | 262/398 [00:05<00:02, 54.78it/s]
+Loading weights:  67%|██████▋   | 268/398 [00:06<00:02, 53.02it/s]
+Loading weights:  70%|██████▉   | 278/398 [00:06<00:02, 57.71it/s]
+Loading weights:  71%|███████▏  | 284/398 [00:06<00:02, 55.46it/s]
+Loading weights:  73%|███████▎  | 290/398 [00:06<00:02, 53.21it/s]
+Loading weights:  75%|███████▌  | 300/398 [00:06<00:01, 58.02it/s]
+Loading weights:  77%|███████▋  | 306/398 [00:06<00:01, 55.56it/s]
+Loading weights:  78%|███████▊  | 312/398 [00:06<00:01, 52.59it/s]
+Loading weights:  80%|████████  | 319/398 [00:07<00:01, 56.72it/s]
+Loading weights:  82%|████████▏ | 325/398 [00:07<00:01, 47.16it/s]
+Loading weights:  84%|████████▎ | 333/398 [00:07<00:01, 53.40it/s]
+Loading weights:  85%|████████▌ | 339/398 [00:07<00:01, 50.63it/s]
+Loading weights:  87%|████████▋ | 345/398 [00:07<00:01, 49.24it/s]
+Loading weights:  89%|████████▊ | 353/398 [00:07<00:00, 56.29it/s]
+Loading weights:  90%|█████████ | 359/398 [00:07<00:00, 50.06it/s]
+Loading weights:  92%|█████████▏| 366/398 [00:07<00:00, 54.34it/s]
+Loading weights:  93%|█████████▎| 372/398 [00:08<00:00, 51.76it/s]
+Loading weights:  95%|█████████▍| 378/398 [00:08<00:00, 49.67it/s]
+Loading weights:  97%|█████████▋| 386/398 [00:08<00:00, 56.54it/s]
+Loading weights:  98%|█████████▊| 392/398 [00:08<00:00, 48.54it/s]
+Loading weights: 100%|██████████| 398/398 [00:08<00:00, 46.67it/s]
+
+Adding EOS to train dataset:   0%|          | 0/582 [00:00<?, ? examples/s]
+Adding EOS to train dataset: 100%|██████████| 582/582 [00:00<00:00, 32893.40 examples/s]
+
+Tokenizing train dataset:   0%|          | 0/582 [00:00<?, ? examples/s]
+Tokenizing train dataset:   9%|▉         | 55/582 [00:00<00:00, 531.13 examples/s]
+Tokenizing train dataset:  20%|██        | 117/582 [00:00<00:00, 579.36 examples/s]
+Tokenizing train dataset:  35%|███▍      | 203/582 [00:00<00:00, 567.99 examples/s]
+Tokenizing train dataset:  49%|████▉     | 286/582 [00:00<00:00, 557.70 examples/s]
+Tokenizing train dataset:  59%|█████▉    | 344/582 [00:00<00:00, 560.46 examples/s]
+Tokenizing train dataset:  69%|██████▉   | 402/582 [00:00<00:00, 562.66 examples/s]
+Tokenizing train dataset:  79%|███████▉  | 459/582 [00:00<00:00, 560.19 examples/s]
+Tokenizing train dataset:  93%|█████████▎| 540/582 [00:00<00:00, 547.33 examples/s]
+Tokenizing train dataset: 100%|██████████| 582/582 [00:01<00:00, 507.90 examples/s]
+
+Building labels for train dataset:   0%|          | 0/582 [00:00<?, ? examples/s]
+Building labels for train dataset: 100%|██████████| 582/582 [00:00<00:00, 3984.89 examples/s]
+Building labels for train dataset: 100%|██████████| 582/582 [00:00<00:00, 3960.47 examples/s]
+
+Truncating train dataset:   0%|          | 0/582 [00:00<?, ? examples/s]
+Truncating train dataset: 100%|██████████| 582/582 [00:00<00:00, 6770.05 examples/s]
+
+Dropping fully masked examples from train dataset:   0%|          | 0/582 [00:00<?, ? examples/s]
+Dropping fully masked examples from train dataset: 100%|██████████| 582/582 [00:00<00:00, 21103.33 examples/s]
+Traceback (most recent call last):
+  File "C:\1_yanjiusheng\BioEvidence\BioEvidence-v5\train.py", line 93, in <module>
+    try:run(a.stage)
+        ~~~^^^^^^^^^
+  File "C:\1_yanjiusheng\BioEvidence\BioEvidence-v5\train.py", line 43, in run
+    assert ids==expected_ids,('Trainer changed complete input',i,len(ids),r['total_tokens'])
+           ^^^^^^^^^^^^^^^^^
+AssertionError: ('Trainer changed complete input', 0, 653, 652)
+
+Traceback (most recent call last):
+  File "C:\1_yanjiusheng\BioEvidence\BioEvidence-v5\train.py", line 93, in <module>
+    try:run(a.stage)
+        ~~~^^^^^^^^^
+  File "C:\1_yanjiusheng\BioEvidence\BioEvidence-v5\train.py", line 43, in run
+    assert ids==expected_ids,('Trainer changed complete input',i,len(ids),r['total_tokens'])
+           ^^^^^^^^^^^^^^^^^
+AssertionError: ('Trainer changed complete input', 0, 653, 652)

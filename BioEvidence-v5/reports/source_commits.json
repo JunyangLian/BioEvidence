@@ -1,0 +1,24 @@
+{
+  "lm_eval": {
+    "source_commit": "ddd67220430a2470529f25fd5c05a576ca1057a0",
+    "wheel_sha256": "5daaa1973bf874005f64f28d3834b875f6886f0d6475878e6a6c821994a5286a",
+    "matches_installed_archive": true,
+    "origin": "PyPI trusted publisher attestation certificate source digest extension; archive matched; no local cryptographic attestation verification claimed",
+    "V5_archive_match_verified": true,
+    "read_only_reference": "C:\\1_yanjiusheng\\BioEvidence\\BioEvidence-v4\\reports\\source_commits.json"
+  },
+  "transformers": {
+    "source_commit": "856157a2f3e9594954310df18fdccc31ffddebe9",
+    "wheel_sha256": "78ec1ce21579b38dfb83950a0658cd119f87212a2fcfdff478096ce9d6c03801",
+    "matches_installed_archive": true,
+    "origin": "PyPI trusted publisher attestation certificate source digest extension; archive matched; no local cryptographic attestation verification claimed",
+    "V5_archive_match_verified": true,
+    "read_only_reference": "C:\\1_yanjiusheng\\BioEvidence\\BioEvidence-v4\\reports\\source_commits.json"
+  },
+  "TRL": {
+    "source_commit": null,
+    "version": "1.13.0",
+    "boundary": "No independently verified Git commit; official PyPI wheel SHA256 and installed trainer source SHA256 locked instead",
+    "install_report_sha256": "005b41ebc2272bf31a8466f932cd7f8a2c13633503f205123c75696d350ca562"
+  }
+}

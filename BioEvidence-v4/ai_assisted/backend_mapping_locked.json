@@ -1,0 +1,58 @@
+[
+  {
+    "audit_id": "AI001",
+    "model": "base_06b",
+    "question_id": "10411439",
+    "condition": "B3_shuffled",
+    "cache_key": "b7e1efa3dd231c6c0a5c5a208fb6b67e28182e98228f5828920df1937e4d4e9c"
+  },
+  {
+    "audit_id": "AI002",
+    "model": "base_06b",
+    "question_id": "10593212",
+    "condition": "B3_shuffled",
+    "cache_key": "c7a279c890592b18fa5030da0ee2f9612c3bcc371a248d5baaa9257a32d49a2f"
+  },
+  {
+    "audit_id": "AI003",
+    "model": "base_06b",
+    "question_id": "10411439",
+    "condition": "B2_reversed",
+    "cache_key": "e7683886b44cb8917f67ae5def309de60edaa8676b0414a1e20c3529e977c6c8"
+  },
+  {
+    "audit_id": "AI004",
+    "model": "base_06b",
+    "question_id": "10411439",
+    "condition": "B1_result_first",
+    "cache_key": "eb5e899cafebb18208f3fa60ad14e38b36514cf8dfd3c02b8eea6542fa325e5f"
+  },
+  {
+    "audit_id": "AI005",
+    "model": "base_06b",
+    "question_id": "10593212",
+    "condition": "B0_original",
+    "cache_key": "ecbdf2dd5bf3155a4ec9757555c75c54ff9c01b9fa6bf8e2dad757ae98fc1d0b"
+  },
+  {
+    "audit_id": "AI006",
+    "model": "base_06b",
+    "question_id": "10593212",
+    "condition": "B1_result_first",
+    "cache_key": "077d2a49ea3444943287eacb6b1aed5d93fa778abd2ca4ac981b257ab9088f03"
+  },
+  {
+    "audit_id": "AI007",
+    "model": "base_06b",
+    "question_id": "10593212",
+    "condition": "B2_reversed",
+    "cache_key": "dcee49bff6e06ba858d977942d8d59b356041cbf8e147a0f8ae5bbd208e2f4f4"
+  },
+  {
+    "audit_id": "AI008",
+    "model": "base_06b",
+    "question_id": "10411439",
+    "condition": "B0_original",
+    "cache_key": "32e4e2bd2463e56539068e96a160440f490886e1f00d9bffc45aba85360982dc"
+  }
+]

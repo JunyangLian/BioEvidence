@@ -1,0 +1,15 @@
+{"event": "START", "details": ["generate.py", "--model", "instruct_4b", "--n", "10"], "timestamp_utc": "2026-10-11T02:25:19.150190+00:00"}
+{"event": "DONE", "details": ["generate.py", "--model", "instruct_4b", "--n", "10"], "timestamp_utc": "2026-10-11T02:28:04.824198+00:00"}
+{"event": "START", "details": ["analyze.py", "--model", "instruct_4b", "--scope", "smoke10"], "timestamp_utc": "2026-10-11T02:28:04.825099+00:00"}
+{"event": "DONE", "details": ["analyze.py", "--model", "instruct_4b", "--scope", "smoke10"], "timestamp_utc": "2026-10-11T02:28:05.006976+00:00"}
+{"event": "EXPANSION", "details": {"base_06b": {"remaining_requests": 564, "measured_mean_seconds": 2.6386726375000307, "projected_remaining_generation_seconds": 1488.2113675500173, "smoke_output_budget_hits": 0, "locked_config_fingerprint": "95f616fa11518ce8bbf857e683962335475943b0c56f9e1dd3a841530eff2eb1"}, "instruct_4b": {"remaining_requests": 564, "measured_mean_seconds": 3.0054646399999796, "projected_remaining_generation_seconds": 1695.0820569599884, "smoke_output_budget_hits": 0, "locked_config_fingerprint": "54781c6addec3789ba942a500ee2fcf74e690a581c0601c5e6d67bd11fb87512"}}, "timestamp_utc": "2026-10-11T02:28:05.010340+00:00"}
+{"event": "START", "details": ["generate.py", "--model", "base_06b", "--n", "151"], "timestamp_utc": "2026-10-11T02:28:05.010853+00:00"}
+{"event": "DONE", "details": ["generate.py", "--model", "base_06b", "--n", "151"], "timestamp_utc": "2026-10-11T02:51:52.610293+00:00"}
+{"event": "START", "details": ["generate.py", "--model", "instruct_4b", "--n", "151"], "timestamp_utc": "2026-10-11T02:51:52.610906+00:00"}
+{"event": "RESUME", "details": {"model": "instruct_4b", "completed_cache_entries": 176, "remaining_requests": 428, "projected_remaining_generation_seconds": 1286.3388659199913, "locked_config_fingerprint": "54781c6addec3789ba942a500ee2fcf74e690a581c0601c5e6d67bd11fb87512"}, "timestamp_utc": "2026-10-11T03:28:02.236066+00:00"}
+{"event": "START", "details": ["generate.py", "--model", "instruct_4b", "--n", "151", "resume"], "timestamp_utc": "2026-10-11T03:28:02.236513+00:00"}
+{"event": "DONE", "details": ["generate.py", "--model", "instruct_4b", "--n", "151", "resume"], "timestamp_utc": "2026-10-11T03:49:05.170862+00:00"}
+{"event": "START", "details": ["prepare.py", "--verify"], "timestamp_utc": "2026-10-11T03:49:05.171653+00:00"}
+{"event": "DONE", "details": ["prepare.py", "--verify"], "timestamp_utc": "2026-10-11T03:49:11.609360+00:00"}
+{"event": "START", "details": ["report.py"], "timestamp_utc": "2026-10-11T03:49:11.609986+00:00"}
+{"event": "DONE", "details": ["report.py"], "timestamp_utc": "2026-10-11T03:49:26.606817+00:00"}

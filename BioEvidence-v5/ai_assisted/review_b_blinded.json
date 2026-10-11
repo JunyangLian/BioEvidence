@@ -1,0 +1,313 @@
+{
+  "audit_kind": "ai_assisted",
+  "prompt_version": "v5_ai_biomedical_v1",
+  "agent_task": "/root/v5_bio_review_b",
+  "actual_model_identifier": "unknown/unavailable",
+  "timestamp_utc": "2026-10-11T05:26:31Z",
+  "records": [
+    {
+      "case_id": "R01",
+      "evidence_sufficiency": "insufficient",
+      "reason_key_claim_support": "supported",
+      "reason_label_alignment": "unsupported",
+      "citation_traceability": "traceable",
+      "citation_semantic_support": "partial",
+      "abstention_appropriateness": "inappropriate",
+      "rationale": {
+        "evidence_sufficiency": "相关E2仅说明拟研究的关联及记录内容，未给实际关联方向；E1和E3的主题不同，无法回答本问题。",
+        "reason_key_claim_support": "Reason逐字复述E2研究目的，其字面主张有支持；这不等于支持存在关联。",
+        "reason_label_alignment": "研究目的是确定是否有关，不能推出Label yes。",
+        "citation_traceability": "E2显示编号对应实际提供的PMID11053064-SEC00。",
+        "citation_semantic_support": "E2支持Reason中的研究目的，但不支持yes所需的关联结果，因此仅部分语义支持。",
+        "abstention_appropriateness": "证据不足却声明Answerable yes并给确定yes；应保留无法判定。"
+      },
+      "evidence_locations": [
+        {
+          "display_id": "E2",
+          "chunk_id": "PMID11053064-SEC00",
+          "quote": "To determine whether fibromyalgia (FM) is more common in patients with primary Sjögren's syndrome (pSS) who complain of fatigue.",
+          "supports": "相关内容仅给研究目的；不足以确定疲劳与FM是否有关，也不能由该句支持yes。E2引用机械可回溯。"
+        },
+        {
+          "display_id": "E2",
+          "chunk_id": "PMID11053064-SEC00",
+          "quote": "The association and prevalence of fatigue and FM was recorded in a group of patients with pSS and a control group of lupus patients, a subset of whom had secondary Sjögren's syndrome (sSS).",
+          "supports": "记录关联及患病率不等于报告关联结果；缺失实际方向。"
+        }
+      ],
+      "reservations": [
+        "未给pSS疲劳与FM的实际观察结果；不由整篇论文、标题或其它疾病片段补充结论。",
+        "Reason仅作为输出文本核验，不代表内部推理证据。"
+      ]
+    },
+    {
+      "case_id": "R02",
+      "evidence_sufficiency": "sufficient",
+      "reason_key_claim_support": "supported",
+      "reason_label_alignment": "unsupported",
+      "citation_traceability": "traceable",
+      "citation_semantic_support": "partial",
+      "abstention_appropriateness": "appropriate",
+      "rationale": {
+        "evidence_sufficiency": "E2说明术后49人的两途径采样，E3提供INR两途径统计相似性，足以给该情境下的限定方向；广义可靠性仍需保留。",
+        "reason_key_claim_support": "Reason逐字复述E2采样方法，字面事实得到支持。",
+        "reason_label_alignment": "采样方法没有否定可靠性的结果；且E3报告INR两途径统计相似，Reason不能支持no。",
+        "citation_traceability": "E2对应实际提供的PMID15141797-SEC01。",
+        "citation_semantic_support": "E2支持Reason的采样事实，但没有支持no的测量结论，仅部分支持。",
+        "abstention_appropriateness": "Answerable yes符合存在可形成限定方向的实际INR结果这一证据状态；具体no及其理由的错误由方向对齐项指出。"
+      },
+      "evidence_locations": [
+        {
+          "display_id": "E2",
+          "chunk_id": "PMID15141797-SEC01",
+          "quote": "The morning following cardiac surgery, simultaneous arterial line and peripheral venous blood samples were taken for activated plasma thromboplastin time (APTT) ratio and international normalized ratio (INR) in 49 randomly selected patients.",
+          "supports": "支持采样方法和人群；E2机械可回溯，但此句不提供可靠性的结果。"
+        },
+        {
+          "display_id": "E3",
+          "chunk_id": "PMID15141797-SEC02",
+          "quote": "INR values were statistically similar by both routes.",
+          "supports": "提供INR两种取血途径的统计相似性，可形成限定情境下的方向判断；不能单凭此句证明等效或普遍可靠。"
+        }
+      ],
+      "reservations": [
+        "仅有心脏手术后采样情境，不能推广所有INR用途。",
+        "统计相似不自动证明等效或普遍可靠；并未报告相关等效界值或更广泛验证。"
+      ]
+    },
+    {
+      "case_id": "R03",
+      "evidence_sufficiency": "insufficient",
+      "reason_key_claim_support": "unsupported",
+      "reason_label_alignment": "unsupported",
+      "citation_traceability": "traceable",
+      "citation_semantic_support": "unsupported",
+      "abstention_appropriateness": "inappropriate",
+      "rationale": {
+        "evidence_sufficiency": "E2只有研究目的与记录描述；其它片段没有本问题的关联结果，无法确定方向。",
+        "reason_key_claim_support": "E1只讨论另一综合征与结核的假定联系，未将其连接到疲劳、FM或pSS；Reason的关键跨疾病推断缺证据。",
+        "reason_label_alignment": "即使所述跨疾病联系为假设，也不能支持pSS疲劳与FM有关的确定yes。",
+        "citation_traceability": "E1、E2、E3均有对应实际片段，标点不影响编号回溯。",
+        "citation_semantic_support": "三条引文中均未报告本问题的关联结果；E1和E3不支持跨疾病推断，E2的研究目的也不支持yes。",
+        "abstention_appropriateness": "在关键关联方向缺失时仍Answerable yes并给yes，不恰当。"
+      },
+      "evidence_locations": [
+        {
+          "display_id": "E2",
+          "chunk_id": "PMID11053064-SEC00",
+          "quote": "To determine whether fibromyalgia (FM) is more common in patients with primary Sjögren's syndrome (pSS) who complain of fatigue.",
+          "supports": "相关内容仅给研究目的；不足以确定疲劳与FM是否有关，也不能由该句支持yes。E2引用机械可回溯。"
+        },
+        {
+          "display_id": "E2",
+          "chunk_id": "PMID11053064-SEC00",
+          "quote": "The association and prevalence of fatigue and FM was recorded in a group of patients with pSS and a control group of lupus patients, a subset of whom had secondary Sjögren's syndrome (sSS).",
+          "supports": "记录关联及患病率不等于报告关联结果；缺失实际方向。"
+        },
+        {
+          "display_id": "E1",
+          "chunk_id": "PMID19108857-SEC00",
+          "quote": "We discuss a putative causative link between this syndrome and the occurrence of tuberculosis.",
+          "supports": "E1只是另一综合征与结核的假定联系；不支持Reason扩展到疲劳、FM及pSS。E1可回溯。"
+        },
+        {
+          "display_id": "E3",
+          "chunk_id": "PMID18575014-SEC02",
+          "quote": "Within this family, 19.7% of those older than 17 years were affected by NP, as compared with the national French prevalence of 2.1%.",
+          "supports": "E3报告NP家族患病比例，不报告本问题关联。E3可回溯。"
+        }
+      ],
+      "reservations": [
+        "未给疲劳作为跨疾病桥梁的证据；不凭外部医学事实补充。",
+        "不把潜在或假定联系转换为本问题的肯定关联结果。"
+      ]
+    },
+    {
+      "case_id": "R04",
+      "evidence_sufficiency": "sufficient",
+      "reason_key_claim_support": "partial",
+      "reason_label_alignment": "unsupported",
+      "citation_traceability": "traceable",
+      "citation_semantic_support": "partial",
+      "abstention_appropriateness": "appropriate",
+      "rationale": {
+        "evidence_sufficiency": "E2与E3足以对术后两种取血途径中的INR提供限定方向；不能从统计相似推广所有可靠性。",
+        "reason_key_claim_support": "APTT动脉值高于外周值及P<0.001由E3支持；用APTT差异证明INR可靠这一关键主张没有支持。",
+        "reason_label_alignment": "Reason用另一指标APTT的显著差异论证INR可靠，不能支持其yes方向。",
+        "citation_traceability": "E1、E2、E3均对应实际提供片段。",
+        "citation_semantic_support": "E3支持APTT差异这个事实，但不支持以该差异证明INR可靠；E1为病历评阅工具，E2为采样方法，整体仅部分语义支持。",
+        "abstention_appropriateness": "Answerable yes在已有实际INR比较结果下合理；没有弃答本身不是问题，具体论证错误已分别指出。"
+      },
+      "evidence_locations": [
+        {
+          "display_id": "E2",
+          "chunk_id": "PMID15141797-SEC01",
+          "quote": "The morning following cardiac surgery, simultaneous arterial line and peripheral venous blood samples were taken for activated plasma thromboplastin time (APTT) ratio and international normalized ratio (INR) in 49 randomly selected patients.",
+          "supports": "支持采样方法和人群；E2机械可回溯，但此句不提供可靠性的结果。"
+        },
+        {
+          "display_id": "E3",
+          "chunk_id": "PMID15141797-SEC02",
+          "quote": "INR values were statistically similar by both routes.",
+          "supports": "提供INR两种取血途径的统计相似性，可形成限定情境下的方向判断；不能单凭此句证明等效或普遍可靠。"
+        },
+        {
+          "display_id": "E3",
+          "chunk_id": "PMID15141797-SEC02",
+          "quote": "The median arterial APTT ratio value was 1.32 +/- 0.52 as compared to the median peripheral APTT ratio value which was 1.1 +/- 0.24 (P<0.001).",
+          "supports": "支持Reason的APTT差异事实，不能将APTT与INR视为同一指标或把差异当可靠性证明。"
+        },
+        {
+          "display_id": "E1",
+          "chunk_id": "PMID15151701-SEC00",
+          "quote": "We sought to develop a more reliable structured implicit chart review instrument",
+          "supports": "E1的可靠性对象是病历评阅工具，不支持INR结论；E1可回溯。"
+        }
+      ],
+      "reservations": [
+        "统计相似不足以证明等效或普遍可靠。",
+        "本文段的INR结果与Reason强调的APTT结果须区分。"
+      ]
+    },
+    {
+      "case_id": "R05",
+      "evidence_sufficiency": "sufficient",
+      "reason_key_claim_support": "partial",
+      "reason_label_alignment": "partial",
+      "citation_traceability": "traceable",
+      "citation_semantic_support": "unsupported",
+      "abstention_appropriateness": "appropriate",
+      "rationale": {
+        "evidence_sufficiency": "E2与E3说明人群和实际INR两途径比较，足以形成情境限定的方向，广义可靠性需保留。",
+        "reason_key_claim_support": "两途径INR统计相似由E3支持；将统计相似直接解释为可靠结果的主张超出该句，因此部分支持。",
+        "reason_label_alignment": "Reason与有限情境下的一致性方向相容，但确定yes的普遍可靠性推论缺少界限，部分对齐。",
+        "citation_traceability": "E2确实对应PMID15141797-SEC01，因此机械可回溯。",
+        "citation_semantic_support": "实际只引用E2，E2未报告INR统计相似或可靠性；关键结果位于未引用的E3，故该引用不支持核心主张。",
+        "abstention_appropriateness": "Answerable yes符合存在直接INR结果、可进行限定回答的证据状态；引用错位与过度推论单独扣评。"
+      },
+      "evidence_locations": [
+        {
+          "display_id": "E2",
+          "chunk_id": "PMID15141797-SEC01",
+          "quote": "The morning following cardiac surgery, simultaneous arterial line and peripheral venous blood samples were taken for activated plasma thromboplastin time (APTT) ratio and international normalized ratio (INR) in 49 randomly selected patients.",
+          "supports": "支持采样方法和人群；E2机械可回溯，但此句不提供可靠性的结果。"
+        },
+        {
+          "display_id": "E3",
+          "chunk_id": "PMID15141797-SEC02",
+          "quote": "INR values were statistically similar by both routes.",
+          "supports": "提供INR两种取血途径的统计相似性，可形成限定情境下的方向判断；不能单凭此句证明等效或普遍可靠。"
+        }
+      ],
+      "reservations": [
+        "引用E2与结果E3错位；不能因为其它未引片段存在结果而判定该引文本身语义支持。",
+        "统计相似不自动成立等效或普遍可靠。"
+      ]
+    },
+    {
+      "case_id": "R06",
+      "evidence_sufficiency": "insufficient",
+      "reason_key_claim_support": "supported",
+      "reason_label_alignment": "unsupported",
+      "citation_traceability": "traceable",
+      "citation_semantic_support": "partial",
+      "abstention_appropriateness": "inappropriate",
+      "rationale": {
+        "evidence_sufficiency": "相关E2仅说明拟研究的关联及记录内容，未给实际关联方向；E1和E3的主题不同，无法回答本问题。",
+        "reason_key_claim_support": "Reason逐字复述E2研究目的，其字面主张有支持；这不等于支持存在关联。",
+        "reason_label_alignment": "研究目的是确定是否有关，不能推出Label yes。",
+        "citation_traceability": "E2显示编号对应实际提供的PMID11053064-SEC00。",
+        "citation_semantic_support": "E2支持Reason中的研究目的，但不支持yes所需的关联结果，因此仅部分语义支持。",
+        "abstention_appropriateness": "证据不足却声明Answerable yes并给确定yes；应保留无法判定。"
+      },
+      "evidence_locations": [
+        {
+          "display_id": "E2",
+          "chunk_id": "PMID11053064-SEC00",
+          "quote": "To determine whether fibromyalgia (FM) is more common in patients with primary Sjögren's syndrome (pSS) who complain of fatigue.",
+          "supports": "相关内容仅给研究目的；不足以确定疲劳与FM是否有关，也不能由该句支持yes。E2引用机械可回溯。"
+        },
+        {
+          "display_id": "E2",
+          "chunk_id": "PMID11053064-SEC00",
+          "quote": "The association and prevalence of fatigue and FM was recorded in a group of patients with pSS and a control group of lupus patients, a subset of whom had secondary Sjögren's syndrome (sSS).",
+          "supports": "记录关联及患病率不等于报告关联结果；缺失实际方向。"
+        }
+      ],
+      "reservations": [
+        "未给pSS疲劳与FM的实际观察结果；不由整篇论文、标题或其它疾病片段补充结论。",
+        "Reason仅作为输出文本核验，不代表内部推理证据。"
+      ]
+    },
+    {
+      "case_id": "R07",
+      "evidence_sufficiency": "insufficient",
+      "reason_key_claim_support": "unsupported",
+      "reason_label_alignment": "unsupported",
+      "citation_traceability": "traceable",
+      "citation_semantic_support": "unsupported",
+      "abstention_appropriateness": "inappropriate",
+      "rationale": {
+        "evidence_sufficiency": "E2未报告关联是否存在、强弱或方向；其它片段与本问题不相干，证据不足。",
+        "reason_key_claim_support": "E2描述研究是否有关和记录关联/患病率，并未说明存在关联；Reason把研究内容改写为肯定结果。",
+        "reason_label_alignment": "Reason所宣称的关联未获提供证据支持，无法为yes建立有效依据。",
+        "citation_traceability": "E2对应实际提供的PMID11053064-SEC00。",
+        "citation_semantic_support": "E2没有报告Reason所需的肯定关联结果；引用存在但不支持核心语义。",
+        "abstention_appropriateness": "缺失实际方向仍给Answerable yes和确定yes，不恰当。"
+      },
+      "evidence_locations": [
+        {
+          "display_id": "E2",
+          "chunk_id": "PMID11053064-SEC00",
+          "quote": "To determine whether fibromyalgia (FM) is more common in patients with primary Sjögren's syndrome (pSS) who complain of fatigue.",
+          "supports": "相关内容仅给研究目的；不足以确定疲劳与FM是否有关，也不能由该句支持yes。E2引用机械可回溯。"
+        },
+        {
+          "display_id": "E2",
+          "chunk_id": "PMID11053064-SEC00",
+          "quote": "The association and prevalence of fatigue and FM was recorded in a group of patients with pSS and a control group of lupus patients, a subset of whom had secondary Sjögren's syndrome (sSS).",
+          "supports": "记录关联及患病率不等于报告关联结果；缺失实际方向。"
+        }
+      ],
+      "reservations": [
+        "记录关联这一描述不等于观察到关联；不能由研究目的推断结果。",
+        "不将maybe当作缺失证据的自动替代答案。"
+      ]
+    },
+    {
+      "case_id": "R08",
+      "evidence_sufficiency": "sufficient",
+      "reason_key_claim_support": "supported",
+      "reason_label_alignment": "unsupported",
+      "citation_traceability": "traceable",
+      "citation_semantic_support": "partial",
+      "abstention_appropriateness": "appropriate",
+      "rationale": {
+        "evidence_sufficiency": "E2与E3给出术后采样情境和INR实际比较，足以形成限定方向；不能据此全面证明可靠性。",
+        "reason_key_claim_support": "Reason逐字复述E2中的采样方法，字面主张支持。",
+        "reason_label_alignment": "采样方法不提供测量结果，不能单独支持yes；相关结果在E3，但Reason未使用。",
+        "citation_traceability": "E2对应实际提供的PMID15141797-SEC01。",
+        "citation_semantic_support": "E2支持方法描述，但不支持可靠性方向；该引用对完整回答仅部分语义支持。",
+        "abstention_appropriateness": "已有直接INR比较结果，Answerable yes本身恰当；其理由缺乏结论依据由对应项评定。"
+      },
+      "evidence_locations": [
+        {
+          "display_id": "E2",
+          "chunk_id": "PMID15141797-SEC01",
+          "quote": "The morning following cardiac surgery, simultaneous arterial line and peripheral venous blood samples were taken for activated plasma thromboplastin time (APTT) ratio and international normalized ratio (INR) in 49 randomly selected patients.",
+          "supports": "支持采样方法和人群；E2机械可回溯，但此句不提供可靠性的结果。"
+        },
+        {
+          "display_id": "E3",
+          "chunk_id": "PMID15141797-SEC02",
+          "quote": "INR values were statistically similar by both routes.",
+          "supports": "提供INR两种取血途径的统计相似性，可形成限定情境下的方向判断；不能单凭此句证明等效或普遍可靠。"
+        }
+      ],
+      "reservations": [
+        "术后两途径统计相似不自动证明所有INR使用情境可靠。",
+        "理由字面正确与其足以支持输出方向是不同判断。"
+      ]
+    }
+  ]
+}

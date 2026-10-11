@@ -1,0 +1,17 @@
+{
+  "repo": "Qwen/Qwen3-4B-Instruct-2507",
+  "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "api": "https://huggingface.co/api/models/Qwen/Qwen3-4B-Instruct-2507/tree/main?recursive=true&expand=false",
+  "files": [
+    {
+      "file": "model.safetensors.index.json",
+      "bytes": 32819,
+      "sha256": "d6c42883a895dfef5b0080ed2116a1bcd764f558406b98923d675978a1abf29c",
+      "expected_sha256": null,
+      "expected_git_blob": "4747b0297d3109f14db49886972e3369c9a00b2a",
+      "status": "ok",
+      "url": "https://hf-mirror.com/Qwen/Qwen3-4B-Instruct-2507/resolve/cdbee75f17c01a7cc42f958dc650907174af0554/model.safetensors.index.json?download=true"
+    }
+  ],
+  "identity": "original full safetensors; complete local file hashes pin content"
+}

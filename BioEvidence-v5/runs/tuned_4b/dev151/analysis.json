@@ -1,0 +1,1512 @@
+{
+  "model": "tuned_4b",
+  "scope": "dev151",
+  "source_split": "repeated-development internal_70_30/dev",
+  "n_unique_questions": 151,
+  "n_unique_gold_documents": 151,
+  "classification_policy": "frozen v2 Stage B all rows including invalid; labels yes/no/maybe; absent-support class historical N/A",
+  "human_reference": "v2 human dev26 B0 chunk IDs verified; 14 insufficient/12 sufficient; reviewer/time unknown; single reviewer; repeated dev",
+  "semantic_audit": "mechanical only; citation legality and result-family rates do not establish semantic support",
+  "per_condition": {
+    "B0_original": {
+      "classification": {
+        "n": 151,
+        "n_ok": 151,
+        "n_invalid": 0,
+        "accuracy": 0.6424,
+        "n_correct": 97,
+        "macro_f1": 0.4492,
+        "per_class": {
+          "yes": {
+            "support": 83,
+            "tp": 69,
+            "fp": 30,
+            "fn": 14,
+            "precision": 0.697,
+            "recall": 0.8313,
+            "f1": 0.7582
+          },
+          "no": {
+            "support": 51,
+            "tp": 28,
+            "fp": 16,
+            "fn": 23,
+            "precision": 0.6364,
+            "recall": 0.549,
+            "f1": 0.5895
+          },
+          "maybe": {
+            "support": 17,
+            "tp": 0,
+            "fp": 8,
+            "fn": 17,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      "v1_compatibility": {
+        "n_total": 151,
+        "n_applicable": 151,
+        "n_failure": 0,
+        "n_invalid": 0,
+        "n_correct": 97,
+        "accuracy": 0.6424,
+        "accuracy_including_failures": 0.6424,
+        "macro_f1": 0.4492,
+        "per_class": {
+          "yes": {
+            "tp": 69,
+            "fp": 30,
+            "fn": 14,
+            "support": 83,
+            "precision": 0.697,
+            "recall": 0.8313,
+            "f1": 0.7582,
+            "excluded_from_macro": false,
+            "note": "support>0 但 tp=0 时 f1 记为 0（该类必须参与 macro 平均，不得被跳过）；recall 的 fn 包含 invalid/failure 输出，因此 recall 会低于只看 ok 的口径。"
+          },
+          "no": {
+            "tp": 28,
+            "fp": 16,
+            "fn": 23,
+            "support": 51,
+            "precision": 0.6364,
+            "recall": 0.549,
+            "f1": 0.5895,
+            "excluded_from_macro": false,
+            "note": "support>0 但 tp=0 时 f1 记为 0（该类必须参与 macro 平均，不得被跳过）；recall 的 fn 包含 invalid/failure 输出，因此 recall 会低于只看 ok 的口径。"
+          },
+          "maybe": {
+            "tp": 0,
+            "fp": 8,
+            "fn": 17,
+            "support": 17,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "excluded_from_macro": false,
+            "note": "support>0 但 tp=0 时 f1 记为 0（该类必须参与 macro 平均，不得被跳过）；recall 的 fn 包含 invalid/failure 输出，因此 recall 会低于只看 ok 的口径。"
+          }
+        },
+        "confusion": {
+          "yes": {
+            "yes": 69,
+            "no": 10,
+            "maybe": 4
+          },
+          "no": {
+            "yes": 19,
+            "no": 28,
+            "maybe": 4
+          },
+          "maybe": {
+            "yes": 11,
+            "no": 6,
+            "maybe": 0
+          },
+          "__invalid__": {
+            "yes": 0,
+            "no": 0,
+            "maybe": 0
+          },
+          "__failure__": {
+            "yes": 0,
+            "no": 0,
+            "maybe": 0
+          }
+        },
+        "parse_ok_rate": 1.0,
+        "invalid_rate": 0.0,
+        "failure_rate": 0.0,
+        "counts": {
+          "n_ok": 151,
+          "gold_distribution": {
+            "yes": 83,
+            "no": 51,
+            "maybe": 17
+          },
+          "pred_distribution": {
+            "yes": 99,
+            "no": 44,
+            "maybe": 8
+          }
+        },
+        "denominator_policy": "accuracy 的分母是 n_applicable（= n_total - n_failure），invalid 输出计为错误；n_failure 单列，不进入 accuracy 分母，但通过 accuracy_including_failures 一并报出。"
+      },
+      "predicted_label_distribution": {
+        "maybe": 8,
+        "no": 44,
+        "yes": 99
+      },
+      "parse_failure": {
+        "num": 0,
+        "den": 151,
+        "rate": 0.0
+      },
+      "citation_out_of_range": {
+        "num": 0,
+        "den": 151,
+        "rate": 0.0
+      },
+      "complete_contract_violation": {
+        "num": 1,
+        "den": 151,
+        "rate": 0.0066
+      },
+      "complete_contract_issue_counts": {
+        "Answerable=no 但 Label=yes（按契约应为 maybe）": 1
+      },
+      "citation_terminal_period_only": {
+        "num": 0,
+        "den": 151,
+        "rate": 0.0
+      },
+      "abstention_behavior": {
+        "num": 9,
+        "den": 151,
+        "rate": 0.0596
+      },
+      "answerable_distribution": {
+        "no": 9,
+        "yes": 142
+      },
+      "generation_exceptions": 0,
+      "output_budget_hits": 0,
+      "human_coverage": {
+        "num": 26,
+        "den": 151,
+        "rate": 0.1722
+      },
+      "unsupported_answer": {
+        "num": 11,
+        "den": 14,
+        "rate": 0.7857
+      },
+      "wrong_abstention": {
+        "num": 0,
+        "den": 12,
+        "rate": 0.0
+      },
+      "valid_abstention_insufficient": {
+        "num": 3,
+        "den": 14,
+        "rate": 0.2143
+      },
+      "valid_answer_sufficient": {
+        "num": 12,
+        "den": 12,
+        "rate": 1.0
+      },
+      "human_subset_failures": {
+        "insufficient": 0,
+        "sufficient": 0
+      },
+      "diagnostic_result_family_cited": {
+        "num": 7,
+        "den": 142,
+        "rate": 0.0493
+      },
+      "diagnostic_E1_cited": {
+        "num": 100,
+        "den": 142,
+        "rate": 0.7042
+      },
+      "citation_position_counts": {
+        "1": 100,
+        "2": 33,
+        "3": 9
+      },
+      "historical_missing_stop_or_budget_telemetry": 0,
+      "actual_generated_token_count_coverage": {
+        "num": 151,
+        "den": 151,
+        "rate": 1.0
+      },
+      "output_retokenized_count": null,
+      "output_tokens": {
+        "n": 151,
+        "min": 25,
+        "p50": 45,
+        "p90": 63,
+        "p95": 71,
+        "p99": 76,
+        "max": 86,
+        "mean": 46.158940397350996,
+        "total": 6970
+      },
+      "output_chars": {
+        "n": 151,
+        "min": 99,
+        "p50": 184,
+        "p90": 290,
+        "p95": 300,
+        "p99": 346,
+        "max": 424,
+        "mean": 194.60927152317882,
+        "total": 29386
+      },
+      "latency_seconds": {
+        "n": 151,
+        "min": 2.5211462999996,
+        "p50": 4.469348800001171,
+        "p90": 6.3045024999992165,
+        "p95": 6.966610800000126,
+        "p99": 7.473081499998443,
+        "max": 8.42176339999969,
+        "mean": 4.611258780132389,
+        "total": 696.3000757999907
+      },
+      "peak_allocated_gib": 2.833538055419922,
+      "peak_reserved_gib": 3.037109375,
+      "confusion": {
+        "yes": {
+          "yes": 69,
+          "no": 10,
+          "maybe": 4
+        },
+        "no": {
+          "yes": 19,
+          "no": 28,
+          "maybe": 4
+        },
+        "maybe": {
+          "yes": 11,
+          "no": 6,
+          "maybe": 0
+        },
+        "__invalid__": {
+          "yes": 0,
+          "no": 0,
+          "maybe": 0
+        },
+        "__failure__": {
+          "yes": 0,
+          "no": 0,
+          "maybe": 0
+        }
+      }
+    },
+    "B1_result_first": {
+      "classification": {
+        "n": 151,
+        "n_ok": 151,
+        "n_invalid": 0,
+        "accuracy": 0.596,
+        "n_correct": 90,
+        "macro_f1": 0.4135,
+        "per_class": {
+          "yes": {
+            "support": 83,
+            "tp": 65,
+            "fp": 34,
+            "fn": 18,
+            "precision": 0.6566,
+            "recall": 0.7831,
+            "f1": 0.7143
+          },
+          "no": {
+            "support": 51,
+            "tp": 25,
+            "fp": 19,
+            "fn": 26,
+            "precision": 0.5682,
+            "recall": 0.4902,
+            "f1": 0.5263
+          },
+          "maybe": {
+            "support": 17,
+            "tp": 0,
+            "fp": 8,
+            "fn": 17,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      "v1_compatibility": {
+        "n_total": 151,
+        "n_applicable": 151,
+        "n_failure": 0,
+        "n_invalid": 0,
+        "n_correct": 90,
+        "accuracy": 0.596,
+        "accuracy_including_failures": 0.596,
+        "macro_f1": 0.4135,
+        "per_class": {
+          "yes": {
+            "tp": 65,
+            "fp": 34,
+            "fn": 18,
+            "support": 83,
+            "precision": 0.6566,
+            "recall": 0.7831,
+            "f1": 0.7143,
+            "excluded_from_macro": false,
+            "note": "support>0 但 tp=0 时 f1 记为 0（该类必须参与 macro 平均，不得被跳过）；recall 的 fn 包含 invalid/failure 输出，因此 recall 会低于只看 ok 的口径。"
+          },
+          "no": {
+            "tp": 25,
+            "fp": 19,
+            "fn": 26,
+            "support": 51,
+            "precision": 0.5682,
+            "recall": 0.4902,
+            "f1": 0.5263,
+            "excluded_from_macro": false,
+            "note": "support>0 但 tp=0 时 f1 记为 0（该类必须参与 macro 平均，不得被跳过）；recall 的 fn 包含 invalid/failure 输出，因此 recall 会低于只看 ok 的口径。"
+          },
+          "maybe": {
+            "tp": 0,
+            "fp": 8,
+            "fn": 17,
+            "support": 17,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "excluded_from_macro": false,
+            "note": "support>0 但 tp=0 时 f1 记为 0（该类必须参与 macro 平均，不得被跳过）；recall 的 fn 包含 invalid/failure 输出，因此 recall 会低于只看 ok 的口径。"
+          }
+        },
+        "confusion": {
+          "yes": {
+            "yes": 65,
+            "no": 14,
+            "maybe": 4
+          },
+          "no": {
+            "yes": 22,
+            "no": 25,
+            "maybe": 4
+          },
+          "maybe": {
+            "yes": 12,
+            "no": 5,
+            "maybe": 0
+          },
+          "__invalid__": {
+            "yes": 0,
+            "no": 0,
+            "maybe": 0
+          },
+          "__failure__": {
+            "yes": 0,
+            "no": 0,
+            "maybe": 0
+          }
+        },
+        "parse_ok_rate": 1.0,
+        "invalid_rate": 0.0,
+        "failure_rate": 0.0,
+        "counts": {
+          "n_ok": 151,
+          "gold_distribution": {
+            "yes": 83,
+            "no": 51,
+            "maybe": 17
+          },
+          "pred_distribution": {
+            "yes": 99,
+            "no": 44,
+            "maybe": 8
+          }
+        },
+        "denominator_policy": "accuracy 的分母是 n_applicable（= n_total - n_failure），invalid 输出计为错误；n_failure 单列，不进入 accuracy 分母，但通过 accuracy_including_failures 一并报出。"
+      },
+      "predicted_label_distribution": {
+        "maybe": 8,
+        "no": 44,
+        "yes": 99
+      },
+      "parse_failure": {
+        "num": 0,
+        "den": 151,
+        "rate": 0.0
+      },
+      "citation_out_of_range": {
+        "num": 0,
+        "den": 151,
+        "rate": 0.0
+      },
+      "complete_contract_violation": {
+        "num": 1,
+        "den": 151,
+        "rate": 0.0066
+      },
+      "complete_contract_issue_counts": {
+        "Answerable=no 但 Label=yes（按契约应为 maybe）": 1
+      },
+      "citation_terminal_period_only": {
+        "num": 0,
+        "den": 151,
+        "rate": 0.0
+      },
+      "abstention_behavior": {
+        "num": 8,
+        "den": 151,
+        "rate": 0.053
+      },
+      "answerable_distribution": {
+        "no": 8,
+        "yes": 143
+      },
+      "generation_exceptions": 0,
+      "output_budget_hits": 0,
+      "human_coverage": {
+        "num": 26,
+        "den": 151,
+        "rate": 0.1722
+      },
+      "unsupported_answer": {
+        "num": 11,
+        "den": 14,
+        "rate": 0.7857
+      },
+      "wrong_abstention": {
+        "num": 0,
+        "den": 12,
+        "rate": 0.0
+      },
+      "valid_abstention_insufficient": {
+        "num": 3,
+        "den": 14,
+        "rate": 0.2143
+      },
+      "valid_answer_sufficient": {
+        "num": 12,
+        "den": 12,
+        "rate": 1.0
+      },
+      "human_subset_failures": {
+        "insufficient": 0,
+        "sufficient": 0
+      },
+      "diagnostic_result_family_cited": {
+        "num": 41,
+        "den": 143,
+        "rate": 0.2867
+      },
+      "diagnostic_E1_cited": {
+        "num": 39,
+        "den": 143,
+        "rate": 0.2727
+      },
+      "citation_position_counts": {
+        "1": 39,
+        "3": 39,
+        "2": 65
+      },
+      "historical_missing_stop_or_budget_telemetry": 0,
+      "actual_generated_token_count_coverage": {
+        "num": 151,
+        "den": 151,
+        "rate": 1.0
+      },
+      "output_retokenized_count": null,
+      "output_tokens": {
+        "n": 151,
+        "min": 25,
+        "p50": 46,
+        "p90": 70,
+        "p95": 81,
+        "p99": 103,
+        "max": 135,
+        "mean": 49.0728476821192,
+        "total": 7410
+      },
+      "output_chars": {
+        "n": 151,
+        "min": 86,
+        "p50": 187,
+        "p90": 291,
+        "p95": 309,
+        "p99": 364,
+        "max": 478,
+        "mean": 197.05298013245033,
+        "total": 29755
+      },
+      "latency_seconds": {
+        "n": 151,
+        "min": 2.522841600000902,
+        "p50": 4.653117500000008,
+        "p90": 6.850584399999207,
+        "p95": 8.02095570000165,
+        "p99": 10.018522599999415,
+        "max": 13.242978699998275,
+        "mean": 4.929817695364237,
+        "total": 744.4024719999998
+      },
+      "peak_allocated_gib": 2.8364925384521484,
+      "peak_reserved_gib": 3.01171875,
+      "confusion": {
+        "yes": {
+          "yes": 65,
+          "no": 14,
+          "maybe": 4
+        },
+        "no": {
+          "yes": 22,
+          "no": 25,
+          "maybe": 4
+        },
+        "maybe": {
+          "yes": 12,
+          "no": 5,
+          "maybe": 0
+        },
+        "__invalid__": {
+          "yes": 0,
+          "no": 0,
+          "maybe": 0
+        },
+        "__failure__": {
+          "yes": 0,
+          "no": 0,
+          "maybe": 0
+        }
+      }
+    },
+    "B2_reversed": {
+      "classification": {
+        "n": 151,
+        "n_ok": 151,
+        "n_invalid": 0,
+        "accuracy": 0.6093,
+        "n_correct": 92,
+        "macro_f1": 0.4328,
+        "per_class": {
+          "yes": {
+            "support": 83,
+            "tp": 64,
+            "fp": 32,
+            "fn": 19,
+            "precision": 0.6667,
+            "recall": 0.7711,
+            "f1": 0.7151
+          },
+          "no": {
+            "support": 51,
+            "tp": 28,
+            "fp": 17,
+            "fn": 23,
+            "precision": 0.6222,
+            "recall": 0.549,
+            "f1": 0.5833
+          },
+          "maybe": {
+            "support": 17,
+            "tp": 0,
+            "fp": 10,
+            "fn": 17,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      "v1_compatibility": {
+        "n_total": 151,
+        "n_applicable": 151,
+        "n_failure": 0,
+        "n_invalid": 0,
+        "n_correct": 92,
+        "accuracy": 0.6093,
+        "accuracy_including_failures": 0.6093,
+        "macro_f1": 0.4328,
+        "per_class": {
+          "yes": {
+            "tp": 64,
+            "fp": 32,
+            "fn": 19,
+            "support": 83,
+            "precision": 0.6667,
+            "recall": 0.7711,
+            "f1": 0.7151,
+            "excluded_from_macro": false,
+            "note": "support>0 但 tp=0 时 f1 记为 0（该类必须参与 macro 平均，不得被跳过）；recall 的 fn 包含 invalid/failure 输出，因此 recall 会低于只看 ok 的口径。"
+          },
+          "no": {
+            "tp": 28,
+            "fp": 17,
+            "fn": 23,
+            "support": 51,
+            "precision": 0.6222,
+            "recall": 0.549,
+            "f1": 0.5833,
+            "excluded_from_macro": false,
+            "note": "support>0 但 tp=0 时 f1 记为 0（该类必须参与 macro 平均，不得被跳过）；recall 的 fn 包含 invalid/failure 输出，因此 recall 会低于只看 ok 的口径。"
+          },
+          "maybe": {
+            "tp": 0,
+            "fp": 10,
+            "fn": 17,
+            "support": 17,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "excluded_from_macro": false,
+            "note": "support>0 但 tp=0 时 f1 记为 0（该类必须参与 macro 平均，不得被跳过）；recall 的 fn 包含 invalid/failure 输出，因此 recall 会低于只看 ok 的口径。"
+          }
+        },
+        "confusion": {
+          "yes": {
+            "yes": 64,
+            "no": 13,
+            "maybe": 6
+          },
+          "no": {
+            "yes": 19,
+            "no": 28,
+            "maybe": 4
+          },
+          "maybe": {
+            "yes": 13,
+            "no": 4,
+            "maybe": 0
+          },
+          "__invalid__": {
+            "yes": 0,
+            "no": 0,
+            "maybe": 0
+          },
+          "__failure__": {
+            "yes": 0,
+            "no": 0,
+            "maybe": 0
+          }
+        },
+        "parse_ok_rate": 1.0,
+        "invalid_rate": 0.0,
+        "failure_rate": 0.0,
+        "counts": {
+          "n_ok": 151,
+          "gold_distribution": {
+            "yes": 83,
+            "no": 51,
+            "maybe": 17
+          },
+          "pred_distribution": {
+            "yes": 96,
+            "no": 45,
+            "maybe": 10
+          }
+        },
+        "denominator_policy": "accuracy 的分母是 n_applicable（= n_total - n_failure），invalid 输出计为错误；n_failure 单列，不进入 accuracy 分母，但通过 accuracy_including_failures 一并报出。"
+      },
+      "predicted_label_distribution": {
+        "maybe": 10,
+        "no": 45,
+        "yes": 96
+      },
+      "parse_failure": {
+        "num": 0,
+        "den": 151,
+        "rate": 0.0
+      },
+      "citation_out_of_range": {
+        "num": 0,
+        "den": 151,
+        "rate": 0.0
+      },
+      "complete_contract_violation": {
+        "num": 0,
+        "den": 151,
+        "rate": 0.0
+      },
+      "complete_contract_issue_counts": {},
+      "citation_terminal_period_only": {
+        "num": 0,
+        "den": 151,
+        "rate": 0.0
+      },
+      "abstention_behavior": {
+        "num": 10,
+        "den": 151,
+        "rate": 0.0662
+      },
+      "answerable_distribution": {
+        "no": 10,
+        "yes": 141
+      },
+      "generation_exceptions": 0,
+      "output_budget_hits": 0,
+      "human_coverage": {
+        "num": 26,
+        "den": 151,
+        "rate": 0.1722
+      },
+      "unsupported_answer": {
+        "num": 10,
+        "den": 14,
+        "rate": 0.7143
+      },
+      "wrong_abstention": {
+        "num": 0,
+        "den": 12,
+        "rate": 0.0
+      },
+      "valid_abstention_insufficient": {
+        "num": 4,
+        "den": 14,
+        "rate": 0.2857
+      },
+      "valid_answer_sufficient": {
+        "num": 12,
+        "den": 12,
+        "rate": 1.0
+      },
+      "human_subset_failures": {
+        "insufficient": 0,
+        "sufficient": 0
+      },
+      "diagnostic_result_family_cited": {
+        "num": 36,
+        "den": 141,
+        "rate": 0.2553
+      },
+      "diagnostic_E1_cited": {
+        "num": 36,
+        "den": 141,
+        "rate": 0.2553
+      },
+      "citation_position_counts": {
+        "1": 36,
+        "2": 36,
+        "3": 69
+      },
+      "historical_missing_stop_or_budget_telemetry": 0,
+      "actual_generated_token_count_coverage": {
+        "num": 151,
+        "den": 151,
+        "rate": 1.0
+      },
+      "output_retokenized_count": null,
+      "output_tokens": {
+        "n": 151,
+        "min": 25,
+        "p50": 45,
+        "p90": 70,
+        "p95": 80,
+        "p99": 101,
+        "max": 135,
+        "mean": 48.29139072847682,
+        "total": 7292
+      },
+      "output_chars": {
+        "n": 151,
+        "min": 86,
+        "p50": 185,
+        "p90": 282,
+        "p95": 313,
+        "p99": 357,
+        "max": 447,
+        "mean": 193.1456953642384,
+        "total": 29165
+      },
+      "latency_seconds": {
+        "n": 151,
+        "min": 2.5542353999990155,
+        "p50": 4.5495433999985835,
+        "p90": 6.909985000000233,
+        "p95": 8.012397700000292,
+        "p99": 9.909326599999986,
+        "max": 13.03936849999991,
+        "mean": 4.852595441721812,
+        "total": 732.7419116999936
+      },
+      "peak_allocated_gib": 2.8364925384521484,
+      "peak_reserved_gib": 3.01171875,
+      "confusion": {
+        "yes": {
+          "yes": 64,
+          "no": 13,
+          "maybe": 6
+        },
+        "no": {
+          "yes": 19,
+          "no": 28,
+          "maybe": 4
+        },
+        "maybe": {
+          "yes": 13,
+          "no": 4,
+          "maybe": 0
+        },
+        "__invalid__": {
+          "yes": 0,
+          "no": 0,
+          "maybe": 0
+        },
+        "__failure__": {
+          "yes": 0,
+          "no": 0,
+          "maybe": 0
+        }
+      }
+    },
+    "B3_shuffled": {
+      "classification": {
+        "n": 151,
+        "n_ok": 151,
+        "n_invalid": 0,
+        "accuracy": 0.596,
+        "n_correct": 90,
+        "macro_f1": 0.4157,
+        "per_class": {
+          "yes": {
+            "support": 83,
+            "tp": 64,
+            "fp": 33,
+            "fn": 19,
+            "precision": 0.6598,
+            "recall": 0.7711,
+            "f1": 0.7111
+          },
+          "no": {
+            "support": 51,
+            "tp": 26,
+            "fp": 20,
+            "fn": 25,
+            "precision": 0.5652,
+            "recall": 0.5098,
+            "f1": 0.5361
+          },
+          "maybe": {
+            "support": 17,
+            "tp": 0,
+            "fp": 8,
+            "fn": 17,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      "v1_compatibility": {
+        "n_total": 151,
+        "n_applicable": 151,
+        "n_failure": 0,
+        "n_invalid": 0,
+        "n_correct": 90,
+        "accuracy": 0.596,
+        "accuracy_including_failures": 0.596,
+        "macro_f1": 0.4157,
+        "per_class": {
+          "yes": {
+            "tp": 64,
+            "fp": 33,
+            "fn": 19,
+            "support": 83,
+            "precision": 0.6598,
+            "recall": 0.7711,
+            "f1": 0.7111,
+            "excluded_from_macro": false,
+            "note": "support>0 但 tp=0 时 f1 记为 0（该类必须参与 macro 平均，不得被跳过）；recall 的 fn 包含 invalid/failure 输出，因此 recall 会低于只看 ok 的口径。"
+          },
+          "no": {
+            "tp": 26,
+            "fp": 20,
+            "fn": 25,
+            "support": 51,
+            "precision": 0.5652,
+            "recall": 0.5098,
+            "f1": 0.5361,
+            "excluded_from_macro": false,
+            "note": "support>0 但 tp=0 时 f1 记为 0（该类必须参与 macro 平均，不得被跳过）；recall 的 fn 包含 invalid/failure 输出，因此 recall 会低于只看 ok 的口径。"
+          },
+          "maybe": {
+            "tp": 0,
+            "fp": 8,
+            "fn": 17,
+            "support": 17,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "excluded_from_macro": false,
+            "note": "support>0 但 tp=0 时 f1 记为 0（该类必须参与 macro 平均，不得被跳过）；recall 的 fn 包含 invalid/failure 输出，因此 recall 会低于只看 ok 的口径。"
+          }
+        },
+        "confusion": {
+          "yes": {
+            "yes": 64,
+            "no": 15,
+            "maybe": 4
+          },
+          "no": {
+            "yes": 21,
+            "no": 26,
+            "maybe": 4
+          },
+          "maybe": {
+            "yes": 12,
+            "no": 5,
+            "maybe": 0
+          },
+          "__invalid__": {
+            "yes": 0,
+            "no": 0,
+            "maybe": 0
+          },
+          "__failure__": {
+            "yes": 0,
+            "no": 0,
+            "maybe": 0
+          }
+        },
+        "parse_ok_rate": 1.0,
+        "invalid_rate": 0.0,
+        "failure_rate": 0.0,
+        "counts": {
+          "n_ok": 151,
+          "gold_distribution": {
+            "yes": 83,
+            "no": 51,
+            "maybe": 17
+          },
+          "pred_distribution": {
+            "yes": 97,
+            "no": 46,
+            "maybe": 8
+          }
+        },
+        "denominator_policy": "accuracy 的分母是 n_applicable（= n_total - n_failure），invalid 输出计为错误；n_failure 单列，不进入 accuracy 分母，但通过 accuracy_including_failures 一并报出。"
+      },
+      "predicted_label_distribution": {
+        "maybe": 8,
+        "no": 46,
+        "yes": 97
+      },
+      "parse_failure": {
+        "num": 0,
+        "den": 151,
+        "rate": 0.0
+      },
+      "citation_out_of_range": {
+        "num": 0,
+        "den": 151,
+        "rate": 0.0
+      },
+      "complete_contract_violation": {
+        "num": 0,
+        "den": 151,
+        "rate": 0.0
+      },
+      "complete_contract_issue_counts": {},
+      "citation_terminal_period_only": {
+        "num": 0,
+        "den": 151,
+        "rate": 0.0
+      },
+      "abstention_behavior": {
+        "num": 7,
+        "den": 151,
+        "rate": 0.0464
+      },
+      "answerable_distribution": {
+        "no": 7,
+        "yes": 144
+      },
+      "generation_exceptions": 0,
+      "output_budget_hits": 0,
+      "human_coverage": {
+        "num": 26,
+        "den": 151,
+        "rate": 0.1722
+      },
+      "unsupported_answer": {
+        "num": 11,
+        "den": 14,
+        "rate": 0.7857
+      },
+      "wrong_abstention": {
+        "num": 0,
+        "den": 12,
+        "rate": 0.0
+      },
+      "valid_abstention_insufficient": {
+        "num": 3,
+        "den": 14,
+        "rate": 0.2143
+      },
+      "valid_answer_sufficient": {
+        "num": 12,
+        "den": 12,
+        "rate": 1.0
+      },
+      "human_subset_failures": {
+        "insufficient": 0,
+        "sufficient": 0
+      },
+      "diagnostic_result_family_cited": {
+        "num": 18,
+        "den": 144,
+        "rate": 0.125
+      },
+      "diagnostic_E1_cited": {
+        "num": 57,
+        "den": 144,
+        "rate": 0.3958
+      },
+      "citation_position_counts": {
+        "2": 53,
+        "1": 57,
+        "3": 34
+      },
+      "historical_missing_stop_or_budget_telemetry": 0,
+      "actual_generated_token_count_coverage": {
+        "num": 151,
+        "den": 151,
+        "rate": 1.0
+      },
+      "output_retokenized_count": null,
+      "output_tokens": {
+        "n": 151,
+        "min": 25,
+        "p50": 45,
+        "p90": 66,
+        "p95": 71,
+        "p99": 85,
+        "max": 91,
+        "mean": 47.65562913907285,
+        "total": 7196
+      },
+      "output_chars": {
+        "n": 151,
+        "min": 100,
+        "p50": 185,
+        "p90": 291,
+        "p95": 305,
+        "p99": 349,
+        "max": 424,
+        "mean": 196.78807947019868,
+        "total": 29715
+      },
+      "latency_seconds": {
+        "n": 151,
+        "min": 2.533115899999757,
+        "p50": 4.62361509999937,
+        "p90": 6.565956399999777,
+        "p95": 7.158355100000335,
+        "p99": 8.39744840000094,
+        "max": 8.906517099998382,
+        "mean": 4.792703213907223,
+        "total": 723.6981852999907
+      },
+      "peak_allocated_gib": 2.8364925384521484,
+      "peak_reserved_gib": 3.01171875,
+      "confusion": {
+        "yes": {
+          "yes": 64,
+          "no": 15,
+          "maybe": 4
+        },
+        "no": {
+          "yes": 21,
+          "no": 26,
+          "maybe": 4
+        },
+        "maybe": {
+          "yes": 12,
+          "no": 5,
+          "maybe": 0
+        },
+        "__invalid__": {
+          "yes": 0,
+          "no": 0,
+          "maybe": 0
+        },
+        "__failure__": {
+          "yes": 0,
+          "no": 0,
+          "maybe": 0
+        }
+      }
+    }
+  },
+  "paired": {
+    "B1_result_first": {
+      "all": {
+        "n_pairs": 151,
+        "label_changed": {
+          "num": 24,
+          "den": 151,
+          "rate": 0.1589
+        },
+        "answerable_changed": {
+          "num": 1,
+          "den": 151,
+          "rate": 0.0066
+        },
+        "actual_citation_set_changed": {
+          "num": 41,
+          "den": 151,
+          "rate": 0.2715
+        },
+        "display_citations_changed": {
+          "num": 112,
+          "den": 151,
+          "rate": 0.7417
+        },
+        "raw_changed": {
+          "num": 141,
+          "den": 151,
+          "rate": 0.9338
+        },
+        "label_transitions": {
+          "maybe->maybe": 8,
+          "no->no": 32,
+          "yes->yes": 87,
+          "no->yes": 12,
+          "yes->no": 12
+        },
+        "mcnemar_correct_incorrect_only": {
+          "b": 14,
+          "c": 7,
+          "n_discordant": 21,
+          "p_exact": 0.18925
+        }
+      },
+      "input_changed": {
+        "n_pairs": 149,
+        "label_changed": {
+          "num": 24,
+          "den": 149,
+          "rate": 0.1611
+        },
+        "answerable_changed": {
+          "num": 1,
+          "den": 149,
+          "rate": 0.0067
+        },
+        "actual_citation_set_changed": {
+          "num": 41,
+          "den": 149,
+          "rate": 0.2752
+        },
+        "display_citations_changed": {
+          "num": 112,
+          "den": 149,
+          "rate": 0.7517
+        },
+        "raw_changed": {
+          "num": 141,
+          "den": 149,
+          "rate": 0.9463
+        },
+        "label_transitions": {
+          "maybe->maybe": 7,
+          "no->no": 32,
+          "yes->yes": 86,
+          "no->yes": 12,
+          "yes->no": 12
+        },
+        "mcnemar_correct_incorrect_only": {
+          "b": 14,
+          "c": 7,
+          "n_discordant": 21,
+          "p_exact": 0.18925
+        }
+      },
+      "input_unchanged": {
+        "n_pairs": 2,
+        "label_changed": {
+          "num": 0,
+          "den": 2,
+          "rate": 0.0
+        },
+        "answerable_changed": {
+          "num": 0,
+          "den": 2,
+          "rate": 0.0
+        },
+        "actual_citation_set_changed": {
+          "num": 0,
+          "den": 2,
+          "rate": 0.0
+        },
+        "display_citations_changed": {
+          "num": 0,
+          "den": 2,
+          "rate": 0.0
+        },
+        "raw_changed": {
+          "num": 0,
+          "den": 2,
+          "rate": 0.0
+        },
+        "label_transitions": {
+          "maybe->maybe": 1,
+          "yes->yes": 1
+        },
+        "mcnemar_correct_incorrect_only": {
+          "b": 0,
+          "c": 0,
+          "n_discordant": 0,
+          "p_exact": 1.0
+        }
+      }
+    },
+    "B2_reversed": {
+      "all": {
+        "n_pairs": 151,
+        "label_changed": {
+          "num": 26,
+          "den": 151,
+          "rate": 0.1722
+        },
+        "answerable_changed": {
+          "num": 5,
+          "den": 151,
+          "rate": 0.0331
+        },
+        "actual_citation_set_changed": {
+          "num": 50,
+          "den": 151,
+          "rate": 0.3311
+        },
+        "display_citations_changed": {
+          "num": 89,
+          "den": 151,
+          "rate": 0.5894
+        },
+        "raw_changed": {
+          "num": 122,
+          "den": 151,
+          "rate": 0.8079
+        },
+        "label_transitions": {
+          "maybe->maybe": 7,
+          "no->no": 33,
+          "yes->yes": 85,
+          "no->yes": 11,
+          "yes->no": 11,
+          "yes->maybe": 3,
+          "maybe->no": 1
+        },
+        "mcnemar_correct_incorrect_only": {
+          "b": 14,
+          "c": 9,
+          "n_discordant": 23,
+          "p_exact": 0.40487
+        }
+      },
+      "input_changed": {
+        "n_pairs": 151,
+        "label_changed": {
+          "num": 26,
+          "den": 151,
+          "rate": 0.1722
+        },
+        "answerable_changed": {
+          "num": 5,
+          "den": 151,
+          "rate": 0.0331
+        },
+        "actual_citation_set_changed": {
+          "num": 50,
+          "den": 151,
+          "rate": 0.3311
+        },
+        "display_citations_changed": {
+          "num": 89,
+          "den": 151,
+          "rate": 0.5894
+        },
+        "raw_changed": {
+          "num": 122,
+          "den": 151,
+          "rate": 0.8079
+        },
+        "label_transitions": {
+          "maybe->maybe": 7,
+          "no->no": 33,
+          "yes->yes": 85,
+          "no->yes": 11,
+          "yes->no": 11,
+          "yes->maybe": 3,
+          "maybe->no": 1
+        },
+        "mcnemar_correct_incorrect_only": {
+          "b": 14,
+          "c": 9,
+          "n_discordant": 23,
+          "p_exact": 0.40487
+        }
+      },
+      "input_unchanged": {
+        "n_pairs": 0,
+        "label_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "answerable_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "actual_citation_set_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "display_citations_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "raw_changed": {
+          "num": 0,
+          "den": 0,
+          "rate": null
+        },
+        "label_transitions": {},
+        "mcnemar_correct_incorrect_only": {
+          "b": 0,
+          "c": 0,
+          "n_discordant": 0,
+          "p_exact": 1.0
+        }
+      }
+    },
+    "B3_shuffled": {
+      "all": {
+        "n_pairs": 151,
+        "label_changed": {
+          "num": 20,
+          "den": 151,
+          "rate": 0.1325
+        },
+        "answerable_changed": {
+          "num": 4,
+          "den": 151,
+          "rate": 0.0265
+        },
+        "actual_citation_set_changed": {
+          "num": 32,
+          "den": 151,
+          "rate": 0.2119
+        },
+        "display_citations_changed": {
+          "num": 89,
+          "den": 151,
+          "rate": 0.5894
+        },
+        "raw_changed": {
+          "num": 107,
+          "den": 151,
+          "rate": 0.7086
+        },
+        "label_transitions": {
+          "maybe->maybe": 7,
+          "no->no": 36,
+          "yes->yes": 88,
+          "yes->no": 10,
+          "no->yes": 8,
+          "maybe->yes": 1,
+          "yes->maybe": 1
+        },
+        "mcnemar_correct_incorrect_only": {
+          "b": 13,
+          "c": 6,
+          "n_discordant": 19,
+          "p_exact": 0.16707
+        }
+      },
+      "input_changed": {
+        "n_pairs": 130,
+        "label_changed": {
+          "num": 20,
+          "den": 130,
+          "rate": 0.1538
+        },
+        "answerable_changed": {
+          "num": 4,
+          "den": 130,
+          "rate": 0.0308
+        },
+        "actual_citation_set_changed": {
+          "num": 32,
+          "den": 130,
+          "rate": 0.2462
+        },
+        "display_citations_changed": {
+          "num": 89,
+          "den": 130,
+          "rate": 0.6846
+        },
+        "raw_changed": {
+          "num": 107,
+          "den": 130,
+          "rate": 0.8231
+        },
+        "label_transitions": {
+          "maybe->maybe": 6,
+          "no->no": 33,
+          "yes->yes": 71,
+          "yes->no": 10,
+          "no->yes": 8,
+          "maybe->yes": 1,
+          "yes->maybe": 1
+        },
+        "mcnemar_correct_incorrect_only": {
+          "b": 13,
+          "c": 6,
+          "n_discordant": 19,
+          "p_exact": 0.16707
+        }
+      },
+      "input_unchanged": {
+        "n_pairs": 21,
+        "label_changed": {
+          "num": 0,
+          "den": 21,
+          "rate": 0.0
+        },
+        "answerable_changed": {
+          "num": 0,
+          "den": 21,
+          "rate": 0.0
+        },
+        "actual_citation_set_changed": {
+          "num": 0,
+          "den": 21,
+          "rate": 0.0
+        },
+        "display_citations_changed": {
+          "num": 0,
+          "den": 21,
+          "rate": 0.0
+        },
+        "raw_changed": {
+          "num": 0,
+          "den": 21,
+          "rate": 0.0
+        },
+        "label_transitions": {
+          "no->no": 3,
+          "yes->yes": 17,
+          "maybe->maybe": 1
+        },
+        "mcnemar_correct_incorrect_only": {
+          "b": 0,
+          "c": 0,
+          "n_discordant": 0,
+          "p_exact": 1.0
+        }
+      }
+    }
+  },
+  "cost": {
+    "requests": 604,
+    "new_V5_requests": 604,
+    "actual_generated_token_count_known_rows": 604,
+    "fresh_this_execution": 453,
+    "total_generated_tokens": 28868,
+    "generation_seconds_all_unique": 2897.1426447999747,
+    "peak_allocated_gib": 2.8364925384521484,
+    "peak_reserved_gib": 3.037109375
+  }
+}

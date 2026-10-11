@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "model": "base_06b",
+      "rows": 604,
+      "input_and_parse_and_weights": true,
+      "source": "C:\\1_yanjiusheng\\BioEvidence\\BioEvidence-v4\\runs\\base_06b\\dev151\\predictions.jsonl"
+    },
+    {
+      "model": "instruct_4b",
+      "rows": 604,
+      "input_and_parse_and_weights": true,
+      "source": "C:\\1_yanjiusheng\\BioEvidence\\BioEvidence-v4\\runs\\instruct_4b\\dev151\\predictions.jsonl"
+    },
+    {
+      "model": "e7_06b",
+      "rows": 604,
+      "input_parse_weights_frozen_metrics_verified": true,
+      "B0_raw_difference_from_P7": [],
+      "telemetry_unknown_preserved": true
+    }
+  ],
+  "reused_rows": 1812,
+  "new_main_requests": 604,
+  "origins": "V4 raw1208 + V2 frozen E7 604; no regenerated model outputs",
+  "reuse_boundary": "E7 runtime backend historical; missing telemetry explicitly unknown; exact V4 migration10 regression is supporting evidence, not 604 regenerated equivalence"
+}

@@ -1,0 +1,16 @@
+{
+  "locked_at_utc": "2026-10-11T05:32:44.067081+00:00",
+  "hashes": {
+    "blind_cases.json": "54a036a78d7e51afa5f4defbac1b47fcc420298c23601aa6be3c222bd05b146a",
+    "RUBRIC.md": "c90e9a59cd22be7ebf5a0042c428d65cf6de2db652f6ba2d9fef2c26c38b26a6",
+    "review_a_blinded.json": "549945660553f21570c78791ef0f36f78675cb9a93dc4cb1948f85f4cfb36fe4",
+    "review_b_blinded.json": "fd373a254f0971b270f08496e449b4fdad5a9cbf8ae79ac11cabc89989ed26ff"
+  },
+  "n_opinions": 16,
+  "n_questions": 2,
+  "exact_quote_locations": 42,
+  "models_conditions_gold_not_given_to_reviewers": true,
+  "before_joining_model_map": true,
+  "audit_kind": "ai_assisted",
+  "human_truth": false
+}

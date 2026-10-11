@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "n_records": 582,
+  "n_unique_questions": 349,
+  "gold_answerable_counts": {
+    "yes": 342,
+    "no": 240
+  },
+  "no_result_family_in_answerable_yes": 149,
+  "interpretation": "Structural flag only; not automatic insufficiency or wrong target",
+  "native4b_min_tokens": 332,
+  "native4b_max_tokens": 941,
+  "no_truncation": true,
+  "train_dev_question_overlap": 0,
+  "taskb_messages_verified": true,
+  "historical_metadata_discrepancy": "train_report header imported Task A identifier; actual data messages are frozen Task B. Historical artifacts unchanged.",
+  "source_sha256": "b0762479353e2e5932cff437cf15f5382efa63751eb87c6fa2b8961d36a2cae1",
+  "copied_source_sha256": "b0762479353e2e5932cff437cf15f5382efa63751eb87c6fa2b8961d36a2cae1",
+  "native_template_sha256": "c87c39da4214fe8fee1f49f4b54bdb5ae1e1cd5aed22a356f3ffedb59964a715",
+  "protocol_sha256": "8a19e12a521d9a1747cdad6b58bd09332da6b46aa8d4f55e0d2782105f7223f6"
+}

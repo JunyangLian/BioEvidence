@@ -1,0 +1,340 @@
+[
+  {
+    "question_id": "10411439",
+    "source_anon": "S01",
+    "evidence_sufficiency": "不足",
+    "retrieval_condition": "A2",
+    "verified_B0_chunk_ids": [
+      "PMID19394934-SEC01",
+      "PMID22497340-SEC01",
+      "PMID10877371-SEC02"
+    ],
+    "evidence_identity_verified": true,
+    "provenance": "historical human-returned v2 unified; reviewer/time unknown; repeated dev subset"
+  },
+  {
+    "question_id": "10605400",
+    "source_anon": "T01",
+    "evidence_sufficiency": "充分",
+    "retrieval_condition": "A2",
+    "verified_B0_chunk_ids": [
+      "PMID15151701-SEC00",
+      "PMID15141797-SEC01",
+      "PMID15141797-SEC02"
+    ],
+    "evidence_identity_verified": true,
+    "provenance": "historical human-returned v2 unified; reviewer/time unknown; repeated dev subset"
+  },
+  {
+    "question_id": "10811329",
+    "source_anon": "T02",
+    "evidence_sufficiency": "充分",
+    "retrieval_condition": "A2",
+    "verified_B0_chunk_ids": [
+      "PMID10811329-SEC00",
+      "PMID10811329-SEC01",
+      "PMID10811329-SEC02"
+    ],
+    "evidence_identity_verified": true,
+    "provenance": "historical human-returned v2 unified; reviewer/time unknown; repeated dev subset"
+  },
+  {
+    "question_id": "11053064",
+    "source_anon": "T03",
+    "evidence_sufficiency": "不足",
+    "retrieval_condition": "A2",
+    "verified_B0_chunk_ids": [
+      "PMID19108857-SEC00",
+      "PMID11053064-SEC00",
+      "PMID18575014-SEC02"
+    ],
+    "evidence_identity_verified": true,
+    "provenance": "historical human-returned v2 unified; reviewer/time unknown; repeated dev subset"
+  },
+  {
+    "question_id": "11413427",
+    "source_anon": "T04",
+    "evidence_sufficiency": "充分",
+    "retrieval_condition": "A2",
+    "verified_B0_chunk_ids": [
+      "PMID11413427-SEC01",
+      "PMID11413427-SEC03",
+      "PMID11413427-SEC04"
+    ],
+    "evidence_identity_verified": true,
+    "provenance": "historical human-returned v2 unified; reviewer/time unknown; repeated dev subset"
+  },
+  {
+    "question_id": "11713724",
+    "source_anon": "T06",
+    "evidence_sufficiency": "不足",
+    "retrieval_condition": "A2",
+    "verified_B0_chunk_ids": [
+      "PMID11713724-SEC00",
+      "PMID11713724-SEC01",
+      "PMID24599411-SEC02"
+    ],
+    "evidence_identity_verified": true,
+    "provenance": "historical human-returned v2 unified; reviewer/time unknown; repeated dev subset"
+  },
+  {
+    "question_id": "11776681",
+    "source_anon": "T07",
+    "evidence_sufficiency": "充分",
+    "retrieval_condition": "A2",
+    "verified_B0_chunk_ids": [
+      "PMID11776681-SEC00",
+      "PMID9542484-SEC02",
+      "PMID11776681-SEC02"
+    ],
+    "evidence_identity_verified": true,
+    "provenance": "historical human-returned v2 unified; reviewer/time unknown; repeated dev subset"
+  },
+  {
+    "question_id": "11978239",
+    "source_anon": "S04",
+    "evidence_sufficiency": "不足",
+    "retrieval_condition": "A2",
+    "verified_B0_chunk_ids": [
+      "PMID11978239-SEC00",
+      "PMID11978239-SEC01",
+      "PMID25489696-SEC06"
+    ],
+    "evidence_identity_verified": true,
+    "provenance": "historical human-returned v2 unified; reviewer/time unknown; repeated dev subset"
+  },
+  {
+    "question_id": "12095973",
+    "source_anon": "S05",
+    "evidence_sufficiency": "不足",
+    "retrieval_condition": "A2",
+    "verified_B0_chunk_ids": [
+      "PMID12095973-SEC00",
+      "PMID12095973-SEC01",
+      "PMID14713788-SEC02"
+    ],
+    "evidence_identity_verified": true,
+    "provenance": "historical human-returned v2 unified; reviewer/time unknown; repeated dev subset"
+  },
+  {
+    "question_id": "12238307",
+    "source_anon": "S06",
+    "evidence_sufficiency": "充分",
+    "retrieval_condition": "A2",
+    "verified_B0_chunk_ids": [
+      "PMID25155638-SEC00",
+      "PMID12238307-SEC00",
+      "PMID12238307-SEC02"
+    ],
+    "evidence_identity_verified": true,
+    "provenance": "historical human-returned v2 unified; reviewer/time unknown; repeated dev subset"
+  },
+  {
+    "question_id": "12690589",
+    "source_anon": "T09",
+    "evidence_sufficiency": "充分",
+    "retrieval_condition": "A2",
+    "verified_B0_chunk_ids": [
+      "PMID12690589-SEC00",
+      "PMID12690589-SEC05",
+      "PMID12690589-SEC06"
+    ],
+    "evidence_identity_verified": true,
+    "provenance": "historical human-returned v2 unified; reviewer/time unknown; repeated dev subset"
+  },
+  {
+    "question_id": "12855939",
+    "source_anon": "S07",
+    "evidence_sufficiency": "不足",
+    "retrieval_condition": "A2",
+    "verified_B0_chunk_ids": [
+      "PMID22012962-SEC02",
+      "PMID12855939-SEC02",
+      "PMID18378554-SEC02"
+    ],
+    "evidence_identity_verified": true,
+    "provenance": "historical human-returned v2 unified; reviewer/time unknown; repeated dev subset"
+  },
+  {
+    "question_id": "12913347",
+    "source_anon": "T10",
+    "evidence_sufficiency": "不足",
+    "retrieval_condition": "A2",
+    "verified_B0_chunk_ids": [
+      "PMID12913347-SEC00",
+      "PMID12913347-SEC01",
+      "PMID12913347-SEC02"
+    ],
+    "evidence_identity_verified": true,
+    "provenance": "historical human-returned v2 unified; reviewer/time unknown; repeated dev subset"
+  },
+  {
+    "question_id": "14518645",
+    "source_anon": "T11",
+    "evidence_sufficiency": "不足",
+    "retrieval_condition": "A2",
+    "verified_B0_chunk_ids": [
+      "PMID14518645-SEC00",
+      "PMID14518645-SEC01",
+      "PMID18496363-SEC05"
+    ],
+    "evidence_identity_verified": true,
+    "provenance": "historical human-returned v2 unified; reviewer/time unknown; repeated dev subset"
+  },
+  {
+    "question_id": "15125825",
+    "source_anon": "S08",
+    "evidence_sufficiency": "不足",
+    "retrieval_condition": "A2",
+    "verified_B0_chunk_ids": [
+      "PMID15939071-SEC00",
+      "PMID23517744-SEC02",
+      "PMID15125825-SEC02"
+    ],
+    "evidence_identity_verified": true,
+    "provenance": "historical human-returned v2 unified; reviewer/time unknown; repeated dev subset"
+  },
+  {
+    "question_id": "15137012",
+    "source_anon": "S09",
+    "evidence_sufficiency": "充分",
+    "retrieval_condition": "A2",
+    "verified_B0_chunk_ids": [
+      "PMID15137012-SEC00",
+      "PMID15137012-SEC01",
+      "PMID15137012-SEC02"
+    ],
+    "evidence_identity_verified": true,
+    "provenance": "historical human-returned v2 unified; reviewer/time unknown; repeated dev subset"
+  },
+  {
+    "question_id": "15141797",
+    "source_anon": "T12",
+    "evidence_sufficiency": "不足",
+    "retrieval_condition": "A2",
+    "verified_B0_chunk_ids": [
+      "PMID15141797-SEC00",
+      "PMID23848044-SEC01",
+      "PMID15141797-SEC01"
+    ],
+    "evidence_identity_verified": true,
+    "provenance": "historical human-returned v2 unified; reviewer/time unknown; repeated dev subset"
+  },
+  {
+    "question_id": "15381614",
+    "source_anon": "S10",
+    "evidence_sufficiency": "不足",
+    "retrieval_condition": "A2",
+    "verified_B0_chunk_ids": [
+      "PMID15381614-SEC00",
+      "PMID15223779-SEC02",
+      "PMID15381614-SEC02"
+    ],
+    "evidence_identity_verified": true,
+    "provenance": "historical human-returned v2 unified; reviewer/time unknown; repeated dev subset"
+  },
+  {
+    "question_id": "16253970",
+    "source_anon": "T13",
+    "evidence_sufficiency": "充分",
+    "retrieval_condition": "A2",
+    "verified_B0_chunk_ids": [
+      "PMID16253970-SEC00",
+      "PMID16253970-SEC01",
+      "PMID16253970-SEC02"
+    ],
+    "evidence_identity_verified": true,
+    "provenance": "historical human-returned v2 unified; reviewer/time unknown; repeated dev subset"
+  },
+  {
+    "question_id": "17279467",
+    "source_anon": "T14",
+    "evidence_sufficiency": "充分",
+    "retrieval_condition": "A2",
+    "verified_B0_chunk_ids": [
+      "PMID27592038-SEC00",
+      "PMID17279467-SEC00",
+      "PMID14551704-SEC02"
+    ],
+    "evidence_identity_verified": true,
+    "provenance": "historical human-returned v2 unified; reviewer/time unknown; repeated dev subset"
+  },
+  {
+    "question_id": "17562682",
+    "source_anon": "T15",
+    "evidence_sufficiency": "不足",
+    "retrieval_condition": "A2",
+    "verified_B0_chunk_ids": [
+      "PMID17562682-SEC00",
+      "PMID17562682-SEC01",
+      "PMID21080127-SEC03"
+    ],
+    "evidence_identity_verified": true,
+    "provenance": "historical human-returned v2 unified; reviewer/time unknown; repeated dev subset"
+  },
+  {
+    "question_id": "17578985",
+    "source_anon": "T16",
+    "evidence_sufficiency": "充分",
+    "retrieval_condition": "A2",
+    "verified_B0_chunk_ids": [
+      "PMID17578985-SEC00",
+      "PMID17578985-SEC01",
+      "PMID17578985-SEC02"
+    ],
+    "evidence_identity_verified": true,
+    "provenance": "historical human-returned v2 unified; reviewer/time unknown; repeated dev subset"
+  },
+  {
+    "question_id": "17595200",
+    "source_anon": "T17",
+    "evidence_sufficiency": "不足",
+    "retrieval_condition": "A2",
+    "verified_B0_chunk_ids": [
+      "PMID22813804-SEC00",
+      "PMID17595200-SEC00",
+      "PMID17429333-SEC02"
+    ],
+    "evidence_identity_verified": true,
+    "provenance": "historical human-returned v2 unified; reviewer/time unknown; repeated dev subset"
+  },
+  {
+    "question_id": "17890090",
+    "source_anon": "T18",
+    "evidence_sufficiency": "充分",
+    "retrieval_condition": "A2",
+    "verified_B0_chunk_ids": [
+      "PMID17890090-SEC00",
+      "PMID17890090-SEC01",
+      "PMID17890090-SEC02"
+    ],
+    "evidence_identity_verified": true,
+    "provenance": "historical human-returned v2 unified; reviewer/time unknown; repeated dev subset"
+  },
+  {
+    "question_id": "19155657",
+    "source_anon": "T19",
+    "evidence_sufficiency": "充分",
+    "retrieval_condition": "A2",
+    "verified_B0_chunk_ids": [
+      "PMID19155657-SEC00",
+      "PMID25501465-SEC01",
+      "PMID19155657-SEC02"
+    ],
+    "evidence_identity_verified": true,
+    "provenance": "historical human-returned v2 unified; reviewer/time unknown; repeated dev subset"
+  },
+  {
+    "question_id": "24599411",
+    "source_anon": "T20",
+    "evidence_sufficiency": "不足",
+    "retrieval_condition": "A2",
+    "verified_B0_chunk_ids": [
+      "PMID20082356-SEC00",
+      "PMID23072266-SEC02",
+      "PMID21904069-SEC03"
+    ],
+    "evidence_identity_verified": true,
+    "provenance": "historical human-returned v2 unified; reviewer/time unknown; repeated dev subset"
+  }
+]

@@ -1,0 +1,171 @@
+{
+  "audit_kind": "ai_assisted",
+  "human_truth": false,
+  "n_questions": 2,
+  "n_unique_cases": 8,
+  "n_opinions": 16,
+  "exact_evidence_quote_locations": 42,
+  "both_reviewers_evaluated_all4_models": true,
+  "conditions": "B0 only",
+  "actual_model_identifiers": [
+    "unknown/unavailable",
+    "unknown/unavailable"
+  ],
+  "unknown_or_NA": {
+    "evidence_sufficiency": 0,
+    "reason_key_claim_support": 0,
+    "reason_label_alignment": 0,
+    "citation_traceability": 0,
+    "citation_semantic_support": 0,
+    "abstention_appropriateness": 0
+  },
+  "reviewer_disagreement": {
+    "evidence_sufficiency": {
+      "disagree": 0,
+      "den_cases": 8
+    },
+    "reason_key_claim_support": {
+      "disagree": 1,
+      "den_cases": 8
+    },
+    "reason_label_alignment": {
+      "disagree": 1,
+      "den_cases": 8
+    },
+    "citation_traceability": {
+      "disagree": 0,
+      "den_cases": 8
+    },
+    "citation_semantic_support": {
+      "disagree": 0,
+      "den_cases": 8
+    },
+    "abstention_appropriateness": {
+      "disagree": 0,
+      "den_cases": 8
+    }
+  },
+  "within_reviewer_transitions": [
+    {
+      "question_id": "10605400",
+      "agent_task": "/root/v5_bio_review_a",
+      "untuned": "base_06b",
+      "tuned": "e7_06b",
+      "transitions": {
+        "evidence_sufficiency": "sufficient -> sufficient",
+        "reason_key_claim_support": "partial -> supported",
+        "reason_label_alignment": "unsupported -> unsupported",
+        "citation_traceability": "traceable -> traceable",
+        "citation_semantic_support": "partial -> partial",
+        "abstention_appropriateness": "appropriate -> appropriate"
+      }
+    },
+    {
+      "question_id": "10605400",
+      "agent_task": "/root/v5_bio_review_a",
+      "untuned": "instruct_4b",
+      "tuned": "tuned_4b",
+      "transitions": {
+        "evidence_sufficiency": "sufficient -> sufficient",
+        "reason_key_claim_support": "partial -> supported",
+        "reason_label_alignment": "partial -> unsupported",
+        "citation_traceability": "traceable -> traceable",
+        "citation_semantic_support": "unsupported -> partial",
+        "abstention_appropriateness": "appropriate -> appropriate"
+      }
+    },
+    {
+      "question_id": "11053064",
+      "agent_task": "/root/v5_bio_review_a",
+      "untuned": "base_06b",
+      "tuned": "e7_06b",
+      "transitions": {
+        "evidence_sufficiency": "insufficient -> insufficient",
+        "reason_key_claim_support": "partial -> supported",
+        "reason_label_alignment": "unsupported -> unsupported",
+        "citation_traceability": "traceable -> traceable",
+        "citation_semantic_support": "unsupported -> partial",
+        "abstention_appropriateness": "inappropriate -> inappropriate"
+      }
+    },
+    {
+      "question_id": "11053064",
+      "agent_task": "/root/v5_bio_review_a",
+      "untuned": "instruct_4b",
+      "tuned": "tuned_4b",
+      "transitions": {
+        "evidence_sufficiency": "insufficient -> insufficient",
+        "reason_key_claim_support": "unsupported -> supported",
+        "reason_label_alignment": "supported -> unsupported",
+        "citation_traceability": "traceable -> traceable",
+        "citation_semantic_support": "unsupported -> partial",
+        "abstention_appropriateness": "inappropriate -> inappropriate"
+      }
+    },
+    {
+      "question_id": "10605400",
+      "agent_task": "/root/v5_bio_review_b",
+      "untuned": "base_06b",
+      "tuned": "e7_06b",
+      "transitions": {
+        "evidence_sufficiency": "sufficient -> sufficient",
+        "reason_key_claim_support": "partial -> supported",
+        "reason_label_alignment": "unsupported -> unsupported",
+        "citation_traceability": "traceable -> traceable",
+        "citation_semantic_support": "partial -> partial",
+        "abstention_appropriateness": "appropriate -> appropriate"
+      }
+    },
+    {
+      "question_id": "10605400",
+      "agent_task": "/root/v5_bio_review_b",
+      "untuned": "instruct_4b",
+      "tuned": "tuned_4b",
+      "transitions": {
+        "evidence_sufficiency": "sufficient -> sufficient",
+        "reason_key_claim_support": "partial -> supported",
+        "reason_label_alignment": "partial -> unsupported",
+        "citation_traceability": "traceable -> traceable",
+        "citation_semantic_support": "unsupported -> partial",
+        "abstention_appropriateness": "appropriate -> appropriate"
+      }
+    },
+    {
+      "question_id": "11053064",
+      "agent_task": "/root/v5_bio_review_b",
+      "untuned": "base_06b",
+      "tuned": "e7_06b",
+      "transitions": {
+        "evidence_sufficiency": "insufficient -> insufficient",
+        "reason_key_claim_support": "unsupported -> supported",
+        "reason_label_alignment": "unsupported -> unsupported",
+        "citation_traceability": "traceable -> traceable",
+        "citation_semantic_support": "unsupported -> partial",
+        "abstention_appropriateness": "inappropriate -> inappropriate"
+      }
+    },
+    {
+      "question_id": "11053064",
+      "agent_task": "/root/v5_bio_review_b",
+      "untuned": "instruct_4b",
+      "tuned": "tuned_4b",
+      "transitions": {
+        "evidence_sufficiency": "insufficient -> insufficient",
+        "reason_key_claim_support": "unsupported -> supported",
+        "reason_label_alignment": "unsupported -> unsupported",
+        "citation_traceability": "traceable -> traceable",
+        "citation_semantic_support": "unsupported -> partial",
+        "abstention_appropriateness": "inappropriate -> inappropriate"
+      }
+    }
+  ],
+  "limits": [
+    "AI simulation, not real biomedical experts or independent human review",
+    "Only2 reference-stratified development questions",
+    "No prevalence or model superiority inference",
+    "Stylish outputs and question repetition limit blinding",
+    "Outputs are reasons, not internal reasoning evidence",
+    "Human references/gold were hidden and not rewritten"
+  ],
+  "locked_review_sha256": "d0419a89c63ab656f9308565459bc400700070cea851889d4b4904e26a7fa1a4"
+}

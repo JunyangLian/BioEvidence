@@ -1,0 +1,3 @@
+{
+  "error": "Traceback (most recent call last):\n  File \"C:\\1_yanjiusheng\\BioEvidence\\BioEvidence-v5\\train.py\", line 92, in <module>\n    try:run(a.stage)\n        ~~~^^^^^^^^^\n  File \"C:\\1_yanjiusheng\\BioEvidence\\BioEvidence-v5\\train.py\", line 42, in run\n    assert ids==r['input_token_ids'],('Trainer changed complete input',i,len(ids),r['total_tokens'])\n                ~^^^^^^^^^^^^^^^^^^^\nKeyError: 'input_token_ids'\n"
+}

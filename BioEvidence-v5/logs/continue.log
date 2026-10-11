@@ -1,0 +1,11 @@
+RUN generate.py --model tuned_4b --n 10 --b0-only
+RUN integrity.py --scope smoke10 --only-tuned
+RUN generate.py --model tuned_4b --n 151 --b0-only
+RUN integrity.py --scope B0_dev151
+RUN report.py --b0-only
+RUN generate.py --model tuned_4b --n 151
+RUN integrity.py
+RUN report.py
+RUN sources.py --verify
+RUN finalize.py
+V5 APPROVED PROTOCOL COMPLETE

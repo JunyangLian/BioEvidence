@@ -1,0 +1,42 @@
+{
+  "R01": {
+    "model": "e7_06b",
+    "question_id": "11053064",
+    "condition": "B0_original"
+  },
+  "R02": {
+    "model": "e7_06b",
+    "question_id": "10605400",
+    "condition": "B0_original"
+  },
+  "R03": {
+    "model": "base_06b",
+    "question_id": "11053064",
+    "condition": "B0_original"
+  },
+  "R04": {
+    "model": "base_06b",
+    "question_id": "10605400",
+    "condition": "B0_original"
+  },
+  "R05": {
+    "model": "instruct_4b",
+    "question_id": "10605400",
+    "condition": "B0_original"
+  },
+  "R06": {
+    "model": "tuned_4b",
+    "question_id": "11053064",
+    "condition": "B0_original"
+  },
+  "R07": {
+    "model": "instruct_4b",
+    "question_id": "11053064",
+    "condition": "B0_original"
+  },
+  "R08": {
+    "model": "tuned_4b",
+    "question_id": "10605400",
+    "condition": "B0_original"
+  }
+}

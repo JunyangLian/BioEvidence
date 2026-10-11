@@ -1,0 +1,27 @@
+{
+  "model": "tuned_4b",
+  "n": 151,
+  "n_samples": 151,
+  "elapsed_seconds": 674.1691276000001,
+  "model_load_seconds": 9.20210120000047,
+  "fresh_requests": 141,
+  "cache_hits": 10,
+  "config_fingerprint": "639379b08a03b2305956aa3204134ae420b0478a6c6168a1ffb30ca90ace6ec6",
+  "generation_exceptions": 0,
+  "output_budget_hits": 0,
+  "harness_results": {
+    "bioevidence_taskb": {
+      "name": "bioevidence_taskb",
+      "alias": "bioevidence_taskb",
+      "sample_len": 151,
+      "bio_accuracy,none": 0.6424,
+      "bio_accuracy_stderr,none": "N/A",
+      "bio_macro_f1,none": 0.4492,
+      "bio_macro_f1_stderr,none": "N/A",
+      "bio_invalid_rate,none": 0.0,
+      "bio_invalid_rate_stderr,none": "N/A"
+    }
+  },
+  "input_system_and_context_checks_passed": true,
+  "direct_regression": []
+}

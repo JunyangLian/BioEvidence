@@ -1,0 +1,70 @@
+{
+  "version": "v5_historical_target_anchor_v1",
+  "timestamp_utc": "2026-10-11T04:26:34.704826+00:00",
+  "question": "Within each starting model, what changes after domain adaptation under the historical E7 supervision?",
+  "data_source": "C:\\1_yanjiusheng\\BioEvidence\\BioEvidence-v1\\data\\processed\\pubmedqa\\sft_taskb.jsonl",
+  "training_records": 582,
+  "training_data_sha256": "b0762479353e2e5932cff437cf15f5382efa63751eb87c6fa2b8961d36a2cae1",
+  "no_target_cleaning": true,
+  "no_order_augmentation": true,
+  "no_dev_checkpoint_selection": true,
+  "checkpoint": "Final fixed 3-epoch checkpoint, not best dev checkpoint",
+  "validation_split": null,
+  "training": {
+    "max_length": 1024,
+    "num_train_epochs": 3,
+    "per_device_train_batch_size": 1,
+    "gradient_accumulation_steps": 8,
+    "learning_rate": 0.0001,
+    "lr_scheduler_type": "linear",
+    "optim": "paged_adamw_8bit",
+    "seed": 20260918,
+    "data_seed": 20260918,
+    "bf16": true,
+    "fp16": false,
+    "packing": false,
+    "completion_only_loss": true,
+    "gradient_checkpointing": true,
+    "gradient_checkpointing_kwargs": {
+      "use_reentrant": false
+    },
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.05,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ]
+  },
+  "smoke": {
+    "records": "shortest and longest complete native-rendered records",
+    "optimizer_steps": 2,
+    "must_check_forward_backward_optimizer": true,
+    "smoke_adapter_not_reused_for_training": true,
+    "finite_retry": "At most one evidence-based memory optimization; never shorten evidence or change targets silently"
+  },
+  "expansion": {
+    "primary_B0": 604,
+    "complete_four_condition_rows": 2416,
+    "preexisting_V4_raw_rows": 1208,
+    "E7_historical_rows_available": 604,
+    "expected_new_main_generations_if_reuse_passes": 604,
+    "gate": "Input/weight/parser integrity, technical feasibility and declared resource budget, never favorable scores",
+    "generation_budget_seconds": 7200,
+    "training_wall_budget_seconds": 21600,
+    "no_new_success_threshold": true
+  },
+  "limits": [
+    "Repeated dev151; no fresh holdout",
+    "E7 legacy labels retain known proxy limitations",
+    "No pure parameter-size effect",
+    "No pure position effect: order + renumbering",
+    "Single training seed; no claim of seed robustness",
+    "Existing E7 saw all 582; do not carve a pseudo-independent validation set from them"
+  ]
+}

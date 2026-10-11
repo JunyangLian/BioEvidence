@@ -1,0 +1,9 @@
+{
+  "selection": "Same first two sorted smoke questions as prior model, all conditions; no output-based selection",
+  "n": 8,
+  "effective_questions": 2,
+  "presentation_seed": 20260924,
+  "prompt_version": "v4_ai_biomedical_audit_v1",
+  "human_ground_truth": false,
+  "prior_review_hidden": true
+}

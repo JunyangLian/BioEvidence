@@ -1,0 +1,1067 @@
+{
+  "workers": 32,
+  "results": [
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2521303559,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2118650375,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2454194695,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2051541511,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2319976967,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2387085831,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2185759239,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2252868103,
+      "status": "reused"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 3930589703,
+      "end": 3957900840,
+      "bytes": 27311137,
+      "sha256": "0bf106c8eb8a2dde5874bf78932b7985a72999802603f452a2c1eb512acc7bd0",
+      "seconds": 780.3944351000009,
+      "status": "ok"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "start": 2588412423,
+      "end": 2655521287,
+      "bytes": 67108864,
+      "sha256": "b9b381f77e58787c0459a5510cf21ed3e157b5a65046f85a3b21e855599a4d44",
+      "seconds": 994.4289371000004,
+      "status": "ok"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 3926917120,
+      "end": 3987450520,
+      "bytes": 60533400,
+      "sha256": "690c477507d9ec700c897eeb863abd7305bf733bded24ecbcd62c05aa5a6c06c",
+      "seconds": 517.1718994000003,
+      "status": "ok"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 3725590528,
+      "end": 3792699392,
+      "bytes": 67108864,
+      "sha256": "9e1c0a902e9b8bbca6c67476a35ac0e88d8fc2a1af394b1354e03e611bd0ea17",
+      "seconds": 555.1475803000012,
+      "status": "ok"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 3792699392,
+      "end": 3859808256,
+      "bytes": 67108864,
+      "sha256": "6e79319d7826eb1a7a78b301e3191c86dee4acdd8a3e8cad93d19104b9b6d27d",
+      "seconds": 555.8132405000015,
+      "status": "ok"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "start": 3859808256,
+      "end": 3926917120,
+      "bytes": 67108864,
+      "sha256": "e178a878e2441e11056514915a036c96273034b2bb49c7ba21c6a102ccaed5b3",
+      "seconds": 556.7359128999997,
+      "status": "ok"
+    }
+  ],
+  "errors": [
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        705691648,
+        772800512
+      ],
+      "error": "Incomplete bounded range 715664951-772800512"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        907018240,
+        974127104
+      ],
+      "error": "Incomplete bounded range 920183099-974127104"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        839909376,
+        907018240
+      ],
+      "error": "Incomplete bounded range 846749238-907018240"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        772800512,
+        839909376
+      ],
+      "error": "Incomplete bounded range 786557265-839909376"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00001-of-00003.safetensors",
+          "size": 3957900840,
+          "expected_sha256": "75311d91bb08cf0b882913da464a1e722a31fb44db35208663487efb7a3d8ed6",
+          "prefix_bytes": 2051541511,
+          "prefix_sha256": "d1f2dd78f589a6f25398b660678ae1df442014aa4a38b398a085fc40cf53ef50"
+        },
+        2991065607,
+        3058174471
+      ],
+      "error": "Incomplete bounded range 3024983686-3058174471"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00001-of-00003.safetensors",
+          "size": 3957900840,
+          "expected_sha256": "75311d91bb08cf0b882913da464a1e722a31fb44db35208663487efb7a3d8ed6",
+          "prefix_bytes": 2051541511,
+          "prefix_sha256": "d1f2dd78f589a6f25398b660678ae1df442014aa4a38b398a085fc40cf53ef50"
+        },
+        3863480839,
+        3930589703
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00001-of-00003.safetensors",
+          "size": 3957900840,
+          "expected_sha256": "75311d91bb08cf0b882913da464a1e722a31fb44db35208663487efb7a3d8ed6",
+          "prefix_bytes": 2051541511,
+          "prefix_sha256": "d1f2dd78f589a6f25398b660678ae1df442014aa4a38b398a085fc40cf53ef50"
+        },
+        3058174471,
+        3125283335
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        1242562560,
+        1309671424
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00001-of-00003.safetensors",
+          "size": 3957900840,
+          "expected_sha256": "75311d91bb08cf0b882913da464a1e722a31fb44db35208663487efb7a3d8ed6",
+          "prefix_bytes": 2051541511,
+          "prefix_sha256": "d1f2dd78f589a6f25398b660678ae1df442014aa4a38b398a085fc40cf53ef50"
+        },
+        3326609927,
+        3393718791
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        504365056,
+        571473920
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        1309671424,
+        1376780288
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00001-of-00003.safetensors",
+          "size": 3957900840,
+          "expected_sha256": "75311d91bb08cf0b882913da464a1e722a31fb44db35208663487efb7a3d8ed6",
+          "prefix_bytes": 2051541511,
+          "prefix_sha256": "d1f2dd78f589a6f25398b660678ae1df442014aa4a38b398a085fc40cf53ef50"
+        },
+        3259501063,
+        3326609927
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        1443889152,
+        1510998016
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00001-of-00003.safetensors",
+          "size": 3957900840,
+          "expected_sha256": "75311d91bb08cf0b882913da464a1e722a31fb44db35208663487efb7a3d8ed6",
+          "prefix_bytes": 2051541511,
+          "prefix_sha256": "d1f2dd78f589a6f25398b660678ae1df442014aa4a38b398a085fc40cf53ef50"
+        },
+        2923956743,
+        2991065607
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00001-of-00003.safetensors",
+          "size": 3957900840,
+          "expected_sha256": "75311d91bb08cf0b882913da464a1e722a31fb44db35208663487efb7a3d8ed6",
+          "prefix_bytes": 2051541511,
+          "prefix_sha256": "d1f2dd78f589a6f25398b660678ae1df442014aa4a38b398a085fc40cf53ef50"
+        },
+        3796371975,
+        3863480839
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00001-of-00003.safetensors",
+          "size": 3957900840,
+          "expected_sha256": "75311d91bb08cf0b882913da464a1e722a31fb44db35208663487efb7a3d8ed6",
+          "prefix_bytes": 2051541511,
+          "prefix_sha256": "d1f2dd78f589a6f25398b660678ae1df442014aa4a38b398a085fc40cf53ef50"
+        },
+        3729263111,
+        3796371975
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        1041235968,
+        1108344832
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00001-of-00003.safetensors",
+          "size": 3957900840,
+          "expected_sha256": "75311d91bb08cf0b882913da464a1e722a31fb44db35208663487efb7a3d8ed6",
+          "prefix_bytes": 2051541511,
+          "prefix_sha256": "d1f2dd78f589a6f25398b660678ae1df442014aa4a38b398a085fc40cf53ef50"
+        },
+        3662154247,
+        3729263111
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        1376780288,
+        1443889152
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00001-of-00003.safetensors",
+          "size": 3957900840,
+          "expected_sha256": "75311d91bb08cf0b882913da464a1e722a31fb44db35208663487efb7a3d8ed6",
+          "prefix_bytes": 2051541511,
+          "prefix_sha256": "d1f2dd78f589a6f25398b660678ae1df442014aa4a38b398a085fc40cf53ef50"
+        },
+        3393718791,
+        3460827655
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00001-of-00003.safetensors",
+          "size": 3957900840,
+          "expected_sha256": "75311d91bb08cf0b882913da464a1e722a31fb44db35208663487efb7a3d8ed6",
+          "prefix_bytes": 2051541511,
+          "prefix_sha256": "d1f2dd78f589a6f25398b660678ae1df442014aa4a38b398a085fc40cf53ef50"
+        },
+        2856847879,
+        2923956743
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        638582784,
+        705691648
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00001-of-00003.safetensors",
+          "size": 3957900840,
+          "expected_sha256": "75311d91bb08cf0b882913da464a1e722a31fb44db35208663487efb7a3d8ed6",
+          "prefix_bytes": 2051541511,
+          "prefix_sha256": "d1f2dd78f589a6f25398b660678ae1df442014aa4a38b398a085fc40cf53ef50"
+        },
+        3192392199,
+        3259501063
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        571473920,
+        638582784
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00001-of-00003.safetensors",
+          "size": 3957900840,
+          "expected_sha256": "75311d91bb08cf0b882913da464a1e722a31fb44db35208663487efb7a3d8ed6",
+          "prefix_bytes": 2051541511,
+          "prefix_sha256": "d1f2dd78f589a6f25398b660678ae1df442014aa4a38b398a085fc40cf53ef50"
+        },
+        3595045383,
+        3662154247
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00001-of-00003.safetensors",
+          "size": 3957900840,
+          "expected_sha256": "75311d91bb08cf0b882913da464a1e722a31fb44db35208663487efb7a3d8ed6",
+          "prefix_bytes": 2051541511,
+          "prefix_sha256": "d1f2dd78f589a6f25398b660678ae1df442014aa4a38b398a085fc40cf53ef50"
+        },
+        2722630151,
+        2789739015
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00001-of-00003.safetensors",
+          "size": 3957900840,
+          "expected_sha256": "75311d91bb08cf0b882913da464a1e722a31fb44db35208663487efb7a3d8ed6",
+          "prefix_bytes": 2051541511,
+          "prefix_sha256": "d1f2dd78f589a6f25398b660678ae1df442014aa4a38b398a085fc40cf53ef50"
+        },
+        3125283335,
+        3192392199
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        437256192,
+        504365056
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        1175453696,
+        1242562560
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        1108344832,
+        1175453696
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00001-of-00003.safetensors",
+          "size": 3957900840,
+          "expected_sha256": "75311d91bb08cf0b882913da464a1e722a31fb44db35208663487efb7a3d8ed6",
+          "prefix_bytes": 2051541511,
+          "prefix_sha256": "d1f2dd78f589a6f25398b660678ae1df442014aa4a38b398a085fc40cf53ef50"
+        },
+        2655521287,
+        2722630151
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00001-of-00003.safetensors",
+          "size": 3957900840,
+          "expected_sha256": "75311d91bb08cf0b882913da464a1e722a31fb44db35208663487efb7a3d8ed6",
+          "prefix_bytes": 2051541511,
+          "prefix_sha256": "d1f2dd78f589a6f25398b660678ae1df442014aa4a38b398a085fc40cf53ef50"
+        },
+        2789739015,
+        2856847879
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00001-of-00003.safetensors",
+          "size": 3957900840,
+          "expected_sha256": "75311d91bb08cf0b882913da464a1e722a31fb44db35208663487efb7a3d8ed6",
+          "prefix_bytes": 2051541511,
+          "prefix_sha256": "d1f2dd78f589a6f25398b660678ae1df442014aa4a38b398a085fc40cf53ef50"
+        },
+        3527936519,
+        3595045383
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        370147328,
+        437256192
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00001-of-00003.safetensors",
+          "size": 3957900840,
+          "expected_sha256": "75311d91bb08cf0b882913da464a1e722a31fb44db35208663487efb7a3d8ed6",
+          "prefix_bytes": 2051541511,
+          "prefix_sha256": "d1f2dd78f589a6f25398b660678ae1df442014aa4a38b398a085fc40cf53ef50"
+        },
+        3460827655,
+        3527936519
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        974127104,
+        1041235968
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        1510998016,
+        1578106880
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        2047868928,
+        2114977792
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        1578106880,
+        1645215744
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        1712324608,
+        1779433472
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        1645215744,
+        1712324608
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        1846542336,
+        1913651200
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        1779433472,
+        1846542336
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        1913651200,
+        1980760064
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        2182086656,
+        2249195520
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        2383413248,
+        2450522112
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        2316304384,
+        2383413248
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        2651848704,
+        2718957568
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        2249195520,
+        2316304384
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        2584739840,
+        2651848704
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        2114977792,
+        2182086656
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        2853175296,
+        2920284160
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        3054501888,
+        3121610752
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        2987393024,
+        3054501888
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        2450522112,
+        2517630976
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        2517630976,
+        2584739840
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        2718957568,
+        2786066432
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        3121610752,
+        3188719616
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        3188719616,
+        3255828480
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        2786066432,
+        2853175296
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        1980760064,
+        2047868928
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        2920284160,
+        2987393024
+      ],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        3658481664,
+        3725590528
+      ],
+      "error": "Incomplete bounded range 3658481664-3725590528"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        3390046208,
+        3457155072
+      ],
+      "error": "Incomplete bounded range 3390046208-3457155072"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        3524263936,
+        3591372800
+      ],
+      "error": "Incomplete bounded range 3524263936-3591372800"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        3591372800,
+        3658481664
+      ],
+      "error": "Incomplete bounded range 3591372800-3658481664"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        3255828480,
+        3322937344
+      ],
+      "error": "Incomplete bounded range 3255828480-3322937344"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        3322937344,
+        3390046208
+      ],
+      "error": "Incomplete bounded range 3322937344-3390046208"
+    },
+    {
+      "job": [
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+          "prefix_bytes": 370147328,
+          "prefix_sha256": "12119e7f20d9cfd179ea04eb1387a02019a6484642283bae03468a60a476d2da"
+        },
+        3457155072,
+        3524263936
+      ],
+      "error": "Incomplete bounded range 3457155072-3524263936"
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "meta": {
+    "task": "v2 阶段 B：dev151 顺序对照结果分析",
+    "generated_at_utc": "2026-09-24T06:34:15.964199+00:00",
+    "run_dir": "runs\\P1-v2-stageB-order-20260924",
+    "n_dev": 151,
+    "criteria_source": "docs/V2_STAGEB_FULL_PLAN.md §6（事前写死）",
+    "CAVEAT": "『结果族引用率』与『E1 引用率』是**机制诊断指标**，不是正确性指标。人工标注尚未用于本分析。"
+  },
+  "main_denominator_151": {
+    "B0_original": {
+      "n": 151,
+      "n_ok": 151,
+      "n_invalid": 0,
+      "accuracy": 0.4901,
+      "n_correct": 74,
+      "macro_f1": 0.3617,
+      "per_class": {
+        "yes": {
+          "support": 83,
+          "tp": 60,
+          "fp": 38,
+          "fn": 23,
+          "precision": 0.6122,
+          "recall": 0.7229,
+          "f1": 0.663
+        },
+        "no": {
+          "support": 51,
+          "tp": 11,
+          "fp": 15,
+          "fn": 40,
+          "precision": 0.4231,
+          "recall": 0.2157,
+          "f1": 0.2857
+        },
+        "maybe": {
+          "support": 17,
+          "tp": 3,
+          "fp": 24,
+          "fn": 14,
+          "precision": 0.1111,
+          "recall": 0.1765,
+          "f1": 0.1364
+        }
+      }
+    },
+    "B1_result_first": {
+      "n": 151,
+      "n_ok": 151,
+      "n_invalid": 0,
+      "accuracy": 0.3444,
+      "n_correct": 52,
+      "macro_f1": 0.2876,
+      "per_class": {
+        "yes": {
+          "support": 83,
+          "tp": 26,
+          "fp": 25,
+          "fn": 57,
+          "precision": 0.5098,
+          "recall": 0.3133,
+          "f1": 0.3881
+        },
+        "no": {
+          "support": 51,
+          "tp": 24,
+          "fp": 57,
+          "fn": 27,
+          "precision": 0.2963,
+          "recall": 0.4706,
+          "f1": 0.3636
+        },
+        "maybe": {
+          "support": 17,
+          "tp": 2,
+          "fp": 17,
+          "fn": 15,
+          "precision": 0.1053,
+          "recall": 0.1176,
+          "f1": 0.1111
+        }
+      }
+    },
+    "B2_reversed": {
+      "n": 151,
+      "n_ok": 151,
+      "n_invalid": 0,
+      "accuracy": 0.3841,
+      "n_correct": 58,
+      "macro_f1": 0.3435,
+      "per_class": {
+        "yes": {
+          "support": 83,
+          "tp": 33,
+          "fp": 25,
+          "fn": 50,
+          "precision": 0.569,
+          "recall": 0.3976,
+          "f1": 0.4681
+        },
+        "no": {
+          "support": 51,
+          "tp": 20,
+          "fp": 42,
+          "fn": 31,
+          "precision": 0.3226,
+          "recall": 0.3922,
+          "f1": 0.354
+        },
+        "maybe": {
+          "support": 17,
+          "tp": 5,
+          "fp": 26,
+          "fn": 12,
+          "precision": 0.1613,
+          "recall": 0.2941,
+          "f1": 0.2083
+        }
+      }
+    },
+    "B3_shuffled": {
+      "n": 151,
+      "n_ok": 151,
+      "n_invalid": 0,
+      "accuracy": 0.457,
+      "n_correct": 69,
+      "macro_f1": 0.3888,
+      "per_class": {
+        "yes": {
+          "support": 83,
+          "tp": 46,
+          "fp": 26,
+          "fn": 37,
+          "precision": 0.6389,
+          "recall": 0.5542,
+          "f1": 0.5935
+        },
+        "no": {
+          "support": 51,
+          "tp": 18,
+          "fp": 31,
+          "fn": 33,
+          "precision": 0.3673,
+          "recall": 0.3529,
+          "f1": 0.36
+        },
+        "maybe": {
+          "support": 17,
+          "tp": 5,
+          "fp": 25,
+          "fn": 12,
+          "precision": 0.1667,
+          "recall": 0.2941,
+          "f1": 0.2128
+        }
+      }
+    }
+  },
+  "trivial_all_yes_baseline": {
+    "n": 151,
+    "n_ok": 151,
+    "n_invalid": 0,
+    "accuracy": 0.5497,
+    "n_correct": 83,
+    "macro_f1": 0.2365,
+    "per_class": {
+      "yes": {
+        "support": 83,
+        "tp": 83,
+        "fp": 68,
+        "fn": 0,
+        "precision": 0.5497,
+        "recall": 1.0,
+        "f1": 0.7094
+      },
+      "no": {
+        "support": 51,
+        "tp": 0,
+        "fp": 0,
+        "fn": 51,
+        "precision": null,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "maybe": {
+        "support": 17,
+        "tp": 0,
+        "fp": 0,
+        "fn": 17,
+        "precision": null,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    }
+  },
+  "diagnostic_only": {
+    "B0_original": {
+      "n_with_citation": 137,
+      "citation_result_family_rate": 0.0365,
+      "cited_E1_rate": 0.6642,
+      "mean_output_chars": 186.0,
+      "mean_item_seconds": 3.263
+    },
+    "B1_result_first": {
+      "n_with_citation": 139,
+      "citation_result_family_rate": 0.0432,
+      "cited_E1_rate": 0.0432,
+      "mean_output_chars": 188.5,
+      "mean_item_seconds": 3.306
+    },
+    "B2_reversed": {
+      "n_with_citation": 139,
+      "citation_result_family_rate": 0.0576,
+      "cited_E1_rate": 0.0576,
+      "mean_output_chars": 187.4,
+      "mean_item_seconds": 3.315
+    },
+    "B3_shuffled": {
+      "n_with_citation": 134,
+      "citation_result_family_rate": 0.0672,
+      "cited_E1_rate": 0.2463,
+      "mean_output_chars": 187.8,
+      "mean_item_seconds": 3.32
+    }
+  },
+  "paired_effective_only": {
+    "B1_result_first": {
+      "n_pairs": 151,
+      "n_effective": 149,
+      "n_same_input": 2,
+      "label_changed": 78,
+      "label_changed_rate": 0.5235,
+      "abstain_changed": 10,
+      "display_index_changed": 134,
+      "mcnemar_vs_B0": {
+        "b": 43,
+        "c": 21,
+        "n_discordant": 64,
+        "p_exact": 0.00815
+      },
+      "accuracy_delta": -0.1457,
+      "macro_f1_delta": -0.0741
+    },
+    "B2_reversed": {
+      "n_pairs": 151,
+      "n_effective": 151,
+      "n_same_input": 0,
+      "label_changed": 69,
+      "label_changed_rate": 0.457,
+      "abstain_changed": 16,
+      "display_index_changed": 116,
+      "mcnemar_vs_B0": {
+        "b": 36,
+        "c": 20,
+        "n_discordant": 56,
+        "p_exact": 0.04405
+      },
+      "accuracy_delta": -0.106,
+      "macro_f1_delta": -0.0182
+    },
+    "B3_shuffled": {
+      "n_pairs": 151,
+      "n_effective": 130,
+      "n_same_input": 21,
+      "label_changed": 56,
+      "label_changed_rate": 0.4308,
+      "abstain_changed": 13,
+      "display_index_changed": 106,
+      "mcnemar_vs_B0": {
+        "b": 23,
+        "c": 18,
+        "n_discordant": 41,
+        "p_exact": 0.53271
+      },
+      "accuracy_delta": -0.0331,
+      "macro_f1_delta": 0.0271
+    }
+  },
+  "cited_chunk_change": {
+    "B1_result_first": {
+      "n_effective": 149,
+      "cited_chunk_set_changed": 22,
+      "rate": 0.1477
+    },
+    "B2_reversed": {
+      "n_effective": 151,
+      "cited_chunk_set_changed": 41,
+      "rate": 0.2715
+    },
+    "B3_shuffled": {
+      "n_effective": 130,
+      "cited_chunk_set_changed": 30,
+      "rate": 0.2308
+    }
+  },
+  "pre_registered_verdict": {
+    "B0_result_family_rate": 0.0365,
+    "B1_result_family_rate": 0.0432,
+    "B1_minus_B0_pp": 0.67,
+    "B1_macro_f1_drop_pp": 7.41,
+    "verdict": "命中 <5pp 档 → 行动：不采纳该排序方案（结果族优先），阶段 C 转做目标重构（C-1/C-2）",
+    "verdict_scope_note": "**该档位只定义下一步动作，不构成机制结论。** 事前判据的三档是为决定「接下来做什么」，不是为回答「为什么」。因此本结果**不推出**「位置不是主因」，也**未排除**位置因素；训练目标偏置的因果作用**未被独立验证**。见 STAGEB_DEV_RESULTS.md §0 与 §6。",
+    "secondary_checks": {
+      "invalid_or_invalid_citation_rate": 0.0,
+      "if_invalid_rate_gt_5pct": "需先查装配",
+      "all_three_label_change_lt_5pct": false
+    }
+  }
+}

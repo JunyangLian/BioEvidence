@@ -1,0 +1,6 @@
+{
+  "base_06b": {"repo": "Qwen/Qwen3-0.6B", "path": "../BioEvidence-v1/artifacts/models/Qwen3-0.6B", "adapter": null, "thinking": false, "role": "main comparison"},
+  "instruct_4b": {"repo": "Qwen/Qwen3-4B-Instruct-2507", "path": "models/Qwen3-4B-Instruct-2507", "adapter": null, "thinking": "non-thinking-only model", "role": "main comparison"},
+  "e7_06b": {"repo": "Qwen/Qwen3-0.6B", "path": "../BioEvidence-v1/artifacts/models/Qwen3-0.6B", "adapter": "../BioEvidence-v1/artifacts/adapters/p6-taskb-lora", "thinking": false, "role": "migration regression only"},
+  "shared": {"backend": "Transformers HFLM", "batch_size": 1, "max_length": 2048, "max_new_tokens": 160, "do_sample": false, "num_beams": 1, "quantization": {"load_in_4bit": true, "bnb_4bit_quant_type": "nf4", "bnb_4bit_use_double_quant": true, "bnb_4bit_compute_dtype": "bfloat16"}, "seed": 20260924, "until": [], "additional_input_truncation": false}
+}

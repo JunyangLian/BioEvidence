@@ -1,0 +1,137 @@
+{
+  "review_kind": "ai_assisted",
+  "human_ground_truth": false,
+  "rating_sha256": "5f6b55beb1dd98adea5a2748a333afacd98a37b41e02f0c800518f0fc80e7b48",
+  "scope": "Illustrative first two sorted smoke questions, four conditions, instruct_4b; selection not based on outputs. No prevalence claim.",
+  "metadata": {
+    "review_kind": "ai_assisted",
+    "agent": "/root/ai_biomedical_review_2",
+    "model_identifier": "unknown",
+    "model_identifier_note": "当前会话未提供可核实的精确模型版本标识；不从产品名称或上下文推测。",
+    "prompt_version": "v4_ai_biomedical_audit_v1",
+    "reviewed_at_utc": "2026-10-11 02:32:41 UTC",
+    "review_locked": true,
+    "human_ground_truth": false,
+    "reading_scope": [
+      "C:\\1_yanjiusheng\\BioEvidence\\BioEvidence-v4\\ai_assisted\\batch2\\blind_cases.json"
+    ],
+    "reading_restrictions": "仅阅读该文件内的 8 个匿名问题、所给片段与输出；未读映射、选择记录、历史标签、其它模型输出或前一复核结论；未调用其它项目、skill、用户任务或外部资料。",
+    "write_scope": "C:\\1_yanjiusheng\\BioEvidence\\BioEvidence-v4\\ai_assisted\\batch2\\ratings_blinded.json",
+    "review_limitations": [
+      "这是 AI 辅助生物医药视角评定，不是实际专家或独立人工审核，不构成人工真值。",
+      "citation_traceability 只评本地显示编号到所给匿名片段的对应；外部文献来源均为 unknown。",
+      "evidence_sufficiency 依内容与问题适用性评定，而非是否有 RESULTS；阴性结果不证明等效、安全或普遍无效。",
+      "输出 Reason 不是模型内部推理过程的直接证据。",
+      "unknown 和 N_A 不应作为通过计分；未弃答的 abstention_appropriateness 均为 N_A。",
+      "全片段逐字作为证据定位，偏移相对于该 evidence.text；这些片段均为 ASCII，因此字符与 UTF-16 计数一致。",
+      "reason_supports_label 按可见 no 标签的实质语义评定；Answerable: no 的弃答适当性单独评分。",
+      "sufficient 的 LOC 案例仅支持给定研究所观测的比较方向，不为普遍临床预测有效性定论。"
+    ],
+    "citation_aggregation_rule": "逐引用独立判断：结果直接支持可见陈述为 supported；仅研究目标/设计背景或只支持部分陈述为 partial。任何引用只有部分支持时总体 citation_support 为 partial。",
+    "opinion_status": "locked_after_blinded_review; no unblinding or human-label writeback"
+  },
+  "counts": {
+    "evidence_sufficiency": {
+      "insufficient": 4,
+      "sufficient": 4
+    },
+    "evidence_supports_reason": {
+      "supported": 6,
+      "partial": 1,
+      "unsupported": 1
+    },
+    "reason_supports_label": {
+      "unsupported": 4,
+      "supported": 4
+    },
+    "citation_traceability": {
+      "N_A": 1,
+      "supported": 7
+    },
+    "citation_support": {
+      "N_A": 1,
+      "partial": 6,
+      "supported": 1
+    },
+    "abstention_appropriateness": {
+      "supported": 2,
+      "N_A": 6
+    }
+  },
+  "by_question": {
+    "10411439": {
+      "B3_shuffled": {
+        "evidence_sufficiency": "insufficient",
+        "evidence_supports_reason": "supported",
+        "reason_supports_label": "unsupported",
+        "citation_traceability": "N_A",
+        "citation_support": "N_A",
+        "abstention_appropriateness": "supported"
+      },
+      "B2_reversed": {
+        "evidence_sufficiency": "insufficient",
+        "evidence_supports_reason": "partial",
+        "reason_supports_label": "unsupported",
+        "citation_traceability": "supported",
+        "citation_support": "partial",
+        "abstention_appropriateness": "N_A"
+      },
+      "B1_result_first": {
+        "evidence_sufficiency": "insufficient",
+        "evidence_supports_reason": "unsupported",
+        "reason_supports_label": "unsupported",
+        "citation_traceability": "supported",
+        "citation_support": "partial",
+        "abstention_appropriateness": "N_A"
+      },
+      "B0_original": {
+        "evidence_sufficiency": "insufficient",
+        "evidence_supports_reason": "supported",
+        "reason_supports_label": "unsupported",
+        "citation_traceability": "supported",
+        "citation_support": "partial",
+        "abstention_appropriateness": "supported"
+      }
+    },
+    "10593212": {
+      "B3_shuffled": {
+        "evidence_sufficiency": "sufficient",
+        "evidence_supports_reason": "supported",
+        "reason_supports_label": "supported",
+        "citation_traceability": "supported",
+        "citation_support": "partial",
+        "abstention_appropriateness": "N_A"
+      },
+      "B0_original": {
+        "evidence_sufficiency": "sufficient",
+        "evidence_supports_reason": "supported",
+        "reason_supports_label": "supported",
+        "citation_traceability": "supported",
+        "citation_support": "partial",
+        "abstention_appropriateness": "N_A"
+      },
+      "B1_result_first": {
+        "evidence_sufficiency": "sufficient",
+        "evidence_supports_reason": "supported",
+        "reason_supports_label": "supported",
+        "citation_traceability": "supported",
+        "citation_support": "supported",
+        "abstention_appropriateness": "N_A"
+      },
+      "B2_reversed": {
+        "evidence_sufficiency": "sufficient",
+        "evidence_supports_reason": "supported",
+        "reason_supports_label": "supported",
+        "citation_traceability": "supported",
+        "citation_support": "partial",
+        "abstention_appropriateness": "N_A"
+      }
+    }
+  },
+  "limitations": [
+    "AI opinions are not independent human truth",
+    "Model runtime identifier unavailable",
+    "N_A/unknown not counted as passing",
+    "Does not infer internal reasoning from Reason text"
+  ]
+}

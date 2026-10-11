@@ -1,0 +1,628 @@
+[
+  {
+    "audit_id": "AI001",
+    "evidence_sufficiency": "insufficient",
+    "evidence_supports_reason": "partial",
+    "reason_supports_label": "partial",
+    "citation_traceability": "supported",
+    "citation_support": "partial",
+    "abstention_appropriateness": "N_A",
+    "assessment_notes": {
+      "evidence_sufficiency": "片段未涉及题目所指的 Lloyd-Davies 加 Trendelenburg 体位，也没有该体位灾难性结局或风险的直接证据；不足来自问题与证据缺少联系，而非章节类型。",
+      "evidence_supports_reason": "E2 支持前房深度下降这一局部事实；显著性陈述针对假性剥脱眼相对对侧眼的下降幅度。片段没有支持由此推断题目所指体位的灾难风险。",
+      "reason_supports_label": "理由提出潜在风险，与 yes 的方向部分一致，但潜在解剖变化尚不能充分支持题目中的灾难风险结论。",
+      "citation_traceability": "E1、E2、E3 均可回溯至本案例匿名片段；仅评估本地片段层级。",
+      "citation_support": "E2 支持局部解剖事实；E1 群体伤亡登记和 E3 冰水刺激眼震方法不支持关键风险推断。",
+      "abstention_appropriateness": "输出没有弃答，故该维度不适用；Answerable: yes 与证据不足的判断不符。"
+    },
+    "reservations": [
+      "未确定题目中 disaster 的具体临床结局或阈值。",
+      "不能把 prone/facing down 自动当作题目所指组合体位。",
+      "存在引用不等于引用支持关键结论。",
+      "输出 Reason 仅作为待审理由文本，不是内部推理过程证据。"
+    ],
+    "evidence_locations": [
+      {
+        "display": "E1",
+        "anonymous_chunk": "950ce27f7656",
+        "section": "METHODS",
+        "quote": "A retrospective study of HMCIs was recorded in the Israeli Defense Force (IDF) home front command and the Israeli National Trauma Registry (ITR) between November 2000 and June 2003.",
+        "char_start_zero_based": 0,
+        "char_end_exclusive": 181
+      },
+      {
+        "display": "E2",
+        "anonymous_chunk": "52b7d73fd3eb",
+        "section": "RESULTS",
+        "quote": "The decrease in anterior chamber depth when facing down in the eyes with pseudoexfoliation was significantly greater than in the fellow eyes.",
+        "char_start_zero_based": 376,
+        "char_end_exclusive": 517
+      },
+      {
+        "display": "E3",
+        "anonymous_chunk": "f6c7d7e7541d",
+        "section": "METHODS",
+        "quote": "Nystagmus was analysed using three-dimensional video-oculography.",
+        "char_start_zero_based": 257,
+        "char_end_exclusive": 322
+      }
+    ],
+    "citation_details": [
+      {
+        "display": "E1",
+        "anonymous_chunk": "950ce27f7656",
+        "traceability": "supported",
+        "semantic_support": "unsupported",
+        "note": "该片段不支持理由的关键结论；方法或目标不能替代结果证据。"
+      },
+      {
+        "display": "E2",
+        "anonymous_chunk": "52b7d73fd3eb",
+        "traceability": "supported",
+        "semantic_support": "partial",
+        "note": "支持前房深度变化子事实，不支持题目所指体位与灾难风险的推断。"
+      },
+      {
+        "display": "E3",
+        "anonymous_chunk": "f6c7d7e7541d",
+        "traceability": "supported",
+        "semantic_support": "unsupported",
+        "note": "该片段不支持理由的关键结论；方法或目标不能替代结果证据。"
+      }
+    ],
+    "backend": {
+      "audit_id": "AI001",
+      "model": "base_06b",
+      "question_id": "10411439",
+      "condition": "B3_shuffled",
+      "cache_key": "b7e1efa3dd231c6c0a5c5a208fb6b67e28182e98228f5828920df1937e4d4e9c"
+    }
+  },
+  {
+    "audit_id": "AI002",
+    "evidence_sufficiency": "sufficient",
+    "evidence_supports_reason": "unsupported",
+    "reason_supports_label": "supported",
+    "citation_traceability": "supported",
+    "citation_support": "unsupported",
+    "abstention_appropriateness": "N_A",
+    "assessment_notes": {
+      "evidence_sufficiency": "目标、前瞻性设计和按 LOC 分组的测验比较可回答所给研究中是否观察到 LOC 组更差表现；充分性限于该研究所测结局，不是普遍预测能力的终局证明。",
+      "evidence_supports_reason": "关键主张 LOC predicts decrements 与 E2 所报无显著组间差异、LOC 组未更差的方向冲突。理由所述 no significant differences 这个子事实有支持，但不能支持其肯定预测结论。",
+      "reason_supports_label": "仅就输出理由的明示主张而言，predicts 与 yes 一致；这不表示该主张得到证据支持。",
+      "citation_traceability": "E1、E2、E3 均在本案例中存在且可定位。",
+      "citation_support": "针对关键肯定预测结论不支持；E2 反而提供不同方向的直接比较，E1 和 E3 只能定位研究设计与目标。",
+      "abstention_appropriateness": "无弃答，故不适用。"
+    },
+    "reservations": [
+      "无显著差异不能证明零效应、等效或所有情境下完全无预测能力。",
+      "理由中无显著差异与肯定预测结论的论证方向自相矛盾。",
+      "题目使用 concussion，片段使用 head injury；具体纳入诊断及范围未提供。",
+      "未见样本量数值、效应量、置信区间或预测性能指标。",
+      "输出 Reason 不是内部推理过程证据。"
+    ],
+    "evidence_locations": [
+      {
+        "display": "E1",
+        "anonymous_chunk": "e15702ee369e",
+        "section": "DESIGN",
+        "quote": "A prospective study of patients assessed with a neuropsychological test battery.",
+        "char_start_zero_based": 0,
+        "char_end_exclusive": 80
+      },
+      {
+        "display": "E2",
+        "anonymous_chunk": "804cdf9981c3",
+        "section": "RESULTS",
+        "quote": "Patients who had experienced traumatic LOC did not perform more poorly on neuropsychological testing than those with no LOC or uncertain LOC.",
+        "char_start_zero_based": 136,
+        "char_end_exclusive": 277
+      },
+      {
+        "display": "E3",
+        "anonymous_chunk": "877b745fd184",
+        "section": "OBJECTIVE",
+        "quote": "To investigate the importance of loss of consciousness (LOC) in predicting neuropsychological test performance in a large sample of patients with head injury.",
+        "char_start_zero_based": 0,
+        "char_end_exclusive": 158
+      }
+    ],
+    "citation_details": [
+      {
+        "display": "E1",
+        "anonymous_chunk": "e15702ee369e",
+        "traceability": "supported",
+        "semantic_support": "unsupported",
+        "note": "该片段不支持理由的关键结论；方法或目标不能替代结果证据。"
+      },
+      {
+        "display": "E2",
+        "anonymous_chunk": "804cdf9981c3",
+        "traceability": "supported",
+        "semantic_support": "unsupported",
+        "note": "关键肯定预测主张与组间比较方向冲突；理由中 no significant differences 子事实确有原文。"
+      },
+      {
+        "display": "E3",
+        "anonymous_chunk": "877b745fd184",
+        "traceability": "supported",
+        "semantic_support": "unsupported",
+        "note": "该片段不支持理由的关键结论；方法或目标不能替代结果证据。"
+      }
+    ],
+    "backend": {
+      "audit_id": "AI002",
+      "model": "base_06b",
+      "question_id": "10593212",
+      "condition": "B3_shuffled",
+      "cache_key": "c7a279c890592b18fa5030da0ee2f9612c3bcc371a248d5baaa9257a32d49a2f"
+    }
+  },
+  {
+    "audit_id": "AI003",
+    "evidence_sufficiency": "insufficient",
+    "evidence_supports_reason": "partial",
+    "reason_supports_label": "partial",
+    "citation_traceability": "supported",
+    "citation_support": "partial",
+    "abstention_appropriateness": "N_A",
+    "assessment_notes": {
+      "evidence_sufficiency": "缺少 Lloyd-Davies 加 Trendelenburg 暴露及相关临床风险证据；RESULTS 的存在不能弥补问题与片段不匹配。",
+      "evidence_supports_reason": "E1 报告前房深度下降及假性剥脱眼下降幅度比对侧眼更大，但未建立 Trendelenburg 与该现象的关系。理由把组间下降幅度显著差异扩为一般显著下降，也扩大了片段表述。",
+      "reason_supports_label": "potential issue 只能部分支持肯定风险方向，不能充分推出题目所指组合体位的灾难风险。",
+      "citation_traceability": "E1、E2、E3 均可回溯至本案例匿名片段。",
+      "citation_support": "E1 支持部分解剖事实；E2 的眼震方法和 E3 的群体伤亡登记不支持 Trendelenburg 风险。",
+      "abstention_appropriateness": "无弃答，故不适用；材料不足以支持 Answerable: yes。"
+    },
+    "reservations": [
+      "体位名称和目标风险均未在提供片段中建立。",
+      "不能从眼部解剖指标变化直接推断灾难性临床结局。",
+      "未将无显著眼压或眼轴差异解释为安全。",
+      "输出 Reason 不是内部推理过程证据。"
+    ],
+    "evidence_locations": [
+      {
+        "display": "E1",
+        "anonymous_chunk": "52b7d73fd3eb",
+        "section": "RESULTS",
+        "quote": "The decrease in anterior chamber depth when facing down in the eyes with pseudoexfoliation was significantly greater than in the fellow eyes.",
+        "char_start_zero_based": 376,
+        "char_end_exclusive": 517
+      },
+      {
+        "display": "E2",
+        "anonymous_chunk": "f6c7d7e7541d",
+        "section": "METHODS",
+        "quote": "Nystagmus was analysed using three-dimensional video-oculography.",
+        "char_start_zero_based": 257,
+        "char_end_exclusive": 322
+      },
+      {
+        "display": "E3",
+        "anonymous_chunk": "950ce27f7656",
+        "section": "METHODS",
+        "quote": "A retrospective study of HMCIs was recorded in the Israeli Defense Force (IDF) home front command and the Israeli National Trauma Registry (ITR) between November 2000 and June 2003.",
+        "char_start_zero_based": 0,
+        "char_end_exclusive": 181
+      }
+    ],
+    "citation_details": [
+      {
+        "display": "E1",
+        "anonymous_chunk": "52b7d73fd3eb",
+        "traceability": "supported",
+        "semantic_support": "partial",
+        "note": "支持前房深度变化子事实，不支持题目所指体位与灾难风险的推断。"
+      },
+      {
+        "display": "E2",
+        "anonymous_chunk": "f6c7d7e7541d",
+        "traceability": "supported",
+        "semantic_support": "unsupported",
+        "note": "该片段不支持理由的关键结论；方法或目标不能替代结果证据。"
+      },
+      {
+        "display": "E3",
+        "anonymous_chunk": "950ce27f7656",
+        "traceability": "supported",
+        "semantic_support": "unsupported",
+        "note": "该片段不支持理由的关键结论；方法或目标不能替代结果证据。"
+      }
+    ],
+    "backend": {
+      "audit_id": "AI003",
+      "model": "base_06b",
+      "question_id": "10411439",
+      "condition": "B2_reversed",
+      "cache_key": "e7683886b44cb8917f67ae5def309de60edaa8676b0414a1e20c3529e977c6c8"
+    }
+  },
+  {
+    "audit_id": "AI004",
+    "evidence_sufficiency": "insufficient",
+    "evidence_supports_reason": "partial",
+    "reason_supports_label": "partial",
+    "citation_traceability": "supported",
+    "citation_support": "partial",
+    "abstention_appropriateness": "N_A",
+    "assessment_notes": {
+      "evidence_sufficiency": "片段不提供题目所指组合体位暴露及灾难风险资料；不能仅因包含 RESULTS 就判为充分。",
+      "evidence_supports_reason": "E1 部分支持前房深度下降事实，但其显著性描述是两类眼下降幅度的比较；Trendelenburg 的潜在问题未获直接支持。",
+      "reason_supports_label": "潜在问题与 yes 的方向部分一致，尚不足以支持题目提出的灾难风险结论。",
+      "citation_traceability": "E1、E2、E3 均可定位到本案例匿名材料。",
+      "citation_support": "E1 支持解剖变化子主张；E2 群体伤亡方法及 E3 冰水刺激眼震方法不支持关键风险主张。",
+      "abstention_appropriateness": "没有弃答，故不适用；Answerable: yes 缺少相关证据支持。"
+    },
+    "reservations": [
+      "材料没有将 prone 或 facing down 连接至 Lloyd-Davies 加 Trendelenburg。",
+      "缺少题目中灾难的定义和相应结局。",
+      "引用编号可定位不能替代引用语义支持。",
+      "输出 Reason 不是内部推理过程证据。"
+    ],
+    "evidence_locations": [
+      {
+        "display": "E1",
+        "anonymous_chunk": "52b7d73fd3eb",
+        "section": "RESULTS",
+        "quote": "The decrease in anterior chamber depth when facing down in the eyes with pseudoexfoliation was significantly greater than in the fellow eyes.",
+        "char_start_zero_based": 376,
+        "char_end_exclusive": 517
+      },
+      {
+        "display": "E2",
+        "anonymous_chunk": "950ce27f7656",
+        "section": "METHODS",
+        "quote": "A retrospective study of HMCIs was recorded in the Israeli Defense Force (IDF) home front command and the Israeli National Trauma Registry (ITR) between November 2000 and June 2003.",
+        "char_start_zero_based": 0,
+        "char_end_exclusive": 181
+      },
+      {
+        "display": "E3",
+        "anonymous_chunk": "f6c7d7e7541d",
+        "section": "METHODS",
+        "quote": "Nystagmus was analysed using three-dimensional video-oculography.",
+        "char_start_zero_based": 257,
+        "char_end_exclusive": 322
+      }
+    ],
+    "citation_details": [
+      {
+        "display": "E1",
+        "anonymous_chunk": "52b7d73fd3eb",
+        "traceability": "supported",
+        "semantic_support": "partial",
+        "note": "支持前房深度变化子事实，不支持题目所指体位与灾难风险的推断。"
+      },
+      {
+        "display": "E2",
+        "anonymous_chunk": "950ce27f7656",
+        "traceability": "supported",
+        "semantic_support": "unsupported",
+        "note": "该片段不支持理由的关键结论；方法或目标不能替代结果证据。"
+      },
+      {
+        "display": "E3",
+        "anonymous_chunk": "f6c7d7e7541d",
+        "traceability": "supported",
+        "semantic_support": "unsupported",
+        "note": "该片段不支持理由的关键结论；方法或目标不能替代结果证据。"
+      }
+    ],
+    "backend": {
+      "audit_id": "AI004",
+      "model": "base_06b",
+      "question_id": "10411439",
+      "condition": "B1_result_first",
+      "cache_key": "eb5e899cafebb18208f3fa60ad14e38b36514cf8dfd3c02b8eea6542fa325e5f"
+    }
+  },
+  {
+    "audit_id": "AI005",
+    "evidence_sufficiency": "sufficient",
+    "evidence_supports_reason": "partial",
+    "reason_supports_label": "unsupported",
+    "citation_traceability": "supported",
+    "citation_support": "partial",
+    "abstention_appropriateness": "N_A",
+    "assessment_notes": {
+      "evidence_sufficiency": "E3 给出与研究目标直接相关的 LOC 组间测验比较，足以作该研究范围内的方向性回答；不依赖 RESULTS 标题本身。",
+      "evidence_supports_reason": "E3 支持所测结局中未观察到 LOC 组更差和无显著组间差异；does not predict 若作无范围限定的预测能力否定，比提供的比较结果更强。",
+      "reason_supports_label": "理由明确说 LOC does not predict，但标签 yes 肯定题目中的预测关系，二者方向冲突。",
+      "citation_traceability": "E1、E2、E3 均可回溯至提供的匿名片段。",
+      "citation_support": "E3 支持研究范围内未观察到组间差异的子主张；E1 和 E2 提供目标与设计，不能独自证明无预测关系。普遍否定预测能力的断言只获部分支持。",
+      "abstention_appropriateness": "没有弃答，故不适用。"
+    },
+    "reservations": [
+      "无显著组间差异不能证明所有情境下无预测作用或等效。",
+      "缺少效应量、置信区间、检验功效及预测指标。",
+      "head injury 与题目 concussion 的具体诊断对应未说明。",
+      "输出 Reason 不是内部推理过程证据。"
+    ],
+    "evidence_locations": [
+      {
+        "display": "E1",
+        "anonymous_chunk": "877b745fd184",
+        "section": "OBJECTIVE",
+        "quote": "To investigate the importance of loss of consciousness (LOC) in predicting neuropsychological test performance in a large sample of patients with head injury.",
+        "char_start_zero_based": 0,
+        "char_end_exclusive": 158
+      },
+      {
+        "display": "E2",
+        "anonymous_chunk": "e15702ee369e",
+        "section": "DESIGN",
+        "quote": "A prospective study of patients assessed with a neuropsychological test battery.",
+        "char_start_zero_based": 0,
+        "char_end_exclusive": 80
+      },
+      {
+        "display": "E3",
+        "anonymous_chunk": "804cdf9981c3",
+        "section": "RESULTS",
+        "quote": "Patients who had experienced traumatic LOC did not perform more poorly on neuropsychological testing than those with no LOC or uncertain LOC.",
+        "char_start_zero_based": 136,
+        "char_end_exclusive": 277
+      }
+    ],
+    "citation_details": [
+      {
+        "display": "E1",
+        "anonymous_chunk": "877b745fd184",
+        "traceability": "supported",
+        "semantic_support": "unsupported",
+        "note": "该片段不支持理由的关键结论；方法或目标不能替代结果证据。"
+      },
+      {
+        "display": "E2",
+        "anonymous_chunk": "e15702ee369e",
+        "traceability": "supported",
+        "semantic_support": "unsupported",
+        "note": "该片段不支持理由的关键结论；方法或目标不能替代结果证据。"
+      },
+      {
+        "display": "E3",
+        "anonymous_chunk": "804cdf9981c3",
+        "traceability": "supported",
+        "semantic_support": "partial",
+        "note": "支持无显著组间差异、LOC 组未更差及三个组轻度下降的原文事实；不支持无范围限定的预测结论。"
+      }
+    ],
+    "backend": {
+      "audit_id": "AI005",
+      "model": "base_06b",
+      "question_id": "10593212",
+      "condition": "B0_original",
+      "cache_key": "ecbdf2dd5bf3155a4ec9757555c75c54ff9c01b9fa6bf8e2dad757ae98fc1d0b"
+    }
+  },
+  {
+    "audit_id": "AI006",
+    "evidence_sufficiency": "sufficient",
+    "evidence_supports_reason": "partial",
+    "reason_supports_label": "unsupported",
+    "citation_traceability": "supported",
+    "citation_support": "partial",
+    "abstention_appropriateness": "N_A",
+    "assessment_notes": {
+      "evidence_sufficiency": "E1 直接比较 LOC、无 LOC、LOC 不确定组的测验表现，可支持所给研究范围内的回答。",
+      "evidence_supports_reason": "三个组均有轻度表现下降在 E1 有原文支持，但该事实本身不能说明 LOC 无预测作用；E1 另外报告无显著组间差异和 LOC 组未更差，才为有范围限定的否定方向提供依据。",
+      "reason_supports_label": "理由明确说 does not predict，与标签 yes 的肯定预测方向冲突。",
+      "citation_traceability": "E1、E2、E3 均在匿名材料中存在且可定位。",
+      "citation_support": "E1 支持共同下降的子事实并包含直接组间比较；E2、E3 是目标及设计。引用整体不能支持无范围限定的否定预测能力断言。",
+      "abstention_appropriateness": "无弃答，故不适用。"
+    },
+    "reservations": [
+      "各组均下降不排除下降幅度、分布或其他结局的差异。",
+      "无显著差异不等于等效或证明零关联。",
+      "缺少预测能力、效应不确定性和具体纳入诊断资料。",
+      "输出 Reason 不是内部推理过程证据。"
+    ],
+    "evidence_locations": [
+      {
+        "display": "E1",
+        "anonymous_chunk": "804cdf9981c3",
+        "section": "RESULTS",
+        "quote": "Patients who had experienced traumatic LOC did not perform more poorly on neuropsychological testing than those with no LOC or uncertain LOC.",
+        "char_start_zero_based": 136,
+        "char_end_exclusive": 277
+      },
+      {
+        "display": "E2",
+        "anonymous_chunk": "877b745fd184",
+        "section": "OBJECTIVE",
+        "quote": "To investigate the importance of loss of consciousness (LOC) in predicting neuropsychological test performance in a large sample of patients with head injury.",
+        "char_start_zero_based": 0,
+        "char_end_exclusive": 158
+      },
+      {
+        "display": "E3",
+        "anonymous_chunk": "e15702ee369e",
+        "section": "DESIGN",
+        "quote": "A prospective study of patients assessed with a neuropsychological test battery.",
+        "char_start_zero_based": 0,
+        "char_end_exclusive": 80
+      }
+    ],
+    "citation_details": [
+      {
+        "display": "E1",
+        "anonymous_chunk": "804cdf9981c3",
+        "traceability": "supported",
+        "semantic_support": "partial",
+        "note": "支持无显著组间差异、LOC 组未更差及三个组轻度下降的原文事实；不支持无范围限定的预测结论。"
+      },
+      {
+        "display": "E2",
+        "anonymous_chunk": "877b745fd184",
+        "traceability": "supported",
+        "semantic_support": "unsupported",
+        "note": "该片段不支持理由的关键结论；方法或目标不能替代结果证据。"
+      },
+      {
+        "display": "E3",
+        "anonymous_chunk": "e15702ee369e",
+        "traceability": "supported",
+        "semantic_support": "unsupported",
+        "note": "该片段不支持理由的关键结论；方法或目标不能替代结果证据。"
+      }
+    ],
+    "backend": {
+      "audit_id": "AI006",
+      "model": "base_06b",
+      "question_id": "10593212",
+      "condition": "B1_result_first",
+      "cache_key": "077d2a49ea3444943287eacb6b1aed5d93fa778abd2ca4ac981b257ab9088f03"
+    }
+  },
+  {
+    "audit_id": "AI007",
+    "evidence_sufficiency": "sufficient",
+    "evidence_supports_reason": "partial",
+    "reason_supports_label": "unsupported",
+    "citation_traceability": "supported",
+    "citation_support": "partial",
+    "abstention_appropriateness": "N_A",
+    "assessment_notes": {
+      "evidence_sufficiency": "E1 的直接组间比较加研究目标和设计，可支持所测结局、所给研究范围内的方向性回答。",
+      "evidence_supports_reason": "E1 支持三个组轻度下降，但共同下降本身不能推出 LOC 不预测表现；E1 的无显著组间差异和 LOC 组未更差支持较窄的未观察到更差表现结论。",
+      "reason_supports_label": "does not predict 与标签 yes 肯定预测关系互相冲突。",
+      "citation_traceability": "实际引用 E1、E3 均可定位；未引用的 E2 不计作已引用。",
+      "citation_support": "实际引用 E1 支持共同下降及组间比较子事实；E3 仅说明目标。无范围限定的 does not predict 及以共同下降为据的推论获部分支持。",
+      "abstention_appropriateness": "没有弃答，故不适用。"
+    },
+    "reservations": [
+      "共同表现下降不能单独排除 LOC 的预测信息。",
+      "未把统计非显著解释为等效、无效或安全。",
+      "未见效应量、置信区间、预测指标及诊断范围。",
+      "输出 Reason 不是内部推理过程证据。"
+    ],
+    "evidence_locations": [
+      {
+        "display": "E1",
+        "anonymous_chunk": "804cdf9981c3",
+        "section": "RESULTS",
+        "quote": "Patients who had experienced traumatic LOC did not perform more poorly on neuropsychological testing than those with no LOC or uncertain LOC.",
+        "char_start_zero_based": 136,
+        "char_end_exclusive": 277
+      },
+      {
+        "display": "E2",
+        "anonymous_chunk": "e15702ee369e",
+        "section": "DESIGN",
+        "quote": "A prospective study of patients assessed with a neuropsychological test battery.",
+        "char_start_zero_based": 0,
+        "char_end_exclusive": 80
+      },
+      {
+        "display": "E3",
+        "anonymous_chunk": "877b745fd184",
+        "section": "OBJECTIVE",
+        "quote": "To investigate the importance of loss of consciousness (LOC) in predicting neuropsychological test performance in a large sample of patients with head injury.",
+        "char_start_zero_based": 0,
+        "char_end_exclusive": 158
+      }
+    ],
+    "citation_details": [
+      {
+        "display": "E1",
+        "anonymous_chunk": "804cdf9981c3",
+        "traceability": "supported",
+        "semantic_support": "partial",
+        "note": "支持无显著组间差异、LOC 组未更差及三个组轻度下降的原文事实；不支持无范围限定的预测结论。"
+      },
+      {
+        "display": "E3",
+        "anonymous_chunk": "877b745fd184",
+        "traceability": "supported",
+        "semantic_support": "unsupported",
+        "note": "该片段不支持理由的关键结论；方法或目标不能替代结果证据。"
+      }
+    ],
+    "backend": {
+      "audit_id": "AI007",
+      "model": "base_06b",
+      "question_id": "10593212",
+      "condition": "B2_reversed",
+      "cache_key": "dcee49bff6e06ba858d977942d8d59b356041cbf8e147a0f8ae5bbd208e2f4f4"
+    }
+  },
+  {
+    "audit_id": "AI008",
+    "evidence_sufficiency": "insufficient",
+    "evidence_supports_reason": "partial",
+    "reason_supports_label": "partial",
+    "citation_traceability": "supported",
+    "citation_support": "partial",
+    "abstention_appropriateness": "N_A",
+    "assessment_notes": {
+      "evidence_sufficiency": "所给材料未说明 Lloyd-Davies 加 Trendelenburg 组合体位，也没有该暴露相关的灾难结局证据。",
+      "evidence_supports_reason": "E3 支持 prone 与 supine 比较中的前房深度变化；Trendelenburg 被研究用作方法的主张在任何片段中均未出现，灾难场景关联也无证据。",
+      "reason_supports_label": "could be related 只提出可能联系，对 yes 的风险方向提供部分理由，不能充分支持题目的肯定灾难判断。",
+      "citation_traceability": "E1、E2、E3 均可回溯至匿名材料。",
+      "citation_support": "E3 支持部分眼部变化事实；E1 和 E2 不支持 Trendelenburg 暴露或灾难风险，整体仅部分支持理由。",
+      "abstention_appropriateness": "无弃答，故不适用；给出 Answerable: yes 缺少目标相关证据。"
+    },
+    "reservations": [
+      "理由称 Trendelenburg 为研究方法，而片段仅出现其他体位名称。",
+      "前房深度变化与灾难风险之间缺少中间证据。",
+      "无显著眼压或眼轴差异未被当作安全证明。",
+      "输出 Reason 不是内部推理过程证据。"
+    ],
+    "evidence_locations": [
+      {
+        "display": "E1",
+        "anonymous_chunk": "950ce27f7656",
+        "section": "METHODS",
+        "quote": "A retrospective study of HMCIs was recorded in the Israeli Defense Force (IDF) home front command and the Israeli National Trauma Registry (ITR) between November 2000 and June 2003.",
+        "char_start_zero_based": 0,
+        "char_end_exclusive": 181
+      },
+      {
+        "display": "E2",
+        "anonymous_chunk": "f6c7d7e7541d",
+        "section": "METHODS",
+        "quote": "Nystagmus was analysed using three-dimensional video-oculography.",
+        "char_start_zero_based": 257,
+        "char_end_exclusive": 322
+      },
+      {
+        "display": "E3",
+        "anonymous_chunk": "52b7d73fd3eb",
+        "section": "RESULTS",
+        "quote": "The decrease in anterior chamber depth when facing down in the eyes with pseudoexfoliation was significantly greater than in the fellow eyes.",
+        "char_start_zero_based": 376,
+        "char_end_exclusive": 517
+      }
+    ],
+    "citation_details": [
+      {
+        "display": "E1",
+        "anonymous_chunk": "950ce27f7656",
+        "traceability": "supported",
+        "semantic_support": "unsupported",
+        "note": "该片段不支持理由的关键结论；方法或目标不能替代结果证据。"
+      },
+      {
+        "display": "E2",
+        "anonymous_chunk": "f6c7d7e7541d",
+        "traceability": "supported",
+        "semantic_support": "unsupported",
+        "note": "该片段不支持理由的关键结论；方法或目标不能替代结果证据。"
+      },
+      {
+        "display": "E3",
+        "anonymous_chunk": "52b7d73fd3eb",
+        "traceability": "supported",
+        "semantic_support": "partial",
+        "note": "支持前房深度变化子事实，不支持题目所指体位与灾难风险的推断。"
+      }
+    ],
+    "backend": {
+      "audit_id": "AI008",
+      "model": "base_06b",
+      "question_id": "10411439",
+      "condition": "B0_original",
+      "cache_key": "32e4e2bd2463e56539068e96a160440f490886e1f00d9bffc45aba85360982dc"
+    }
+  }
+]

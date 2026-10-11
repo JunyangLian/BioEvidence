@@ -1,0 +1,5 @@
+# Preserve the exact archived bytes used by SHA256 verification.
+BioEvidence-v4/** -text
+BioEvidence-v5/** -text
+historical_dependencies/** -text
+publication/** -text

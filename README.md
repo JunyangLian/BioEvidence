@@ -1,5 +1,14 @@
 # BioEvidence · Portfolio（展示入口）
 
+> **最新实验：V4 / V5 已完成并发布。**
+>
+> V4 接入 Transformers + lm-evaluation-harness，完成两模型证据顺序开发对照；V5 使用相同历史监督训练4B，并形成两未领域适配配置＋两adapter配置的四组比较。以下历史展示材料保留原口径。
+>
+> [V4报告](BioEvidence-v4/reports/V4_REPORT.md) · [V5主要发现](BioEvidence-v5/reports/V5_FINDINGS.md) · [V5完整报告](BioEvidence-v5/reports/V5_REPORT.md) · [公开副本与离线复算](publication/README.md)
+>
+> V5 的4B微调收益是混合的：B0 accuracy 0.5695→0.6424，macro-F1 0.4675→0.4492；契约违规20→1/151，但人工不足子集仍作答9→11/14。仅反复开发dev151，不是新留出评测。
+
+
 > **BioEvidence：生物医学文献证据问答的受控评测项目**——审计监督数据与证据充分性，
 > 比较检索、微调和回答流程，并分析引用与弃答的失败模式。
 

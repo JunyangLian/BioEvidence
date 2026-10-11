@@ -1,0 +1,19 @@
+{
+  "n_records": 582,
+  "type_and_label": {
+    "answerable_yes|maybe": 36,
+    "answerable_yes|yes": 190,
+    "answerable_no|maybe": 240,
+    "answerable_yes|no": 116
+  },
+  "cited_display_position_counts": {
+    "E1": 147,
+    "E3": 65,
+    "E2": 130
+  },
+  "yes_target_cites_only_E1": 147,
+  "semantic_label_validation": "Not performed; statistics do not establish evidence sufficiency, reason support or target correctness",
+  "source_sha256": "b0762479353e2e5932cff437cf15f5382efa63751eb87c6fa2b8961d36a2cae1",
+  "all_targets_parse": true,
+  "interpretation": "Raw targets retained. Position distribution is a possible mechanism to investigate, not a causal conclusion about order sensitivity."
+}
